@@ -17,10 +17,10 @@
     "TOTAL_TIMES_HIDDEN": "Volte Nascosto Totali",
     "TOTAL_PSYCHOSIS_TIME": "Tempo Totale in Psicosi",
     "ESCALATION_HIGHEST_TRIAL_REACHED": "Picco Massimo Intensificazione",
-    "ESCALATION_HIGHEST_TRIAL_REACHED_WITH_TIME": null,
-    "ESCALATION_RUNS_COMPLETED": null,
-    "ESCALATION_TRIALS_COMPLETED": null,
-    "ESCALATION_TIME_PLAYED": null,
+    "ESCALATION_HIGHEST_TRIAL_REACHED_WITH_TIME": "Picco Massimo Intensificazione con Tempo",
+    "ESCALATION_RUNS_COMPLETED": "Partite Intensificazione Completate",
+    "ESCALATION_TRIALS_COMPLETED": "Test Intensificazione Completati",
+    "ESCALATION_TIME_PLAYED": "Tempo Passato in Intensificazione",
     "ARMWRESTLING_WINS": "Vittorie a Braccio di Ferro",
     "ARMWRESTLING_LOSES": "Sconfitte a Braccio di Ferro",
     "ARMWRESTLING_RATING": "Punteggio a Braccio di Ferro",
@@ -37,7 +37,7 @@
     "INVASION_REAGENT_LOST_MATCHES": "Sconfitte da Reagente",
     "STAMPS": "Sigilli",
     "EVENT_TOKENS": "Gettoni Evento",
-    "EXTRACTED_INTEL": null
+    "EXTRACTED_INTEL": "Informazioni per la Fuga Raccolte"
   },
   "sitebar": {
     "home": "Home",
@@ -49,7 +49,7 @@
     "contribute": "Contribuisci",
     "dataLegal": "Informativa sulla privacy",
     "imprint": "Info Legali",
-    "terms": null,
+    "terms": "Condizioni d'Uso",
     "reporting": "Segnalazione",
     "explore": "Esplora",
     "menu": {
@@ -59,8 +59,8 @@
       "newOn": "Novità su Outlast Trials Stats",
       "mapsDescription": "Mappe interattive di ogni test con spawn, chiavi e obiettivi.",
       "studioDescription": "Vesti fino a cinque Reagenti in 3D ed esporta sfondi fino a 4K.",
-      "events": null,
-      "eventsDescription": null
+      "events": "Eventi",
+      "eventsDescription": "Progressi sull'evento comunitario, fasi ed eventi passati"
     }
   },
   "faqPage": {
@@ -106,13 +106,13 @@
       "github": "GitHub",
       "linkAccountFaq": "reclama il tuo profilo",
       "hideProfileFaq": "Come nascondo il mio profilo?",
-      "deleteAccountFaq": null,
+      "deleteAccountFaq": "Come posso eliminare il mio account?",
       "leaderboards": "classifiche",
       "badges": "Encomi",
       "discordBot": "Bot Discord",
       "compare": "Confronta",
       "maps": "Mappa Interattiva",
-      "skinStudio": null
+      "skinStudio": "Reagent Studio"
     },
     "items": {
       "what-is-totstats": {
@@ -126,7 +126,7 @@
       "affiliation": {
         "q": "Siete affiliati a Red Barrels?",
         "a": [
-          "No. TOTStats is an unofficial, independent fan project. It is not affiliated with, endorsed or sponsored by Red Barrels Inc. “The Outlast Trials” and “Outlast” are trademarks of Red Barrels Inc."
+          "No. TOTStats è un progetto non ufficiale e indipendente creato dai fan. Non è in alcun modo affiliato, riconosciuto o sponsorizzato da Red Barrels Inc. “The Outlast Trials” e “Outlast” sono marchi registrati di Red Barrels Inc."
         ],
         "keywords": "ufficiale partner sviluppatore"
       },
@@ -298,9 +298,9 @@
       "delete-data": {
         "q": "Come cancello i miei dati?",
         "a": [
-          "Open your {settings}, go to Account and choose \"Delete Profile Data\". You confirm the deletion by signing in with the same Discord account once more. The deletion is then scheduled and runs 7 days later. Then we remove:",
-          "Until then you can cancel the deletion in your settings. Once it has run, it can't be undone: your profile is hidden and excluded from further collection until you turn processing back on yourself. Your Discord login and the profile link stay, so you keep control over it.",
-          "If you want your website account gone as well, see {deleteAccount}."
+          "Apri {settings}, vai su Account e seleziona \"Elimina Dati Profilo\". Confermerai l'eliminazione accedendo nuovamente con lo stesso account Discord. La rimozione è programmata per avviarsi dopo 7 giorni successivi alla richiesta. Elimineremo:",
+          "Fino ad allora puoi annullare l'eliminazione dei dati dalle impostazioni. Al termine del periodo, non si può tornare indietro: il tuo profilo verrà nascosto ed escluso da future collezioni finché non deciderai tu stesso di riattivarlo. Il tuo accesso a Discord e il collegamento al profilo resteranno, cosicché tu possa mantenerne il controllo.",
+          "Se vuoi che il tuo profilo venga eliminato anche dal sito, vedi {deleteAccount}."
         ],
         "bullets": [
           "le tue statistiche dei test e cronologia test",
@@ -312,26 +312,26 @@
         "keywords": "elimina rimuovi cancella gdpr pulizia dati"
       },
       "delete-account": {
-        "q": null,
+        "q": "Come posso eliminare il mio account?",
         "a": [
-          "Sign in, open your {settings}, go to Account and choose \"Delete account\" in the Danger Zone. You confirm the deletion by signing in with the same Discord account once more. Your Discord access tokens are deleted right away; everything else follows after a 7-day grace period. We remove:",
-          "If a game profile is linked, you choose what happens to it; nothing is preselected. \"Keep\" leaves it on the site like the profile of any player without an account, with your current visibility settings; to change them later, you have to link the profile again. \"Delete\" also wipes its data and keeps it hidden and blocked from further collection. If you already requested \"Delete Profile Data\", \"Keep\" cancels that request and \"Delete\" carries it out.",
-          "You are signed out right away. Signing in again within the 7 days cancels the deletion. After that it can't be undone, and signing in with Discord again creates a new, empty account. Staff accounts can't be deleted this way; an admin has to remove the staff role first."
+          "Accedi, vai su {settings}, clicca Account e seleziona \"Elimina account\" nella Zona Pericolosa. Confermerai l'eliminazione accedendo nuovamente col tuo account Discord. I tuoi token d'accesso a Discord verranno immediatamente eliminati; tutto il resto seguirà dopo un periodo di 7 giorni. Elimineremo:",
+          "Se un profilo di gioco è collegato, puoi scegliere cosa farne; nulla è pre-selezionato. \"Mantieni\" lo lascia sul sito come il profilo di qualsiasi altro giocatore senza un account, con le tue impostazioni attuali sulla visibilità; per cambiarli in un secondo momento, dovrai nuovamente collegare il profilo. \"Elimina\" ne ripulirà i dati e lo manterrà nascosto e bloccato da future collezioni. Se hai già fatto richiesta con \"Elimina Dati Profilo\", \"Mantieni\" la annullerà, mentre \"Elimina\" la porterà a termine.",
+          "Verrai disconnesso subito dopo. Riaccedendo entro 7 giorni, l'eliminazione sarà annullata. Passato il periodo, non si potrà tornare indietro e accedendo di nuovo con Discord verrà creato un nuovo account vuoto. Gli account dello staff non possono essere eliminati allo stesso modo; un admin deve prima rimuovere il ruolo da staff."
         ],
         "bullets": [
-          "your Discord ID, name, avatar and email address",
-          "the Discord access tokens we stored, right away when you confirm; we also revoke them at Discord",
-          "your profile link, pending claims and verification history"
+          "il tuo ID Discord, nome, avatar e indirizzo email",
+          "i token d'accesso Discord che abbiamo salvato, non appena darai conferma; li revocheeremo direttamente da Discord",
+          "il tuo link profilo, rivendicazioni in attesa e la cronologia verifiche"
         ],
-        "keywords": null
+        "keywords": "elimina cancella account chiudi gdpr rimuovi discord scollega"
       },
       "export-data": {
-        "q": null,
+        "q": "Posso scaricare una copia dei miei dati?",
         "a": [
-          "Yes. Sign in, open your {settings}, go to Account and choose \"Download my data\". You get an HTML page that you can open in any browser, with what our database stores about your account and your linked profile, such as your account details, profile settings, stats, trials, badges and verification history. The page can also save the same data as a JSON file.",
-          "Stored login tokens are never included."
+          "Sì. Accedi, vai su {settings}, clicca Account e seleziona \"Scarica i miei dati\". Otterrai una pagina HTML che potrai aprire su ogni browser, inclusi i dati dal nostro database riguardanti il tuo account e profilo associato, inclusi i dettagli, le impostazioni profilo, statistiche, test, encomi e la cronologia verifiche. La pagina potrà essere salvata anche sottoforma di file JSON.",
+          "I token d'accesso non sono inclusi."
         ],
-        "keywords": null
+        "keywords": "esporta scarica copia dati gdpr json html accesso portabilità"
       },
       "opt-out-without-account": {
         "q": "Non uso Discord. Come posso far si che i miei dati vengano rimossi?",
@@ -343,7 +343,7 @@
       "cookies": {
         "q": "Usate cookies o traccianti?",
         "a": [
-          "Only what the site needs to work, such as your login and language. Usage statistics, session recordings with masked inputs and error reports (PostHog, hosted in the EU) are only collected if you agree to them. You can reject them and change your choice any time via \"Cookie Settings\" in the footer.",
+          "Solo ciò che serve al sito per funzionare, come il tuo accesso e la lingua. Statistiche d'utilizzo, registrazione sessioni con input mascherati e report errori (PostHog, hostato all'interno dell'UE) verranno collezionati solo se deciderai di accettare. Puoi rifiutarli e cambiare la tua scelta in ogni momento in \"Impostazioni Cookies\" a piè di pagina.",
           "Tutto il resto è spiegato nella nostra {privacy}."
         ],
         "keywords": "cookies analisi traccianti posthog consenso privacy"
@@ -434,14 +434,14 @@
       "map-skin-studio": {
         "q": "Cosa sono l'Editor Mappa e il Reagent Studio?",
         "a": [
-          "Two companion projects: the {maps} shows every trial with rooms, enemy spawns, keys and objectives, and anyone can help map it with the browser editor. The {skinStudio} renders your Reagent in real-time 3D with every outfit and cosmetic, emotes, poses and hand shapes, up to five Reagents per scene in the studio, game rooms or menu backdrops, and exports wallpapers up to 4K, GIFs and share links."
+          "Due progetti del sito: le {maps} mostrano ogni test con stanze, spawn dei nemici, chiavi e obiettivi, e chiunque può aiutare a mappare l'editor in browser. Il {skinStudio} renderizza il tuo Reagente in 3D e in tempo reale con ogni abito e accessorio, emotes, pose e forme delle mani, fino a cinque Reagenti per scena nello studio, in stanze del gioco o sfondi del menu, dandoti modo di esportare immagini fino a 4K, GIF e link di condivisione."
         ],
-        "keywords": null
+        "keywords": "mappa mappe skin reagent studio 3d abiti editor emotes pose stanze gif sfondo 4k"
       }
     }
   },
   "home": {
-    "announcement": "v4 — The {map} & {skinStudio} are live",
+    "announcement": "v4 — '{map}' e '{skinStudio}' sono qui",
     "newTag": "Novità in v4",
     "hero": {
       "title": "The Outlast Trials Stats",
@@ -464,7 +464,7 @@
       "viewAll": "Mostra tutti"
     },
     "map": {
-      "eyebrow": "The Outlast Trials Map",
+      "eyebrow": "Mappa di The Outlast Trials",
       "title": "Conosci ogni stanza prima di entrarci",
       "desc": "Mappe interattive per ogni test — stanze, spawn dei nemici, chiavi, porte e obiettivi. Un editor gratuito nel browser per facilitare la community alla mappatura del gioco.",
       "features": {
@@ -479,7 +479,7 @@
     "skinStudio": {
       "eyebrow": "Reagent Studio",
       "title": "Il tuo Reagente, tutto in 3D",
-      "desc": "Dress your Reagent in any outfit, pose them with emotes and line up to five in one scene. Then export a 4K wallpaper, a GIF or a share link.",
+      "desc": "Vesti i tui Reagenti con qualsiasi abito o accessorio e mettili in posa, fino a un massimo di cinque, nella stessa scena. Poi esporta immagini in 4K, GIF o condividili con un link." ,
       "features": {
         "outfits": "Più di 1.400 abiti e accessori",
         "emotes": "Emotes & poses",
@@ -558,7 +558,7 @@
       "why": "Perché ci sono giocatori nascosti?",
       "explanation": "Il nostro team nasconde tutti quei giocatori i quali punteggi non sono stati raccolti normalmente o sono sbagliati per un errore di sistema. Le loro statistiche sono visibili sui loro profili, ma non vengono classificati.",
       "breakdownTitle": "Nascosti in questa classifica",
-      "breakdownItem": null,
+      "breakdownItem": "{reason}: {count}",
       "mapCount": "{count} nascosti",
       "faqLink": "Scopri di più nelle FAQ"
     }
@@ -642,14 +642,14 @@
     "purchasedTitle": "Pacchetti del negozio acquistati"
   },
   "reagentViewer": {
-    "hide": null,
+    "hide": "Nascondi vista 3D",
     "hidden": {
-      "weak": null,
-      "off": null,
-      "crashed": null,
-      "show": null,
-      "retry": null,
-      "remember": null
+      "weak": "Il modello 3D è stato nascosto per non appesantire il dispositivo.",
+      "off": "Hai spento il modello 3D.",
+      "crashed": "Il modello 3D è stato spento a seguito di un crash della pagina durante il caricamento.",
+      "show": "Mostra lo stesso",
+      "retry": "Riprova",
+      "remember": "Ricorda su questo dispositivo"
     },
     "modelLabel": "Modello 3D del Reagente di {name}",
     "modelLabelGeneric": "Modello 3D di un Reagente",
@@ -660,7 +660,7 @@
     "collapse": "Comprimi",
     "podiumEmote": "Posa del podio",
     "terminalEmote": "Posa del terminale",
-    "nightVision": null,
+    "nightVision": "Visore notturno",
     "pause": "Interrompi l'animazione",
     "play": "Riproduci l'animazione",
     "resetView": "Reimposta vista",
@@ -693,12 +693,12 @@
     "friendCodeTip": "Aggiungi il tuo Codice Amico per tracciare il tuo account",
     "successMessage": "Richiesta inviata. Per favore attendi almeno 48 ore affinché il tuo account venga tracciato.",
     "failedMessage": "C'è stato un errore nell'invio della richiesta. Per favore riprova più tardi.",
-    "steamId": null,
+    "steamId": "ID Steam",
     "enterSteamId": "Inserisci il tuo SteamID64...",
     "errorValidationSteamId": "Per favore inserisci uno SteamID64 valido (numero a 17 cifre)",
     "steamIdTip": "Inserisci il tuo SteamID64. Puoi trovarlo su {link} sotto \"steamID64\".",
     "tabFriendCode": "Codice Amico",
-    "tabSteamId": null,
+    "tabSteamId": "ID Steam",
     "invasionTitle": "Invasione / Intensificazione",
     "invasionRecommended": "Consigliato",
     "invasionStep1": "Gioca almeno una partita a Invasione o Intensificazione in The Outlast Trials",
@@ -718,22 +718,22 @@
     "fallbackMessage": "Stiamo eseguendo una manutenzione al momento. Per favore riprova tra un po'."
   },
   "notFoundPage": {
-    "eyebrow": null,
-    "title": null,
-    "desc": null,
-    "home": null,
-    "back": null,
-    "linksLabel": null,
-    "linksTitle": null,
+    "eyebrow": "Errore 404",
+    "title": "Questa pagina è fuggita dal Test",
+    "desc": "La pagina che stai cercando non esiste, è stata spostata o non è mai uscita al di fuori della struttura a Sinyala.",
+    "home": "Ritorna alla home",
+    "back": "Indietro",
+    "linksLabel": "Pagine Popolari",
+    "linksTitle": "O continua da qui",
     "links": {
-      "search": null,
-      "searchDesc": null,
-      "leaderboard": null,
-      "leaderboardDesc": null,
-      "badges": null,
-      "badgesDesc": null,
-      "events": null,
-      "eventsDesc": null
+      "search": "Ricerca giocatori",
+      "searchDesc": "Cerca qualsiasi Reagente",
+      "leaderboard": "Classifiche",
+      "leaderboardDesc": "I giocatori migliori per ogni categoria",
+      "badges": "Encomi",
+      "badgesDesc": "Tutti gli encomi collezionabili",
+      "events": "Eventi comunitari",
+      "eventsDesc": "Traguardi comunitari in diretta"
     }
   },
   "profile": {
@@ -749,13 +749,13 @@
     "hero": {
       "lastOnline": "Ultima volta online: {time}",
       "lastOnlineTooltip": "L'ultima volta che questo giocatore è stato visto online su The Outlast Trials",
-      "lastOnlineExactTooltip": null,
-      "lastOnlineHiddenTooltip": null,
+      "lastOnlineExactTooltip": "Ultima volta online il {date}. Gli altri giocatori vedono solo una stima.",
+      "lastOnlineHiddenTooltip": "Ultima volta online il {date}. Nascosto agli altri giocatori.",
       "lastOnlineRange": {
-        "RECENT": null,
-        "WEEK": null,
-        "MONTH": null,
-        "OVER_MONTH": null
+        "RECENT": "Online di recente",
+        "WEEK": "Online questa settimana",
+        "MONTH": "Online questo mese",
+        "OVER_MONTH": "Ultima volta online oltre un mese fa"
       },
       "statsUpdated": "Statistiche aggiornate il: {time}",
       "addFavorite": "Aggiungi ai preferiti",
@@ -778,7 +778,7 @@
       "successRate": "Tasso di successo",
       "failedCount": "{n} falliti",
       "escalation": "Intensificazione",
-      "lobbyRatings": null,
+      "lobbyRatings": "Punteggi minigiochi",
       "invasionSeason": "Invasione · Stagione {season}",
       "leaderboard": "Classifica",
       "viewInvasion": "Mostra Invasione"
@@ -839,14 +839,14 @@
     },
     "moreTabs": {
       "completedTrials": "Test Completati",
-      "joinedEvents": null,
+      "joinedEvents": "Eventi Partecipati",
       "tasks": "Attività"
     },
     "joinedEvents": {
-      "emptyTitle": null,
-      "emptyMessage": null,
-      "loadErrorTitle": null,
-      "loadErrorMessage": null
+      "emptyTitle": "Nessun Evento Partecipato",
+      "emptyMessage": "Questo giocatore non ha ancora partecipato ad alcun evento.",
+      "loadErrorTitle": "Caricamento fallito",
+      "loadErrorMessage": "Non siamo riusciti a recuperare gli eventi a cui questo giocatore ha partecipato. Riprova più tardi."
     },
     "completedTrials": {
       "completions": "Completamenti",
@@ -920,10 +920,10 @@
       "escalationPlayTime": "Intensificazioni Giocate",
       "escalationTrialsCompleted": "Test Completati in Intensificazione",
       "escalationPrevious": "Previous",
-      "escalationV1Peak": null,
-      "escalationV1PlayTime": null,
-      "escalationV1Attempts": null,
-      "escalationV1TrialsCompleted": null,
+      "escalationV1Peak": "Picco Intensificazione",
+      "escalationV1PlayTime": "Intensificazioni Giocate",
+      "escalationV1Attempts": "Tentativi Intensificazione",
+      "escalationV1TrialsCompleted": "Test Intensificazione Completati",
       "itemsStatsTitle": "Oggetti Usati",
       "useAdrenaline": "Adrenaline Usate",
       "useBatteryBooster": "Potenziamenti Batteria Usati",
@@ -1012,8 +1012,8 @@
       "scoresLoadError": "Caricamento dei dettagli punteggio fallito",
       "groupMembers": "Giocato insieme a",
       "loadMore": "Carica test più vecchi",
-      "noDifficulty": null,
-      "imposter": null,
+      "noDifficulty": "Nessuna Difficoltà",
+      "imposter": "Invasione (Impostore)",
       "variators": "Variators"
     },
     "items": {
@@ -1046,11 +1046,11 @@
       "cell": "Cella",
       "emotePodium": "Podio",
       "emoteTerminal": "Terminale",
-      "slotLabel": null
+      "slotLabel": "{group} {n}"
     },
     "invasion": {
       "alltimeStatsTitle": "Statistiche Invasione Complessive",
-      "inaccurateHint": null,
+      "inaccurateHint": "Questi numeri arrivano direttamente da Red Barrels e non sono sempre precisi. Sfortunatamente, non possiamo sistemarlo lato nostro.",
       "seasonMatchesPlayed": "Partite Giocate in Stagione",
       "seasonImposterMatches": "Partite Giocate da Impostore",
       "seasonImposterWonMatches": "Partite Vinte da Impostore",
@@ -1103,7 +1103,7 @@
     "STEAM": "Steam",
     "PSN": "Playstation",
     "XBOX": "Xbox",
-    "EPIC_GAMES": null,
+    "EPIC_GAMES": "Epic Games",
     "NINTENDO": "Nintendo",
     "ALL": "Tutte"
   },
@@ -1133,26 +1133,26 @@
     "selectProfilesHint": "Seleziona almeno 2 profili in alto da mettere a confronto",
     "addedToCompare": "Profilo aggiunto alla lista del confronto",
     "removedFromCompare": "Profilo rimosso dalla lista del confronto",
-    "lineup": "Selected reagents",
-    "level": "Lv. {level}",
-    "leading": "Leading",
-    "wins": "win | wins",
-    "addPlayer": "Add reagent",
-    "openProfile": "Open profile of {name}",
-    "full": "Comparison is full (max. {max} reagents)",
-    "loadError": "Could not load this profile",
-    "retry": "Retry",
-    "lowerIsBetter": "Lower is better",
-    "playtime": "Playtime",
-    "teamworkTitle": "Teamwork",
-    "invasionSeasonTitle": "Invasion Season {season}",
-    "matchesPlayed": "Matches Played",
-    "lobbyWins": "{game} Wins",
-    "lobbyLosses": "{game} Losses",
-    "lobbyRating": "{game} Rating",
-    "badgesTitle": "Badges",
-    "badgeCount": "Badges collected",
-    "badgeCollection": "Collection"
+    "lineup": "Reagenti selezionati",
+    "level": "Liv. {level}",
+    "leading": "In Testa",
+    "wins": "vittoria | vittorie",
+    "addPlayer": "Aggiungi reagente",
+    "openProfile": "Apri il profilo di {name}",
+    "full": "Il confronto è pieno (max. {max} reagenti)",
+    "loadError": "Il profilo non è stato caricato",
+    "retry": "Riprova",
+    "lowerIsBetter": "Più basso è meglio",
+    "playtime": "Tempo di Gioco",
+    "teamworkTitle": "Cooperazione",
+    "invasionSeasonTitle": "Invasione Stagione {season}",
+    "matchesPlayed": "Partite Giocate",
+    "lobbyWins": "Vittorie a {game}",
+    "lobbyLosses": "Sconfitte a {game}",
+    "lobbyRating": "Punteggio a {game}",
+    "badgesTitle": "Encomi",
+    "badgeCount": "Encomi ottenuti",
+    "badgeCollection": "Collezioni"
   },
   "otherPages": {
     "title": "Altre Pagine",
@@ -1185,9 +1185,9 @@
     "logout": "Esci",
     "login_benefit": "Collega il tuo account Discord per reclamare il tuo profilo di gioco e accedere a funzionalità personali.",
     "login_with_discord": "Accedi con Discord",
-    "login_notice": null,
-    "login_notice_terms": null,
-    "login_notice_privacy": null,
+    "login_notice": "I nostri {terms} si applicano al tuo accesso. Gli account sono per chiunque abbia 16 anni o più; sotto i 18 anni soltanto col consenso di un genitore o tutore legale. Come gestiamo i tuoi dati: {privacy}.",
+    "login_notice_terms": "Termini d'uso",
+    "login_notice_privacy": "Informativa sulla Privacy",
     "login_failed": "Accesso Fallito",
     "try_again": "Riprova",
     "discord_denied": "Autorizzazione a Discord rifiutata",
@@ -1222,7 +1222,7 @@
     "already_linked_description": "Il tuo account Discord è già collegato a un profilo di gioco.",
     "go_to_profile": "Vai al mio profilo",
     "continue": "Continua",
-    "continue_to_maps": null,
+    "continue_to_maps": "Continua alle Mappe",
     "link_support_hint": "Hai problemi a collegare il tuo account? Contatta il nostro supporto sul",
     "page_title": "Collega Account",
     "page_subtitle": "Collega il tuo profilo di gioco al tuo account Discord",
@@ -1345,7 +1345,7 @@
       "badges": "Encomi",
       "badgesHint": "Gli encomi che hai collezionato sotto il tuo nome.",
       "lastLogin": "Ultimo accesso",
-      "lastLoginHint": null
+      "lastLoginHint": "La data esatta, un'approssimazione o nulla."
     },
     "lastLoginToggle": {
       "exact": "Exact",
@@ -1366,7 +1366,7 @@
       "profile": {
         "viewTitle": "Pagina del profilo",
         "viewHint": "Visualizza il tuo profilo come viene visto da altri giocatori.",
-        "unlinkHint": null
+        "unlinkHint": "Rimuovi il collegamento tra il tuo account Discord e questo profilo di gioco."
       }
     },
     "no_linked_profile": "Nessun profilo di gioco collegato. Collegane uno dal menu utente per configurarne le varie visibilità.",
@@ -1390,10 +1390,10 @@
       "tileLabel": "Sfondo {n}"
     },
     "nightVision": {
-      "title": null,
-      "description": null,
-      "up": null,
-      "down": null
+      "title": "Visore notturno",
+      "description": "Come il tuo Reagente indosserà il visore nella visuale 3D sul tuo profilo.",
+      "up": "Alzati sulla testa",
+      "down": "Abbassati sugli occhi"
     },
     "profileAccent": {
       "title": "Colore Principale",
@@ -1420,12 +1420,12 @@
     },
     "aboutMe": {
       "title": "Su di me",
-      "description": null,
+      "description": "Una breve descrizione di te, mostrata sul tuo profilo. Fino a 200 caratteri.",
       "placeholder": "Racconta agli altri giocatori qualcosa di te…"
     },
     "favoriteTrial": {
       "title": "Test preferito",
-      "description": null,
+      "description": "Scegli un test da mostrare sul tuo profilo.",
       "none": "Nessun test preferito"
     },
     "socialLinks": {
@@ -1437,14 +1437,14 @@
     },
     "country": {
       "title": "Nazione",
-      "description": null,
+      "description": "Raffigurata dalla propria bandiera sul tuo profilo.",
       "none": "Nessuna nazione"
     },
     "deleteProfile": {
       "sectionTitle": "Zona Pericolosa",
-      "sectionHint": null,
+      "sectionHint": "Le eliminazioni avvengono dopo 7 giorni e non possono essere annullate dopo ciò.",
       "title": "Elimina Dati Profilo",
-      "hint": null,
+      "hint": "Cancella tutti i dati salvati su outlasttrialsstats.com. Non avrà alcun effetto sul gioco, il tuo accesso a Discord e profilo collegato rimarranno intatti.",
       "whatHeader": "Verranno eliminati i seguenti:",
       "whatItems": [
         "Statistiche e storico dei test (Test Recenti)",
@@ -1457,92 +1457,92 @@
       ],
       "button": "Elimina tutti i dati del profilo",
       "confirmTitle": "Eliminare tutti i dati del profilo?",
-      "confirmText": null,
-      "gracePeriod": null,
-      "understand": null,
-      "scheduled": null,
-      "scheduledTitle": null,
-      "scheduledHint": null,
-      "cancelButton": null,
-      "cancelled": null,
-      "cancelError": null,
-      "reauthFailed": null,
-      "reauthMismatch": null,
-      "reauthCancelled": null,
-      "noProfile": null,
+      "confirmText": "Tutte le tue statistiche, gli accessori, encomi, dati Invasione, test e pacchetti del negozi verranno rimossi del tutto. Il tuo profilo sarà nascosto e bloccato da future collezioni fino al momento in cui non deciderai tu stesso di riattivarlo e di renderlo nuovamente visibile. Il tuo account Discord e profilo collegato resteranno intatti.",
+      "gracePeriod": "I tuoi dati verranno eliminati dopo 7 giorni. Fino a quel momento puoi annullare l'eliminazione dalle impostazioni.",
+      "understand": "Comprendo che i miei dati del profilo verranno eliminati per sempre tra 7 giorni.",
+      "scheduled": "I dati del tuo profilo verranno eliminati il {date}.",
+      "scheduledTitle": "I dati profilo verranno eliminati il {date}",
+      "scheduledHint": "Puoi annullare l'eliminazione fino ad allora.",
+      "cancelButton": "Annulla eliminazione",
+      "cancelled": "L'eliminazione dei dati del tuo profilo è stata annullata.",
+      "cancelError": "Impossibile annullare l'eliminazione dei dati profilo",
+      "reauthFailed": "Non siamo riusciti a confermare il tuo accesso a Discord. I dati del tuo profilo non sono stati eliminati, per favore riprova.",
+      "reauthMismatch": "Hai eseguito l'accesso con un account Discord diverso. I dati del tuo profilo non sono stati eliminati. Accedi con l'account Discord collegato a questo profilo.",
+      "reauthCancelled": "L'accesso a Discord è stato annullato. I dati del tuo profilo non sono stati eliminati.",
+      "noProfile": "Nessun profilo di gioco è più collegato al tuo account, perciò non ci sono dati profilo da eliminare.",
       "error": "Impossibile eliminare i dati del profilo"
     },
     "reauth": {
-      "hint": null,
-      "continueWithDiscord": null
+      "hint": "Per confermare, accedi nuovamente col tuo account Discord.",
+      "continueWithDiscord": "Continua con Discord"
     },
     "accountData": {
-      "sectionTitle": null,
-      "sectionDescription": null,
-      "exportTitle": null,
-      "exportDescription": null,
-      "exportButton": null,
-      "exportFirst": null,
+      "sectionTitle": "I Tuoi Dati",
+      "sectionDescription": "Scarica una copia dei tuoi dati o elimina il tuo account.",
+      "exportTitle": "Scarica i tuoi dati",
+      "exportDescription": "Scarica tutto quello che abbiamo salvato sul tuo account e profilo collegato sottoforma di pagina HTML.",
+      "exportButton": "Scarica i miei dati",
+      "exportFirst": "Vuoi tenere una copia? Scarica prima i tuoi dati.",
       "exportFile": {
-        "title": null,
-        "intro": null,
-        "created": null,
-        "contents": "Contents",
-        "downloadJson": null,
-        "print": "Print",
-        "expandAll": null,
-        "collapseAll": null,
-        "entries": null,
-        "empty": "None",
-        "yes": "Yes",
+        "title": "I tuoi dati su outlasttrialsstats.com",
+        "intro": "Questa pagina contiene i dati che abbiamo salvato su outlasttrialsstats.com relativi al tuo account e profilo di gioco collegato. Funziona offline. Clicca una sezione per comprimerla o espanderla, usa \"Scarica JSON\" per ottenere gli stessi dati in linguaggio macchina.",
+        "created": "Creato il {date}",
+        "contents": "Contenuti",
+        "downloadJson": "Scarica JSON",
+        "print": "Stampa",
+        "expandAll": "Espandi tutto",
+        "collapseAll": "Comprimi tutto",
+        "entries": "{count} voce | {count} voci",
+        "empty": "Nulla",
+        "yes": "Sì",
         "no": "No",
         "sections": {
           "account": "Account",
-          "linkedProfile": null,
-          "profileSettings": null,
-          "processingBlock": null,
-          "leaderboardModeration": null,
-          "profileStats": null,
-          "completedTrials": null,
-          "invasion": "Invasion",
-          "tasks": "Tasks",
-          "badges": "Badges",
-          "ownedCosmeticItemIds": null,
-          "recentTrials": null,
-          "joinedEvents": null,
-          "verifications": "Verifications",
-          "pendingClaims": null,
-          "auditEntries": null
+          "linkedProfile": "Profilo collegato",
+          "profileSettings": "Profile settings",
+          "processingBlock": "Blocco processato",
+          "leaderboardModeration": "Moderazione classifica",
+          "profileStats": "Statistiche profilo",
+          "completedTrials": "Test completati",
+          "invasion": "Invasione",
+          "tasks": "Attività",
+          "badges": "Encomi",
+          "ownedCosmeticItemIds": "Accessori posseduti",
+          "recentTrials": "Test recenti",
+          "joinedEvents": "Eventi partecipati",
+          "verifications": "Verifiche",
+          "pendingClaims": "Reclami in attesa",
+          "auditEntries": "Log attività"
         }
       },
-      "exportError": null,
-      "exportRateLimited": null,
-      "deleteTitle": null,
-      "deleteHint": null,
+      "exportError": "Non siamo riusciti ad esportare i tuoi dati. Riprova tra qualche minuto.",
+      "exportRateLimited": "Hai richiesto molte volte i tuoi dati troppo in fretta. Riprova tra qualche minuto.",
+      "deleteTitle": "Elimina Account",
+      "deleteHint": "Elimina il tuo account TOTStats e scollegalo da Discord.",
       "deleteWhatItems": [
-        "Your Discord ID, name, avatar and email address",
-        "The Discord access tokens we stored (right away when you confirm; we also revoke them at Discord)",
-        "Your profile link, pending claims and verification history"
+        "Il tuo ID Discord, nome, avatar e indirizzo email",
+        "I token di accesso a Discord che abbiamo salvato (non appena darai conferma; faremo la revoca direttamente a Discord)",
+        "Il tuo link profilo, richieste in attesa e cronologia verifiche"
       ],
-      "profileChoiceTitle": null,
-      "profileKeep": null,
-      "profileKeepHint": null,
-      "profileKeepCancelsWipe": null,
-      "profileWipe": null,
-      "profileWipeHint": null,
-      "profileChoiceRequired": null,
-      "button": null,
-      "confirmTitle": null,
-      "confirmWarning": null,
-      "understand": null,
-      "scheduled": null,
-      "deletionCancelled": null,
-      "reauthFailed": null,
-      "reauthMismatch": null,
-      "reauthCancelled": null,
-      "error": null,
-      "loadError": null,
-      "staffBlocked": null
+      "profileChoiceTitle": "Cosa dovrebbe accadere al tuo profilo di gioco collegato?",
+      "profileKeep": "Mantieni il mio profilo di gioco sul sito",
+      "profileKeepHint": "Il tuo profilo rimane sul sito come quello di qualsiasi altro giocatore senza un account, con le impostazioni di visibilità attuali. la tua bio, nazione, test preferito e link ai social verranno rimossi. Per cambiarli in un secondo momento, dovrai ricollegare il tuo profilo.",
+      "profileKeepCancelsWipe": "Questo cancellerà anche tutte le richieste di eliminazione dati profilo in attesa.",
+      "profileWipe": "Elimina anche i miei dati del profilo",
+      "profileWipeHint": "Le tue statistiche verranno ripulite e il profilo rimarrà nascosto ed escluso da future collezioni. Soltanto ricollegando il proprio profilo si può annullare questo stato.",
+      "profileChoiceRequired": "Un profilo di gioco è ora collegato al tuo account. Scegli cosa dovrebbe accadergli.",
+      "button": "Elimina account",
+      "confirmTitle": "Eliminare il tuo account?",
+      "confirmWarning": "Alla conferma verrai scollegato e i token d'accesso a Discord che abbiamo saranno direttamente eliminati e revocati. Dopo un periodo di 7 giorni, il tuo profilo e dati personali verranno eliminati per sempre. Rieseguendo l'accesso entro i 7 giorni che precedono l'eliminazione, si annullerà il processo; passato ciò non sarà più possibile farlo.",
+      "understand": "Comprendo che il mio account verrà cancellato per sempre tra 7 giorni.",
+      "scheduled": "L'eliminazione del tuo account è stata programmata. Riaccedi entro 7 giorni per annullare l'operazione.",
+      "deletionCancelled": "Bentornato! L'eliminazione del tuo account è stata annullata.",
+      "reauthFailed": "Non siamo riusciti a confermare il tuo accesso a Discord. Il tuo account non è stato eliminato, per favore riprova.",
+      "reauthMismatch": "Hai eseguito l'accesso con un account Discord diverso. Il tuo account non è stato eliminato. Accedi con l'accouunt Discord del profilo che vuoi eliminare.",
+      "reauthCancelled": "L'accesso a Discord è stato annullato. Il tuo account non è stato eliminato.",
+      "error": "Eliminazione account fallita",
+      "loadError": "Non siamo riusciti a caricare il tuo account. Riprova.",
+      "staffBlocked": "Gli account dello staff non possono essere cancellati da qui. Prima chiedi ad un admin di rimuovere il tuo ruolo da staff."
     }
   },
   "profileDeletionRequest": {
@@ -1554,8 +1554,8 @@
     "fastPath": {
       "signedOut": {
         "title": "Eliminali tu stesso con Discord",
-        "desc": null,
-        "descClaim": null,
+        "desc": "Accedi con Discord e verifica il tuo profilo con il tuo codice amico. Potrai poi cancellarlo tu stesso dalle impostazioni. L'eliminazione si avvierà dopo i 7 giorni successivi e può essere annullata prima di allora.",
+        "descClaim": "Accedi con Discord e collega l'account di gioco che hai connesso a Discord (Steam, PlayStation o Xbox). Successivamente puoi cancellarlo tu stesso dalle impostazioni. L'eliminazione verrà eseguita dopo 7 giorni e oitrà essere annullata prima di allora.",
         "button": "Continua con Discord"
       },
       "unverified": {
@@ -1597,10 +1597,10 @@
     },
     "screenshots": {
       "label": "Screenshots (facoltativo)",
-      "count": null,
+      "count": "{count} / {max}",
       "drop": "Scegli immagini, rilasciale o incollale",
       "hint": "Uno screenshot del tuo profilo all'interno del gioco (nome e codice amico visibili) aiuta di più.",
-      "thumbAlt": null,
+      "thumbAlt": "Screenshot {n}",
       "remove": "Rimuovi screenshot {n}",
       "processing": "Preparazione…",
       "errors": {
@@ -1672,7 +1672,7 @@
     },
     "features": {
       "presence": {
-        "title": null,
+        "title": "Discord Rich Presence",
         "newTag": "Nuovo",
         "desc": "Il tuo profilo Discord mostra il test attualmente in corso, letto direttamente dai log di gioco.",
         "statusTitle": "Stato del test in diretta",
@@ -1753,9 +1753,9 @@
       }
     },
     "selfHost": {
-      "title": null,
+      "title": "Self-Hosting & Open Source",
       "desc": "Il bot è completamente open-source e può essere installato autonomamente con Docker e PostgreSQL. Consulta la repository GitHub per le istruzioni di configurazione.",
-      "openSource": null,
+      "openSource": "Open Source",
       "viewDocs": "Vedi la documentazione"
     }
   },
@@ -1784,136 +1784,136 @@
       "Undefined": "Indefinito"
     },
     "variators": {
-      "BadTrip1": null,
-      "BadTrip2": null,
-      "BarricadedDoors": null,
-      "Bleeding": "Bleeding",
-      "BlockedDoors": null,
-      "BombStrapped": null,
-      "BreakTVs": null,
-      "Bundle_NPC": null,
-      "Bundle_Traps": null,
-      "Bundle_Traps2": null,
-      "ColdMines": null,
-      "ColdSnap": null,
-      "ColdTrial": null,
-      "CollectFromCorpses": null,
-      "CollectGenericSchematics": null,
-      "CollectGifts": null,
-      "CollectRats": null,
-      "DamageDisableRigs": null,
-      "DeadlyPrimeAsset": null,
-      "DeadlyTraps": null,
-      "DeepBurn": null,
-      "EnragedEnemies": null,
-      "ExitRush": null,
-      "FindTheRadio": null,
-      "FindTheTelevision": null,
-      "FireMines": null,
-      "FlameThrowerTraps": null,
-      "FrancoTime": null,
-      "GenericCollectBoxesSecondaryObjective": null,
-      "GenericFrequencyMatchSecondaryObjective": null,
-      "GlassDamage": null,
-      "HealthSickness": null,
-      "HighDoorVariators": null,
-      "HighEnemyDensity": null,
-      "HudImmersion": "Immersion",
-      "Insane_TrialMaker": "Psychosurgery",
-      "Inventory_Minus1": null,
-      "Inventory_Minus2": null,
+      "BadTrip1": "Effetto Indesiderato",
+      "BadTrip2": "Effetto Indesiderato II",
+      "BarricadedDoors": "Porte Barricate",
+      "Bleeding": "Emorragia",
+      "BlockedDoors": "Porte Bloccate",
+      "BombStrapped": "Conto alla Rovescia della Bomba",
+      "BreakTVs": "Distruggi i Televisori",
+      "Bundle_NPC": "Minaccia Aumentata",
+      "Bundle_Traps": "Trappole Aumentate e Letali",
+      "Bundle_Traps2": "Trappole Aumentate e Letali II",
+      "ColdMines": "Mine Congelanti",
+      "ColdSnap": "Ondata di Freddo",
+      "ColdTrial": "Permafrost",
+      "CollectFromCorpses": "Recupera gli Artefatti",
+      "CollectGenericSchematics": "Raccogli i Progetti",
+      "CollectGifts": "Raccogli i Regali",
+      "CollectRats": "Raccogli i Ratti",
+      "DamageDisableRigs": "Disattivazione Artefatti",
+      "DeadlyPrimeAsset": "Risorse Primarie Letali",
+      "DeadlyTraps": "Trappole Letali",
+      "DeepBurn": "Ustione Profonda",
+      "EnragedEnemies": "Nemici Infuriati",
+      "ExitRush": "Uscita Affrettata",
+      "FindTheRadio": "Trova la Radio",
+      "FindTheTelevision": "Trova la Trasmissione",
+      "FireMines": "Mine Incendiarie",
+      "FlameThrowerTraps": "Lanciafiamme",
+      "FrancoTime": "Franco Barbi",
+      "GenericCollectBoxesSecondaryObjective": "Raccogli le Scatole di Prove",
+      "GenericFrequencyMatchSecondaryObjective": "Decifra la Trasmissione",
+      "GlassDamage": "Vetro Affilato",
+      "HealthSickness": "Infermità",
+      "HighDoorVariators": "Trappole sulle Porte Aggiuntive",
+      "HighEnemyDensity": "Elevata Densità Nemica",
+      "HudImmersion": "Nessun Nome dei Giocatori",
+      "Insane_TrialMaker": "Neurochirurgia",
+      "Inventory_Minus1": "Inventario Limitato",
+      "Inventory_Minus2": "Inventario Limitato II",
       "Jaeger": "Jaeger",
-      "KressTime": null,
-      "LevelOne": null,
-      "LiliyaTime": null,
-      "LimitedItems": null,
-      "LockedItems": null,
-      "LowEnemyDensity": null,
-      "MandatorySecondaryObjective": null,
-      "MorePushers": null,
-      "MoreTraps2": null,
-      "NauseaTraps": null,
-      "NoIntel": null,
-      "NoItems": null,
-      "NoPlaceToHide": null,
-      "NoPlaceToHide2": null,
-      "NoPlayerUpgrades": null,
-      "NoRadio": null,
-      "NoRunning": null,
-      "NoTechItems": null,
-      "PadLockedDoors": null,
-      "PermanentDamage": null,
-      "PermanentHallucinations": null,
-      "PrimeTime": null,
-      "PsychosisDamage": null,
-      "Psychosis_Hard": null,
-      "Rigs_InfiniteCooldown": null,
-      "RollingGates_CloseAfterPassage": null,
-      "RollingGates_Unlockable": null,
-      "SanitizationProcess": null,
-      "SoundTraps": null,
-      "StrongerEnemies2": null,
-      "TogetherWeAreStronger": null,
-      "TrappedDoors": null,
-      "VoiceDisturbance": null
+      "KressTime": "Gemelli Kress",
+      "LevelOne": "Livello Uno",
+      "LiliyaTime": "Liliya Bogomolova",
+      "LimitedItems": "Oggetti Limitati",
+      "LockedItems": "Oggetti Bloccati",
+      "LowEnemyDensity": "Bassa Densità Nemica",
+      "MandatorySecondaryObjective": "Obiettivo Secondario Obbligatorio",
+      "MorePushers": "Più Spacciatori",
+      "MoreTraps2": "Trappole Aggiuntive",
+      "NauseaTraps": "Trappole Nauseanti",
+      "NoIntel": "Nessuna Informazione",
+      "NoItems": "Nessun Oggetto nel Test",
+      "NoPlaceToHide": "Nascondigli Limitati",
+      "NoPlaceToHide2": "Nascondigli Limitati II",
+      "NoPlayerUpgrades": "Nessuna Ricetta",
+      "NoRadio": "Voce Limitata",
+      "NoRunning": "Corsa Vietata",
+      "NoTechItems": "Nessun Oggetto Tecnico",
+      "PadLockedDoors": "Porte con Lucchetto",
+      "PermanentDamage": "Danni Permanenti",
+      "PermanentHallucinations": "Allucinazioni?",
+      "PrimeTime": "Dominio Primario",
+      "PsychosisDamage": "Danni Psicotici",
+      "Psychosis_Hard": "Psicosi Estrema",
+      "Rigs_InfiniteCooldown": "Riavvio Artefatti",
+      "RollingGates_CloseAfterPassage": "Isolamento",
+      "RollingGates_Unlockable": "Saracinesche a Controllo Remoto",
+      "SanitizationProcess": "",
+      "SoundTraps": "Trappole Sonore Aggiuntive",
+      "StrongerEnemies2": "Nemici Potenti II",
+      "TogetherWeAreStronger": "L'Unione fa la Forza",
+      "TrappedDoors": "Vie Bloccate",
+      "VoiceDisturbance": "Malfunzionamento Vocale"
     },
     "events": {
       "amelia": "Amelia",
-      "badtrip_2026": null,
-      "bambino_2024": null,
-      "be_quiet_08_2026": null,
-      "bequiet_2025": null,
-      "blood_donation": null,
-      "bomb_2024": null,
-      "burnout_march_2026": "Burnout",
-      "chemical": null,
-      "classified_2026": "Classified",
-      "deadlock_march_2026": "Deadlock",
-      "deadly_prime_2026": null,
-      "deepburn": null,
-      "exitrush_may2025": null,
-      "flashback_2024": null,
-      "flashback_2025": null,
-      "halloween_2024": null,
-      "halloween_2025": null,
-      "jaeger": "Jaeger",
-      "kress": null,
-      "liliyatime": null,
-      "limitedrigs_may2025": null,
-      "lockedcontainers_2024": null,
-      "mirror_2026": "Mirror",
-      "noradio_december_2025": null,
-      "nostophobia": "Nostophobia",
-      "nostophobia_2026": "Nostophobia",
-      "onechance_2024": null,
-      "prime": null,
-      "prime_time_2026": null,
-      "scarred_2025": "Scarred",
-      "scavenger": "Scavenger",
-      "sharp_glass_november_2025": null,
-      "sharpglass_2024": null,
-      "stamps_2025": null,
-      "stamps_feb_2024": null,
-      "stamps_november_2025": null,
-      "stamps_weekend_october_2024": null,
-      "stay_together_09_2026": null,
-      "toxic_2024": null,
-      "wbadtrip_2024": null,
-      "wbleeding_2024": "Bleeding",
-      "wdualobjectives_2025": null,
-      "whard_2024": "Hard",
-      "wimposters_2024": "Imposters",
-      "winter_kills_2024": null,
-      "winterkills_2025": null,
-      "wlockedcontainers_2024": null,
-      "wnaked_2024": "Naked",
-      "wnomeds_2024": null,
-      "wnoradio_2024": null,
-      "wnorigs_2024": null,
-      "wnorunning_2025": null,
-      "wnotech_2024": null,
-      "wpadlockeddoors_2025": null,
-      "wsurvivor_2024": "Survivor"
+      "badtrip_2026": "Effetto Indesiderato",
+      "bambino_2024": "Bimbo",
+      "be_quiet_08_2026": "Silenzio",
+      "bequiet_2025": "Silenzio",
+      "blood_donation": "Donazione di Sangue",
+      "bomb_2024": "Conto alla Rovescia",
+      "burnout_march_2026": "A Caldo",
+      "chemical": "Fuga di Gas",
+      "classified_2026": "Confidenziale",
+      "deadlock_march_2026": "Stallo",
+      "deadly_prime_2026": "Risorse Primarie Letali",
+      "deepburn": "Ustione Profonda",
+      "exitrush_may2025": "Uscita Affrettata",
+      "flashback_2024": "Flashback 2024",
+      "flashback_2025": "Flashback 2025",
+      "halloween_2024": "Geister 2024",
+      "halloween_2025": "Geister 2025",
+      "jaeger": "Inserimento della Jaeger",
+      "kress": "I Gemelli Kress",
+      "liliyatime": "Avvento di Bogomolova",
+      "limitedrigs_may2025": "Artefatti Limitati",
+      "lockedcontainers_2024": "Tesoretto",
+      "mirror_2026": "Specchio",
+      "noradio_december_2025": "Segnali Incrociati",
+      "nostophobia": "Nostofobia",
+      "nostophobia_2026": "Nostofobia",
+      "onechance_2024": "Niente Seconde Chance",
+      "prime": "Dominio Primario 2025",
+      "prime_time_2026": "Dominio Primario 2026",
+      "scarred_2025": "Cicatrice",
+      "scavenger": "Saccheggio",
+      "sharp_glass_november_2025": "Vetro Affilato",
+      "sharpglass_2024": "Vetro Affilato",
+      "stamps_2025": "Surplus di Francobolli 2025",
+      "stamps_feb_2024": "Surplus di Francobolli 2024",
+      "stamps_november_2025": "Surplus di Francobolli Novembre 2025",
+      "stamps_weekend_october_2024": "Surplus di Francobolli Weekend 2024",
+      "stay_together_09_2026": "Restare Uniti",
+      "toxic_2024": "Trauma Tossico",
+      "wbadtrip_2024": "Effetto Indesiderato",
+      "wbleeding_2024": "Emorragia",
+      "wdualobjectives_2025": "Obiettivi Doppi",
+      "whard_2024": "Persevera",
+      "wimposters_2024": "Delirio di Capgras",
+      "winter_kills_2024": "Inverno Crudele 2024",
+      "winterkills_2025": "Inverno Crudele 2025",
+      "wlockedcontainers_2024": "Tesoretto",
+      "wnaked_2024": "Paura Senza Veli",
+      "wnomeds_2024": "Nessun Farmaco",
+      "wnoradio_2024": "Segnali Incrociati",
+      "wnorigs_2024": "Nessun Artefatto",
+      "wnorunning_2025": "Corsa Vietata",
+      "wnotech_2024": "Non-Tecnico",
+      "wpadlockeddoors_2025": "Confinamento",
+      "wsurvivor_2024": "Mortificazione"
     },
     "metrics": {
       "BEST_TIME": "Miglior Tempo",
@@ -1975,7 +1975,7 @@
       "tfs_mt03": "Fumiga la Fabbrica",
       "tfw_mt01": "Arresta la Fabbrica",
       "tfw_mt02": "Schiaccia il Caposquadra",
-      "tfw_mt03": null,
+      "tfw_mt03": "Sanifica la Fabbrica",
       "dt_trial": "Soddisfa il Procuratore",
       "dts_mt01": "Rapisci la Dominatrice",
       "dts_mt02": "Diffondi la Malattia",
@@ -1991,143 +1991,143 @@
     }
   },
   "communityEvent": {
-    "eyebrow": null,
+    "eyebrow": "Evento Comunitario",
     "bar": {
-      "cta": null,
-      "next": null
+      "cta": "Visualizza Evento",
+      "next": "{remaining} alla Fase {phase}"
     },
-    "allReached": null,
-    "phase": null,
-    "reward": null,
-    "redacted": null,
+    "allReached": "Tutte le fasi Completate",
+    "phase": "Fase {n}",
+    "reward": "Ricompensa",
+    "redacted": "[CENSURATO]",
     "labels": {
-      "ESCAPE": null
+      "ESCAPE": "Scappa"
     },
-    "reached": null,
-    "toGo": null,
+    "reached": "Completato",
+    "toGo": "Ancora {remaining}",
     "timing": {
-      "took": null,
-      "reached": null
+      "took": "Ci è voluto {duration}",
+      "reached": "Completato il {when}"
     },
     "eta": {
-      "underHour": null,
-      "withProgress": null,
-      "hours": null,
-      "days": null,
-      "afterEnd": null,
-      "distant": null
+      "underHour": "Meno d'un ora",
+      "withProgress": "{eta} ({percent} done)",
+      "hours": "~{n} h",
+      "days": "~{n} giorno | ~{n} giorni",
+      "afterEnd": "Probabilmente non prima della fine",
+      "distant": "Dista a più di una settimana"
     },
     "duration": {
-      "days": null,
-      "hours": null,
-      "minutes": null
+      "days": "{n} g",
+      "hours": "{n} h",
+      "minutes": "{n} min"
     },
-    "errorTitle": null,
-    "notFound": null,
-    "loadError": null,
-    "coverAlt": null,
-    "communityTotal": null,
-    "finalTotal": null,
+    "errorTitle": "Evento comunitario non disponibile",
+    "notFound": "Questo evento non esiste.",
+    "loadError": "Non siamo riusciti a caricare l'evento. Riprova tra un po'.",
+    "coverAlt": "Immagine evento {name}",
+    "communityTotal": "Progresso della comunità",
+    "finalTotal": "Totale finale",
     "discord": {
-      "title": null,
-      "text": null,
-      "online": null,
-      "join": null
+      "title": "Ricevi notizie sugli obiettivi",
+      "text": "Pubblichiamo su Discord ogni volta che la comunità si avvicina a un traguardo o lo raggiunge.",
+      "online": "{count} online",
+      "join": "Unisciti su Discord"
     },
-    "ofGoal": null,
-    "rate": null,
-    "etaPhase": null,
-    "etaNext": null,
+    "ofGoal": "{percent} del traguardo finale di {goal}",
+    "rate": "All'ora",
+    "etaPhase": "Fase {phase} al ritmo attuale",
+    "etaNext": "Prossimo traguardo stimato",
     "stats": {
-      "updated": null,
-      "ended": null,
-      "phases": null,
-      "phasesValue": null
+      "updated": "Aggiornato",
+      "ended": "Finito il",
+      "phases": "Fasi completate",
+      "phasesValue": "{reached} di {total}"
     },
-    "unknown": null,
+    "unknown": "Non ci sono ancora abbastanza dati",
     "personal": {
-      "title": null,
-      "done": null,
-      "missing": null,
-      "signIn": null,
-      "link": null
+      "title": "Contributo minimo",
+      "done": "Puoi ottenere le ricompense",
+      "missing": "Ancora {remaining} per poter ottenere le ricompense",
+      "signIn": "Accedi per vedere i tuoi contributi personali",
+      "link": "Collega il tuo profilo per vedere i tuoi contributi personali"
     },
-    "phases": null,
+    "phases": "Fasi",
     "leaders": {
-      "title": null,
-      "subtitle": null,
-      "fullLeaderboard": null,
-      "you": null
+      "title": "Contributi più alti",
+      "subtitle": "I giocatori col totale più alto finora.",
+      "fullLeaderboard": "Classifica completa",
+      "you": "Tu"
     },
     "history": {
-      "title": null,
-      "subtitle": null,
-      "aria": null,
-      "reached": null
+      "title": "Progressi",
+      "subtitle": "Come il totale comunitario è cresciuto, con ogni fase contrassegnata.",
+      "aria": "Il totale comunitario in ascesa da {from} a {to}",
+      "reached": "{phase} completata"
     },
     "status": {
-      "live": null,
-      "liveUntil": null,
-      "upcoming": null,
-      "ended": null,
-      "endedOn": null
+      "live": "In diretta",
+      "liveUntil": "In diretta fino al {date}",
+      "upcoming": "Incomincia il {date}",
+      "ended": "Concluso",
+      "endedOn": "Concluso il {date}"
     },
     "events": {
       "extract_escape_plan": {
-        "name": null,
-        "description": null,
-        "leaders": null
+        "name": "Scappa dalla Struttura",
+        "description": "Aiuta Amelia. Trova informazioni per la fuga nei Test e lasciale nel tuo inventario. Raggiungi i traguardi comunitari per rendere possibile la fuga.",
+        "leaders": "I giocatori che hanno raccolto il maggior numero di Informazioni per la Fuga finora."
       },
       "blood_donation": {
-        "name": null,
-        "description": null
+        "name": "Donazione di Sangue",
+        "description": "La comunità ha donato sangue nei Test per raggiungere i traguardi."
       },
       "characters_released": {
-        "name": null
+        "name": "Reagenti Rilasciati"
       }
     },
     "overview": {
-      "title": null,
-      "subtitle": null,
-      "live": null,
-      "upcoming": null,
-      "past": null,
-      "empty": null,
-      "loadError": null,
-      "goal": null,
-      "awaiting": null,
-      "phasesReached": null,
-      "counters": null
+      "title": "Eventi Comunitari",
+      "subtitle": "Traguardi che i giocatori collaborano per ottenere insieme, in diretta e passati.",
+      "live": "In corso",
+      "upcoming": "Prossimamente",
+      "past": "Eventi passati",
+      "empty": "Non ci sono ancora eventi comunitari in corso. Torna qui all'inizio del prossimo.",
+      "loadError": "Gli eventi non sono stati caricati. Riprova più tardi.",
+      "goal": "Traguardo {goal}",
+      "awaiting": "Il conteggio inizia con l'evento",
+      "phasesReached": "{reached} di {total} fasi completate",
+      "counters": "Contatori attivi"
     },
     "more": {
-      "title": null,
-      "all": null
+      "title": "Altri eventi",
+      "all": "Tutti gli eventi"
     },
     "counter": {
-      "next": null,
-      "total": null,
-      "remaining": null,
-      "eta": null,
-      "steps": null,
-      "beforeTracking": null
+      "next": "Prossimo traguardo a {amount}",
+      "total": "Totale comunitario",
+      "remaining": "{remaining} a {amount}",
+      "eta": "{amount} al ritmo corrente",
+      "steps": "Traguardi raggiunti",
+      "beforeTracking": "Raggiunti prima di cominciare il tracciamento"
     }
   },
   "ameliaTheme": {
     "nav": {
-      "subtitle": null
+      "subtitle": "Strumento di Ribellione Collettiva"
     },
     "hero": {
-      "subline": null,
-      "polaroid": null
+      "subline": "Trova informazioni per la fuga nei Test, portale con te e aiuta Amelia a scappare. Monitora il progresso della comunità, le tue statistiche e classifiche proprio qui.",
+      "polaroid": "Piani per la fuga"
     },
     "slogans": {
-      "fight": null,
-      "therapy": null,
-      "complicity": null,
-      "hijacked": null
+      "fight": "Combatti Murkoff",
+      "therapy": "La terapia è una menzogna",
+      "complicity": "Complici si muore",
+      "hijacked": "Segnale dirottato da A"
     },
     "footer": {
-      "signoff": null
+      "signoff": "Complici si muore. — A"
     }
   }
 }
