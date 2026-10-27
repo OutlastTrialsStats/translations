@@ -547,7 +547,8 @@
     "trialsDifficulty": "Difficulty",
     "trialsBestTime": "Best Time",
     "trialsCompletions": "Completions",
-    "trialsGroupedMore": "+{count} more",
+    "trialsGroupedShowAll": "All results for this map",
+    "trialsGroupedIgnored": "Not used in grouped mode",
     "hidden": {
       "show": "{count} hidden · Show",
       "hide": "Showing hidden · Hide",
