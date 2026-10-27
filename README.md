@@ -13,8 +13,8 @@ account on a translation platform needed and no developer skills required.
 | Locale | Language | Translated | Complete |
 | ------ | -------- | ---------- | -------- |
 | `en-US` | English (source) | 1452 / 1452 | 100% |
+| `it-IT` | Italian — Italiano | 1441 / 1452 | 99.2% |
 | `zh-CN` | Chinese (Simplified) — 中文 | 1441 / 1452 | 99.2% |
-| `it-IT` | Italian — Italiano | 1096 / 1452 | 75.4% |
 | `ru-RU` | Russian — Русский | 764 / 1452 | 52.6% |
 | `fr-FR` | French — Français | 747 / 1452 | 51.4% |
 | `de-DE` | German — Deutsch | 731 / 1452 | 50.3% |
