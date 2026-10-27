@@ -40,27 +40,27 @@
     "EXTRACTED_INTEL": null
   },
   "sitebar": {
-    "home": null,
-    "leaderboard": null,
-    "badges": null,
-    "roadmap": null,
-    "addAccount": null,
-    "discord": null,
-    "contribute": null,
-    "dataLegal": null,
+    "home": "Ana Sayfa",
+    "leaderboard": "Sıralama",
+    "badges": "Rozetler",
+    "roadmap": "Yol Haritası",
+    "addAccount": "Hesap Ekle",
+    "discord": "Discord Sunucusu",
+    "contribute": "TOTStatsMonitor",
+    "dataLegal": "Gizlilik Politikası",
     "imprint": null,
-    "terms": null,
-    "reporting": null,
-    "explore": null,
+    "terms": "Kullanım Koşulları",
+    "reporting": "Raporlar",
+    "explore": "Keşfet",
     "menu": {
-      "community": null,
-      "siteInfo": null,
-      "reportingDescription": null,
-      "newOn": null,
-      "mapsDescription": null,
-      "studioDescription": null,
-      "events": null,
-      "eventsDescription": null
+      "community": "Topluluk",
+      "siteInfo": "Site Bilgileri",
+      "reportingDescription": "Oyun ve site hakkında üç aylık istatistik raporları",
+      "newOn": "Outlast Trials Stats'te Yeni",
+      "mapsDescription": "Her imtihanın doğma noktaları, anahtarları ve görevleriyle etkileşimli haritaları.",
+      "studioDescription": "En fazla beş Ayıracı 3D olarak giydir ve 4K'ya kadar duvar kâğıdı olarak dışa aktar.",
+      "events": "Etkinlikler",
+      "eventsDescription": "Topluluk etkinliklerinin ilerlemesi, aşamaları ve geçmiş etkinlikler"
     }
   },
   "faqPage": {
@@ -309,86 +309,86 @@
     }
   },
   "home": {
-    "announcement": null,
-    "newTag": null,
+    "announcement": "v4 — {map} ve {skinStudio} yayında",
+    "newTag": "v4'te yeni",
     "hero": {
-      "title": null,
-      "subline": null
+      "title": "The Outlast Trials Stats",
+      "subline": "İstatistikler, sıralamalar, haritalar ve kostümler. Hepsi tek bir yerde."
     },
     "quickLinks": {
-      "leaderboard": null,
-      "badges": null,
-      "compare": null,
-      "map": null,
-      "skinStudio": null
+      "leaderboard": "Sıralamalar",
+      "badges": "Rozetler",
+      "compare": "Karşılaştır",
+      "map": "Harita",
+      "skinStudio": "Reagent Studio"
     },
     "featuredUsers": {
-      "title": null
+      "title": "Öne Çıkan Ayıraçlar"
     },
     "popularOutfits": {
-      "title": null,
-      "subtitle": null,
-      "equipped": null,
-      "viewAll": null
+      "title": "Popüler kıyafetler",
+      "subtitle": "Ayıraçların şu anda en çok giydiği kıyafetler.",
+      "equipped": "Ayıraç",
+      "viewAll": "Tümünü gör"
     },
     "map": {
-      "eyebrow": null,
-      "title": null,
-      "desc": null,
+      "eyebrow": "The Outlast Trials Haritası",
+      "title": "Girmeden önce her odayı tanı",
+      "desc": "Her imtihan için etkileşimli haritalar — odalar, düşman doğma noktaları, anahtarlar, kapılar ve görevler. Ücretsiz tarayıcı düzenleyicisi sayesinde tüm topluluk oyunun haritasını çıkarmaya yardım edebilir.",
       "features": {
-        "trials": null,
-        "spawns": null,
-        "objectives": null,
-        "editor": null
+        "trials": "Tüm imtihanlar",
+        "spawns": "Düşman doğma noktaları",
+        "objectives": "Anahtarlar ve görevler",
+        "editor": "Topluluk düzenleyicisi"
       },
-      "cta": null,
-      "badge": null
+      "cta": "Haritayı Aç",
+      "badge": "Yeni"
     },
     "skinStudio": {
-      "eyebrow": null,
-      "title": null,
-      "desc": null,
+      "eyebrow": "Reagent Studio",
+      "title": "Ayıracın, 3D olarak hayat buluyor",
+      "desc": "Ayıracını istediğin kıyafetle giydir, ifadelerle poz verdir ve tek bir sahnede beşe kadar Ayıracı yan yana diz. Ardından 4K duvar kâğıdı, GIF ya da paylaşım bağlantısı olarak dışa aktar.",
       "features": {
-        "outfits": null,
-        "emotes": null,
-        "group": null,
-        "export": null
+        "outfits": "1.400+ kıyafet ve eşya",
+        "emotes": "İfadeler ve pozlar",
+        "group": "5 Ayıraca kadar",
+        "export": "4K duvar kâğıtları ve GIF'ler"
       },
-      "cta": null,
-      "badge": null
+      "cta": "Reagent Studio'yu Aç",
+      "badge": "Yeni"
     },
     "monitor": {
-      "eyebrow": null,
-      "title": null,
-      "desc": null,
+      "eyebrow": "TOTStatsMonitor",
+      "title": "İmtihanın, Discord'da canlı",
+      "desc": "Masaüstü yardımcı uygulamamız, içinde bulunduğun imtihanı Discord profilinde gösterir, sen oynarken yeni oyuncuları keşfetmemize yardımcı olur ve sana katkıcı rozetini kazandırır.",
       "features": {
-        "presence": null,
-        "discover": null,
-        "badge": null
+        "presence": "Discord durumu",
+        "discover": "Yeni oyuncuları keşfet",
+        "badge": "Katkıcı rozeti"
       },
-      "cta": null
+      "cta": "Daha fazla bilgi"
     },
     "discordBot": {
-      "eyebrow": null,
-      "title": null,
-      "desc": null,
-      "cta": null,
-      "autoRoles": null,
-      "liveRankings": null
+      "eyebrow": "Discord Botu",
+      "title": "İstatistiklerini Discord'a taşı",
+      "desc": "Oyun içi ilerlemene göre otomatik roller ve doğrudan sunucu kanallarında canlı sıralamalar.",
+      "cta": "Botu ekle",
+      "autoRoles": "Otomatik rol atama",
+      "liveRankings": "Kanallarda canlı"
     },
     "statsBand": {
-      "title": null,
-      "subtitle": null
+      "title": "Rakamlarla İmtihanlar",
+      "subtitle": "Takip edilen tüm hesaplardaki canlı toplamlar."
     },
-    "community": null,
-    "faqHint": null,
-    "faqLink": null,
-    "topPlayers": null,
+    "community": "Topluluk",
+    "faqHint": "Takip, güncellemeler veya profilin hakkında soruların mı var?",
+    "faqLink": "SSS'yi oku",
+    "topPlayers": "En İyi Oyuncular",
     "errors": {
-      "statsTitle": null,
-      "statsMessage": null,
-      "topPlayersTitle": null,
-      "topPlayersMessage": null
+      "statsTitle": "İstatistikler kullanılamıyor",
+      "statsMessage": "Site istatistiklerini şu anda yükleyemedik. Lütfen birazdan tekrar dene.",
+      "topPlayersTitle": "En iyi oyuncular kullanılamıyor",
+      "topPlayersMessage": "En iyi oyuncuları şu anda yükleyemedik. Lütfen birazdan tekrar dene."
     }
   },
   "leaderboard": {
@@ -489,16 +489,16 @@
     }
   },
   "siteFooter": {
-    "brandDesc": null,
-    "notPartnered": null,
-    "trademarks": null,
-    "ariaDiscord": null,
-    "ariaInstagram": null,
-    "ariaX": null,
+    "brandDesc": "The Outlast Trials istatistikleri, sıralamaları, etkinlikleri ve oyuncu profilleri için yol arkadaşın.",
+    "notPartnered": "TOTStats resmî olmayan bir hayran projesidir; Red Barrels Inc. ile bağlantılı değildir, Red Barrels Inc. tarafından onaylanmamış veya desteklenmemiştir.",
+    "trademarks": "“The Outlast Trials” ve “Outlast”, Red Barrels Inc.'in ticari markalarıdır. Diğer tüm ticari markalar ve telif hakları ilgili sahiplerine aittir.",
+    "ariaDiscord": "Discord'a katıl",
+    "ariaInstagram": "Instagram'da takip et",
+    "ariaX": "X'te takip et",
     "columns": {
-      "pages": null,
-      "community": null,
-      "legal": null
+      "pages": "Sayfalar",
+      "community": "Topluluk",
+      "legal": "Yasal"
     }
   },
   "shopPacks": {
@@ -1584,11 +1584,11 @@
     }
   },
   "common": {
-    "cancel": null,
-    "save": null,
-    "loading": null,
-    "retry": null,
-    "scrollToTop": null
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "loading": "Yükleniyor...",
+    "retry": "Tekrar dene",
+    "scrollToTop": "Başa dön"
   },
   "trials": {
     "familyOther": null,
