@@ -12,15 +12,16 @@ account on a translation platform needed and no developer skills required.
 <!-- BEGIN COMPLETENESS TABLE -->
 | Locale | Language | Translated | Complete |
 | ------ | -------- | ---------- | -------- |
-| `en-US` | English (source) | 1452 / 1452 | 100% |
-| `it-IT` | Italian — Italiano | 1441 / 1452 | 99.2% |
-| `zh-CN` | Chinese (Simplified) — 中文 | 1441 / 1452 | 99.2% |
-| `ru-RU` | Russian — Русский | 764 / 1452 | 52.6% |
-| `fr-FR` | French — Français | 747 / 1452 | 51.4% |
-| `de-DE` | German — Deutsch | 731 / 1452 | 50.3% |
-| `es-ES` | Spanish — Español | 726 / 1452 | 50% |
-| `pl-PL` | Polish — Polski | 674 / 1452 | 46.4% |
-| `ar-SA` | Arabic — العربية | 661 / 1452 | 45.5% |
+| `en-US` | English (source) | 1453 / 1453 | 100% |
+| `it-IT` | Italian — Italiano | 1440 / 1453 | 99.1% |
+| `zh-CN` | Chinese (Simplified) — 中文 | 1440 / 1453 | 99.1% |
+| `ru-RU` | Russian — Русский | 763 / 1453 | 52.5% |
+| `fr-FR` | French — Français | 746 / 1453 | 51.3% |
+| `de-DE` | German — Deutsch | 730 / 1453 | 50.2% |
+| `es-ES` | Spanish — Español | 726 / 1453 | 49.9% |
+| `pl-PL` | Polish — Polski | 674 / 1453 | 46.3% |
+| `ar-SA` | Arabic — العربية | 661 / 1453 | 45.4% |
+| `tr-TR` | Turkish — Türkçe | 0 / 1453 | 0% |
 <!-- END COMPLETENESS TABLE -->
 
 Anything that is not translated yet (`null`) shows up in English on the website, so an incomplete language never
