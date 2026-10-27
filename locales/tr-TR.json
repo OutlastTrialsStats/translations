@@ -415,7 +415,8 @@
     "trialsDifficulty": null,
     "trialsBestTime": null,
     "trialsCompletions": null,
-    "trialsGroupedMore": null,
+    "trialsGroupedShowAll": null,
+    "trialsGroupedIgnored": null,
     "hidden": {
       "show": null,
       "hide": null,
