@@ -547,7 +547,8 @@
     "trialsDifficulty": "难度",
     "trialsBestTime": "最佳时间",
     "trialsCompletions": "完成次数",
-    "trialsGroupedMore": "其余{count}项",
+    "trialsGroupedShowAll": null,
+    "trialsGroupedIgnored": null,
     "hidden": {
       "show": "{count} 项已隐藏 · 显示",
       "hide": "正在显示隐藏项 · 隐藏",

@@ -547,7 +547,8 @@
     "trialsDifficulty": "الصعوبة",
     "trialsBestTime": "أفضل وقت",
     "trialsCompletions": "الإكمالات",
-    "trialsGroupedMore": null,
+    "trialsGroupedShowAll": null,
+    "trialsGroupedIgnored": null,
     "hidden": {
       "show": null,
       "hide": null,

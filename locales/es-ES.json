@@ -547,7 +547,8 @@
     "trialsDifficulty": "Dificultad",
     "trialsBestTime": "Mejor tiempo",
     "trialsCompletions": "Finalizaciones",
-    "trialsGroupedMore": null,
+    "trialsGroupedShowAll": null,
+    "trialsGroupedIgnored": null,
     "hidden": {
       "show": null,
       "hide": null,
