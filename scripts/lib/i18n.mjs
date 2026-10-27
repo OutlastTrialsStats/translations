@@ -13,7 +13,8 @@ export const LANGUAGE_NAMES = {
   'it-IT': 'Italian — Italiano',
   'es-ES': 'Spanish — Español',
   'pl-PL': 'Polish — Polski',
-  'ar-SA': 'Arabic — العربية'
+  'ar-SA': 'Arabic — العربية',
+  'tr-TR': 'Turkish — Türkçe'
 }
 
 const PLACEHOLDER = /\{\s*[a-zA-Z0-9_$]+\s*\}/g
