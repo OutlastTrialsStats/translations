@@ -502,10 +502,10 @@
     }
   },
   "shopPacks": {
-    "loadFailTitle": null,
-    "loadFailMessage": null,
-    "emptyState": null,
-    "purchasedTitle": null
+    "loadFailTitle": "Yüklenemedi",
+    "loadFailMessage": "Bu oyuncunun mağaza paketi verilerini alamadık. Lütfen daha sonra tekrar dene.",
+    "emptyState": "Henüz satın alınmış mağaza paketi yok",
+    "purchasedTitle": "Satın Alınan Mağaza Paketleri"
   },
   "reagentViewer": {
     "hide": null,
@@ -537,16 +537,16 @@
     "bodyFemale": null
   },
   "reagentList": {
-    "title": null,
-    "notOwnedCosmetic": null,
-    "notOwnedBadge": null,
-    "showMore": null,
-    "limitReached": null
+    "title": "Ayıraçlar",
+    "notOwnedCosmetic": "Bu kozmetik şu anda hiçbir kullanıcıda yok.",
+    "notOwnedBadge": "Bu rozet şu anda hiçbir kullanıcıda yok.",
+    "showMore": "Daha fazla göster",
+    "limitReached": "Yalnızca ilk {count} sahip gösterilebilir."
   },
   "badges": {
-    "subtitle": null,
-    "retiredTitle": null,
-    "retired": null
+    "subtitle": "Başarımlarını topla ve sergile",
+    "retiredTitle": "Artık Verilmiyor",
+    "retired": "Oyun artık bu bilgiyi sağlamadığı için bu rozet artık verilmiyor."
   },
   "addAccount": {
     "title": null,
@@ -573,13 +573,13 @@
     "processing": null
   },
   "maintenance": {
-    "eyebrow": null,
-    "status": null,
-    "title": null,
-    "reassurance": null,
-    "autoCheck": null,
-    "discordPrompt": null,
-    "fallbackMessage": null
+    "eyebrow": "Murkoff // Sistem Durumu",
+    "status": "Bakım nedeniyle çevrim dışı",
+    "title": "Bakımda",
+    "reassurance": "Aracı geliştirirken gösterdiğin sabır için teşekkürler.",
+    "autoCheck": "Durum otomatik olarak kontrol ediliyor…",
+    "discordPrompt": "Daha fazla bilgi mi lazım? Discord sunucumuza katıl.",
+    "fallbackMessage": "Şu anda bakım yapıyoruz. Lütfen kısa süre sonra tekrar kontrol et."
   },
   "notFoundPage": {
     "eyebrow": null,
@@ -940,12 +940,12 @@
     "clear": null
   },
   "platform": {
-    "STEAM": null,
-    "PSN": null,
-    "XBOX": null,
-    "EPIC_GAMES": null,
-    "NINTENDO": null,
-    "ALL": null
+    "STEAM": "Steam",
+    "PSN": "Playstation",
+    "XBOX": "Xbox",
+    "EPIC_GAMES": "Epic Games",
+    "NINTENDO": "Nintendo",
+    "ALL": "Tümü"
   },
   "roadmap": {
     "title": null,
