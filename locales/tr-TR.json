@@ -432,24 +432,24 @@
   "moderation": {
     "reasons": {
       "BOTTING": {
-        "label": null,
-        "description": null
+        "label": "Bot kullanımı",
+        "description": "İstatistikler oynanarak değil; bot, makro veya script gibi otomatik oyunla elde edildi."
       },
       "CHEATING": {
-        "label": null,
-        "description": null
+        "label": "Hile",
+        "description": "İstatistikler hile yapılarak elde edildi; örneğin hile araçları, değiştirilmiş oyun dosyaları ya da açık ve hataların kötüye kullanılmasıyla."
       },
       "DATA_ERROR": {
-        "label": null,
-        "description": null
+        "label": "Veri hatası",
+        "description": "Bu profilin istatistikleri, oyun verilerindeki ya da bizim tarafımızdaki bir hata nedeniyle yanlış. Oyuncunun bir suçu yok."
       }
     },
     "excludedResult": {
-      "label": null,
-      "description": null
+      "label": "Hariç tutulan sonuç",
+      "description": "Bu sonuç ekibimiz tarafından sıralamadan kaldırıldı; örneğin bir açıktan yararlanıldığı ya da süre hatalı kaydedildiği için."
     },
-    "notRanked": null,
-    "notRankedTooltip": null
+    "notRanked": "Sıralamada değil",
+    "notRankedTooltip": "Bu profil sıralamalarda gizli olduğu için bir sırası yok."
   },
   "cosmetics": {
     "ALL": null,
@@ -948,19 +948,19 @@
     "ALL": "Tümü"
   },
   "roadmap": {
-    "title": null,
-    "subtitle": null,
-    "noEntries": null,
-    "showDetails": null,
+    "title": "Yol Haritası",
+    "subtitle": "The Outlast Trials yol haritası",
+    "noEntries": "Yol haritasında kayıt bulunamadı",
+    "showDetails": "Ayrıntıları göster",
     "status": {
-      "inProgress": null,
-      "planned": null
+      "inProgress": "Devam Ediyor",
+      "planned": "Planlandı"
     },
     "labels": {
-      "official": null,
-      "unofficial": null
+      "official": "Resmî",
+      "unofficial": "Sızıntı"
     },
-    "features": null
+    "features": "Özellik Anahtarları:"
   },
   "compare": {
     "title": null,
@@ -997,22 +997,22 @@
   "otherPages": {
     "cards": {
       "roadmap": {
-        "description": null
+        "description": "Geliştirme yol haritasını ve yaklaşan güncellemeleri görüntüle"
       },
       "gameassets": {
-        "title": null,
-        "description": null
+        "title": "Oyun Dosyaları",
+        "description": "The Outlast Trials oyununun dosyalarını keşfet"
       },
       "translate": {
-        "title": null,
-        "description": null
+        "title": "Çeviriye Yardım Et",
+        "description": "Outlast Trials Stats'i kendi diline çevirmemize GitHub üzerinden yardım et"
       },
       "contribute": {
-        "description": null
+        "description": "Discord Rich Presence desteğine sahip, yeni oyuncular bulmamıza da yardımcı olan yardımcı uygulama"
       },
       "discordBot": {
-        "title": null,
-        "description": null
+        "title": "Futterman'ın Radyosu",
+        "description": "Rolleri otomatik ata, takma adları senkronize et ve sıralamaları göster"
       }
     }
   },
