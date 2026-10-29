@@ -1531,56 +1531,56 @@
     }
   },
   "discordBot": {
-    "title": null,
+    "title": "Futterman'ın Radyosu",
     "hero": {
-      "eyebrow": null,
-      "rolesEyebrow": null,
-      "leaderboardEyebrow": null
+      "eyebrow": "Discord Botu",
+      "rolesEyebrow": "Roller",
+      "leaderboardEyebrow": "Sıralamalar"
     },
     "commands": {
-      "title": null,
-      "subtitle": null,
-      "admin": null,
-      "setupStart": null,
-      "syncProfile": null,
-      "leaderboard": null,
-      "setupLeaderboard": null
+      "title": "Komutlar",
+      "subtitle": "Başlamak için birkaç eğik çizgi komutu yeterli.",
+      "admin": "Sadece yöneticiler",
+      "setupStart": "Sunucun için temel rol kurulumunda sana adım adım yol gösterir.",
+      "syncProfile": "Rollerini en güncel istatistiklerine göre günceller.",
+      "leaderboard": "Herhangi bir istatistik kategorisinin sıralamasını sayfa sayfa gösterir.",
+      "setupLeaderboard": "Bir kanala her saat yenilenen bir sıralama gönderir."
     },
     "invite": {
-      "desc": null,
-      "addBot": null,
-      "viewSource": null
+      "desc": "The Outlast Trials oyuncu istatistiklerine göre otomatik rol atayan, takma adları senkronize eden ve sıralamaları gösteren bir Discord botu.",
+      "addBot": "Sunucuya Ekle",
+      "viewSource": "GitHub'da Görüntüle"
     },
     "features": {
       "roles": {
-        "title": null,
-        "desc": null,
-        "categoriesTitle": null,
-        "autoTitle": null,
-        "autoDesc": null,
-        "syncTitle": null,
-        "syncDesc": null,
-        "customTitle": null,
-        "customDesc": null
+        "title": "Rol Atama",
+        "desc": "Bot, sunucu üyelerine Outlast Trials istatistiklerine göre otomatik olarak Discord rolleri atar. Oyuncular prestijlerine, seviyelerine, teçhizatlarına, İstila sıralamalarına ve daha fazlasına uygun roller alır. Roller, senkronize ettiklerinde ya da sunucuya katıldıklarında anında güncellenir.",
+        "categoriesTitle": "Desteklenen Kategoriler",
+        "autoTitle": "Otomatik katıl",
+        "autoDesc": "Doğrulanmış üyeler sunucuna katıldıklarında rollerini otomatik olarak alır.",
+        "syncTitle": "İstediğin zaman senkronize et",
+        "syncDesc": "Oyuncular rollerini istedikleri zaman güncelleyebilir ya da yöneticiler tüm üyeleri tek seferde senkronize edebilir.",
+        "customTitle": "Tamamen özelleştirilebilir",
+        "customDesc": "Kendi rollerini kategorilere eşleştir ya da botun senin için oluşturmasına izin ver. Bot mesajlarını kendi çevirilerinle özelleştir."
       },
       "leaderboard": {
-        "title": null,
-        "desc": null,
-        "autoTitle": null,
-        "autoDesc": null,
-        "onDemandTitle": null,
-        "onDemandDesc": null
+        "title": "Sıralama",
+        "desc": "Canlı istatistik sıralamalarını doğrudan Discord kanallarında göster. Her saat otomatik güncellenen kalıcı bir sıralama kur ya da oyuncuların sıralamalara istedikleri zaman bir eğik çizgi komutuyla bakmasını sağla.",
+        "autoTitle": "Otomatik güncellenen kanallar",
+        "autoDesc": "Herhangi bir kanala bir sıralama sabitle, en güncel verilerle her saat yenilensin.",
+        "onDemandTitle": "İstek üzerine sıralamalar",
+        "onDemandDesc": "Oyuncular herhangi bir sıralama kategorisine sayfalama desteğiyle bir eğik çizgi komutu üzerinden bakabilir."
       },
       "nameSync": {
-        "autoTitle": null,
-        "autoDesc": null
+        "autoTitle": "İsim senkronizasyonu",
+        "autoDesc": "Outlast Trials profil adını Discord takma adınla otomatik olarak senkronize et."
       }
     },
     "selfHost": {
-      "title": null,
-      "desc": null,
-      "openSource": null,
-      "viewDocs": null
+      "title": "Kendi Sunucunda Barındırma ve Açık Kaynak",
+      "desc": "Bot tamamen açık kaynaklıdır ve Docker ile PostgreSQL kullanılarak kendi sunucunda barındırılabilir. Kurulum talimatları için GitHub deposuna göz at.",
+      "openSource": "Açık Kaynak",
+      "viewDocs": "Belgeleri görüntüle"
     }
   },
   "common": {
