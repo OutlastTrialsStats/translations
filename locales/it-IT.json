@@ -547,8 +547,8 @@
     "trialsDifficulty": "Difficoltà",
     "trialsBestTime": "Miglior Tempo",
     "trialsCompletions": "Completamenti",
-    "trialsGroupedShowAll": null,
-    "trialsGroupedIgnored": null,
+    "trialsGroupedShowAll": "Tutti i risultati di questa mappa",
+    "trialsGroupedIgnored": "Non usato in modalità raggruppata",
     "hidden": {
       "show": "{count} nascosti · Mostra",
       "hide": "Mostrando nascosti · Nascondi",
@@ -753,7 +753,7 @@
         "MONTH": "Online questo mese",
         "OVER_MONTH": "Ultima volta online oltre un mese fa"
       },
-      "statsUpdated": "Statistiche aggiornate il: {time}",
+      "statsUpdated": "Statistiche aggiornate: {time}",
       "addFavorite": "Aggiungi ai preferiti",
       "removeFavorite": "Rimuovi dai preferiti",
       "favorite": "Preferito",
@@ -1842,7 +1842,7 @@
       "Rigs_InfiniteCooldown": "Riavvio Artefatti",
       "RollingGates_CloseAfterPassage": "Isolamento",
       "RollingGates_Unlockable": "Saracinesche a Controllo Remoto",
-      "SanitizationProcess": "",
+      "SanitizationProcess": "Trauma Tossico",
       "SoundTraps": "Trappole Sonore Aggiuntive",
       "StrongerEnemies2": "Nemici Potenti II",
       "TogetherWeAreStronger": "L'Unione fa la Forza",
@@ -1919,13 +1919,13 @@
       "next": "{remaining} alla Fase {phase}"
     },
     "countdown": {
-      "title": null,
-      "remaining": null,
-      "etaLabel": null,
-      "progress": null,
-      "compact": null,
-      "reached": null,
-      "next": null
+      "title": "Fino a {target}",
+      "remaining": "Informazioni sulla Fuga ancora da raccogliere",
+      "etaLabel": "Previsti",
+      "progress": "{percent} completo",
+      "compact": "{remaining} a {target} · {eta}",
+      "reached": "{target} raggiunta",
+      "next": "Prossima · {phase}"
     },
     "allReached": "Tutte le fasi Completate",
     "phase": "Fase {n}",
@@ -1941,11 +1941,11 @@
       "reached": "Completato il {when}"
     },
     "eta": {
-      "imminent": null,
-      "minutes": null,
-      "withProgress": "{eta} ({percent} done)",
+      "imminent": "A momenti",
+      "minutes": "~{n} min",
+      "withProgress": "{eta} ({percent} completo)",
       "hours": "~{n} h",
-      "hoursMinutes": null,
+      "hoursMinutes": "~{h} h {m} min",
       "days": "~{n} giorno | ~{n} giorni",
       "afterEnd": "Probabilmente non prima della fine",
       "distant": "Dista a più di una settimana"
@@ -2010,7 +2010,7 @@
         "name": "Scappa dalla Struttura",
         "description": "Aiuta Amelia. Trova informazioni per la fuga nei Test e lasciale nel tuo inventario. Raggiungi i traguardi comunitari per rendere possibile la fuga.",
         "leaders": "I giocatori che hanno raccolto il maggior numero di Informazioni per la Fuga finora.",
-        "reached": null
+        "reached": "SCAPPA! ORA!"
       },
       "blood_donation": {
         "name": "Donazione di Sangue",
