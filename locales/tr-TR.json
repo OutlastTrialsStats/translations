@@ -40,27 +40,27 @@
     "EXTRACTED_INTEL": null
   },
   "sitebar": {
-    "home": null,
-    "leaderboard": null,
-    "badges": null,
-    "roadmap": null,
-    "addAccount": null,
-    "discord": null,
-    "contribute": null,
-    "dataLegal": null,
-    "imprint": null,
-    "terms": null,
-    "reporting": null,
-    "explore": null,
+    "home": "Ana Sayfa",
+    "leaderboard": "Sıralama",
+    "badges": "Rozetler",
+    "roadmap": "Yol Haritası",
+    "addAccount": "Hesap Ekle",
+    "discord": "Discord Sunucusu",
+    "contribute": "TOTStatsMonitor",
+    "dataLegal": "Gizlilik Politikası",
+    "imprint": "Yasal Bilgiler",
+    "terms": "Kullanım Koşulları",
+    "reporting": "Raporlar",
+    "explore": "Keşfet",
     "menu": {
-      "community": null,
-      "siteInfo": null,
-      "reportingDescription": null,
-      "newOn": null,
-      "mapsDescription": null,
-      "studioDescription": null,
-      "events": null,
-      "eventsDescription": null
+      "community": "Topluluk",
+      "siteInfo": "Site Bilgileri",
+      "reportingDescription": "Oyun ve site hakkında üç aylık istatistik raporları",
+      "newOn": "Outlast Trials Stats'te Yeni",
+      "mapsDescription": "Her imtihanın doğma noktaları, anahtarları ve görevleriyle etkileşimli haritaları.",
+      "studioDescription": "En fazla beş Ayıracı 3D olarak giydir ve 4K'ya kadar duvar kâğıdı olarak dışa aktar.",
+      "events": "Etkinlikler",
+      "eventsDescription": "Topluluk etkinliklerinin ilerlemesi, aşamaları ve geçmiş etkinlikler"
     }
   },
   "faqPage": {
@@ -309,86 +309,86 @@
     }
   },
   "home": {
-    "announcement": null,
-    "newTag": null,
+    "announcement": "v4 — {map} ve {skinStudio} yayında",
+    "newTag": "v4'te yeni",
     "hero": {
-      "title": null,
-      "subline": null
+      "title": "The Outlast Trials Stats",
+      "subline": "İstatistikler, sıralamalar, haritalar ve kostümler. Hepsi tek bir yerde."
     },
     "quickLinks": {
-      "leaderboard": null,
-      "badges": null,
-      "compare": null,
-      "map": null,
-      "skinStudio": null
+      "leaderboard": "Sıralamalar",
+      "badges": "Rozetler",
+      "compare": "Karşılaştır",
+      "map": "Harita",
+      "skinStudio": "Reagent Studio"
     },
     "featuredUsers": {
-      "title": null
+      "title": "Öne Çıkan Ayıraçlar"
     },
     "popularOutfits": {
-      "title": null,
-      "subtitle": null,
-      "equipped": null,
-      "viewAll": null
+      "title": "Popüler kıyafetler",
+      "subtitle": "Ayıraçların şu anda en çok giydiği kıyafetler.",
+      "equipped": "Ayıraç",
+      "viewAll": "Tümünü gör"
     },
     "map": {
-      "eyebrow": null,
-      "title": null,
-      "desc": null,
+      "eyebrow": "The Outlast Trials Haritası",
+      "title": "Girmeden önce her odayı tanı",
+      "desc": "Her imtihan için etkileşimli haritalar — odalar, düşman doğma noktaları, anahtarlar, kapılar ve görevler. Ücretsiz tarayıcı düzenleyicisi sayesinde tüm topluluk oyunun haritasını çıkarmaya yardım edebilir.",
       "features": {
-        "trials": null,
-        "spawns": null,
-        "objectives": null,
-        "editor": null
+        "trials": "Tüm imtihanlar",
+        "spawns": "Düşman doğma noktaları",
+        "objectives": "Anahtarlar ve görevler",
+        "editor": "Topluluk düzenleyicisi"
       },
-      "cta": null,
-      "badge": null
+      "cta": "Haritayı Aç",
+      "badge": "Yeni"
     },
     "skinStudio": {
-      "eyebrow": null,
-      "title": null,
-      "desc": null,
+      "eyebrow": "Reagent Studio",
+      "title": "Ayıracın, 3D olarak hayat buluyor",
+      "desc": "Ayıracını istediğin kıyafetle giydir, ifadelerle poz verdir ve tek bir sahnede beşe kadar Ayıracı yan yana diz. Ardından 4K duvar kâğıdı, GIF ya da paylaşım bağlantısı olarak dışa aktar.",
       "features": {
-        "outfits": null,
-        "emotes": null,
-        "group": null,
-        "export": null
+        "outfits": "1.400+ kıyafet ve eşya",
+        "emotes": "İfadeler ve pozlar",
+        "group": "5 Ayıraca kadar",
+        "export": "4K duvar kâğıtları ve GIF'ler"
       },
-      "cta": null,
-      "badge": null
+      "cta": "Reagent Studio'yu Aç",
+      "badge": "Yeni"
     },
     "monitor": {
-      "eyebrow": null,
-      "title": null,
-      "desc": null,
+      "eyebrow": "TOTStatsMonitor",
+      "title": "İmtihanın, Discord'da canlı",
+      "desc": "Masaüstü yardımcı uygulamamız, içinde bulunduğun imtihanı Discord profilinde gösterir, sen oynarken yeni oyuncuları keşfetmemize yardımcı olur ve sana katkıcı rozetini kazandırır.",
       "features": {
-        "presence": null,
-        "discover": null,
-        "badge": null
+        "presence": "Discord durumu",
+        "discover": "Yeni oyuncuları keşfet",
+        "badge": "Katkıcı rozeti"
       },
-      "cta": null
+      "cta": "Daha fazla bilgi"
     },
     "discordBot": {
-      "eyebrow": null,
-      "title": null,
-      "desc": null,
-      "cta": null,
-      "autoRoles": null,
-      "liveRankings": null
+      "eyebrow": "Discord Botu",
+      "title": "İstatistiklerini Discord'a taşı",
+      "desc": "Oyun içi ilerlemene göre otomatik roller ve doğrudan sunucu kanallarında canlı sıralamalar.",
+      "cta": "Botu ekle",
+      "autoRoles": "Otomatik rol atama",
+      "liveRankings": "Kanallarda canlı"
     },
     "statsBand": {
-      "title": null,
-      "subtitle": null
+      "title": "Rakamlarla İmtihanlar",
+      "subtitle": "Takip edilen tüm hesaplardaki canlı toplamlar."
     },
-    "community": null,
-    "faqHint": null,
-    "faqLink": null,
-    "topPlayers": null,
+    "community": "Topluluk",
+    "faqHint": "Takip, güncellemeler veya profilin hakkında soruların mı var?",
+    "faqLink": "SSS'yi oku",
+    "topPlayers": "En İyi Oyuncular",
     "errors": {
-      "statsTitle": null,
-      "statsMessage": null,
-      "topPlayersTitle": null,
-      "topPlayersMessage": null
+      "statsTitle": "İstatistikler kullanılamıyor",
+      "statsMessage": "Site istatistiklerini şu anda yükleyemedik. Lütfen birazdan tekrar dene.",
+      "topPlayersTitle": "En iyi oyuncular kullanılamıyor",
+      "topPlayersMessage": "En iyi oyuncuları şu anda yükleyemedik. Lütfen birazdan tekrar dene."
     }
   },
   "leaderboard": {
@@ -432,24 +432,24 @@
   "moderation": {
     "reasons": {
       "BOTTING": {
-        "label": null,
-        "description": null
+        "label": "Bot kullanımı",
+        "description": "İstatistikler oynanarak değil; bot, makro veya script gibi otomatik oyunla elde edildi."
       },
       "CHEATING": {
-        "label": null,
-        "description": null
+        "label": "Hile",
+        "description": "İstatistikler hile yapılarak elde edildi; örneğin hile araçları, değiştirilmiş oyun dosyaları ya da açık ve hataların kötüye kullanılmasıyla."
       },
       "DATA_ERROR": {
-        "label": null,
-        "description": null
+        "label": "Veri hatası",
+        "description": "Bu profilin istatistikleri, oyun verilerindeki ya da bizim tarafımızdaki bir hata nedeniyle yanlış. Oyuncunun bir suçu yok."
       }
     },
     "excludedResult": {
-      "label": null,
-      "description": null
+      "label": "Hariç tutulan sonuç",
+      "description": "Bu sonuç ekibimiz tarafından sıralamadan kaldırıldı; örneğin bir açıktan yararlanıldığı ya da süre hatalı kaydedildiği için."
     },
-    "notRanked": null,
-    "notRankedTooltip": null
+    "notRanked": "Sıralamada değil",
+    "notRankedTooltip": "Bu profil sıralamalarda gizli olduğu için bir sırası yok."
   },
   "cosmetics": {
     "ALL": null,
@@ -489,23 +489,23 @@
     }
   },
   "siteFooter": {
-    "brandDesc": null,
-    "notPartnered": null,
-    "trademarks": null,
-    "ariaDiscord": null,
-    "ariaInstagram": null,
-    "ariaX": null,
+    "brandDesc": "The Outlast Trials istatistikleri, sıralamaları, etkinlikleri ve oyuncu profilleri için yol arkadaşın.",
+    "notPartnered": "TOTStats resmî olmayan bir hayran projesidir; Red Barrels Inc. ile bağlantılı değildir, Red Barrels Inc. tarafından onaylanmamış veya desteklenmemiştir.",
+    "trademarks": "“The Outlast Trials” ve “Outlast”, Red Barrels Inc.'in ticari markalarıdır. Diğer tüm ticari markalar ve telif hakları ilgili sahiplerine aittir.",
+    "ariaDiscord": "Discord'a katıl",
+    "ariaInstagram": "Instagram'da takip et",
+    "ariaX": "X'te takip et",
     "columns": {
-      "pages": null,
-      "community": null,
-      "legal": null
+      "pages": "Sayfalar",
+      "community": "Topluluk",
+      "legal": "Yasal"
     }
   },
   "shopPacks": {
-    "loadFailTitle": null,
-    "loadFailMessage": null,
-    "emptyState": null,
-    "purchasedTitle": null
+    "loadFailTitle": "Yüklenemedi",
+    "loadFailMessage": "Bu oyuncunun mağaza paketi verilerini alamadık. Lütfen daha sonra tekrar dene.",
+    "emptyState": "Henüz satın alınmış mağaza paketi yok",
+    "purchasedTitle": "Satın Alınan Mağaza Paketleri"
   },
   "reagentViewer": {
     "hide": null,
@@ -537,16 +537,16 @@
     "bodyFemale": null
   },
   "reagentList": {
-    "title": null,
-    "notOwnedCosmetic": null,
-    "notOwnedBadge": null,
-    "showMore": null,
-    "limitReached": null
+    "title": "Ayıraçlar",
+    "notOwnedCosmetic": "Bu kozmetik şu anda hiçbir kullanıcıda yok.",
+    "notOwnedBadge": "Bu rozet şu anda hiçbir kullanıcıda yok.",
+    "showMore": "Daha fazla göster",
+    "limitReached": "Yalnızca ilk {count} sahip gösterilebilir."
   },
   "badges": {
-    "subtitle": null,
-    "retiredTitle": null,
-    "retired": null
+    "subtitle": "Başarımlarını topla ve sergile",
+    "retiredTitle": "Artık Verilmiyor",
+    "retired": "Oyun artık bu bilgiyi sağlamadığı için bu rozet artık verilmiyor."
   },
   "addAccount": {
     "title": null,
@@ -573,31 +573,31 @@
     "processing": null
   },
   "maintenance": {
-    "eyebrow": null,
-    "status": null,
-    "title": null,
-    "reassurance": null,
-    "autoCheck": null,
-    "discordPrompt": null,
-    "fallbackMessage": null
+    "eyebrow": "Murkoff // Sistem Durumu",
+    "status": "Bakım nedeniyle çevrim dışı",
+    "title": "Bakımda",
+    "reassurance": "Aracı geliştirirken gösterdiğin sabır için teşekkürler.",
+    "autoCheck": "Durum otomatik olarak kontrol ediliyor…",
+    "discordPrompt": "Daha fazla bilgi mi lazım? Discord sunucumuza katıl.",
+    "fallbackMessage": "Şu anda bakım yapıyoruz. Lütfen kısa süre sonra tekrar kontrol et."
   },
   "notFoundPage": {
-    "eyebrow": null,
-    "title": null,
-    "desc": null,
-    "home": null,
-    "back": null,
-    "linksLabel": null,
-    "linksTitle": null,
+    "eyebrow": "Hata 404",
+    "title": "Bu sayfa imtihandan kaçtı",
+    "desc": "Aradığın sayfa yok, taşınmış ya da Sinyala tesisinden hiç çıkamamış.",
+    "home": "Ana sayfaya dön",
+    "back": "Geri dön",
+    "linksLabel": "Popüler sayfalar",
+    "linksTitle": "Ya da buradan devam et",
     "links": {
-      "search": null,
-      "searchDesc": null,
-      "leaderboard": null,
-      "leaderboardDesc": null,
-      "badges": null,
-      "badgesDesc": null,
-      "events": null,
-      "eventsDesc": null
+      "search": "Oyuncu ara",
+      "searchDesc": "Herhangi bir Ayıracı bul",
+      "leaderboard": "Sıralamalar",
+      "leaderboardDesc": "Her kategorideki en iyi oyuncular",
+      "badges": "Rozetler",
+      "badgesDesc": "Toplanabilir tüm rozetler",
+      "events": "Topluluk etkinlikleri",
+      "eventsDesc": "Canlı topluluk hedefleri"
     }
   },
   "profile": {
@@ -913,54 +913,54 @@
     }
   },
   "profileSearch": {
-    "title": null,
-    "subtitle": null,
-    "searchButton": null,
-    "resultsCount": null,
-    "showWithoutName": null,
-    "noName": null,
-    "platformFilter": null
+    "title": "Profil Arama",
+    "subtitle": "Tüm platformlardaki Ayıraçları bul",
+    "searchButton": "Ara",
+    "resultsCount": "{count} sonuç bulundu",
+    "showWithoutName": "İsimsiz profilleri göster",
+    "noName": "Bilinmeyen Ayıraç",
+    "platformFilter": "Platforma göre filtrele"
   },
   "profileSearchInput": {
-    "searchText": null,
-    "searchTextShort": null,
-    "noResultsFound": null,
-    "clickToTrackAccount": null,
-    "enterSearchTerm": null,
-    "searchResults": null,
-    "recentPlayers": null,
-    "favorites": null,
-    "noFavorites": null,
-    "noRecentPlayers": null,
-    "showAllResults": null,
-    "openAdvancedSearch": null,
-    "keyNavigate": null,
-    "keyOpen": null,
-    "keyClose": null,
-    "clear": null
+    "searchText": "Bir Ayıraç ara",
+    "searchTextShort": "Ara...",
+    "noResultsFound": "Sonuç bulunamadı",
+    "clickToTrackAccount": "Hesabı takip etmek için buraya tıkla",
+    "enterSearchTerm": "Ayıraç bulmak için lütfen bir arama terimi gir",
+    "searchResults": "Arama Sonuçları",
+    "recentPlayers": "Son Oyuncular",
+    "favorites": "Favoriler",
+    "noFavorites": "Henüz favori yok",
+    "noRecentPlayers": "Son oyuncu yok",
+    "showAllResults": "\"{query}\" için tüm sonuçları göster",
+    "openAdvancedSearch": "Gelişmiş aramayı aç",
+    "keyNavigate": "gezin",
+    "keyOpen": "aç",
+    "keyClose": "kapat",
+    "clear": "Aramayı temizle"
   },
   "platform": {
-    "STEAM": null,
-    "PSN": null,
-    "XBOX": null,
-    "EPIC_GAMES": null,
-    "NINTENDO": null,
-    "ALL": null
+    "STEAM": "Steam",
+    "PSN": "Playstation",
+    "XBOX": "Xbox",
+    "EPIC_GAMES": "Epic Games",
+    "NINTENDO": "Nintendo",
+    "ALL": "Tümü"
   },
   "roadmap": {
-    "title": null,
-    "subtitle": null,
-    "noEntries": null,
-    "showDetails": null,
+    "title": "Yol Haritası",
+    "subtitle": "The Outlast Trials yol haritası",
+    "noEntries": "Yol haritasında kayıt bulunamadı",
+    "showDetails": "Ayrıntıları göster",
     "status": {
-      "inProgress": null,
-      "planned": null
+      "inProgress": "Devam Ediyor",
+      "planned": "Planlandı"
     },
     "labels": {
-      "official": null,
-      "unofficial": null
+      "official": "Resmî",
+      "unofficial": "Sızıntı"
     },
-    "features": null
+    "features": "Özellik Anahtarları:"
   },
   "compare": {
     "title": null,
@@ -997,22 +997,22 @@
   "otherPages": {
     "cards": {
       "roadmap": {
-        "description": null
+        "description": "Geliştirme yol haritasını ve yaklaşan güncellemeleri görüntüle"
       },
       "gameassets": {
-        "title": null,
-        "description": null
+        "title": "Oyun Dosyaları",
+        "description": "The Outlast Trials oyununun dosyalarını keşfet"
       },
       "translate": {
-        "title": null,
-        "description": null
+        "title": "Çeviriye Yardım Et",
+        "description": "Outlast Trials Stats'i kendi diline çevirmemize GitHub üzerinden yardım et"
       },
       "contribute": {
-        "description": null
+        "description": "Discord Rich Presence desteğine sahip, yeni oyuncular bulmamıza da yardımcı olan yardımcı uygulama"
       },
       "discordBot": {
-        "title": null,
-        "description": null
+        "title": "Futterman'ın Radyosu",
+        "description": "Rolleri otomatik ata, takma adları senkronize et ve sıralamaları göster"
       }
     }
   },
@@ -1452,20 +1452,20 @@
     }
   },
   "consent": {
-    "title": null,
-    "description": null,
-    "essential": null,
-    "alwaysActive": null,
-    "essentialDescription": null,
-    "analytics": null,
-    "analyticsDescription": null,
-    "acceptAll": null,
-    "essentialOnly": null,
-    "showDetails": null,
-    "hideDetails": null,
-    "savePreferences": null,
-    "cookieSettings": null,
-    "privacyPolicy": null
+    "title": "Çerez Ayarları",
+    "description": "Çerezler ve benzeri teknolojiler kullanıyoruz. Zorunlu olanlar sitenin çalışması için gereklidir. İzin verirsen sayfa görüntülemelerini ve tıklamaları saymak, form girdileri gizlenmiş şekilde oturumları kaydetmek ve hataları raporlamak için PostHog'u (PostHog Inc., AB'de barındırılır) da kullanırız. Tercihini istediğin zaman alt kısımdaki \"Çerez Ayarları\" üzerinden değiştirebilirsin.",
+    "essential": "Zorunlu",
+    "alwaysActive": "Her zaman etkin",
+    "essentialDescription": "Giriş ve dil ayarları gibi temel işlevler için gereklidir.",
+    "analytics": "İstatistik",
+    "analyticsDescription": "PostHog aracılığıyla sayfa görüntülemeleri, tıklamalar, girdileri gizlenmiş oturum kayıtları ve hata raporları. Yalnızca kabul edersen etkinleşir.",
+    "acceptAll": "Tümünü kabul et",
+    "essentialOnly": "Reddet",
+    "showDetails": "Ayrıntıları göster",
+    "hideDetails": "Ayrıntıları gizle",
+    "savePreferences": "Tercihleri kaydet",
+    "cookieSettings": "Çerez Ayarları",
+    "privacyPolicy": "Gizlilik Politikası"
   },
   "contribute": {
     "title": null,
@@ -1584,11 +1584,11 @@
     }
   },
   "common": {
-    "cancel": null,
-    "save": null,
-    "loading": null,
-    "retry": null,
-    "scrollToTop": null
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "loading": "Yükleniyor...",
+    "retry": "Tekrar dene",
+    "scrollToTop": "Başa dön"
   },
   "trials": {
     "familyOther": null,
@@ -1880,20 +1880,20 @@
   },
   "ameliaTheme": {
     "nav": {
-      "subtitle": null
+      "subtitle": "Direniş İstihbarat Aracı"
     },
     "hero": {
-      "subline": null,
-      "polaroid": null
+      "subline": "İmtihanlarda Kaçış İstihbaratı bul, dışarı çıkar ve Amelia'nın kaçmasına yardım et. Topluluğun ilerlemesini, istatistiklerini ve sıralamaları burada takip et.",
+      "polaroid": "Kaçış planları"
     },
     "slogans": {
-      "fight": null,
-      "therapy": null,
-      "complicity": null,
-      "hijacked": null
+      "fight": "Murkoff'a karşı savaş",
+      "therapy": "Terapi bir yalan",
+      "complicity": "Suç ortaklığı ölümdür",
+      "hijacked": "Sinyal A tarafından ele geçirildi"
     },
     "footer": {
-      "signoff": null
+      "signoff": "Suç ortaklığı ölümdür. — A"
     }
   }
 }
