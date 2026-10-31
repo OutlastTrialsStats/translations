@@ -1588,10 +1588,10 @@
       "privacyLink": null
     },
     "screenshots": {
-      "label": null,
+      "label": "Screenshots",
       "count": null,
       "drop": null,
-      "hint": null,
+      "hint": "Add at least one screenshot of your in-game player card with your name and friend code visible.",
       "thumbAlt": null,
       "remove": null,
       "processing": "Preparing…",
@@ -1599,7 +1599,8 @@
         "type": null,
         "tooLarge": null,
         "unreadable": null,
-        "limit": null
+        "limit": null,
+        "required": "Add at least one screenshot that shows the profile is yours."
       }
     },
     "errors": {

@@ -1588,10 +1588,10 @@
       "privacyLink": "Privacy policy"
     },
     "screenshots": {
-      "label": "Screenshots (optional)",
+      "label": "Screenshots",
       "count": "{count} / {max}",
       "drop": "Choose images, drop or paste them",
-      "hint": "A screenshot of your in-game player card (name and friend code visible) helps most.",
+      "hint": "Add at least one screenshot of your in-game player card with your name and friend code visible.",
       "thumbAlt": "Screenshot {n}",
       "remove": "Remove screenshot {n}",
       "processing": "Preparing…",
@@ -1599,7 +1599,8 @@
         "type": "Only PNG, JPEG or WebP images are supported.",
         "tooLarge": "This image is too large, even after compressing it. Crop it or use a smaller screenshot.",
         "unreadable": "This image couldn't be read. Please try another file.",
-        "limit": "You can attach up to {max} screenshots."
+        "limit": "You can attach up to {max} screenshots.",
+        "required": "Add at least one screenshot that shows the profile is yours."
       }
     },
     "errors": {
