@@ -1469,66 +1469,66 @@
     "privacyPolicy": "Gizlilik Politikası"
   },
   "contribute": {
-    "title": null,
+    "title": "TOTStatsMonitor",
     "hero": {
-      "eyebrow": null
+      "eyebrow": "Windows için masaüstü uygulaması"
     },
     "flow": {
-      "eyebrow": null,
-      "meet": null,
-      "send": null,
-      "track": null,
-      "total": null
+      "eyebrow": "Topluluk",
+      "meet": "Bir maçta başka oyuncularla karşılaşırsın",
+      "send": "Profil kimlikleri bize gönderilir",
+      "track": "Yeni oyuncular sitede görünür",
+      "total": "Şimdiye kadar takip edilen profiller"
     },
     "banner": {
-      "desc": null
+      "desc": "İçinde bulunduğun imtihanı Discord profilinde gösterir ve sen oynarken yeni oyuncular bulmamıza yardımcı olur"
     },
     "howTo": {
-      "title": null,
-      "step1Title": null,
-      "step1Desc": null,
-      "step2Title": null,
-      "step2Desc": null,
-      "step3Title": null,
-      "step3Desc": null,
-      "download": null,
-      "viewSource": null,
-      "smartScreenNote": null
+      "title": "Başla",
+      "step1Title": "İndir ve çalıştır",
+      "step1Desc": "Uygulama kendini kurar ve Windows ile birlikte başlar. Bunu istediğin zaman sistem tepsisi menüsünden kapatabilirsin.",
+      "step2Title": "Oyunu oyna",
+      "step2Desc": "Sistem tepsisinde çalışır ve oyunun zaten yazdığı kayıt dosyasını okur. Oyuna, oyunun belleğine ya da dosyalarına dokunmaz, başlatma seçeneği de gerektirmez.",
+      "step3Title": "Rozetini kazan",
+      "step3Desc": "Her katkıcı profilinde otomatik olarak özel bir Katkıcı rozeti alır.",
+      "download": "Windows için indir",
+      "viewSource": "GitHub'da Görüntüle",
+      "smartScreenNote": "Uygulama dosyası imzalı olmadığı için Windows SmartScreen ilk seferde seni uyarır. Önce \"Ek bilgi\"ye, ardından \"Yine de çalıştır\"a tıkla."
     },
     "features": {
       "presence": {
-        "title": null,
-        "newTag": null,
-        "desc": null,
-        "statusTitle": null,
-        "statusDesc": null,
-        "artworkTitle": null,
-        "artworkDesc": null
+        "title": "Discord Rich Presence",
+        "newTag": "Yeni",
+        "desc": "Discord profilin, doğrudan oyun kaydından okunan, içinde bulunduğun imtihanı gösterir.",
+        "statusTitle": "Canlı imtihan durumu",
+        "statusDesc": "Hangi imtihan, nerede geçtiği, hangi zorlukta olduğu, grubun ne kadar dolu olduğu ve ne zamandır içinde olduğun.",
+        "artworkTitle": "Görsel ve istatistik bağlantısı",
+        "artworkDesc": "İmtihanın görseli de gösterilir, ayrıca doğrudan istatistik sayfana giden bir buton bulunur."
       },
       "data": {
-        "title": null,
-        "desc": null,
-        "discoverTitle": null,
-        "discoverDesc": null,
-        "privacyTitle": null,
-        "privacyDesc": null
+        "title": "Oyuncu verisiyle katkıda bulun",
+        "desc": "Site yalnızca zaten bildiği oyuncuları takip edebilir. Yeni oyuncular bu şekilde bulunur.",
+        "discoverTitle": "Yeni oyuncuları keşfet",
+        "discoverDesc": "Sen bir maçtayken uygulama, karşılaştığın oyuncuların profil kimliklerini alır ve outlasttrialsstats.com'a gönderir.",
+        "privacyTitle": "Yalnızca profil kimlikleri",
+        "privacyDesc": "Sadece kimlikler: onlarınki ve katkıda bulunan olarak seninki. İsim yok, sohbet yok, kendi performansınla ilgili hiçbir şey yok."
       }
     },
     "reward": {
-      "title": null,
-      "desc": null
+      "title": "Katkıcı Ödülü",
+      "desc": "Her katkı topluluğun büyümesine yardımcı olur. Aktif katkıcılar özel bir profil rozetiyle ödüllendirilir."
     },
     "personal": {
-      "title": null,
-      "successful": null,
-      "noProfile": null
+      "title": "Katkıların",
+      "successful": "Başarılı Katkılar",
+      "noProfile": "Katkı istatistiklerini görmek için bir profil bağla."
     },
     "leaderboard": {
-      "title": null,
-      "totalProfiles": null,
-      "profiles": null,
-      "errorTitle": null,
-      "errorMessage": null
+      "title": "En Çok Katkı Yapanlar",
+      "totalProfiles": "Toplam {count} takip edilen profil",
+      "profiles": "Profiller",
+      "errorTitle": "Yüklenemedi",
+      "errorMessage": "En çok katkı yapanlar yüklenemedi. Lütfen tekrar dene."
     }
   },
   "discordBot": {
