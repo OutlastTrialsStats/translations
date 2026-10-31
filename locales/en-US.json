@@ -176,10 +176,10 @@
       "platforms": {
         "q": "Which platforms are supported?",
         "a": [
-          "Steam, Epic Games, PlayStation and Xbox profiles are all tracked, and every leaderboard can be filtered by platform.",
+          "Steam, Epic Games, PlayStation, Xbox and Nintendo Switch profiles are all tracked, and every leaderboard can be filtered by platform.",
           "Friend Codes work for every platform. PlayStation and Xbox profiles are also added automatically when you {linkAccount} through Discord."
         ],
-        "keywords": "psn ps4 ps5 playstation xbox epic steam console pc crossplay"
+        "keywords": "psn ps4 ps5 playstation xbox epic steam nintendo switch console pc crossplay"
       },
       "how-long-until-visible": {
         "q": "I added my account. How long until it shows up?",
@@ -1100,7 +1100,7 @@
     "PSN": "Playstation",
     "XBOX": "Xbox",
     "EPIC_GAMES": "Epic Games",
-    "NINTENDO": "Nintendo",
+    "NINTENDO": "Nintendo Switch",
     "ALL": "All"
   },
   "roadmap": {
@@ -1226,7 +1226,7 @@
       "method_discord_desc": "Pick your profile from the Steam, PlayStation or Xbox account linked to your Discord account.",
       "method_friend_code_title": "Friend code",
       "method_friend_code_badge": "All platforms",
-      "method_friend_code_presence_desc": "Prove that the profile is yours by changing two settings in game. Also works for Epic Games and Nintendo.",
+      "method_friend_code_presence_desc": "Prove that the profile is yours by changing two settings in game. Also works for Epic Games and Nintendo Switch.",
       "change_method": "Choose another method",
       "claim_fallback_title": "Claiming does not work?",
       "claim_fallback_desc": "Verify your profile with your friend code instead. It works for every platform, even if a connection is listed here.",
