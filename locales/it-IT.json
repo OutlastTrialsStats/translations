@@ -1588,10 +1588,10 @@
       "privacyLink": "Informativa sulla privacy"
     },
     "screenshots": {
-      "label": "Screenshots (facoltativo)",
+      "label": "Screenshots",
       "count": "{count} / {max}",
       "drop": "Scegli immagini, rilasciale o incollale",
-      "hint": "Uno screenshot del tuo profilo all'interno del gioco (nome e codice amico visibili) aiuta di più.",
+      "hint": "Aggiungi almeno uno screenshot del tuo profilo all'interno del gioco con nome e codice amico visibili.",
       "thumbAlt": "Screenshot {n}",
       "remove": "Rimuovi screenshot {n}",
       "processing": "Preparazione…",
@@ -1599,7 +1599,8 @@
         "type": "Sono supportati solo i formati PNG, JPEG o WebP.",
         "tooLarge": "L'immagine è troppo grande, anche dopo la compressione. Ritagliala o usa uno screenshot più piccolo.",
         "unreadable": "L'immagine non può essere letta. Prova con un altro file.",
-        "limit": "Puoi allegare fino a {max} screenshots."
+        "limit": "Puoi allegare fino a {max} screenshots.",
+        "required": "Aggiungi almeno uno screenshot che dimostri che il profilo è tuo."
       }
     },
     "errors": {
