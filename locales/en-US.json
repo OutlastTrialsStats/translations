@@ -871,6 +871,11 @@
       "profileHiddenNotice": "This profile is hidden from the public. Only you and staff members can see it.",
       "visibleToYou": "Visible to you"
     },
+    "dataDeletion": {
+      "title": "Profile scheduled for deletion",
+      "message": "All data of this profile will be deleted on {date}.",
+      "cancel": "Cancel in settings"
+    },
     "tabErrors": {
       "statsTitle": "Could not load stats",
       "statsMessage": "We were unable to load this player's stats. Please try again later.",
@@ -1765,7 +1770,7 @@
       "programcore": "Core",
       "programchain": "Escalation",
       "programinvasion": "Invasion",
-      "programcreator": "Creator",
+      "programcreator": "Trial-Maker",
       "programweekly": "Weekly",
       "programevent": "Event"
     },
@@ -1924,9 +1929,7 @@
       "remaining": "Escape Intel still to extract",
       "etaLabel": "Expected",
       "progress": "{percent} done",
-      "compact": "{remaining} to {target} · {eta}",
-      "reached": "{target} reached",
-      "next": "Next · {phase}"
+      "compact": "{remaining} to {target} · {eta}"
     },
     "allReached": "All phases reached",
     "phase": "Phase {n}",
@@ -2010,8 +2013,7 @@
       "extract_escape_plan": {
         "name": "Escape the Facility",
         "description": "Help Amelia. Find as much Escape Intel as possible in the Trials and leave with it in your inventory. Reach community milestones to make the escape possible.",
-        "leaders": "The players who have extracted the most Escape Intel so far.",
-        "reached": "ESCAPE! NOW!"
+        "leaders": "The players who have extracted the most Escape Intel so far."
       },
       "blood_donation": {
         "name": "Blood Drive",

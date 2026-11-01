@@ -871,6 +871,11 @@
       "profileHiddenNotice": "Ce profil est caché du public. Seuls vous et les membres du personnel pouvez le voir.",
       "visibleToYou": "Visible pour vous"
     },
+    "dataDeletion": {
+      "title": null,
+      "message": null,
+      "cancel": null
+    },
     "tabErrors": {
       "statsTitle": "Impossible de charger les statistiques",
       "statsMessage": "Nous n'avons pas pu charger les statistiques de ce joueur. Veuillez réessayer plus tard.",
@@ -1924,9 +1929,7 @@
       "remaining": null,
       "etaLabel": null,
       "progress": null,
-      "compact": null,
-      "reached": null,
-      "next": null
+      "compact": null
     },
     "allReached": null,
     "phase": null,
@@ -2010,8 +2013,7 @@
       "extract_escape_plan": {
         "name": null,
         "description": null,
-        "leaders": null,
-        "reached": null
+        "leaders": null
       },
       "blood_donation": {
         "name": null,

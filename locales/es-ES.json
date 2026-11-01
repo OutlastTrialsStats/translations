@@ -871,6 +871,11 @@
       "profileHiddenNotice": "Este perfil está oculto al público. Solo tú y los miembros del staff pueden verlo.",
       "visibleToYou": "Visible para ti"
     },
+    "dataDeletion": {
+      "title": null,
+      "message": null,
+      "cancel": null
+    },
     "tabErrors": {
       "statsTitle": "No se han podido cargar las estadísticas",
       "statsMessage": "No pudimos cargar las estadísticas de este jugador. Inténtalo de nuevo más tarde.",
@@ -1765,7 +1770,7 @@
       "programcore": "Core",
       "programchain": "Escalation",
       "programinvasion": "Invasion",
-      "programcreator": "Creator",
+      "programcreator": "Trial-Maker",
       "programweekly": "Weekly",
       "programevent": "Event"
     },
@@ -1924,9 +1929,7 @@
       "remaining": null,
       "etaLabel": null,
       "progress": null,
-      "compact": null,
-      "reached": null,
-      "next": null
+      "compact": null
     },
     "allReached": null,
     "phase": null,
@@ -2010,8 +2013,7 @@
       "extract_escape_plan": {
         "name": null,
         "description": null,
-        "leaders": null,
-        "reached": null
+        "leaders": null
       },
       "blood_donation": {
         "name": null,

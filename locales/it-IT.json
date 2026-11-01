@@ -871,6 +871,11 @@
       "profileHiddenNotice": "Questo profilo è nascosto al pubblico. Solo tu e lo staff potete visualizzarlo.",
       "visibleToYou": "Visibile a te"
     },
+    "dataDeletion": {
+      "title": null,
+      "message": null,
+      "cancel": null
+    },
     "tabErrors": {
       "statsTitle": "Impossibile caricare le statistiche",
       "statsMessage": "Non siamo riusciti a caricare le statistiche di questo giocatore. Riprova più tardi.",
@@ -1924,9 +1929,7 @@
       "remaining": "Informazioni sulla Fuga ancora da raccogliere",
       "etaLabel": "Previsti",
       "progress": "{percent} completo",
-      "compact": "{remaining} a {target} · {eta}",
-      "reached": "{target} raggiunta",
-      "next": "Prossima · {phase}"
+      "compact": "{remaining} a {target} · {eta}"
     },
     "allReached": "Tutte le fasi Completate",
     "phase": "Fase {n}",
@@ -2010,8 +2013,7 @@
       "extract_escape_plan": {
         "name": "Scappa dalla Struttura",
         "description": "Aiuta Amelia. Trova informazioni per la fuga nei Test e lasciale nel tuo inventario. Raggiungi i traguardi comunitari per rendere possibile la fuga.",
-        "leaders": "I giocatori che hanno raccolto il maggior numero di Informazioni per la Fuga finora.",
-        "reached": "SCAPPA! ORA!"
+        "leaders": "I giocatori che hanno raccolto il maggior numero di Informazioni per la Fuga finora."
       },
       "blood_donation": {
         "name": "Donazione di Sangue",

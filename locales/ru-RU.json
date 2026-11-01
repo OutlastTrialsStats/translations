@@ -871,6 +871,11 @@
       "profileHiddenNotice": "Этот профиль скрыт от публичности. Только вы и сотрудники могут его видеть.",
       "visibleToYou": "Видимость для вас"
     },
+    "dataDeletion": {
+      "title": null,
+      "message": null,
+      "cancel": null
+    },
     "tabErrors": {
       "statsTitle": "Не удалось загрузить статистику",
       "statsMessage": "Не удалось загрузить статистику этого игрока. Пожалуйста, повторите попытку позже.",
@@ -1924,9 +1929,7 @@
       "remaining": null,
       "etaLabel": null,
       "progress": null,
-      "compact": null,
-      "reached": null,
-      "next": null
+      "compact": null
     },
     "allReached": null,
     "phase": null,
@@ -2010,8 +2013,7 @@
       "extract_escape_plan": {
         "name": null,
         "description": null,
-        "leaders": null,
-        "reached": null
+        "leaders": null
       },
       "blood_donation": {
         "name": null,
