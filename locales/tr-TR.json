@@ -1,43 +1,43 @@
 {
   "stats": {
-    "COMPLETED_TRIALS": null,
-    "DEATHS": null,
-    "PRESTIGE": null,
-    "REAGENTS_RELEASED": null,
-    "FAILED_TRIALS": null,
-    "TRIALS_IN_HOURS": null,
-    "TRACKED_ACCOUNTS": null,
-    "TOTAL_DEATHS": null,
-    "TOTAL_RELEASES": null,
-    "TOTAL_PRESTIGES": null,
-    "TOTAL_LOBBY_GAMES": null,
-    "TOTAL_STAMPS": null,
-    "TOTAL_MURKOFF_COINS": null,
-    "TOTAL_DAMAGED": null,
-    "TOTAL_TIMES_HIDDEN": null,
-    "TOTAL_PSYCHOSIS_TIME": null,
-    "ESCALATION_HIGHEST_TRIAL_REACHED": null,
-    "ESCALATION_HIGHEST_TRIAL_REACHED_WITH_TIME": null,
-    "ESCALATION_RUNS_COMPLETED": null,
-    "ESCALATION_TRIALS_COMPLETED": null,
-    "ESCALATION_TIME_PLAYED": null,
-    "ARMWRESTLING_WINS": null,
-    "ARMWRESTLING_LOSES": null,
-    "ARMWRESTLING_RATING": null,
-    "CHESS_WINS": null,
-    "CHESS_RATING": null,
-    "TENNIS_WINS": null,
-    "TENNIS_LOSES": null,
-    "TENNIS_RATING": null,
-    "STROOP_RATING": null,
-    "INVASION_POINTS": null,
-    "INVASION_IMPOSTER_WON_MATCHES": null,
-    "INVASION_IMPOSTER_LOST_MATCHES": null,
-    "INVASION_REAGENT_WON_MATCHES": null,
-    "INVASION_REAGENT_LOST_MATCHES": null,
-    "STAMPS": null,
-    "EVENT_TOKENS": null,
-    "EXTRACTED_INTEL": null
+    "COMPLETED_TRIALS": "Tamamlanan İmtihanlar",
+    "DEATHS": "Ölümler",
+    "PRESTIGE": "Prestij",
+    "REAGENTS_RELEASED": "Serbest Bırakılan Ayıraçlar",
+    "FAILED_TRIALS": "Başarısız İmtihanlar",
+    "TRIALS_IN_HOURS": "İmtihanlardaki Oynama Süresi",
+    "TRACKED_ACCOUNTS": "Takip Edilen Hesaplar",
+    "TOTAL_DEATHS": "Toplam Ölüm",
+    "TOTAL_RELEASES": "Toplam Serbest Bırakılma",
+    "TOTAL_PRESTIGES": "Toplam Prestij",
+    "TOTAL_LOBBY_GAMES": "Toplam Lobi Oyunu",
+    "TOTAL_STAMPS": "Toplam Damga",
+    "TOTAL_MURKOFF_COINS": "Toplam Murkoff Parası",
+    "TOTAL_DAMAGED": "Toplam Alınan Hasar",
+    "TOTAL_TIMES_HIDDEN": "Toplam Saklanma Sayısı",
+    "TOTAL_PSYCHOSIS_TIME": "Toplam Psikoz Süresi",
+    "ESCALATION_HIGHEST_TRIAL_REACHED": "En Yüksek Gerginlik İmtihanı",
+    "ESCALATION_HIGHEST_TRIAL_REACHED_WITH_TIME": "Süreyle En Yüksek Gerginlik İmtihanı",
+    "ESCALATION_RUNS_COMPLETED": "Tamamlanan Gerginlik Turları",
+    "ESCALATION_TRIALS_COMPLETED": "Tamamlanan Gerginlik İmtihanları",
+    "ESCALATION_TIME_PLAYED": "Gerginlikteki Oynama Süresi",
+    "ARMWRESTLING_WINS": "Bilek Güreşi Galibiyetleri",
+    "ARMWRESTLING_LOSES": "Bilek Güreşi Mağlubiyetleri",
+    "ARMWRESTLING_RATING": "Bilek Güreşi Puanı",
+    "CHESS_WINS": "Satranç Galibiyetleri",
+    "CHESS_RATING": "Satranç Puanı",
+    "TENNIS_WINS": "Tenis Galibiyetleri",
+    "TENNIS_LOSES": "Tenis Mağlubiyetleri",
+    "TENNIS_RATING": "Tenis Puanı",
+    "STROOP_RATING": "Stroop Puanı",
+    "INVASION_POINTS": "İstila Puanı",
+    "INVASION_IMPOSTER_WON_MATCHES": "Taklitçi Kazandı",
+    "INVASION_IMPOSTER_LOST_MATCHES": "Taklitçi Kaybetti",
+    "INVASION_REAGENT_WON_MATCHES": "Ayıraç Kazandı",
+    "INVASION_REAGENT_LOST_MATCHES": "Ayıraç Kaybetti",
+    "STAMPS": "Damgalar",
+    "EVENT_TOKENS": "Etkinlik Jetonları",
+    "EXTRACTED_INTEL": "Dışarı Çıkarılan Kaçış İstihbaratı Parçaları"
   },
   "sitebar": {
     "home": "Ana Sayfa",
@@ -1601,66 +1601,66 @@
     "privacyPolicy": "Gizlilik Politikası"
   },
   "contribute": {
-    "title": null,
+    "title": "TOTStatsMonitor",
     "hero": {
-      "eyebrow": null
+      "eyebrow": "Windows için masaüstü uygulaması"
     },
     "flow": {
-      "eyebrow": null,
-      "meet": null,
-      "send": null,
-      "track": null,
-      "total": null
+      "eyebrow": "Topluluk",
+      "meet": "Bir maçta başka oyuncularla karşılaşırsın",
+      "send": "Profil kimlikleri bize gönderilir",
+      "track": "Yeni oyuncular sitede görünür",
+      "total": "Şimdiye kadar takip edilen profiller"
     },
     "banner": {
-      "desc": null
+      "desc": "İçinde bulunduğun imtihanı Discord profilinde gösterir ve sen oynarken yeni oyuncular bulmamıza yardımcı olur"
     },
     "howTo": {
-      "title": null,
-      "step1Title": null,
-      "step1Desc": null,
-      "step2Title": null,
-      "step2Desc": null,
-      "step3Title": null,
-      "step3Desc": null,
-      "download": null,
-      "viewSource": null,
-      "smartScreenNote": null
+      "title": "Başla",
+      "step1Title": "İndir ve çalıştır",
+      "step1Desc": "Uygulama kendini kurar ve Windows ile birlikte başlar. Bunu istediğin zaman sistem tepsisi menüsünden kapatabilirsin.",
+      "step2Title": "Oyunu oyna",
+      "step2Desc": "Sistem tepsisinde çalışır ve oyunun zaten yazdığı kayıt dosyasını okur. Oyuna, oyunun belleğine ya da dosyalarına dokunmaz, başlatma seçeneği de gerektirmez.",
+      "step3Title": "Rozetini kazan",
+      "step3Desc": "Her katkıcı profilinde otomatik olarak özel bir Katkıcı rozeti alır.",
+      "download": "Windows için indir",
+      "viewSource": "GitHub'da Görüntüle",
+      "smartScreenNote": "Uygulama dosyası imzalı olmadığı için Windows SmartScreen ilk seferde seni uyarır. Önce \"Ek bilgi\"ye, ardından \"Yine de çalıştır\"a tıkla."
     },
     "features": {
       "presence": {
-        "title": null,
-        "newTag": null,
-        "desc": null,
-        "statusTitle": null,
-        "statusDesc": null,
-        "artworkTitle": null,
-        "artworkDesc": null
+        "title": "Discord Rich Presence",
+        "newTag": "Yeni",
+        "desc": "Discord profilin, doğrudan oyun kaydından okunan, içinde bulunduğun imtihanı gösterir.",
+        "statusTitle": "Canlı imtihan durumu",
+        "statusDesc": "Hangi imtihan, nerede geçtiği, hangi zorlukta olduğu, grubun ne kadar dolu olduğu ve ne zamandır içinde olduğun.",
+        "artworkTitle": "Görsel ve istatistik bağlantısı",
+        "artworkDesc": "İmtihanın görseli de gösterilir, ayrıca doğrudan istatistik sayfana giden bir buton bulunur."
       },
       "data": {
-        "title": null,
-        "desc": null,
-        "discoverTitle": null,
-        "discoverDesc": null,
-        "privacyTitle": null,
-        "privacyDesc": null
+        "title": "Oyuncu verisiyle katkıda bulun",
+        "desc": "Site yalnızca zaten bildiği oyuncuları takip edebilir. Yeni oyuncular bu şekilde bulunur.",
+        "discoverTitle": "Yeni oyuncuları keşfet",
+        "discoverDesc": "Sen bir maçtayken uygulama, karşılaştığın oyuncuların profil kimliklerini alır ve outlasttrialsstats.com'a gönderir.",
+        "privacyTitle": "Yalnızca profil kimlikleri",
+        "privacyDesc": "Sadece kimlikler: onlarınki ve katkıda bulunan olarak seninki. İsim yok, sohbet yok, kendi performansınla ilgili hiçbir şey yok."
       }
     },
     "reward": {
-      "title": null,
-      "desc": null
+      "title": "Katkıcı Ödülü",
+      "desc": "Her katkı topluluğun büyümesine yardımcı olur. Aktif katkıcılar özel bir profil rozetiyle ödüllendirilir."
     },
     "personal": {
-      "title": null,
-      "successful": null,
-      "noProfile": null
+      "title": "Katkıların",
+      "successful": "Başarılı Katkılar",
+      "noProfile": "Katkı istatistiklerini görmek için bir profil bağla."
     },
     "leaderboard": {
-      "title": null,
-      "totalProfiles": null,
-      "profiles": null,
-      "errorTitle": null,
-      "errorMessage": null
+      "title": "En Çok Katkı Yapanlar",
+      "totalProfiles": "Toplam {count} takip edilen profil",
+      "profiles": "Profiller",
+      "errorTitle": "Yüklenemedi",
+      "errorMessage": "En çok katkı yapanlar yüklenemedi. Lütfen tekrar dene."
     }
   },
   "discordBot": {
