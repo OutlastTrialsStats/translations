@@ -871,6 +871,11 @@
       "profileHiddenNotice": "此个人资料已对大众隐藏。只有您和工作人员可以看到它。",
       "visibleToYou": "对您可见"
     },
+    "dataDeletion": {
+      "title": null,
+      "message": null,
+      "cancel": null
+    },
     "tabErrors": {
       "statsTitle": "无法加载统计数据",
       "statsMessage": "我们无法加载此玩家的统计信息。请稍后再试。",
@@ -1924,9 +1929,7 @@
       "remaining": null,
       "etaLabel": null,
       "progress": null,
-      "compact": null,
-      "reached": null,
-      "next": null
+      "compact": null
     },
     "allReached": "已达成全部阶段",
     "phase": "阶段 {n}",
@@ -2010,8 +2013,7 @@
       "extract_escape_plan": {
         "name": "逃离设施",
         "description": "帮助阿米莉亚。在试炼中尽可能多地寻找逃脱情报，并将其带出、留在物品栏中。达成社区里程碑，让逃脱成为可能。",
-        "leaders": "目前带出逃脱情报最多的玩家。",
-        "reached": null
+        "leaders": "目前带出逃脱情报最多的玩家。"
       },
       "blood_donation": {
         "name": "献血义举",
