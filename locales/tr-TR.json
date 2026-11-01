@@ -1370,86 +1370,86 @@
     }
   },
   "profileDeletionRequest": {
-    "footerLink": null,
+    "footerLink": "Profilini Sil",
     "hero": {
-      "title": null,
-      "subline": null
+      "title": "Profilini Sil",
+      "subline": "Verilerinin silinmesini mi istiyorsun? Profilin hakkında sakladığımız her şeyi siler ve takibi durdururuz."
     },
     "fastPath": {
       "signedOut": {
-        "title": null,
-        "desc": null,
-        "descClaim": null,
-        "button": null
+        "title": "Discord ile kendin sil",
+        "desc": "Discord ile giriş yap ve profilini arkadaş kodunla doğrula. Ardından ayarlarından kendin silebilirsin. Silme işlemi 7 gün sonra gerçekleşir ve o zamana kadar iptal edilebilir.",
+        "descClaim": "Discord ile giriş yap ve Discord'a bağladığın oyun hesabını (Steam, PlayStation veya Xbox) ilişkilendir. Ardından ayarlarından kendin silebilirsin. Silme işlemi 7 gün sonra gerçekleşir ve o zamana kadar iptal edilebilir.",
+        "button": "Discord ile devam et"
       },
       "unverified": {
-        "title": null,
-        "desc": null,
-        "descClaim": null,
-        "fallback": null,
-        "button": null
+        "title": "Önce profilini doğrula",
+        "desc": "Discord hesabın henüz bir oyun profiline bağlı değil. Profilini arkadaş kodunla doğrula, ardından ayarlarından sil.",
+        "descClaim": "Discord hesabın henüz bir oyun profiline bağlı değil. Discord'a bağladığın Steam, PlayStation veya Xbox hesabını ilişkilendir, ardından ayarlarından sil.",
+        "fallback": "Doğrulayamıyor musun? Çıkış yap ve bunun yerine ekibe bir talep gönder.",
+        "button": "Profilimi doğrula"
       },
       "verified": {
-        "title": null,
-        "desc": null,
-        "button": null
+        "title": "Profilini ayarlarından sil",
+        "desc": "Profilin bağlı olduğu için kendin silebilirsin. Ayarlar → Hesap bölümünde Tüm profil verilerini sil seçeneğini seç.",
+        "button": "Hesap ayarlarını aç"
       }
     },
     "form": {
-      "title": null,
-      "desc": null,
-      "profileLabel": null,
-      "searchPlaceholder": null,
-      "searching": null,
-      "noResults": null,
-      "resultsLabel": null,
-      "change": null,
-      "idNotFound": null,
-      "lookupNotFound": null,
-      "lookupFailed": null,
-      "profileRequired": null,
-      "contactLabel": null,
-      "contactRequired": null,
-      "contactLength": null,
-      "messageLabel": null,
-      "messageHint": null,
-      "confirm": null,
-      "confirmRequired": null,
-      "submit": null,
-      "privacyNote": null,
-      "privacyLink": null
+      "title": "Bunun yerine talep gönder",
+      "desc": "Ekip, herhangi bir şey silinmeden önce profilin sana ait olduğunu kontrol eder. Bu birkaç gün sürebilir.",
+      "profileLabel": "Profil",
+      "searchPlaceholder": "Ad, profil bağlantısı veya kimlik",
+      "searching": "Aranıyor…",
+      "noResults": "Profil bulunamadı. Gizli profiller aramada görünmez, bu yüzden bunun yerine profil bağlantını yapıştır.",
+      "resultsLabel": "Eşleşen profiller",
+      "change": "Değiştir",
+      "idNotFound": "Bu kimliğe sahip bir profil bulunamadı. Kontrol edip tekrar dene.",
+      "lookupNotFound": "Bu bağlantı için profil bulunamadı. Kontrol et ya da bunun yerine profil kimliğini yapıştır.",
+      "lookupFailed": "Bu bağlantı kontrol edilemedi. Tekrar dene ya da profil kimliğini yapıştır.",
+      "profileRequired": "Silmek istediğin profili seç.",
+      "contactLabel": "E-posta veya Discord kullanıcı adı",
+      "contactRequired": "Sana nasıl ulaşabileceğimizi yaz.",
+      "contactLength": "{min} ile {max} karakter arasında olmalı.",
+      "messageLabel": "Mesaj (isteğe bağlı)",
+      "messageHint": "Profilin sana ait olduğunu gösteren herhangi bir şey; örneğin arkadaş kodun veya platform hesabın.",
+      "confirm": "Bu profilin sahibi benim ve silme işleminin kalıcı olduğunu anlıyorum.",
+      "confirmRequired": "Talebi göndermeden önce lütfen onayla.",
+      "submit": "Silme talebini gönder",
+      "privacyNote": "Bilgilerini yalnızca bu talebi işlemek için kullanırız ve talep kapatıldıktan 30 gün sonra sileriz. Ekran görüntülerini yalnızca ekip görür ve talep işlendikten sonra silinir.",
+      "privacyLink": "Gizlilik politikası"
     },
     "screenshots": {
-      "label": null,
-      "count": null,
-      "drop": null,
-      "hint": null,
-      "thumbAlt": null,
-      "remove": null,
-      "processing": null,
+      "label": "Ekran görüntüleri",
+      "count": "{count} / {max}",
+      "drop": "Görsel seç, sürükleyip bırak ya da yapıştır",
+      "hint": "Adının ve arkadaş kodunun göründüğü oyun içi oyuncu kartının en az bir ekran görüntüsünü ekle.",
+      "thumbAlt": "Ekran görüntüsü {n}",
+      "remove": "Ekran görüntüsü {n} kaldır",
+      "processing": "Hazırlanıyor…",
       "errors": {
-        "type": null,
-        "tooLarge": null,
-        "unreadable": null,
-        "limit": null,
-        "required": null
+        "type": "Yalnızca PNG, JPEG veya WebP görselleri desteklenir.",
+        "tooLarge": "Bu görsel sıkıştırıldıktan sonra bile çok büyük. Kırp ya da daha küçük bir ekran görüntüsü kullan.",
+        "unreadable": "Bu görsel okunamadı. Lütfen başka bir dosya dene.",
+        "limit": "En fazla {max} ekran görüntüsü ekleyebilirsin.",
+        "required": "Profilin sana ait olduğunu gösteren en az bir ekran görüntüsü ekle."
       }
     },
     "errors": {
-      "PROFILE_NOT_FOUND": null,
-      "PROFILE_ALREADY_DELETED": null,
-      "REQUEST_ALREADY_PENDING": null,
-      "SIGNED_IN": null,
-      "INVALID_SCREENSHOT": null,
-      "rateLimited": null,
-      "generic": null
+      "PROFILE_NOT_FOUND": "Bu profil mevcut değil. Bağlantıyı veya kimliği kontrol edip tekrar dene.",
+      "PROFILE_ALREADY_DELETED": "Bu profilin verileri zaten silinmiş.",
+      "REQUEST_ALREADY_PENDING": "Bu profil için bu iletişim bilgisiyle zaten bir talep gönderdin. Ekip sana dönüş yapacak.",
+      "SIGNED_IN": "Giriş yapmış olduğun için talep formu kullanılamıyor. Profilini ayarlarından kendin sil ya da talep göndermek için çıkış yap.",
+      "INVALID_SCREENSHOT": "Ekran görüntülerinden biri işlenemedi. Kaldır ya da farklı bir görsel dene.",
+      "rateLimited": "Çok fazla istek. Lütfen biraz bekleyip tekrar dene.",
+      "generic": "Talep gönderilemedi. Lütfen daha sonra tekrar dene."
     },
     "success": {
-      "title": null,
-      "desc": null,
-      "reference": null,
-      "home": null,
-      "another": null
+      "title": "Talep alındı",
+      "desc": "Profilin sana ait olduğunu kontrol edeceğiz ve seninle iletişime geçebiliriz. Onaylandıktan sonra istatistikler silinir ve profil gizlenir.",
+      "reference": "Referans",
+      "home": "Ana sayfaya dön",
+      "another": "Başka bir talep gönder"
     }
   },
   "consent": {
