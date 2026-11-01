@@ -64,247 +64,379 @@
     }
   },
   "faqPage": {
-    "title": null,
-    "subtitle": null,
-    "menuDescription": null,
-    "searchPlaceholder": null,
-    "topics": null,
-    "popular": null,
-    "noResultsTitle": null,
-    "noResultsDesc": null,
-    "clearSearch": null,
-    "copyLink": null,
-    "linkCopied": null,
+    "title": "SSS ve Destek",
+    "subtitle": "Takip, profilin, gizlilik ve Outlast Trials Stats'teki diğer her şey hakkında yanıtlar.",
+    "menuDescription": "En sık sorulan soruların yanıtları",
+    "searchPlaceholder": "SSS'de ara…",
+    "topics": "Konular",
+    "popular": "Popüler sorular",
+    "noResultsTitle": "\"{query}\" için sonuç yok",
+    "noResultsDesc": "Farklı bir kelime dene ya da bize doğrudan Discord'da sor.",
+    "clearSearch": "Aramayı temizle",
+    "copyLink": "Bağlantıyı kopyala",
+    "linkCopied": "Bağlantı kopyalandı",
     "contact": {
-      "title": null,
-      "desc": null,
-      "discord": null
+      "title": "Hâlâ takıldın mı?",
+      "desc": "Ekibimiz ve topluluğumuz Discord'da hızlıca yanıt verir.",
+      "discord": "Discord'da sor"
     },
     "categories": {
-      "general": null,
-      "tracking": null,
-      "account": null,
-      "privacy": null,
-      "leaderboards": null,
-      "tools": null
+      "general": "Genel",
+      "tracking": "Takip ve güncellemeler",
+      "account": "Hesap ve bağlama",
+      "privacy": "Gizlilik ve veriler",
+      "leaderboards": "Sıralamalar ve rozetler",
+      "tools": "Araçlar ve projeler"
     },
     "categoryDescriptions": {
-      "general": null,
-      "tracking": null,
-      "account": null,
-      "privacy": null,
-      "leaderboards": null,
-      "tools": null
+      "general": "Proje, verilerin nereden geldiği ve bize nasıl ulaşabileceğin.",
+      "tracking": "Hesabını siteye eklemek ve güncel tutmak.",
+      "account": "Oyun profilini Discord üzerinden bağlamak.",
+      "privacy": "Profilini gizlemek, güncellemeleri durdurmak ve verilerini silmek.",
+      "leaderboards": "Sıralamaların, rozetlerin ve İstila derecelerinin nasıl çalıştığı.",
+      "tools": "Monitor uygulaması, Discord botu ve diğer projelerimiz."
     },
     "links": {
-      "discord": null,
-      "settings": null,
-      "linkPage": null,
-      "addAccount": null,
-      "monitor": null,
-      "privacyPolicy": null,
-      "github": null,
-      "linkAccountFaq": null,
-      "hideProfileFaq": null,
-      "deleteAccountFaq": null,
-      "leaderboards": null,
-      "badges": null,
-      "discordBot": null,
-      "compare": null,
-      "maps": null,
-      "skinStudio": null
+      "discord": "Discord sunucusu",
+      "settings": "Ayarlar",
+      "linkPage": "Profil Bağla",
+      "addAccount": "Hesap Ekle",
+      "monitor": "TOTStatsMonitor",
+      "privacyPolicy": "gizlilik politikası",
+      "github": "GitHub",
+      "linkAccountFaq": "profilini bağladığında",
+      "hideProfileFaq": "Profilimi nasıl gizlerim?",
+      "deleteAccountFaq": "Hesabımı nasıl silerim?",
+      "leaderboards": "sıralamalar",
+      "badges": "Rozetler",
+      "discordBot": "Discord Botu",
+      "compare": "Karşılaştır",
+      "maps": "Etkileşimli Harita",
+      "skinStudio": "Reagent Studio"
     },
     "items": {
       "what-is-totstats": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Outlast Trials Stats nedir?",
+        "a": [
+          "Outlast Trials Stats, The Outlast Trials için ücretsiz bir topluluk projesidir. Oyuncu profillerini takip eder ve bunları istatistiklere, sıralamalara, rozetlere ve imtihan geçmişine dönüştürür. Böylece senin ve arkadaşlarının nasıl gittiğini görebilirsin.",
+          "İstatistik sitesinin yanında her imtihanın etkileşimli haritasını, 3D Reagent Studio'yu, bir Discord botunu ve TOTStatsMonitor masaüstü uygulamasını da yürütüyoruz."
+        ],
+        "keywords": "hakkında site totstats nedir"
       },
       "affiliation": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Red Barrels ile bağlantınız var mı?",
+        "a": [
+          "Hayır. TOTStats resmî olmayan, bağımsız bir hayran projesidir. Red Barrels Inc. ile bağlantılı değildir, Red Barrels Inc. tarafından onaylanmamış veya desteklenmemiştir. “The Outlast Trials” ve “Outlast”, Red Barrels Inc.'in ticari markalarıdır."
+        ],
+        "keywords": "resmi ortak geliştirici red barrels"
       },
       "is-it-free": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Ücretli mi?",
+        "a": [
+          "Hayır. Site ticari olmayan bir topluluk projesidir. Profillere, sıralamalara ve rozetlere hesap olmadan göz atabilirsin. Discord ile giriş yapman yalnızca kendi profilini bağlayıp yönetmek istersen gerekir."
+        ],
+        "keywords": "fiyat ücret para ücretsiz hesap gerekli"
       },
       "data-source": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Veriler nereden geliyor?",
+        "a": [
+          "İstatistikler The Outlast Trials'ın oyun servislerinden gelir; oyunun sana gösterdiği verilerin aynısıdır. Hesapları bulmak için herkese açık Steam Topluluğu bilgilerini ve oyuncuların gönderdiği profil kimliklerini de kullanırız.",
+          "Oyun giriş bilgilerine veya şifrene asla ihtiyacımız yok. Tüm ayrıntılar {privacy} sayfamızda."
+        ],
+        "keywords": "api kaynak veri toplama nereden"
       },
       "languages": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Site benim dilimde var mı?",
+        "a": [
+          "Site 9 dilde kullanılabilir ve tarayıcına göre birini seçer. Dili istediğin zaman alt kısımdaki dil seçiciden değiştirebilirsin.",
+          "Çeviriler topluluk tarafından yapılır. Dilin eksikse ya da bir şey tuhaf okunuyorsa {github} üzerinden yardım edebilirsin."
+        ],
+        "keywords": "çeviri çevir dil türkçe almanca fransızca ispanyolca rusça lehçe italyanca çince arapça"
       },
       "report-bug": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Hataları nereye bildirebilir ya da özellik önerebilirim?",
+        "a": [
+          "{discord} üzerinden bize katıl ve destek ya da geri bildirim kanalına yaz. Bir ekran görüntüsü ve ilgili profilin ya da sayfanın bağlantısı bize çok yardımcı olur."
+        ],
+        "keywords": "hata sorun bozuk fikir öneri geri bildirim iletişim"
       },
       "add-account": {
-        "q": null,
-        "a": null,
-        "steps": null,
-        "keywords": null
+        "q": "Hesabımı nasıl takibe aldırırım?",
+        "a": [
+          "Üç yol var, yalnızca birini yapman yeterli:",
+          "Profilin bulunur bulunmaz aramada ve sıralamalarda görünür."
+        ],
+        "steps": [
+          "Bir İstila veya Gerginlik maçı oyna. Bu sıralamaları düzenli olarak tarıyor ve yeni oyuncuları otomatik olarak ekliyoruz, kimlik gerekmez. En kolay yol bu.",
+          "{addAccount} sayfasına Arkadaş Kodunu gir (XXXX-XXXX biçiminde, oyunda gösterilir).",
+          "Ya da oraya SteamID64'ünü gir; 7656 ile başlayan 17 haneli bir sayı. steamid.io gibi siteler bulmana yardımcı olur."
+        ],
+        "keywords": "ekle takip kayıt gönder arkadaş kodu steam id yeni hesap"
       },
       "platforms": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Hangi platformlar destekleniyor?",
+        "a": [
+          "Steam, Epic Games, PlayStation ve Xbox profillerinin hepsi takip edilir ve her sıralama platforma göre filtrelenebilir.",
+          "Arkadaş Kodları her platformda çalışır. PlayStation ve Xbox profilleri, Discord üzerinden {linkAccount} da otomatik olarak eklenir."
+        ],
+        "keywords": "psn ps4 ps5 playstation xbox epic steam konsol pc çapraz platform"
       },
       "how-long-until-visible": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Hesabımı ekledim. Ne zaman görünür?",
+        "a": [
+          "Genellikle birkaç dakika içinde, bazen birkaç saat içinde. Gönderilen hesaplar, veri toplayıcımızın sırayla işlediği bir kuyruğa girer. Toplayıcı da günün her saati çalışmayan harici bir giriş servisine bağlıdır.",
+          "Profilin bir gün sonra hâlâ görünmüyorsa Arkadaş Kodunu veya SteamID64'ünü kontrol edip tekrar gönder. İki kez göndermenin zararı yok, kopyalar yok sayılır."
+        ],
+        "keywords": "bulunamadı eksik bekle eklendi kuyruk"
       },
       "update-frequency": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Profiller ne sıklıkla güncellenir?",
+        "a": [
+          "Takip edilen her profil yaklaşık 12 saatte bir temel kontrolden geçer (ad, platform, son giriş).",
+          "İstatistikler, envanter ve son imtihanlar yalnızca son güncellemeden bu yana oyuna giriş yaptıysan yeniden çekilir. Bir oturumdan sonra, kuyruğun yoğunluğuna bağlı olarak yeni sayılarını yaklaşık 12 saat içinde bekleyebilirsin. Oynamadıysan çekilecek yeni bir şey yoktur.",
+          "İmtihan ve kozmetik sıralamaları 2 saatte bir yeniden oluşturulur. Genel sıralamalar ise bir profil güncellenir güncellenmez değişir."
+        ],
+        "keywords": "yenile güncelle zamanlama aralık saat senkronizasyon"
       },
       "request-update": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Profilimi şimdi güncelleyebilir miyim?",
+        "a": [
+          "Evet. Profili aç ve adın yanındaki yenileme simgesine (\"Profil güncellemesi iste\") tıkla. Açılan pencere her adımın ilerlemesini gösterir.",
+          "Kuyruğu adil tutmak için her profilde bir bekleme süresi var: giriş yapmadıysan 24 saat, giriş yaptıysan 6 saat, kendi bağlı profilin için 1 saat. Bekleme süresi devam ederken buton gizlenir."
+        ],
+        "keywords": "yenile buton zorla güncelle bekleme süresi manuel"
       },
       "stats-outdated": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "İstatistiklerim neden eski ya da oyundakinden farklı?",
+        "a": [
+          "Çoğu zaman güncelleme henüz gerçekleşmemiştir: istatistikler yalnızca tekrar giriş yaptıktan ve profilin kuyruktan geçtikten sonra yenilenir. Profilinden güncelleme de isteyebilirsin.",
+          "Bazı değerler, özellikle lobi oyunlarından gelenler, oyun servisleri tarafından hiç sağlanmaz, bu yüzden gösteremiyoruz. Bir sayı açıkça yanlış kalmaya devam ederse {discord} üzerinden bize haber ver."
+        ],
+        "keywords": "yanlış eski güncel değil hatalı eksik istatistik lobi"
       },
       "inactive-label": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Bir profildeki \"Aktif Değil\" etiketi ne anlama geliyor?",
+        "a": [
+          "Oyuncu 3 aydan uzun süredir The Outlast Trials'a giriş yapmamış. Etiket, oyuncunun bir sonraki girişinden ve profil güncellemesinden sonra kaybolur."
+        ],
+        "keywords": "aktif değil inaktif rozet etiket çevrim dışı"
       },
       "profile-url": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Profil bağlantım nasıl çalışır?",
+        "a": [
+          "Her profil, oyun içi ada dayanan kısa bir bağlantıyla açılabilir; örneğin {example}. Birden fazla oyuncu aynı adı kullanıyorsa bir numara alırlar; örneğin {duplicate}. Prestiji daha yüksek olan oyuncu daha küçük numarayı alır.",
+          "Kısa bağlantı oyun içi adını takip ettiği için adını değiştirdiğinde o da değişir. Profil kimliğini içeren bağlantı ise her zaman aynı kalır."
+        ],
+        "keywords": "url bağlantı kullanıcı adı ad değiştir özel paylaş"
       },
       "link-account": {
-        "q": null,
-        "a": null,
-        "steps": null,
-        "keywords": null
+        "q": "Oyun profilimi hesabıma nasıl bağlarım?",
+        "a": [
+          "Bağlama, bir profilin sana ait olduğunu kanıtlar. Ardından profilini gizleyebilir, hangi sekmelerin herkese açık olacağını seçebilir, bir arka plan seçebilir, Discord botumuzdan rol alabilir ve daha sık güncelleme isteyebilirsin.",
+          "Sahipliği, Discord bağlantındaki platform kimliğini oyun profiliyle eşleştirerek doğrularız. Bu yüzden bağlantının oynadığın hesap olması gerekir."
+        ],
+        "steps": [
+          "Discord'da Kullanıcı Ayarları → Bağlantılar'ı aç ve Steam, PlayStation veya Xbox hesabını bağla.",
+          "{linkPage} sayfasını aç ve Discord ile giriş yap.",
+          "Oyun profilini seç. Hemen bağlanır."
+        ],
+        "keywords": "bağla sahiplen doğrula giriş discord bağlan kendi profil"
       },
       "link-epic": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Epic Games'te oynuyorum. Profilimi bağlayabilir miyim?",
+        "a": [
+          "Otomatik olarak bağlayamazsın, çünkü Discord hesabını doğrulamak için kullanabileceğimiz bir Epic Games bağlantısı sunmuyor. {discord} üzerinden bir destek talebi aç, profilini elle bağlayalım."
+        ],
+        "keywords": "epic games bağla sahiplen destek talebi"
       },
       "link-not-tracked": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Bağlamaya çalıştığımda profilim listede yok. Ne yapmalıyım?",
+        "a": [
+          "Profilini henüz bilmiyorsak, {linkPage} sayfasında giriş yaptığında otomatik olarak kuyruğa eklenir. \"Önceden seç\"e tıkla; profilin bulunur bulunmaz, genellikle 15 dakika içinde kendiliğinden bağlanır.",
+          "Bu işe yaramazsa önce {addAccount} sayfasından ekle ve daha sonra tekrar dene."
+        ],
+        "keywords": "bağla bulunamadı eksik önceden seç bekleyen sahiplen"
       },
       "link-rules": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Birden fazla profil bağlayabilir ya da başka bir profile geçebilir miyim?",
+        "a": [
+          "Her Discord hesabı bir oyun profili bağlayabilir ve her oyun profili yalnızca bir Discord hesabına bağlanabilir.",
+          "Geçiş yapmak için {settings} bölümünde Hesap altından mevcut profilin bağlantısını kaldır ve diğerini bağla. Profilini başka biri zaten bağladıysa {discord} üzerinden bize ulaş."
+        ],
+        "keywords": "bağlantıyı kaldır geçiş değiştir birden fazla ikinci hesap alt"
       },
       "customize-profile": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Profilimi özelleştirebilir miyim?",
+        "a": [
+          "Evet. Profilin bağlandıktan sonra {settings} bölümünde Görünüm altından 16 profil arka planından birini seçebilir, Gizlilik altından hangi sekmelerin herkese açık olacağını belirleyebilirsin.",
+          "Profilde gösterilen unvan rastgele seçilir ve değiştirilemez."
+        ],
+        "keywords": "arka plan afiş görünüm unvan özelleştir"
       },
       "hide-profile": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Profilimi nasıl gizlerim?",
+        "a": [
+          "Profilini bağla, {settings} bölümünü aç ve Gizlilik altında \"Profili Gizle\"yi aç. Gizli profiller aramadan ve sıralamalardan kaybolur, diğer oyuncular onları açamaz. Kendi profilini yine de görebilirsin.",
+          "İstediğin zaman tekrar görünür yapabilirsin."
+        ],
+        "keywords": "gizle gizli görünmez gizlilik kaldır arama sıralama"
       },
       "hide-sections": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Profilimin yalnızca bazı kısımlarını gizleyebilir miyim?",
+        "a": [
+          "Evet. {settings} bölümünde Gizlilik altından Son İmtihanlar, Mağaza Paketleri ve Murkoff Parası'nı tek tek gizleyebilirsin; profilinin geri kalanı herkese açık kalır. Kendi profilinde her şeyi her zaman görürsün."
+        ],
+        "keywords": "gizle sekmeler son imtihanlar mağaza paketleri para birimi murkoff parası gizlilik"
       },
       "stop-updates": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Profilimin güncellenmesini durdurabilir miyim?",
+        "a": [
+          "Evet, profilin gizli olduğu sürece. {settings} bölümünde Gizlilik altından veri işlemeyi kapat. Tekrar açana kadar istatistiklerin olduğu gibi kalır."
+        ],
+        "keywords": "durdur dondur işleme güncellemeler takip vazgeç"
       },
       "delete-data": {
-        "q": null,
-        "a": null,
-        "bullets": null,
-        "keywords": null
+        "q": "Verilerimi nasıl silerim?",
+        "a": [
+          "{settings} bölümünü aç, Hesap'a git ve \"Profil Verilerini Sil\"i seç. Silme işlemini aynı Discord hesabıyla bir kez daha giriş yaparak onaylarsın. Ardından silme işlemi planlanır ve 7 gün sonra gerçekleşir. Sonra şunları kaldırırız:",
+          "O zamana kadar silme işlemini ayarlarından iptal edebilirsin. Gerçekleştikten sonra geri alınamaz: profilin gizlenir ve veri işlemeyi kendin tekrar açana kadar veri toplamanın dışında tutulur. Discord girişin ve profil bağlantın kalır, böylece profil üzerindeki kontrol sende olur.",
+          "Web sitesi hesabının da silinmesini istiyorsan şu soruya bak: {deleteAccount}"
+        ],
+        "bullets": [
+          "imtihan istatistiklerin ve imtihan geçmişin",
+          "envanterin, kozmetiklerin ve mağaza paketlerin",
+          "rozetlerin, vazifelerin ve isim geçmişin",
+          "tüm sezonlardaki İstila ilerlemen",
+          "görünen adın, Arkadaş Kodun ve sakladığımız ham oyun verileri"
+        ],
+        "keywords": "sil kaldır yok et kvkk gdpr veri temizle"
       },
       "delete-account": {
-        "q": null,
-        "a": null,
-        "bullets": null,
-        "keywords": null
+        "q": "Hesabımı nasıl silerim?",
+        "a": [
+          "Giriş yap, {settings} bölümünü aç, Hesap'a git ve Tehlikeli Bölge'de \"Hesabı sil\"i seç. Silme işlemini aynı Discord hesabıyla bir kez daha giriş yaparak onaylarsın. Discord erişim belirteçlerin hemen silinir; geri kalan her şey 7 günlük bir bekleme süresinin ardından silinir. Şunları kaldırırız:",
+          "Bağlı bir oyun profili varsa ona ne olacağını sen seçersin; önceden seçili bir seçenek yoktur. \"Tut\", profili hesabı olmayan herhangi bir oyuncunun profili gibi, mevcut görünürlük ayarlarınla sitede bırakır; bunları daha sonra değiştirmek için profili tekrar bağlaman gerekir. \"Sil\" ise verilerini de temizler, profili gizli tutar ve veri toplamaya kapatır. Daha önce \"Profil Verilerini Sil\" talebinde bulunduysan \"Tut\" bu talebi iptal eder, \"Sil\" ise uygular.",
+          "Oturumun hemen kapatılır. 7 gün içinde tekrar giriş yaparsan silme işlemi iptal olur. Bundan sonra geri alınamaz ve Discord ile tekrar giriş yapmak yeni, boş bir hesap oluşturur. Ekip hesapları bu şekilde silinemez; önce bir yöneticinin ekip rolünü kaldırması gerekir."
+        ],
+        "bullets": [
+          "Discord kimliğin, adın, avatarın ve e-posta adresin",
+          "sakladığımız Discord erişim belirteçleri; onayladığın anda silinir, ayrıca Discord tarafında da iptal edilir",
+          "profil bağlantın, bekleyen sahiplenme talepleri ve doğrulama geçmişin"
+        ],
+        "keywords": "sil kaldır hesap kapat kvkk gdpr yok et discord bağlantıyı kaldır"
       },
       "export-data": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Verilerimin bir kopyasını alabilir miyim?",
+        "a": [
+          "Evet. Giriş yap, {settings} bölümünü aç, Hesap'a git ve \"Verilerimi indir\"i seç. Herhangi bir tarayıcıda açabileceğin bir HTML sayfası alırsın. Bu sayfada veritabanımızın hesabın ve bağlı profilin hakkında sakladığı bilgiler yer alır: hesap bilgilerin, profil ayarların, istatistiklerin, imtihanların, rozetlerin ve doğrulama geçmişin gibi. Sayfa aynı verileri JSON dosyası olarak da kaydedebilir.",
+          "Saklanan giriş belirteçleri asla dahil edilmez."
+        ],
+        "keywords": "dışa aktar indir kopya veri kvkk gdpr json html erişim taşınabilirlik"
       },
       "opt-out-without-account": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Discord kullanmıyorum. Verilerimi nasıl kaldırtabilirim?",
+        "a": [
+          "{email} adresine e-posta gönder ya da {discord} üzerinden bir destek talebi aç ve hangi profille ilgili olduğunu belirt. Profili gizler ve verilerini toplamayı durdururuz."
+        ],
+        "keywords": "e-posta iletişim kaldır sil discord olmadan kvkk gdpr"
       },
       "cookies": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Çerez ya da izleme kullanıyor musunuz?",
+        "a": [
+          "Yalnızca sitenin çalışması için gerekenleri, örneğin giriş ve dil bilgin gibi. Kullanım istatistikleri, girdileri gizlenmiş oturum kayıtları ve hata raporları (PostHog, AB'de barındırılır) yalnızca kabul edersen toplanır. Bunları reddedebilir ve tercihini istediğin zaman alt kısımdaki \"Çerez Ayarları\" üzerinden değiştirebilirsin.",
+          "Geri kalan her şey {privacy} sayfamızda açıklanıyor."
+        ],
+        "keywords": "çerez analiz izleme posthog onay gizlilik"
       },
       "leaderboard-ranking": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Sıralamalar nasıl çalışır?",
+        "a": [
+          "Her kategori oyuncuları o değere göre, en yüksekten başlayarak sıralar. Platforma göre filtreleyebilirsin ve her kategorinin ilk 1.000 oyuncusu listelenir.",
+          "{leaderboards} üç gruba ayrılır: Genel (imtihanlar, ilerleme, İstila, mini oyunlar), İmtihanlar (her imtihan ve zorluk için en iyi süreler ve tamamlanma sayıları) ve Kozmetikler (en çok sahip olunan, en nadir ve en çok kullanılan eşyalar)."
+        ],
+        "keywords": "sıralama sıra derece en iyi liste kategoriler"
       },
       "not-on-leaderboard": {
-        "q": null,
-        "a": null,
-        "bullets": null,
-        "keywords": null
+        "q": "Neden sıralamada değilim?",
+        "a": [
+          "En yaygın nedenler şunlar:"
+        ],
+        "bullets": [
+          "profilin gizli ({hideProfile})",
+          "o kategoride ilk 1.000'in dışındasın",
+          "profilin yakın zamanda eklendi ve henüz tamamen işlenmedi",
+          "imtihan ve kozmetik sıralamaları yalnızca 2 saatte bir yeniden oluşturulur",
+          "kayıt ekibimiz tarafından kaldırıldı; örneğin bir açıktan yararlanıldığı ya da süre hatalı kaydedildiği için"
+        ],
+        "keywords": "eksik sıralama listede yok sıra hariç"
       },
       "badges": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Rozetleri nasıl kazanırım?",
+        "a": [
+          "Çoğu rozet profilin güncellendiğinde otomatik olarak verilir; örneğin Kapalı Beta'da ya da Erken Erişim'de oynadığın, 100, 250 veya 500 Ayıracı serbest bıraktığın, bir imtihanda en hızlı süreye sahip olduğun, her Psikocerrahi haritasında A+ aldığın ya da her eşyaya sahip olduğun için.",
+          "Speed Runner, Perfect Subject ve All Items Collected rozetleri saatte bir kontrol edilir ve tekrar kaybedilebilir; örneğin biri senin süreni geçtiğinde ya da yeni eşyalar çıktığında. Birkaç özel rozet ise ekibimiz tarafından verilir. Tüm rozetler {badges} sayfasında listelenir."
+        ],
+        "keywords": "rozet başarım kazan speed runner perfect subject"
       },
       "contributor-badge": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Katkıcı rozetini nasıl alırım?",
+        "a": [
+          "Oynarken {monitor} uygulamasını çalıştır. Karşılaştığın oyuncuların profil kimliklerini bildirir. Bunlardan biri henüz bilmediğimiz bir oyuncu olduğu anda rozeti alırsın."
+        ],
+        "keywords": "katkıcı rozet monitor katkı"
       },
       "invasion-rank": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "İstila derecem nasıl hesaplanır?",
+        "a": [
+          "Derecen, mevcut sezonda kazandığın İstila puanlarına göre belirlenir. Derecesiz'den başlayıp Acemi, Bronz ve Gümüş üzerinden Altın'a kadar çıkar; her birinin üç kademesi vardır. Her yeni sezon sıfırdan başlar."
+        ],
+        "keywords": "istila derece sezon puan pvp bronz gümüş altın"
       },
       "leaderboard-moderation": {
-        "q": null,
-        "a": null,
-        "bullets": null,
-        "keywords": null
+        "q": "Neden bazı oyuncular sıralamalarda gizli?",
+        "a": [
+          "Ekibimiz, istatistiklerini normal oyunla kazanmamış ya da istatistikleri düpedüz yanlış olan oyuncuları tüm sıralamalardan gizler. Gizlenen her oyuncunun şu nedenlerden biri vardır:",
+          "Gizlenen oyuncular profillerini ve tüm istatistiklerini korur. Profillerinde neden ve tarih görünür, ama bir sıraları olmaz.",
+          "Onları görmek için genel sıralamada \"Sıralama ölçütü\" altında ya da imtihan sıralamalarında \"Filtre\" altında \"Gizli oyuncuları göster\"i aç. Kaç oyuncunun gizlendiğini de görürsün. Soluk şekilde ve nedenleriyle işaretlenmiş olarak listelenirler.",
+          "Kendi profilin gizlendiyse ve bunun bir hata olduğunu düşünüyorsan {discord} üzerinden bize ulaş. Her itirazı inceliyoruz."
+        ],
+        "bullets": [
+          "Bot kullanımı: istatistikler bot, makro veya script gibi otomatik oyunla elde edildi.",
+          "Hile: istatistikler hile yapılarak elde edildi; örneğin hile araçları, değiştirilmiş oyun dosyaları ya da açık ve hataların kötüye kullanılmasıyla.",
+          "Veri hatası: istatistikler, oyun verilerindeki ya da bizim tarafımızdaki bir hata nedeniyle yanlış. Oyuncunun bir suçu yok."
+        ],
+        "keywords": "gizli hariç kaldırıldı moderasyon bot hile boost veri hatası yanlış istatistik yasaklı itiraz sıralanmamış"
       },
       "monitor": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "TOTStatsMonitor nedir ve güvenli mi?",
+        "a": [
+          "TOTStatsMonitor, sen oynarken arka planda çalışan küçük bir Windows uygulamasıdır. İçinde bulunduğun imtihanı Discord Rich Presence olarak gösterir ve karşılaştığın kişilerin profil kimliklerini bildirerek yeni oyuncular bulmamıza yardımcı olur.",
+          "Yalnızca oyunun zaten yazdığı kayıt dosyasını okur. Oyuna, oyunun belleğine ya da dosyalarına dokunmaz ve profil kimlikleri dışında hiçbir şey göndermez. Kaynak kodu GitHub'da herkese açıktır.",
+          "Uygulama kod imzalı olmadığı için Windows SmartScreen ilk açılışta seni uyarabilir. \"Ek bilgi\"ye, ardından \"Yine de çalıştır\"a tıkla. İndirme ve kurulum bilgileri {monitor} sayfasında."
+        ],
+        "keywords": "monitor uygulama masaüstü windows indir güvenli virüs smartscreen rich presence"
       },
       "discord-bot": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Discord botu ne yapar?",
+        "a": [
+          "Futterman'ın Radyosu istatistiklerini Discord sunucularına taşır. Prestij, seviye, teçhizat, İstila derecesi, platform ve daha fazlasına göre rol atar, takma adları senkronize eder ve sıralama kanallarını güncel tutar.",
+          "Botun üyeleri bulabilmesi için profillerinin bağlı olması gerekir. Davet bağlantısı ve kurulum bilgileri {discordBot} sayfasında. Bot açık kaynaklıdır ve kendi sunucunda barındırılabilir."
+        ],
+        "keywords": "discord bot roller sunucu futterman radyo"
       },
       "compare-favorites": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Karşılaştırma ve favoriler nasıl çalışır?",
+        "a": [
+          "{compare} ile en fazla 4 profili yan yana koyabilirsin. Favoriler, bir profildeki favori butonuyla eklenir. İkisi de yalnızca tarayıcında kaydedilir; bu yüzden hesaba ihtiyacın yok, ama diğer cihazlara da aktarılmazlar."
+        ],
+        "keywords": "karşılaştır favoriler yıldız yer imi arkadaşlar"
       },
       "map-skin-studio": {
-        "q": null,
-        "a": null,
-        "keywords": null
+        "q": "Harita ve Reagent Studio nedir?",
+        "a": [
+          "İki yardımcı proje: {maps}, her imtihanı odaları, düşman doğma noktaları, anahtarları ve görevleriyle gösterir; herkes tarayıcı düzenleyicisiyle haritalamaya yardım edebilir. {skinStudio} ise Ayıracını her kıyafet ve kozmetikle, ifadeler, pozlar ve el şekilleriyle gerçek zamanlı 3D olarak gösterir. Stüdyoda, oyun odalarında ya da menü arka planlarında bir sahnede beşe kadar Ayıraç yer alabilir; 4K'ya kadar duvar kâğıtları, GIF'ler ve paylaşım bağlantıları dışa aktarılabilir."
+        ],
+        "keywords": "harita haritalar kostüm reagent studio 3d kıyafetler düzenleyici ifadeler pozlar odalar gif duvar kâğıdı 4k"
       }
     }
   },
@@ -1370,86 +1502,86 @@
     }
   },
   "profileDeletionRequest": {
-    "footerLink": null,
+    "footerLink": "Profilini Sil",
     "hero": {
-      "title": null,
-      "subline": null
+      "title": "Profilini Sil",
+      "subline": "Verilerinin silinmesini mi istiyorsun? Profilin hakkında sakladığımız her şeyi siler ve takibi durdururuz."
     },
     "fastPath": {
       "signedOut": {
-        "title": null,
-        "desc": null,
-        "descClaim": null,
-        "button": null
+        "title": "Discord ile kendin sil",
+        "desc": "Discord ile giriş yap ve profilini arkadaş kodunla doğrula. Ardından ayarlarından kendin silebilirsin. Silme işlemi 7 gün sonra gerçekleşir ve o zamana kadar iptal edilebilir.",
+        "descClaim": "Discord ile giriş yap ve Discord'a bağladığın oyun hesabını (Steam, PlayStation veya Xbox) ilişkilendir. Ardından ayarlarından kendin silebilirsin. Silme işlemi 7 gün sonra gerçekleşir ve o zamana kadar iptal edilebilir.",
+        "button": "Discord ile devam et"
       },
       "unverified": {
-        "title": null,
-        "desc": null,
-        "descClaim": null,
-        "fallback": null,
-        "button": null
+        "title": "Önce profilini doğrula",
+        "desc": "Discord hesabın henüz bir oyun profiline bağlı değil. Profilini arkadaş kodunla doğrula, ardından ayarlarından sil.",
+        "descClaim": "Discord hesabın henüz bir oyun profiline bağlı değil. Discord'a bağladığın Steam, PlayStation veya Xbox hesabını ilişkilendir, ardından ayarlarından sil.",
+        "fallback": "Doğrulayamıyor musun? Çıkış yap ve bunun yerine ekibe bir talep gönder.",
+        "button": "Profilimi doğrula"
       },
       "verified": {
-        "title": null,
-        "desc": null,
-        "button": null
+        "title": "Profilini ayarlarından sil",
+        "desc": "Profilin bağlı olduğu için kendin silebilirsin. Ayarlar → Hesap bölümünde Tüm profil verilerini sil seçeneğini seç.",
+        "button": "Hesap ayarlarını aç"
       }
     },
     "form": {
-      "title": null,
-      "desc": null,
-      "profileLabel": null,
-      "searchPlaceholder": null,
-      "searching": null,
-      "noResults": null,
-      "resultsLabel": null,
-      "change": null,
-      "idNotFound": null,
-      "lookupNotFound": null,
-      "lookupFailed": null,
-      "profileRequired": null,
-      "contactLabel": null,
-      "contactRequired": null,
-      "contactLength": null,
-      "messageLabel": null,
-      "messageHint": null,
-      "confirm": null,
-      "confirmRequired": null,
-      "submit": null,
-      "privacyNote": null,
-      "privacyLink": null
+      "title": "Bunun yerine talep gönder",
+      "desc": "Ekip, herhangi bir şey silinmeden önce profilin sana ait olduğunu kontrol eder. Bu birkaç gün sürebilir.",
+      "profileLabel": "Profil",
+      "searchPlaceholder": "Ad, profil bağlantısı veya kimlik",
+      "searching": "Aranıyor…",
+      "noResults": "Profil bulunamadı. Gizli profiller aramada görünmez, bu yüzden bunun yerine profil bağlantını yapıştır.",
+      "resultsLabel": "Eşleşen profiller",
+      "change": "Değiştir",
+      "idNotFound": "Bu kimliğe sahip bir profil bulunamadı. Kontrol edip tekrar dene.",
+      "lookupNotFound": "Bu bağlantı için profil bulunamadı. Kontrol et ya da bunun yerine profil kimliğini yapıştır.",
+      "lookupFailed": "Bu bağlantı kontrol edilemedi. Tekrar dene ya da profil kimliğini yapıştır.",
+      "profileRequired": "Silmek istediğin profili seç.",
+      "contactLabel": "E-posta veya Discord kullanıcı adı",
+      "contactRequired": "Sana nasıl ulaşabileceğimizi yaz.",
+      "contactLength": "{min} ile {max} karakter arasında olmalı.",
+      "messageLabel": "Mesaj (isteğe bağlı)",
+      "messageHint": "Profilin sana ait olduğunu gösteren herhangi bir şey; örneğin arkadaş kodun veya platform hesabın.",
+      "confirm": "Bu profilin sahibi benim ve silme işleminin kalıcı olduğunu anlıyorum.",
+      "confirmRequired": "Talebi göndermeden önce lütfen onayla.",
+      "submit": "Silme talebini gönder",
+      "privacyNote": "Bilgilerini yalnızca bu talebi işlemek için kullanırız ve talep kapatıldıktan 30 gün sonra sileriz. Ekran görüntülerini yalnızca ekip görür ve talep işlendikten sonra silinir.",
+      "privacyLink": "Gizlilik politikası"
     },
     "screenshots": {
-      "label": null,
-      "count": null,
-      "drop": null,
-      "hint": null,
-      "thumbAlt": null,
-      "remove": null,
-      "processing": null,
+      "label": "Ekran görüntüleri",
+      "count": "{count} / {max}",
+      "drop": "Görsel seç, sürükleyip bırak ya da yapıştır",
+      "hint": "Adının ve arkadaş kodunun göründüğü oyun içi oyuncu kartının en az bir ekran görüntüsünü ekle.",
+      "thumbAlt": "Ekran görüntüsü {n}",
+      "remove": "Ekran görüntüsü {n} kaldır",
+      "processing": "Hazırlanıyor…",
       "errors": {
-        "type": null,
-        "tooLarge": null,
-        "unreadable": null,
-        "limit": null,
-        "required": null
+        "type": "Yalnızca PNG, JPEG veya WebP görselleri desteklenir.",
+        "tooLarge": "Bu görsel sıkıştırıldıktan sonra bile çok büyük. Kırp ya da daha küçük bir ekran görüntüsü kullan.",
+        "unreadable": "Bu görsel okunamadı. Lütfen başka bir dosya dene.",
+        "limit": "En fazla {max} ekran görüntüsü ekleyebilirsin.",
+        "required": "Profilin sana ait olduğunu gösteren en az bir ekran görüntüsü ekle."
       }
     },
     "errors": {
-      "PROFILE_NOT_FOUND": null,
-      "PROFILE_ALREADY_DELETED": null,
-      "REQUEST_ALREADY_PENDING": null,
-      "SIGNED_IN": null,
-      "INVALID_SCREENSHOT": null,
-      "rateLimited": null,
-      "generic": null
+      "PROFILE_NOT_FOUND": "Bu profil mevcut değil. Bağlantıyı veya kimliği kontrol edip tekrar dene.",
+      "PROFILE_ALREADY_DELETED": "Bu profilin verileri zaten silinmiş.",
+      "REQUEST_ALREADY_PENDING": "Bu profil için bu iletişim bilgisiyle zaten bir talep gönderdin. Ekip sana dönüş yapacak.",
+      "SIGNED_IN": "Giriş yapmış olduğun için talep formu kullanılamıyor. Profilini ayarlarından kendin sil ya da talep göndermek için çıkış yap.",
+      "INVALID_SCREENSHOT": "Ekran görüntülerinden biri işlenemedi. Kaldır ya da farklı bir görsel dene.",
+      "rateLimited": "Çok fazla istek. Lütfen biraz bekleyip tekrar dene.",
+      "generic": "Talep gönderilemedi. Lütfen daha sonra tekrar dene."
     },
     "success": {
-      "title": null,
-      "desc": null,
-      "reference": null,
-      "home": null,
-      "another": null
+      "title": "Talep alındı",
+      "desc": "Profilin sana ait olduğunu kontrol edeceğiz ve seninle iletişime geçebiliriz. Onaylandıktan sonra istatistikler silinir ve profil gizlenir.",
+      "reference": "Referans",
+      "home": "Ana sayfaya dön",
+      "another": "Başka bir talep gönder"
     }
   },
   "consent": {
