@@ -20,8 +20,8 @@ account on a translation platform needed and no developer skills required.
 | `de-DE` | German — Deutsch | 733 / 1454 | 50.4% |
 | `es-ES` | Spanish — Español | 729 / 1454 | 50.1% |
 | `pl-PL` | Polish — Polski | 677 / 1454 | 46.5% |
+| `tr-TR` | Turkish — Türkçe | 675 / 1454 | 46.4% |
 | `ar-SA` | Arabic — العربية | 664 / 1454 | 45.6% |
-| `tr-TR` | Turkish — Türkçe | 376 / 1454 | 25.8% |
 <!-- END COMPLETENESS TABLE -->
 
 Anything that is not translated yet (`null`) shows up in English on the website, so an incomplete language never
