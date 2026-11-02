@@ -1878,137 +1878,137 @@
     }
   },
   "communityEvent": {
-    "eyebrow": null,
+    "eyebrow": "Topluluk Etkinliği",
     "bar": {
-      "cta": null,
-      "next": null
+      "cta": "Etkinliği gör",
+      "next": "Aşama {phase} için {remaining} kaldı"
     },
     "countdown": {
-      "title": null,
-      "remaining": null,
-      "etaLabel": null,
-      "progress": null,
-      "compact": null,
-      "reached": null,
-      "next": null
+      "title": "Hedef: {target}",
+      "remaining": "Dışarı çıkarılması gereken Kaçış İstihbaratı",
+      "etaLabel": "Tahmini",
+      "progress": "{percent} tamamlandı",
+      "compact": "{target} için {remaining} · {eta}",
+      "reached": "{target} tamamlandı",
+      "next": "Sonraki · {phase}"
     },
-    "allReached": null,
-    "phase": null,
-    "reward": null,
-    "redacted": null,
+    "allReached": "Tüm aşamalar tamamlandı",
+    "phase": "Aşama {n}",
+    "reward": "Ödül",
+    "redacted": "[SANSÜRLÜ]",
     "labels": {
-      "ESCAPE": null
+      "ESCAPE": "Kaç"
     },
-    "reached": null,
-    "toGo": null,
+    "reached": "Tamamlandı",
+    "toGo": "{remaining} kaldı",
     "timing": {
-      "took": null,
-      "reached": null
+      "took": "Süre: {duration}",
+      "reached": "Tamamlanma: {when}"
     },
     "eta": {
-      "imminent": null,
-      "minutes": null,
-      "withProgress": null,
-      "hours": null,
-      "hoursMinutes": null,
-      "days": null,
-      "afterEnd": null,
-      "distant": null
+      "imminent": "Her an",
+      "minutes": "~{n} dk",
+      "withProgress": "{eta} ({percent} tamamlandı)",
+      "hours": "~{n} sa",
+      "hoursMinutes": "~{h} sa {m} dk",
+      "days": "~{n} gün | ~{n} gün",
+      "afterEnd": "Muhtemelen bitişten önce değil",
+      "distant": "Bir haftadan fazla var"
     },
     "duration": {
-      "days": null,
-      "hours": null,
-      "minutes": null
+      "days": "{n} g",
+      "hours": "{n} sa",
+      "minutes": "{n} dk"
     },
-    "errorTitle": null,
-    "notFound": null,
-    "loadError": null,
-    "coverAlt": null,
-    "communityTotal": null,
-    "finalTotal": null,
+    "errorTitle": "Topluluk etkinliği kullanılamıyor",
+    "notFound": "Bu etkinlik mevcut değil.",
+    "loadError": "Etkinlik yüklenemedi. Birazdan tekrar dene.",
+    "coverAlt": "{name} etkinlik görseli",
+    "communityTotal": "Topluluk ilerlemesi",
+    "finalTotal": "Son toplam",
     "discord": {
-      "title": null,
-      "text": null,
-      "online": null,
-      "join": null
+      "title": "Aşama bildirimleri al",
+      "text": "Topluluk bir aşamaya yaklaştığında ya da ulaştığında Discord'da paylaşıyoruz.",
+      "online": "{count} çevrim içi",
+      "join": "Discord'a katıl"
     },
-    "ofGoal": null,
-    "rate": null,
-    "etaPhase": null,
-    "etaNext": null,
+    "ofGoal": "Nihai hedef {goal}: {percent} tamamlandı",
+    "rate": "Saatte",
+    "etaPhase": "Mevcut hızla Aşama {phase}",
+    "etaNext": "Sonraki aşama tahmini",
     "stats": {
-      "updated": null,
-      "ended": null,
-      "phases": null,
-      "phasesValue": null
+      "updated": "Son güncelleme",
+      "ended": "Bitiş tarihi",
+      "phases": "Tamamlanan aşamalar",
+      "phasesValue": "{reached} / {total}"
     },
-    "unknown": null,
+    "unknown": "Henüz yeterli veri yok",
     "personal": {
-      "title": null,
-      "done": null,
-      "missing": null,
-      "signIn": null,
-      "link": null
+      "title": "Minimum katkı",
+      "done": "Ödüllere hak kazandın",
+      "missing": "Ödüllere hak kazanmak için {remaining} daha gerekiyor",
+      "signIn": "Katkını görmek için giriş yap",
+      "link": "Katkını görmek için profilini bağla"
     },
-    "phases": null,
+    "phases": "Aşamalar",
     "leaders": {
-      "title": null,
-      "subtitle": null,
-      "fullLeaderboard": null,
-      "you": null
+      "title": "En çok katkı yapanlar",
+      "subtitle": "Şimdiye kadar en yüksek toplama sahip oyuncular.",
+      "fullLeaderboard": "Tüm sıralama",
+      "you": "Sen"
     },
     "history": {
-      "title": null,
-      "subtitle": null,
-      "aria": null,
-      "reached": null
+      "title": "İlerleme",
+      "subtitle": "Topluluk toplamının nasıl arttığı, her aşama işaretlenmiş olarak.",
+      "aria": "{from} değerinden {to} değerine yükselen topluluk toplamı",
+      "reached": "{phase} tamamlandı"
     },
     "status": {
-      "live": null,
-      "liveUntil": null,
-      "upcoming": null,
-      "ended": null,
-      "endedOn": null
+      "live": "Şu an canlı",
+      "liveUntil": "{date} tarihine kadar canlı",
+      "upcoming": "Başlangıç: {date}",
+      "ended": "Bitti",
+      "endedOn": "Bitiş: {date}"
     },
     "events": {
       "extract_escape_plan": {
-        "name": null,
-        "description": null,
-        "leaders": null,
-        "reached": null
+        "name": "Tesisten Kaç",
+        "description": "Amelia'ya yardım et. İmtihanlarda Kaçış İstihbaratı bul ve envanterinde taşıyarak çık. Kaçışın yapılabilmesi için topluluk aşamalarına ulaş.",
+        "leaders": "Şimdiye kadar en çok Kaçış İstihbaratı çıkaran oyuncular.",
+        "reached": "KAÇ! HEMEN!"
       },
       "blood_donation": {
-        "name": null,
-        "description": null
+        "name": "Organ Örnekleri",
+        "description": "Topluluk, aşamalara ulaşmak için İmtihanlarda organ örnekleri topladı."
       },
       "characters_released": {
-        "name": null
+        "name": "Serbest Bırakılan Ayıraçlar"
       }
     },
     "overview": {
-      "title": null,
-      "subtitle": null,
-      "live": null,
-      "upcoming": null,
-      "past": null,
-      "empty": null,
-      "loadError": null,
-      "goal": null,
-      "awaiting": null,
-      "phasesReached": null,
-      "counters": null
+      "title": "Topluluk Etkinlikleri",
+      "subtitle": "Tüm oyuncuların birlikte ulaşmaya çalıştığı canlı ve geçmiş hedefler.",
+      "live": "Şu an canlı",
+      "upcoming": "Yaklaşan",
+      "past": "Geçmiş etkinlikler",
+      "empty": "Henüz topluluk etkinliği yok. Bir sonraki başladığında tekrar uğra.",
+      "loadError": "Etkinlikler yüklenemedi. Birazdan tekrar dene.",
+      "goal": "Hedef: {goal}",
+      "awaiting": "Sayım etkinlikle birlikte başlar",
+      "phasesReached": "{reached}/{total} aşama tamamlandı",
+      "counters": "Devam eden sayaçlar"
     },
     "more": {
-      "title": null,
-      "all": null
+      "title": "Diğer etkinlikler",
+      "all": "Tüm etkinlikler"
     },
     "counter": {
-      "next": null,
-      "total": null,
-      "remaining": null,
-      "eta": null,
-      "steps": null,
-      "beforeTracking": null
+      "next": "Sonraki aşama: {amount}",
+      "total": "Topluluk toplamı",
+      "remaining": "{amount} için {remaining} kaldı",
+      "eta": "Mevcut hızla {amount} tahmini",
+      "steps": "Ulaşılan aşamalar",
+      "beforeTracking": "Takip başlamadan önce ulaşıldı"
     }
   },
   "ameliaTheme": {
