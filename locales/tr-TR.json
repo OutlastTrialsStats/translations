@@ -1897,7 +1897,7 @@
     "reward": "Ödül",
     "redacted": "[SANSÜRLÜ]",
     "labels": {
-      "ESCAPE": "Kaç"
+      "ESCAPE": "Kaç!"
     },
     "reached": "Tamamlandı",
     "toGo": "{remaining} kaldı",
