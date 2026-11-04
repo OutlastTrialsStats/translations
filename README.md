@@ -15,7 +15,7 @@ account on a translation platform needed and no developer skills required.
 | `en-US` | English (source) | 1454 / 1454 | 100% |
 | `it-IT` | Italian — Italiano | 1454 / 1454 | 100% |
 | `zh-CN` | Chinese (Simplified) — 中文 | 1441 / 1454 | 99.1% |
-| `tr-TR` | Turkish — Türkçe | 890 / 1454 | 61.2% |
+| `tr-TR` | Turkish — Türkçe | 1144 / 1454 | 78.6% |
 | `ru-RU` | Russian — Русский | 766 / 1454 | 52.6% |
 | `fr-FR` | French — Français | 749 / 1454 | 51.5% |
 | `de-DE` | German — Deutsch | 733 / 1454 | 50.4% |
