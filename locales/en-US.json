@@ -539,6 +539,7 @@
     "cosmeticGroupCharacter": "Character",
     "cosmeticGroupProfile": "Profile",
     "cosmeticGroupCell": "Cell",
+    "cosmeticGroupSkins": "Skins & Emotes",
     "cosmeticExcludedGroup": "Categories",
     "cosmeticFilterNone": "No category",
     "subtitle": "See how you rank among all reagents",
@@ -617,7 +618,54 @@
       },
       "rarity": "Rarity",
       "thumbnailAlt": "Thumbnail of {name}",
-      "loadError": "Error loading cosmetic details"
+      "loadError": "Error loading cosmetic details",
+      "descriptionTitle": "Description",
+      "obtainTitle": "How to obtain",
+      "variantsTitle": "Color variants",
+      "partsTitle": "Outfit parts",
+      "partOfTitle": "Part of",
+      "currentVariant": "Current",
+      "event": "Event",
+      "unreleasedHint": "This item is not released yet. It was found in the game files and cannot be obtained.",
+      "sources": {
+        "BATTLE_PASS": "Catalog {name}",
+        "BATTLE_PASS_UNNAMED": "Catalog",
+        "SHOP": "Shop",
+        "TASK": "Task: {name}",
+        "TASK_UNNAMED": "Task",
+        "REWARD_BOX": "Reward box",
+        "LEVEL": "Reach level {level}",
+        "RELEASE": "Reach release {count}",
+        "TRIAL_REWARD": "Trial reward",
+        "COMMUNITY_EVENT": "Community event {name}",
+        "INVASION": "Invasion grade {name}",
+        "PROGRESSION": "Progression reward",
+        "BADGE": "Badge reward: {name}",
+        "position": "Page {page}, slot {slot}",
+        "cost": "{cost} {currency}",
+        "premiumUnlock": "Premium unlock: {cost}",
+        "timeLimited": "Time limited",
+        "released": "Released {date}",
+        "milestone": "Milestone {amount}",
+        "rewardTier": "Tier {amount}",
+        "currencies": {
+          "BATTLE_PASS_TOKEN": "Stamps",
+          "EVENT_TOKEN": "Event tokens",
+          "PREMIUM_TOKEN": "Premium tokens"
+        },
+        "pools": {
+          "RewardBox": "Standard pool",
+          "RewardBox_RareEpic": "Rare pool",
+          "RewardBox_Legendary": "Legendary pool"
+        }
+      }
+    },
+    "rarities": {
+      "BASIC": "Basic",
+      "ADVANCED": "Enhanced",
+      "EVENT": "Event",
+      "CLASSIFIED": "Classified",
+      "DELUXE": "Deluxe"
     }
   },
   "siteFooter": {
@@ -870,6 +918,11 @@
       "profileHiddenNoticeTitle": "Profile is hidden",
       "profileHiddenNotice": "This profile is hidden from the public. Only you and staff members can see it.",
       "visibleToYou": "Visible to you"
+    },
+    "dataDeletion": {
+      "title": "Profile scheduled for deletion",
+      "message": "All data of this profile will be deleted on {date}.",
+      "cancel": "Cancel in settings"
     },
     "tabErrors": {
       "statsTitle": "Could not load stats",
@@ -1198,6 +1251,7 @@
     "no_connections": "No gaming platforms linked to Discord. Connect Steam, PlayStation, or Xbox in your Discord settings. Alternatively, create a support ticket on our Discord server to link your account manually.",
     "no_profile_found": "No profile found",
     "already_claimed": "Already claimed",
+    "linked_to_you": "Linked to your account",
     "profile_pending": "Searching...",
     "claim_pending": "Pre-select",
     "claim_pending_success": "We're searching for your profile. It will be linked automatically once found.",
@@ -1213,6 +1267,8 @@
     "already_linked_title": "Already Linked",
     "already_linked_description": "Your Discord account is already linked to a game profile.",
     "go_to_profile": "Go to My Profile",
+    "add_profile": "Add game profile",
+    "add_another_profile": "Link another game profile",
     "continue": "Continue",
     "continue_to_maps": "Continue to Maps",
     "link_support_hint": "Having trouble linking your account? Contact our support on the",
@@ -1287,6 +1343,8 @@
         "INVALID_FRIEND_CODE_FORMAT": "Please enter a valid friend code in the format XXXX-XXXX.",
         "PROFILE_NOT_VERIFIABLE": "This profile cannot be verified. Contact our support if you think this is a mistake.",
         "USER_ALREADY_LINKED": "Your account is already linked to a game profile.",
+        "ALREADY_LINKED_TO_YOU": "This profile is already linked to your account.",
+        "LINK_LIMIT_REACHED": "You have reached the limit of linked profiles.",
         "NO_PROGRESSION_DATA": "We could not read the equipped cosmetics of this profile. Start the game once and try again.",
         "NO_ALTERNATIVE_COSMETICS": "This profile does not own enough player icons or borders for a challenge. Contact our support to link it manually.",
         "PLAYER_OFFLINE": "You need to be online in The Outlast Trials to start the verification. Start the game and try again.",
@@ -1313,6 +1371,8 @@
     "saving": "Saving…",
     "saved": "Saved",
     "saveError": "Save failed",
+    "loadError": "Could not load the settings of this profile.",
+    "loadRetry": "Try again",
     "visibleTabs": "Visible tabs",
     "visibleTabsHint": "Only applies while your profile is visible.",
     "visibleTabItems": {
@@ -1329,6 +1389,22 @@
     },
     "linked_profile": "Linked Profile",
     "linked_profile_description": "Your game profile is linked to your Discord account. You can unlink it here.",
+    "accounts": {
+      "title": "Game Profiles",
+      "description": "These game profiles are linked to your Discord account. Your main profile is used for the Discord bot, map credits and the profile link in the menu.",
+      "unknownName": "Unknown profile",
+      "primaryBadge": "Main profile",
+      "makePrimary": "Set as main",
+      "primarySuccess": "Main profile updated.",
+      "primaryFailed": "Failed to change the main profile",
+      "linkedOn": "Linked on {date}",
+      "addTitle": "Add a game profile",
+      "addHint": "{count} of {max} profiles linked.",
+      "limitReached": "You have reached the limit of {max} linked profiles.",
+      "addButton": "Add",
+      "unlinkConfirm": "Are you sure you want to unlink {name} from your Discord account? You can link it again later.",
+      "editing": "Editing profile"
+    },
     "profileDetails": {
       "title": "What others see",
       "description": "Choose which parts of your profile are visible to other players.",
@@ -1436,6 +1512,7 @@
       "sectionTitle": "Danger Zone",
       "sectionHint": "Deletions take effect after 7 days and cannot be undone after that.",
       "title": "Delete Profile Data",
+      "profileTitle": "Delete data of {name}",
       "hint": "Wipe all game data stored on outlasttrialsstats.com. Your game itself is not affected, and your Discord login and profile link stay intact.",
       "whatHeader": "The following will be deleted:",
       "whatItems": [
@@ -1449,11 +1526,13 @@
       ],
       "button": "Delete all profile data",
       "confirmTitle": "Delete all profile data?",
+      "profileConfirmTitle": "Delete all data of {name}?",
       "confirmText": "All your statistics, cosmetics, badges, invasion data, trials and shop packs will be removed for good. Your profile is hidden and blocked from any further collection until you re-enable processing and make it visible again yourself. Your Discord account and profile link stay intact.",
       "gracePeriod": "Your data is deleted after 7 days. Until then you can cancel the deletion in your settings.",
       "understand": "I understand that my profile data will be deleted for good after 7 days.",
       "scheduled": "Your profile data will be deleted on {date}.",
       "scheduledTitle": "Profile data will be deleted on {date}",
+      "profileScheduledTitle": "Data of {name} will be deleted on {date}",
       "scheduledHint": "You can cancel the deletion until then.",
       "cancelButton": "Cancel deletion",
       "cancelled": "The deletion of your profile data has been cancelled.",
@@ -1491,6 +1570,7 @@
         "sections": {
           "account": "Account",
           "linkedProfile": "Linked profile",
+          "linkedProfiles": "Linked profiles",
           "profileSettings": "Profile settings",
           "processingBlock": "Processing block",
           "leaderboardModeration": "Leaderboard moderation",
@@ -1588,20 +1668,8 @@
       "privacyLink": "Privacy policy"
     },
     "screenshots": {
-      "label": "Screenshots",
-      "count": "{count} / {max}",
-      "drop": "Choose images, drop or paste them",
       "hint": "Add at least one screenshot of your in-game player card with your name and friend code visible.",
-      "thumbAlt": "Screenshot {n}",
-      "remove": "Remove screenshot {n}",
-      "processing": "Preparing…",
-      "errors": {
-        "type": "Only PNG, JPEG or WebP images are supported.",
-        "tooLarge": "This image is too large, even after compressing it. Crop it or use a smaller screenshot.",
-        "unreadable": "This image couldn't be read. Please try another file.",
-        "limit": "You can attach up to {max} screenshots.",
-        "required": "Add at least one screenshot that shows the profile is yours."
-      }
+      "required": "Add at least one screenshot that shows the profile is yours."
     },
     "errors": {
       "PROFILE_NOT_FOUND": "This profile doesn't exist. Check the link or ID and try again.",
@@ -1765,7 +1833,7 @@
       "programcore": "Core",
       "programchain": "Escalation",
       "programinvasion": "Invasion",
-      "programcreator": "Creator",
+      "programcreator": "Trial-Maker",
       "programweekly": "Weekly",
       "programevent": "Event"
     },
@@ -1924,9 +1992,7 @@
       "remaining": "Escape Intel still to extract",
       "etaLabel": "Expected",
       "progress": "{percent} done",
-      "compact": "{remaining} to {target} · {eta}",
-      "reached": "{target} reached",
-      "next": "Next · {phase}"
+      "compact": "{remaining} to {target} · {eta}"
     },
     "allReached": "All phases reached",
     "phase": "Phase {n}",
@@ -2010,8 +2076,7 @@
       "extract_escape_plan": {
         "name": "Escape the Facility",
         "description": "Help Amelia. Find as much Escape Intel as possible in the Trials and leave with it in your inventory. Reach community milestones to make the escape possible.",
-        "leaders": "The players who have extracted the most Escape Intel so far.",
-        "reached": "ESCAPE! NOW!"
+        "leaders": "The players who have extracted the most Escape Intel so far."
       },
       "blood_donation": {
         "name": "Blood Drive",
@@ -2063,6 +2128,155 @@
     },
     "footer": {
       "signoff": "Complicity is death. — A"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "open": "Open notifications",
+    "empty": "No notifications yet",
+    "markAllRead": "Mark all as read",
+    "types": {
+      "BADGE_GRANTED": {
+        "title": "Badge earned",
+        "body": "Your profile received the {badge} badge."
+      },
+      "BADGE_REVOKED": {
+        "title": "Badge removed",
+        "body": "The {badge} badge was removed from your profile."
+      },
+      "TOPLIST_EXCLUDED": {
+        "title": "Hidden from the leaderboards",
+        "body": "Your profile is no longer shown in the leaderboards. Reason: {reason}"
+      },
+      "RUN_SUBMISSION_APPROVED": {
+        "title": "Run approved",
+        "body": "Your submitted run on {map} ({difficulty}) now counts on the speedrun leaderboard."
+      },
+      "RUN_SUBMISSION_REJECTED": {
+        "title": "Run submission rejected",
+        "body": "Your submitted run on {map} ({difficulty}) was not accepted. Open your submissions to see why."
+      },
+      "RUN_SUBMISSION_REVOKED": {
+        "title": "Run removed",
+        "body": "Your run on {map} ({difficulty}) no longer counts on the speedrun leaderboard."
+      }
+    }
+  },
+  "screenshots": {
+    "label": "Screenshots",
+    "count": "{count} / {max}",
+    "drop": "Choose images, drop or paste them",
+    "thumbAlt": "Screenshot {n}",
+    "remove": "Remove screenshot {n}",
+    "processing": "Preparing…",
+    "errors": {
+      "type": "Only PNG, JPEG or WebP images are supported.",
+      "tooLarge": "This image is too large, even after compressing it. Crop it or use a smaller screenshot.",
+      "unreadable": "This image couldn't be read. Please try another file.",
+      "limit": "You can attach up to {max} screenshots."
+    }
+  },
+  "runSubmission": {
+    "hero": {
+      "title": "Submit a Run",
+      "subline": "Faster than our records? Send your proof and staff adds your time."
+    },
+    "entry": {
+      "eyebrow": "Speedrun leaderboard",
+      "title": "Missing a best time?",
+      "desc": "Submit a run with a video or screenshots for the speedrun leaderboard.",
+      "button": "Submit a run"
+    },
+    "notLinked": {
+      "title": "Link your profile first",
+      "desc": "You can only submit runs for your own game profile. Link it to your Discord account, then come back here.",
+      "button": "Link my profile"
+    },
+    "form": {
+      "steps": {
+        "trial": {
+          "title": "Trial",
+          "desc": "Which trial did you run?"
+        },
+        "result": {
+          "title": "Result",
+          "desc": "Your time as shown on the end screen."
+        },
+        "team": {
+          "title": "Team",
+          "desc": "Who played with you?"
+        },
+        "proof": {
+          "title": "Proof",
+          "desc": "Staff checks every run by hand before it counts."
+        }
+      },
+      "or": "or",
+      "programLabel": "Program",
+      "programs": {
+        "core": "Core",
+        "chain": "Escalation",
+        "creator": "Trial-Maker",
+        "event": "Event",
+        "weekly": "Weekly"
+      },
+      "eventLabel": "Event",
+      "familyLabel": "Map",
+      "mapLabel": "Trial",
+      "difficultyLabel": "Difficulty",
+      "timeLabel": "Time",
+      "timeHint": "Minutes and seconds, e.g. 12:34.5",
+      "timeInvalid": "Enter the time as mm:ss or mm:ss.ms.",
+      "dateLabel": "Played on",
+      "dateInvalid": "The date can't be in the future.",
+      "teamSizeLabel": "Team size",
+      "teammatesLabel": "Teammates (optional)",
+      "teammatesHint": "Add the profiles you played with. Once approved, the time counts for them too.",
+      "teammatesPlaceholder": "Search for a teammate",
+      "removeTeammate": "Remove {name}",
+      "videoLabel": "Video link",
+      "videoHint": "YouTube, Twitch or any other link where staff can watch the whole run.",
+      "videoInvalid": "Enter a link that starts with https://",
+      "screenshotsHint": "Screenshots of the end screen showing the trial, the difficulty and the time.",
+      "proofRequired": "Add a video link or at least one screenshot.",
+      "commentLabel": "Comment (optional)",
+      "required": "Required",
+      "submit": "Submit run",
+      "next": "Continue",
+      "back": "Back",
+      "privacyNote": "Only staff see your proof. Screenshots are deleted when a submission is rejected or removed."
+    },
+    "success": {
+      "title": "Run submitted",
+      "desc": "Staff will review it soon. You get a notification once it is handled.",
+      "another": "Submit another run"
+    },
+    "errors": {
+      "NO_LINKED_PROFILE": "Link your game profile before submitting a run.",
+      "INVALID_TRIAL": "Pick a valid program, trial and difficulty.",
+      "INVALID_TIME": "The time is not valid.",
+      "INVALID_DATE": "The date can't be in the future.",
+      "INVALID_TEAMMATES": "One of the teammates can't be added. Check the team size and the selected profiles.",
+      "PROOF_REQUIRED": "Add a video link or at least one screenshot.",
+      "INVALID_VIDEO_URL": "The video link is not valid.",
+      "INVALID_SCREENSHOT": "One of the screenshots couldn't be processed. Remove it or try a different image.",
+      "REQUEST_ALREADY_PENDING": "A submission for this trial is already waiting for review.",
+      "TOO_MANY_PENDING": "You already have 5 submissions waiting for review. Wait until staff has handled them.",
+      "rateLimited": "Too many submissions. Please wait a moment and try again.",
+      "disabled": "Run submissions are not available right now.",
+      "generic": "The run couldn't be submitted. Please try again later."
+    },
+    "mine": {
+      "title": "My submissions",
+      "empty": "You haven't submitted any runs yet.",
+      "team": "with {names}",
+      "staffNote": "Staff: {note}",
+      "states": {
+        "PENDING": "In review",
+        "APPROVED": "Approved",
+        "REJECTED": "Rejected",
+        "REVOKED": "Removed"
+      }
     }
   }
 }

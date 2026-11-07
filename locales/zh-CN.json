@@ -539,6 +539,7 @@
     "cosmeticGroupCharacter": "角色",
     "cosmeticGroupProfile": "资料",
     "cosmeticGroupCell": "牢房",
+    "cosmeticGroupSkins": null,
     "cosmeticExcludedGroup": "类目",
     "cosmeticFilterNone": "无类目",
     "subtitle": "查看你在所有试剂中的排名方式",
@@ -617,7 +618,54 @@
       },
       "rarity": "稀有度",
       "thumbnailAlt": "{name} 的缩略图",
-      "loadError": "加载外观详情时出错"
+      "loadError": "加载外观详情时出错",
+      "descriptionTitle": null,
+      "obtainTitle": null,
+      "variantsTitle": null,
+      "partsTitle": null,
+      "partOfTitle": null,
+      "currentVariant": null,
+      "event": null,
+      "unreleasedHint": null,
+      "sources": {
+        "BATTLE_PASS": null,
+        "BATTLE_PASS_UNNAMED": null,
+        "SHOP": null,
+        "TASK": null,
+        "TASK_UNNAMED": null,
+        "REWARD_BOX": null,
+        "LEVEL": null,
+        "RELEASE": null,
+        "TRIAL_REWARD": null,
+        "COMMUNITY_EVENT": null,
+        "INVASION": null,
+        "PROGRESSION": null,
+        "BADGE": null,
+        "position": null,
+        "cost": null,
+        "premiumUnlock": null,
+        "timeLimited": null,
+        "released": null,
+        "milestone": null,
+        "rewardTier": null,
+        "currencies": {
+          "BATTLE_PASS_TOKEN": null,
+          "EVENT_TOKEN": null,
+          "PREMIUM_TOKEN": null
+        },
+        "pools": {
+          "RewardBox": null,
+          "RewardBox_RareEpic": null,
+          "RewardBox_Legendary": null
+        }
+      }
+    },
+    "rarities": {
+      "BASIC": null,
+      "ADVANCED": null,
+      "EVENT": null,
+      "CLASSIFIED": null,
+      "DELUXE": null
     }
   },
   "siteFooter": {
@@ -870,6 +918,11 @@
       "profileHiddenNoticeTitle": "个人资料已隐藏",
       "profileHiddenNotice": "此个人资料已对大众隐藏。只有您和工作人员可以看到它。",
       "visibleToYou": "对您可见"
+    },
+    "dataDeletion": {
+      "title": null,
+      "message": null,
+      "cancel": null
     },
     "tabErrors": {
       "statsTitle": "无法加载统计数据",
@@ -1198,6 +1251,7 @@
     "no_connections": "没有与Discord关联的游戏平台。请在Discord设置中连接Steam、PlayStation或Xbox。您也可以在我们的Discord服务器上创建支持工单来手动关联您的账户。",
     "no_profile_found": "未找到资料",
     "already_claimed": "已被认领",
+    "linked_to_you": null,
     "profile_pending": "搜索中……",
     "claim_pending": "预先选择",
     "claim_pending_success": "我们正在搜索您的资料。一旦找到将自动关联。",
@@ -1213,6 +1267,8 @@
     "already_linked_title": "已关联",
     "already_linked_description": "您的Discord账户已关联到游戏资料。",
     "go_to_profile": "前往我的档案",
+    "add_profile": null,
+    "add_another_profile": null,
     "continue": "继续",
     "continue_to_maps": "继续前往地图",
     "link_support_hint": "在关联您的帐户时遇到困难？请联系我们的支持",
@@ -1287,6 +1343,8 @@
         "INVALID_FRIEND_CODE_FORMAT": "请输入格式为 XXXX-XXXX 的有效好友代码。",
         "PROFILE_NOT_VERIFIABLE": "无法验证此个人资料。如果您认为这是误判，请联系我们的支持团队。",
         "USER_ALREADY_LINKED": "你的账号已关联游戏档案。",
+        "ALREADY_LINKED_TO_YOU": null,
+        "LINK_LIMIT_REACHED": null,
         "NO_PROGRESSION_DATA": "无法读取此配置文件的已装备外观。请先启动一次游戏，然后重试。",
         "NO_ALTERNATIVE_COSMETICS": "该个人资料没有足够的头像或边框来参加挑战。请联系我们的客服手动关联。",
         "PLAYER_OFFLINE": "你需要在线连接到《The Outlast Trials》才能开始验证。请启动游戏后重试。",
@@ -1313,6 +1371,8 @@
     "saving": "保存中…",
     "saved": "已保存",
     "saveError": "保存失败",
+    "loadError": null,
+    "loadRetry": null,
     "visibleTabs": "可见标签页",
     "visibleTabsHint": "仅在您的个人资料可见时可用。",
     "visibleTabItems": {
@@ -1329,6 +1389,22 @@
     },
     "linked_profile": "关联的个人资料",
     "linked_profile_description": "您的游戏资料已关联到Discord账户。您可以在此取消关联。",
+    "accounts": {
+      "title": null,
+      "description": null,
+      "unknownName": null,
+      "primaryBadge": null,
+      "makePrimary": null,
+      "primarySuccess": null,
+      "primaryFailed": null,
+      "linkedOn": null,
+      "addTitle": null,
+      "addHint": null,
+      "limitReached": null,
+      "addButton": null,
+      "unlinkConfirm": null,
+      "editing": null
+    },
     "profileDetails": {
       "title": "他人看到的内容",
       "description": "选择个人资料中其他玩家可见的部分。",
@@ -1436,6 +1512,7 @@
       "sectionTitle": "危险操作区",
       "sectionHint": "删除将在 7 天后生效，此后无法撤销。",
       "title": "删除个人资料数据",
+      "profileTitle": null,
       "hint": "清除存储在 outlasttrialsstats.com 上的所有游戏数据。你的游戏本身不会受到影响，你的 Discord 登录信息和个人资料链接将保持不变。",
       "whatHeader": "以下内容将被删除：",
       "whatItems": [
@@ -1449,11 +1526,13 @@
       ],
       "button": "删除所有个人资料数据",
       "confirmTitle": "删除所有个人资料数据？",
+      "profileConfirmTitle": null,
       "confirmText": "你的所有统计数据、外观、徽章、入侵数据、试炼和商店礼包都将被永久移除。你的个人资料将被隐藏，并在你自行重新启用处理并再次将其设为可见之前，被阻止进行任何进一步收集。你的 Discord 账号和个人资料链接保持不变。",
       "gracePeriod": "您的数据将在 7 天后删除。在此之前，您可以在设置中取消删除。",
       "understand": "我了解我的个人资料数据将在 7 天后被永久删除。",
       "scheduled": "您的个人资料数据将于 {date} 删除。",
       "scheduledTitle": "个人资料数据将于 {date} 删除",
+      "profileScheduledTitle": null,
       "scheduledHint": "在此之前，你都可以取消删除。",
       "cancelButton": "取消删除",
       "cancelled": "已取消删除您的个人资料数据。",
@@ -1491,6 +1570,7 @@
         "sections": {
           "account": "账户",
           "linkedProfile": "已关联的个人资料",
+          "linkedProfiles": null,
           "profileSettings": "个人资料设置",
           "processingBlock": "正在处理区块",
           "leaderboardModeration": "排行榜审核",
@@ -1588,20 +1668,8 @@
       "privacyLink": "隐私政策"
     },
     "screenshots": {
-      "label": "截图",
-      "count": "{count} / {max}",
-      "drop": "选择图片，拖放或粘贴",
       "hint": "请至少添加一张游戏内玩家卡片截图，需能看清名称和好友代码。",
-      "thumbAlt": "截图 {n}",
-      "remove": "删除截图 {n}",
-      "processing": "正在准备…",
-      "errors": {
-        "type": "仅支持 PNG、JPEG 或 WebP 图像。",
-        "tooLarge": "图片过大，即使压缩后也仍然过大。请裁剪图片或使用更小的截图。",
-        "unreadable": "无法读取此图片。请尝试其他文件。",
-        "limit": "最多可附加 {max} 张截图。",
-        "required": "请至少添加一张能证明该档案属于你的截图。"
-      }
+      "required": "请至少添加一张能证明该档案属于你的截图。"
     },
     "errors": {
       "PROFILE_NOT_FOUND": "该个人资料不存在。请检查链接或 ID 后重试。",
@@ -1924,9 +1992,7 @@
       "remaining": null,
       "etaLabel": null,
       "progress": null,
-      "compact": null,
-      "reached": null,
-      "next": null
+      "compact": null
     },
     "allReached": "已达成全部阶段",
     "phase": "阶段 {n}",
@@ -2010,8 +2076,7 @@
       "extract_escape_plan": {
         "name": "逃离设施",
         "description": "帮助阿米莉亚。在试炼中尽可能多地寻找逃脱情报，并将其带出、留在物品栏中。达成社区里程碑，让逃脱成为可能。",
-        "leaders": "目前带出逃脱情报最多的玩家。",
-        "reached": null
+        "leaders": "目前带出逃脱情报最多的玩家。"
       },
       "blood_donation": {
         "name": "献血义举",
@@ -2063,6 +2128,155 @@
     },
     "footer": {
       "signoff": "同谋即死亡。—— A"
+    }
+  },
+  "notifications": {
+    "title": null,
+    "open": null,
+    "empty": null,
+    "markAllRead": null,
+    "types": {
+      "BADGE_GRANTED": {
+        "title": null,
+        "body": null
+      },
+      "BADGE_REVOKED": {
+        "title": null,
+        "body": null
+      },
+      "TOPLIST_EXCLUDED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_APPROVED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_REJECTED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_REVOKED": {
+        "title": null,
+        "body": null
+      }
+    }
+  },
+  "screenshots": {
+    "label": "截图",
+    "count": "{count} / {max}",
+    "drop": "选择图片，拖放或粘贴",
+    "thumbAlt": "截图 {n}",
+    "remove": "删除截图 {n}",
+    "processing": "正在准备…",
+    "errors": {
+      "type": "仅支持 PNG、JPEG 或 WebP 图像。",
+      "tooLarge": "图片过大，即使压缩后也仍然过大。请裁剪图片或使用更小的截图。",
+      "unreadable": "无法读取此图片。请尝试其他文件。",
+      "limit": "最多可附加 {max} 张截图。"
+    }
+  },
+  "runSubmission": {
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "entry": {
+      "eyebrow": null,
+      "title": null,
+      "desc": null,
+      "button": null
+    },
+    "notLinked": {
+      "title": null,
+      "desc": null,
+      "button": null
+    },
+    "form": {
+      "steps": {
+        "trial": {
+          "title": null,
+          "desc": null
+        },
+        "result": {
+          "title": null,
+          "desc": null
+        },
+        "team": {
+          "title": null,
+          "desc": null
+        },
+        "proof": {
+          "title": null,
+          "desc": null
+        }
+      },
+      "or": null,
+      "programLabel": null,
+      "programs": {
+        "core": null,
+        "chain": null,
+        "creator": null,
+        "event": null,
+        "weekly": null
+      },
+      "eventLabel": null,
+      "familyLabel": null,
+      "mapLabel": null,
+      "difficultyLabel": null,
+      "timeLabel": null,
+      "timeHint": null,
+      "timeInvalid": null,
+      "dateLabel": null,
+      "dateInvalid": null,
+      "teamSizeLabel": null,
+      "teammatesLabel": null,
+      "teammatesHint": null,
+      "teammatesPlaceholder": null,
+      "removeTeammate": null,
+      "videoLabel": null,
+      "videoHint": null,
+      "videoInvalid": null,
+      "screenshotsHint": null,
+      "proofRequired": null,
+      "commentLabel": null,
+      "required": null,
+      "submit": null,
+      "next": null,
+      "back": null,
+      "privacyNote": null
+    },
+    "success": {
+      "title": null,
+      "desc": null,
+      "another": null
+    },
+    "errors": {
+      "NO_LINKED_PROFILE": null,
+      "INVALID_TRIAL": null,
+      "INVALID_TIME": null,
+      "INVALID_DATE": null,
+      "INVALID_TEAMMATES": null,
+      "PROOF_REQUIRED": null,
+      "INVALID_VIDEO_URL": null,
+      "INVALID_SCREENSHOT": null,
+      "REQUEST_ALREADY_PENDING": null,
+      "TOO_MANY_PENDING": null,
+      "rateLimited": null,
+      "disabled": null,
+      "generic": null
+    },
+    "mine": {
+      "title": null,
+      "empty": null,
+      "team": null,
+      "staffNote": null,
+      "states": {
+        "PENDING": null,
+        "APPROVED": null,
+        "REJECTED": null,
+        "REVOKED": null
+      }
     }
   }
 }

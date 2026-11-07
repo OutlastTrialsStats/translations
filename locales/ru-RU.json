@@ -539,6 +539,7 @@
     "cosmeticGroupCharacter": "Персонаж",
     "cosmeticGroupProfile": "Профиль",
     "cosmeticGroupCell": "Камера",
+    "cosmeticGroupSkins": null,
     "cosmeticExcludedGroup": "Категории",
     "cosmeticFilterNone": "Нет категории",
     "subtitle": "Посмотрите, как вы выглядите среди всех реагентов",
@@ -617,7 +618,54 @@
       },
       "rarity": "Rarity",
       "thumbnailAlt": null,
-      "loadError": null
+      "loadError": null,
+      "descriptionTitle": null,
+      "obtainTitle": null,
+      "variantsTitle": null,
+      "partsTitle": null,
+      "partOfTitle": null,
+      "currentVariant": null,
+      "event": null,
+      "unreleasedHint": null,
+      "sources": {
+        "BATTLE_PASS": null,
+        "BATTLE_PASS_UNNAMED": null,
+        "SHOP": null,
+        "TASK": null,
+        "TASK_UNNAMED": null,
+        "REWARD_BOX": null,
+        "LEVEL": null,
+        "RELEASE": null,
+        "TRIAL_REWARD": null,
+        "COMMUNITY_EVENT": null,
+        "INVASION": null,
+        "PROGRESSION": null,
+        "BADGE": null,
+        "position": null,
+        "cost": null,
+        "premiumUnlock": null,
+        "timeLimited": null,
+        "released": null,
+        "milestone": null,
+        "rewardTier": null,
+        "currencies": {
+          "BATTLE_PASS_TOKEN": null,
+          "EVENT_TOKEN": null,
+          "PREMIUM_TOKEN": null
+        },
+        "pools": {
+          "RewardBox": null,
+          "RewardBox_RareEpic": null,
+          "RewardBox_Legendary": null
+        }
+      }
+    },
+    "rarities": {
+      "BASIC": null,
+      "ADVANCED": null,
+      "EVENT": null,
+      "CLASSIFIED": null,
+      "DELUXE": null
     }
   },
   "siteFooter": {
@@ -870,6 +918,11 @@
       "profileHiddenNoticeTitle": "Профиль скрыт",
       "profileHiddenNotice": "Этот профиль скрыт от публичности. Только вы и сотрудники могут его видеть.",
       "visibleToYou": "Видимость для вас"
+    },
+    "dataDeletion": {
+      "title": null,
+      "message": null,
+      "cancel": null
     },
     "tabErrors": {
       "statsTitle": "Не удалось загрузить статистику",
@@ -1198,6 +1251,7 @@
     "no_connections": "Нет игровых платформ, привязанных к Discord. Подключите Steam, PlayStation или Xbox в настройках Discord. Также вы можете создать тикет поддержки на нашем Discord-сервере для ручной привязки аккаунта.",
     "no_profile_found": "Профиль не найден",
     "already_claimed": "Уже привязан",
+    "linked_to_you": null,
     "profile_pending": "Идёт поиск...",
     "claim_pending": "Предварительный Выбор",
     "claim_pending_success": "Мы ищем ваш профиль. Он будет автоматически привязан, как только будет найден.",
@@ -1213,6 +1267,8 @@
     "already_linked_title": "Уже Привязан",
     "already_linked_description": "Ваш аккаунт Discord уже привязан к игровому профилю.",
     "go_to_profile": "Перейти к Профилю",
+    "add_profile": null,
+    "add_another_profile": null,
     "continue": "Continue",
     "continue_to_maps": null,
     "link_support_hint": "Возникли проблемы с привязкой аккаунта? Свяжитесь с поддержкой на нашем",
@@ -1287,6 +1343,8 @@
         "INVALID_FRIEND_CODE_FORMAT": null,
         "PROFILE_NOT_VERIFIABLE": null,
         "USER_ALREADY_LINKED": null,
+        "ALREADY_LINKED_TO_YOU": null,
+        "LINK_LIMIT_REACHED": null,
         "NO_PROGRESSION_DATA": null,
         "NO_ALTERNATIVE_COSMETICS": null,
         "PLAYER_OFFLINE": null,
@@ -1313,6 +1371,8 @@
     "saving": "Сохранение…",
     "saved": "Сохранено",
     "saveError": "Ошибка сохранения",
+    "loadError": null,
+    "loadRetry": null,
     "visibleTabs": "Видимые вкладки",
     "visibleTabsHint": "Применяется только при видимости вашего профиля.",
     "visibleTabItems": {
@@ -1329,6 +1389,22 @@
     },
     "linked_profile": "Привязанный профиль",
     "linked_profile_description": "Ваш игровой профиль привязан к аккаунту Discord. Вы можете отвязать его здесь.",
+    "accounts": {
+      "title": null,
+      "description": null,
+      "unknownName": null,
+      "primaryBadge": null,
+      "makePrimary": null,
+      "primarySuccess": null,
+      "primaryFailed": null,
+      "linkedOn": null,
+      "addTitle": null,
+      "addHint": null,
+      "limitReached": null,
+      "addButton": null,
+      "unlinkConfirm": null,
+      "editing": null
+    },
     "profileDetails": {
       "title": null,
       "description": null,
@@ -1436,6 +1512,7 @@
       "sectionTitle": "Опасная зона",
       "sectionHint": null,
       "title": "Удалить данные профиля",
+      "profileTitle": null,
       "hint": null,
       "whatHeader": "Будет удалено следующее:",
       "whatItems": [
@@ -1449,11 +1526,13 @@
       ],
       "button": "Удалить все данные профиля",
       "confirmTitle": "Удалить все данные профиля?",
+      "profileConfirmTitle": null,
       "confirmText": null,
       "gracePeriod": null,
       "understand": null,
       "scheduled": null,
       "scheduledTitle": null,
+      "profileScheduledTitle": null,
       "scheduledHint": null,
       "cancelButton": null,
       "cancelled": null,
@@ -1491,6 +1570,7 @@
         "sections": {
           "account": "Account",
           "linkedProfile": null,
+          "linkedProfiles": null,
           "profileSettings": null,
           "processingBlock": null,
           "leaderboardModeration": null,
@@ -1588,20 +1668,8 @@
       "privacyLink": null
     },
     "screenshots": {
-      "label": "Screenshots",
-      "count": null,
-      "drop": null,
       "hint": "Add at least one screenshot of your in-game player card with your name and friend code visible.",
-      "thumbAlt": null,
-      "remove": null,
-      "processing": "Preparing…",
-      "errors": {
-        "type": null,
-        "tooLarge": null,
-        "unreadable": null,
-        "limit": null,
-        "required": "Add at least one screenshot that shows the profile is yours."
-      }
+      "required": "Add at least one screenshot that shows the profile is yours."
     },
     "errors": {
       "PROFILE_NOT_FOUND": null,
@@ -1924,9 +1992,7 @@
       "remaining": null,
       "etaLabel": null,
       "progress": null,
-      "compact": null,
-      "reached": null,
-      "next": null
+      "compact": null
     },
     "allReached": null,
     "phase": null,
@@ -2010,8 +2076,7 @@
       "extract_escape_plan": {
         "name": null,
         "description": null,
-        "leaders": null,
-        "reached": null
+        "leaders": null
       },
       "blood_donation": {
         "name": null,
@@ -2063,6 +2128,155 @@
     },
     "footer": {
       "signoff": null
+    }
+  },
+  "notifications": {
+    "title": null,
+    "open": null,
+    "empty": null,
+    "markAllRead": null,
+    "types": {
+      "BADGE_GRANTED": {
+        "title": null,
+        "body": null
+      },
+      "BADGE_REVOKED": {
+        "title": null,
+        "body": null
+      },
+      "TOPLIST_EXCLUDED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_APPROVED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_REJECTED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_REVOKED": {
+        "title": null,
+        "body": null
+      }
+    }
+  },
+  "screenshots": {
+    "label": "Screenshots",
+    "count": "{count} / {max}",
+    "drop": "Choose images, drop or paste them",
+    "thumbAlt": "Screenshot {n}",
+    "remove": "Remove screenshot {n}",
+    "processing": "Preparing…",
+    "errors": {
+      "type": "Only PNG, JPEG or WebP images are supported.",
+      "tooLarge": "This image is too large, even after compressing it. Crop it or use a smaller screenshot.",
+      "unreadable": "This image couldn't be read. Please try another file.",
+      "limit": "You can attach up to {max} screenshots."
+    }
+  },
+  "runSubmission": {
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "entry": {
+      "eyebrow": null,
+      "title": null,
+      "desc": null,
+      "button": null
+    },
+    "notLinked": {
+      "title": null,
+      "desc": null,
+      "button": null
+    },
+    "form": {
+      "steps": {
+        "trial": {
+          "title": null,
+          "desc": null
+        },
+        "result": {
+          "title": null,
+          "desc": null
+        },
+        "team": {
+          "title": null,
+          "desc": null
+        },
+        "proof": {
+          "title": null,
+          "desc": null
+        }
+      },
+      "or": null,
+      "programLabel": null,
+      "programs": {
+        "core": null,
+        "chain": null,
+        "creator": null,
+        "event": null,
+        "weekly": null
+      },
+      "eventLabel": null,
+      "familyLabel": null,
+      "mapLabel": null,
+      "difficultyLabel": null,
+      "timeLabel": null,
+      "timeHint": null,
+      "timeInvalid": null,
+      "dateLabel": null,
+      "dateInvalid": null,
+      "teamSizeLabel": null,
+      "teammatesLabel": null,
+      "teammatesHint": null,
+      "teammatesPlaceholder": null,
+      "removeTeammate": null,
+      "videoLabel": null,
+      "videoHint": null,
+      "videoInvalid": null,
+      "screenshotsHint": null,
+      "proofRequired": null,
+      "commentLabel": null,
+      "required": null,
+      "submit": null,
+      "next": null,
+      "back": null,
+      "privacyNote": null
+    },
+    "success": {
+      "title": null,
+      "desc": null,
+      "another": null
+    },
+    "errors": {
+      "NO_LINKED_PROFILE": null,
+      "INVALID_TRIAL": null,
+      "INVALID_TIME": null,
+      "INVALID_DATE": null,
+      "INVALID_TEAMMATES": null,
+      "PROOF_REQUIRED": null,
+      "INVALID_VIDEO_URL": null,
+      "INVALID_SCREENSHOT": null,
+      "REQUEST_ALREADY_PENDING": null,
+      "TOO_MANY_PENDING": null,
+      "rateLimited": null,
+      "disabled": null,
+      "generic": null
+    },
+    "mine": {
+      "title": null,
+      "empty": null,
+      "team": null,
+      "staffNote": null,
+      "states": {
+        "PENDING": null,
+        "APPROVED": null,
+        "REJECTED": null,
+        "REVOKED": null
+      }
     }
   }
 }
