@@ -539,6 +539,7 @@
     "cosmeticGroupCharacter": "Personaggio",
     "cosmeticGroupProfile": "Profilo",
     "cosmeticGroupCell": "Cella",
+    "cosmeticGroupSkins": null,
     "cosmeticExcludedGroup": "Categorie",
     "cosmeticFilterNone": "Nessuna Categoria",
     "subtitle": "Scopri la tua posizione tra tutti i reagenti",
@@ -617,7 +618,54 @@
       },
       "rarity": "Rarità",
       "thumbnailAlt": "Anteprima di {name}",
-      "loadError": "Errore caricamento dettagli accessorio"
+      "loadError": "Errore caricamento dettagli accessorio",
+      "descriptionTitle": null,
+      "obtainTitle": null,
+      "variantsTitle": null,
+      "partsTitle": null,
+      "partOfTitle": null,
+      "currentVariant": null,
+      "event": null,
+      "unreleasedHint": null,
+      "sources": {
+        "BATTLE_PASS": null,
+        "BATTLE_PASS_UNNAMED": null,
+        "SHOP": null,
+        "TASK": null,
+        "TASK_UNNAMED": null,
+        "REWARD_BOX": null,
+        "LEVEL": null,
+        "RELEASE": null,
+        "TRIAL_REWARD": null,
+        "COMMUNITY_EVENT": null,
+        "INVASION": null,
+        "PROGRESSION": null,
+        "BADGE": null,
+        "position": null,
+        "cost": null,
+        "premiumUnlock": null,
+        "timeLimited": null,
+        "released": null,
+        "milestone": null,
+        "rewardTier": null,
+        "currencies": {
+          "BATTLE_PASS_TOKEN": null,
+          "EVENT_TOKEN": null,
+          "PREMIUM_TOKEN": null
+        },
+        "pools": {
+          "RewardBox": null,
+          "RewardBox_RareEpic": null,
+          "RewardBox_Legendary": null
+        }
+      }
+    },
+    "rarities": {
+      "BASIC": null,
+      "ADVANCED": null,
+      "EVENT": null,
+      "CLASSIFIED": null,
+      "DELUXE": null
     }
   },
   "siteFooter": {
@@ -870,6 +918,11 @@
       "profileHiddenNoticeTitle": "Il profilo è nascosto",
       "profileHiddenNotice": "Questo profilo è nascosto al pubblico. Solo tu e lo staff potete visualizzarlo.",
       "visibleToYou": "Visibile a te"
+    },
+    "dataDeletion": {
+      "title": null,
+      "message": null,
+      "cancel": null
     },
     "tabErrors": {
       "statsTitle": "Impossibile caricare le statistiche",
@@ -1198,6 +1251,7 @@
     "no_connections": "Non hai piattaforme collegate al tuo Discord. Connetti Steam, PlayStation o Xbox dalle tue impostazioni su Discord. Oppure crea un ticket di supporto sul nostro server Discord per collegare il tuo account manualmente.",
     "no_profile_found": "Nessun profilo trovato",
     "already_claimed": "Già reclamato",
+    "linked_to_you": null,
     "profile_pending": "Ricerca in corso...",
     "claim_pending": "Pre-seleziona",
     "claim_pending_success": "Stiamo cercando il tuo profilo. Verrà collegato automaticamente una volta trovato.",
@@ -1213,6 +1267,8 @@
     "already_linked_title": "Già Collegato",
     "already_linked_description": "Il tuo account Discord è già collegato a un profilo di gioco.",
     "go_to_profile": "Vai al mio profilo",
+    "add_profile": null,
+    "add_another_profile": null,
     "continue": "Continua",
     "continue_to_maps": "Continua alle Mappe",
     "link_support_hint": "Hai problemi a collegare il tuo account? Contatta il nostro supporto sul",
@@ -1287,6 +1343,8 @@
         "INVALID_FRIEND_CODE_FORMAT": "Per favore inserisci un codice amico valido nel formato XXXX-XXXX.",
         "PROFILE_NOT_VERIFIABLE": "Questo profilo non può essere verificato. Contatta il supporto se pensi che sia un errore.",
         "USER_ALREADY_LINKED": "Il tuo account è già collegato ad un profilo di gioco.",
+        "ALREADY_LINKED_TO_YOU": null,
+        "LINK_LIMIT_REACHED": null,
         "NO_PROGRESSION_DATA": "Non abbiamo potuto recuperare gli accessori di questo profilo. Riavvia il gioco e riprova.",
         "NO_ALTERNATIVE_COSMETICS": "Questo profilo non possiede abbastanza icone o cornici per avviare una richiesta. Contatta il supporto per collegarlo manualmente.",
         "PLAYER_OFFLINE": "Devi essere online su The Outlast Trials per lanciare la verifica. Avvia il gioco e riprova.",
@@ -1313,6 +1371,8 @@
     "saving": "Salvataggio…",
     "saved": "Salvato",
     "saveError": "Salvataggio fallito",
+    "loadError": null,
+    "loadRetry": null,
     "visibleTabs": "Schede visibili",
     "visibleTabsHint": "Si applica solo quando il tuo profilo è visibile.",
     "visibleTabItems": {
@@ -1329,6 +1389,22 @@
     },
     "linked_profile": "Profilo Collegato",
     "linked_profile_description": "Il tuo profilo di gioco è collegato al tuo account Discord. Puoi scollegarlo qui.",
+    "accounts": {
+      "title": null,
+      "description": null,
+      "unknownName": null,
+      "primaryBadge": null,
+      "makePrimary": null,
+      "primarySuccess": null,
+      "primaryFailed": null,
+      "linkedOn": null,
+      "addTitle": null,
+      "addHint": null,
+      "limitReached": null,
+      "addButton": null,
+      "unlinkConfirm": null,
+      "editing": null
+    },
     "profileDetails": {
       "title": "Cosa vedono gli altri",
       "description": "Scegli quali parti del tuo profilo sono visibili ad altri giocatori.",
@@ -1436,6 +1512,7 @@
       "sectionTitle": "Zona Pericolosa",
       "sectionHint": "Le eliminazioni avvengono dopo 7 giorni e non possono essere annullate dopo ciò.",
       "title": "Elimina Dati Profilo",
+      "profileTitle": null,
       "hint": "Cancella tutti i dati salvati su outlasttrialsstats.com. Non avrà alcun effetto sul gioco, il tuo accesso a Discord e profilo collegato rimarranno intatti.",
       "whatHeader": "Verranno eliminati i seguenti:",
       "whatItems": [
@@ -1449,11 +1526,13 @@
       ],
       "button": "Elimina tutti i dati del profilo",
       "confirmTitle": "Eliminare tutti i dati del profilo?",
+      "profileConfirmTitle": null,
       "confirmText": "Tutte le tue statistiche, gli accessori, encomi, dati Invasione, test e pacchetti del negozi verranno rimossi del tutto. Il tuo profilo sarà nascosto e bloccato da future collezioni fino al momento in cui non deciderai tu stesso di riattivarlo e di renderlo nuovamente visibile. Il tuo account Discord e profilo collegato resteranno intatti.",
       "gracePeriod": "I tuoi dati verranno eliminati dopo 7 giorni. Fino a quel momento puoi annullare l'eliminazione dalle impostazioni.",
       "understand": "Comprendo che i miei dati del profilo verranno eliminati per sempre tra 7 giorni.",
       "scheduled": "I dati del tuo profilo verranno eliminati il {date}.",
       "scheduledTitle": "I dati profilo verranno eliminati il {date}",
+      "profileScheduledTitle": null,
       "scheduledHint": "Puoi annullare l'eliminazione fino ad allora.",
       "cancelButton": "Annulla eliminazione",
       "cancelled": "L'eliminazione dei dati del tuo profilo è stata annullata.",
@@ -1491,6 +1570,7 @@
         "sections": {
           "account": "Account",
           "linkedProfile": "Profilo collegato",
+          "linkedProfiles": null,
           "profileSettings": "Profile settings",
           "processingBlock": "Blocco processato",
           "leaderboardModeration": "Moderazione classifica",
@@ -1588,20 +1668,8 @@
       "privacyLink": "Informativa sulla privacy"
     },
     "screenshots": {
-      "label": "Screenshots",
-      "count": "{count} / {max}",
-      "drop": "Scegli immagini, rilasciale o incollale",
       "hint": "Aggiungi almeno uno screenshot del tuo profilo all'interno del gioco con nome e codice amico visibili.",
-      "thumbAlt": "Screenshot {n}",
-      "remove": "Rimuovi screenshot {n}",
-      "processing": "Preparazione…",
-      "errors": {
-        "type": "Sono supportati solo i formati PNG, JPEG o WebP.",
-        "tooLarge": "L'immagine è troppo grande, anche dopo la compressione. Ritagliala o usa uno screenshot più piccolo.",
-        "unreadable": "L'immagine non può essere letta. Prova con un altro file.",
-        "limit": "Puoi allegare fino a {max} screenshots.",
-        "required": "Aggiungi almeno uno screenshot che dimostri che il profilo è tuo."
-      }
+      "required": "Aggiungi almeno uno screenshot che dimostri che il profilo è tuo."
     },
     "errors": {
       "PROFILE_NOT_FOUND": "Questo profilo non esiste. Controlla il link o l'ID e riprova.",
@@ -1924,9 +1992,7 @@
       "remaining": "Informazioni sulla Fuga ancora da raccogliere",
       "etaLabel": "Previsti",
       "progress": "{percent} completo",
-      "compact": "{remaining} a {target} · {eta}",
-      "reached": "{target} raggiunta",
-      "next": "Prossima · {phase}"
+      "compact": "{remaining} a {target} · {eta}"
     },
     "allReached": "Tutte le fasi Completate",
     "phase": "Fase {n}",
@@ -2010,8 +2076,7 @@
       "extract_escape_plan": {
         "name": "Scappa dalla Struttura",
         "description": "Aiuta Amelia. Trova informazioni per la fuga nei Test e lasciale nel tuo inventario. Raggiungi i traguardi comunitari per rendere possibile la fuga.",
-        "leaders": "I giocatori che hanno raccolto il maggior numero di Informazioni per la Fuga finora.",
-        "reached": "SCAPPA! ORA!"
+        "leaders": "I giocatori che hanno raccolto il maggior numero di Informazioni per la Fuga finora."
       },
       "blood_donation": {
         "name": "Donazione di Sangue",
@@ -2063,6 +2128,155 @@
     },
     "footer": {
       "signoff": "Complici si muore. — A"
+    }
+  },
+  "notifications": {
+    "title": null,
+    "open": null,
+    "empty": null,
+    "markAllRead": null,
+    "types": {
+      "BADGE_GRANTED": {
+        "title": null,
+        "body": null
+      },
+      "BADGE_REVOKED": {
+        "title": null,
+        "body": null
+      },
+      "TOPLIST_EXCLUDED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_APPROVED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_REJECTED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_REVOKED": {
+        "title": null,
+        "body": null
+      }
+    }
+  },
+  "screenshots": {
+    "label": "Screenshots",
+    "count": "{count} / {max}",
+    "drop": "Scegli immagini, rilasciale o incollale",
+    "thumbAlt": "Screenshot {n}",
+    "remove": "Rimuovi screenshot {n}",
+    "processing": "Preparazione…",
+    "errors": {
+      "type": "Sono supportati solo i formati PNG, JPEG o WebP.",
+      "tooLarge": "L'immagine è troppo grande, anche dopo la compressione. Ritagliala o usa uno screenshot più piccolo.",
+      "unreadable": "L'immagine non può essere letta. Prova con un altro file.",
+      "limit": "Puoi allegare fino a {max} screenshots."
+    }
+  },
+  "runSubmission": {
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "entry": {
+      "eyebrow": null,
+      "title": null,
+      "desc": null,
+      "button": null
+    },
+    "notLinked": {
+      "title": null,
+      "desc": null,
+      "button": null
+    },
+    "form": {
+      "steps": {
+        "trial": {
+          "title": null,
+          "desc": null
+        },
+        "result": {
+          "title": null,
+          "desc": null
+        },
+        "team": {
+          "title": null,
+          "desc": null
+        },
+        "proof": {
+          "title": null,
+          "desc": null
+        }
+      },
+      "or": null,
+      "programLabel": null,
+      "programs": {
+        "core": null,
+        "chain": null,
+        "creator": null,
+        "event": null,
+        "weekly": null
+      },
+      "eventLabel": null,
+      "familyLabel": null,
+      "mapLabel": null,
+      "difficultyLabel": null,
+      "timeLabel": null,
+      "timeHint": null,
+      "timeInvalid": null,
+      "dateLabel": null,
+      "dateInvalid": null,
+      "teamSizeLabel": null,
+      "teammatesLabel": null,
+      "teammatesHint": null,
+      "teammatesPlaceholder": null,
+      "removeTeammate": null,
+      "videoLabel": null,
+      "videoHint": null,
+      "videoInvalid": null,
+      "screenshotsHint": null,
+      "proofRequired": null,
+      "commentLabel": null,
+      "required": null,
+      "submit": null,
+      "next": null,
+      "back": null,
+      "privacyNote": null
+    },
+    "success": {
+      "title": null,
+      "desc": null,
+      "another": null
+    },
+    "errors": {
+      "NO_LINKED_PROFILE": null,
+      "INVALID_TRIAL": null,
+      "INVALID_TIME": null,
+      "INVALID_DATE": null,
+      "INVALID_TEAMMATES": null,
+      "PROOF_REQUIRED": null,
+      "INVALID_VIDEO_URL": null,
+      "INVALID_SCREENSHOT": null,
+      "REQUEST_ALREADY_PENDING": null,
+      "TOO_MANY_PENDING": null,
+      "rateLimited": null,
+      "disabled": null,
+      "generic": null
+    },
+    "mine": {
+      "title": null,
+      "empty": null,
+      "team": null,
+      "staffNote": null,
+      "states": {
+        "PENDING": null,
+        "APPROVED": null,
+        "REJECTED": null,
+        "REVOKED": null
+      }
     }
   }
 }
