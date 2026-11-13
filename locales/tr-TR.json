@@ -126,7 +126,7 @@
       "affiliation": {
         "q": "Red Barrels ile bağlantınız var mı?",
         "a": [
-          "Hayır. TOTStats resmî olmayan, bağımsız bir hayran projesidir. Red Barrels Inc. ile bağlantılı değildir, Red Barrels Inc. tarafından onaylanmamış veya desteklenmemiştir. “The Outlast Trials” ve “Outlast”, Red Barrels Inc.'in ticari markalarıdır."
+          "Hayır. Outlast Trials Stats resmî olmayan, bağımsız bir hayran projesidir. Red Barrels Inc. ile bağlantılı değildir, Red Barrels Inc. tarafından onaylanmamış veya desteklenmemiştir. “The Outlast Trials” ve “Outlast”, Red Barrels Inc.'in ticari markalarıdır."
         ],
         "keywords": "resmi ortak geliştirici red barrels"
       },
@@ -539,6 +539,7 @@
     "cosmeticGroupCharacter": "Karakter",
     "cosmeticGroupProfile": "Profil",
     "cosmeticGroupCell": "Uyku Odası",
+    "cosmeticGroupSkins": null,
     "cosmeticExcludedGroup": "Kategoriler",
     "cosmeticFilterNone": "Kategori yok",
     "subtitle": "Tüm Ayıraçlar arasında kaçıncı olduğunu gör",
@@ -617,12 +618,59 @@
       },
       "rarity": "Nadirlik",
       "thumbnailAlt": "{name} küçük resmi",
-      "loadError": "Kozmetik ayrıntıları yüklenirken hata oluştu"
+      "loadError": "Kozmetik ayrıntıları yüklenirken hata oluştu",
+      "descriptionTitle": null,
+      "obtainTitle": null,
+      "variantsTitle": null,
+      "partsTitle": null,
+      "partOfTitle": null,
+      "currentVariant": null,
+      "event": null,
+      "unreleasedHint": null,
+      "sources": {
+        "BATTLE_PASS": null,
+        "BATTLE_PASS_UNNAMED": null,
+        "SHOP": null,
+        "TASK": null,
+        "TASK_UNNAMED": null,
+        "REWARD_BOX": null,
+        "LEVEL": null,
+        "RELEASE": null,
+        "TRIAL_REWARD": null,
+        "COMMUNITY_EVENT": null,
+        "INVASION": null,
+        "PROGRESSION": null,
+        "BADGE": null,
+        "position": null,
+        "cost": null,
+        "premiumUnlock": null,
+        "timeLimited": null,
+        "released": null,
+        "milestone": null,
+        "rewardTier": null,
+        "currencies": {
+          "BATTLE_PASS_TOKEN": null,
+          "EVENT_TOKEN": null,
+          "PREMIUM_TOKEN": null
+        },
+        "pools": {
+          "RewardBox": null,
+          "RewardBox_RareEpic": null,
+          "RewardBox_Legendary": null
+        }
+      }
+    },
+    "rarities": {
+      "BASIC": null,
+      "ADVANCED": null,
+      "EVENT": null,
+      "CLASSIFIED": null,
+      "DELUXE": null
     }
   },
   "siteFooter": {
     "brandDesc": "The Outlast Trials istatistikleri, sıralamaları, etkinlikleri ve oyuncu profilleri için yol arkadaşın.",
-    "notPartnered": "TOTStats resmî olmayan bir hayran projesidir; Red Barrels Inc. ile bağlantılı değildir, Red Barrels Inc. tarafından onaylanmamış veya desteklenmemiştir.",
+    "notPartnered": "Outlast Trials Stats resmî olmayan bir hayran projesidir; Red Barrels Inc. ile bağlantılı değildir, Red Barrels Inc. tarafından onaylanmamış veya desteklenmemiştir.",
     "trademarks": "“The Outlast Trials” ve “Outlast”, Red Barrels Inc.'in ticari markalarıdır. Diğer tüm ticari markalar ve telif hakları ilgili sahiplerine aittir.",
     "ariaDiscord": "Discord'a katıl",
     "ariaInstagram": "Instagram'da takip et",
@@ -675,10 +723,71 @@
     "showMore": "Daha fazla göster",
     "limitReached": "Yalnızca ilk {count} sahip gösterilebilir."
   },
+  "profileHighlights": {
+    "groups": {
+      "ADMIN": null,
+      "MODERATOR": null,
+      "RED_BARRELS_EMPLOYEE": null,
+      "WHISTLEBLOWER": null
+    }
+  },
   "badges": {
     "subtitle": "Başarımlarını topla ve sergile",
     "retiredTitle": "Artık Verilmiyor",
-    "retired": "Oyun artık bu bilgiyi sağlamadığı için bu rozet artık verilmiyor."
+    "retired": "Oyun artık bu bilgiyi sağlamadığı için bu rozet artık verilmiyor.",
+    "rankedFirstIn": null,
+    "earnedAt": null,
+    "unknownDescription": null,
+    "definitions": {
+      "RED_BARRELS_EMPLOYEE": {
+        "description": null
+      },
+      "TOTSTATS_STAFF": {
+        "description": null
+      },
+      "LOG_FLAG": {
+        "description": null
+      },
+      "CONTRIBUTOR": {
+        "description": null
+      },
+      "MAP_CONTRIBUTOR": {
+        "description": null
+      },
+      "WHISTLEBLOWER": {
+        "description": null
+      },
+      "CLOSED_BETA_ACCOUNT": {
+        "description": null
+      },
+      "EARLY_ACCESS_ACCOUNT": {
+        "description": null
+      },
+      "SPECIAL_ACCESS_ACCOUNT": {
+        "description": null
+      },
+      "REAGENT_RELEASES_100": {
+        "description": null
+      },
+      "REAGENT_RELEASES_250": {
+        "description": null
+      },
+      "REAGENT_RELEASES_500": {
+        "description": null
+      },
+      "ALL_ITEMS_COLLECTED": {
+        "description": null
+      },
+      "SPEED_RUNNER": {
+        "description": null
+      },
+      "RECORD_HOLDER": {
+        "description": null
+      },
+      "PERFECT_SUBJECT": {
+        "description": null
+      }
+    }
   },
   "addAccount": {
     "title": "Murkoff Ayıraç Takibi",
@@ -689,12 +798,7 @@
     "friendCodeTip": "Hesabını takip etmeye başlamak için Arkadaş Kodunu ekle",
     "successMessage": "İstek başarıyla gönderildi. Hesabının takibe alınması 48 saate kadar sürebilir.",
     "failedMessage": "İstek gönderilirken bir hata oluştu. Lütfen daha sonra tekrar dene.",
-    "steamId": "Steam ID",
-    "enterSteamId": "SteamID64'ünü gir...",
-    "errorValidationSteamId": "Lütfen geçerli bir SteamID64 gir (17 haneli sayı)",
-    "steamIdTip": "SteamID64'ünü gir. {link} adresinde \"steamID64\" başlığı altında bulabilirsin.",
     "tabFriendCode": "Arkadaş Kodu",
-    "tabSteamId": "Steam ID",
     "invasionTitle": "İstila / Gerginlik",
     "invasionRecommended": "Önerilen",
     "invasionStep1": "The Outlast Trials'da en az bir İstila veya Gerginlik maçı oyna",
@@ -709,7 +813,6 @@
     "status": "Bakım nedeniyle çevrim dışı",
     "title": "Bakımda",
     "reassurance": "Aracı geliştirirken gösterdiğin sabır için teşekkürler.",
-    "autoCheck": "Durum otomatik olarak kontrol ediliyor…",
     "discordPrompt": "Daha fazla bilgi mi lazım? Discord sunucumuza katıl.",
     "fallbackMessage": "Şu anda bakım yapıyoruz. Lütfen kısa süre sonra tekrar kontrol et."
   },
@@ -865,11 +968,17 @@
     },
     "visibility": {
       "hidden": "Profil sahibi tarafından gizlendi",
+      "profileHiddenEyebrow": null,
       "profileHiddenTitle": "Profil Gizli",
       "profileHidden": "Bu profil sahibi tarafından gizlendi.",
       "profileHiddenNoticeTitle": "Profil gizli",
       "profileHiddenNotice": "Bu profil herkese kapalı. Yalnızca sen ve ekip üyeleri görebilir.",
       "visibleToYou": "Sana görünür"
+    },
+    "dataDeletion": {
+      "title": null,
+      "message": null,
+      "cancel": null
     },
     "tabErrors": {
       "statsTitle": "İstatistikler yüklenemedi",
@@ -1163,6 +1272,10 @@
         "title": "Çeviriye Yardım Et",
         "description": "Outlast Trials Stats'i kendi diline çevirmemize GitHub üzerinden yardım et"
       },
+      "kofi": {
+        "title": null,
+        "description": null
+      },
       "contribute": {
         "description": "Discord Rich Presence desteğine sahip, yeni oyuncular bulmamıza da yardımcı olan yardımcı uygulama"
       },
@@ -1198,6 +1311,7 @@
     "no_connections": "Discord'a bağlı oyun platformu yok. Discord ayarlarından Steam, PlayStation veya Xbox hesabını bağla. Ya da hesabını elle bağlamamız için Discord sunucumuzda bir destek talebi oluştur.",
     "no_profile_found": "Profil bulunamadı",
     "already_claimed": "Zaten sahiplenilmiş",
+    "linked_to_you": null,
     "profile_pending": "Aranıyor...",
     "claim_pending": "Önceden seç",
     "claim_pending_success": "Profilini arıyoruz. Bulunduğunda otomatik olarak bağlanacak.",
@@ -1213,27 +1327,38 @@
     "already_linked_title": "Zaten Bağlı",
     "already_linked_description": "Discord hesabın zaten bir oyun profiline bağlı.",
     "go_to_profile": "Profilime Git",
+    "add_profile": null,
+    "add_another_profile": null,
     "continue": "Devam Et",
     "continue_to_maps": "Haritalara Devam Et",
     "link_support_hint": "Hesabını bağlarken sorun mu yaşıyorsun? Destek ekibimize şuradan ulaş:",
+    "link_claim_hint": null,
+    "link_claim_action": null,
+    "no_connections_claim": null,
+    "claim_not_found_hint": null,
     "page_title": "Hesap Bağla",
     "page_subtitle": "Oyun profilini Discord hesabına bağla",
     "step_1_title": "Platformu Discord'a bağla",
     "step_1_desc": "Discord Ayarları → {connections} bölümünden Steam, PlayStation, Xbox veya Epic hesabını bağla.",
+    "steps": {
+      "discord_desc": null,
+      "profile_desc": null,
+      "done": null,
+      "done_desc": null
+    },
     "verification": {
       "method_title": "Profilini nasıl bağlamak istersin?",
       "method_discord_title": "Discord bağlantıları",
       "method_discord_desc": "Profilini, Discord hesabına bağlı Steam, PlayStation veya Xbox hesabından seç.",
-      "method_friend_code_title": "Arkadaş kodu",
       "method_friend_code_badge": "Tüm platformlar",
-      "method_friend_code_presence_desc": "Oyunda iki ayarı değiştirerek profilin sana ait olduğunu kanıtla. Epic Games ve Nintendo Switch için de çalışır.",
+      "method_friend_request_title": null,
+      "method_friend_request_desc": null,
       "change_method": "Başka bir yöntem seç",
       "claim_fallback_title": "Sahiplenme çalışmıyor mu?",
       "claim_fallback_desc": "Bunun yerine profilini arkadaş kodunla doğrula. Burada bir bağlantı listelense bile her platformda çalışır.",
       "claim_fallback_action": "Arkadaş kodunu kullan",
       "step_label": "Profili doğrula",
       "intro_title": "Arkadaş kodunla doğrula",
-      "intro_presence": "Profilini buluruz ve oyunda bölge ve Çapraz Platform ayarını değiştirmeni isteriz. Değişikliği gördüğümüzde profilin Discord hesabına bağlanır.",
       "friend_code_label": "Arkadaş kodu",
       "friend_code_hint": "Arkadaş kodunu oyunda arkadaşlar menüsünde bulabilirsin.",
       "friend_code_invalid": "Lütfen geçerli bir arkadaş kodu gir (XXXX-XXXX)",
@@ -1241,31 +1366,8 @@
       "challenges_left": "Bugün {max} doğrulama hakkından {remaining} tanesi kaldı",
       "no_challenges_left": "Bugünkü tüm doğrulama haklarını kullandın. Lütfen yarın tekrar dene.",
       "resolving_title": "Profilin aranıyor",
-      "resolving_presence_desc": "Profilini ve çevrim içi durumunu kontrol ediyoruz. Oyunda çevrim içi olduğundan emin ol. Bu genellikle birkaç saniye sürer.",
       "waiting_for_source": "Oyun veri kaynağımız başlatılıyor. Bu birkaç dakika sürebilir, bu sayfayı açık tutman yeterli.",
-      "presence_title": "Oyun ayarlarını değiştir",
-      "presence_desc": "Oyunda bu iki ayarı değiştir, ardından burada onayla.",
-      "presence_desc_named": "Oyunda {name} profilinde bu iki ayarı değiştir, ardından burada onayla.",
-      "requirement_region": "Bölge",
-      "requirement_crossplay": "Çapraz Platform",
-      "requirement_now": "Şu an: {value}",
-      "crossplay_on": "Açık",
-      "crossplay_off": "Kapalı",
-      "status_pending": "Kontrol edilmedi",
-      "status_set": "Ayarlandı",
-      "status_not_set": "Ayarlanmadı",
-      "time_left": "Kalan süre",
-      "attempts": "Denemeler",
-      "attempts_left": "{max} denemeden {left} tanesi kaldı",
       "instructions_title": "Nasıl çalışır",
-      "presence_instruction_1": "The Outlast Trials'ı başlat ve lobiye git.",
-      "presence_instruction_2": "Ayarlar'ı, ardından Ağ'ı aç ve Bölgeler altında yalnızca {region} bölgesini seç.",
-      "presence_instruction_3": "Çapraz Platform ayarını {state} konuma getir.",
-      "presence_instruction_4": "Lobide kal ve Onayla'ya tıkla. Ardından çevrim içi durumunu kontrol ederiz.",
-      "presence_warning": "Bu ayarları asla başka biri istediği için değiştirme. Bunu yalnızca bu sayfada kendin başlattığın bir doğrulama için yap. Ekibimiz bunu senden asla istemez.",
-      "not_in_lobby": "Seni lobide çevrim içi göremedik. Oyunu başlat, lobiye git ve tekrar onayla. Bu deneme sayılmadı.",
-      "checking_presence": "Çevrim içi durumun kontrol ediliyor...",
-      "confirm": "Onayla",
       "cancel": "İptal",
       "verified_linking": "Doğrulandı! Profilin bağlanıyor...",
       "try_again": "Tekrar dene",
@@ -1287,19 +1389,32 @@
         "INVALID_FRIEND_CODE_FORMAT": "Lütfen XXXX-XXXX biçiminde geçerli bir arkadaş kodu gir.",
         "PROFILE_NOT_VERIFIABLE": "Bu profil doğrulanamıyor. Bunun bir hata olduğunu düşünüyorsan destek ekibimize ulaş.",
         "USER_ALREADY_LINKED": "Hesabın zaten bir oyun profiline bağlı.",
-        "NO_PROGRESSION_DATA": "Bu profilin kuşanılmış kozmetiklerini okuyamadık. Oyunu bir kez başlatıp tekrar dene.",
-        "NO_ALTERNATIVE_COSMETICS": "Bu profil, doğrulama için yeterli oyuncu simgesine veya çerçevesine sahip değil. Profili elle bağlamak için destek ekibimize ulaş.",
-        "PLAYER_OFFLINE": "Doğrulamayı başlatmak için The Outlast Trials'da çevrim içi olman gerekiyor. Oyunu başlat ve tekrar dene.",
-        "MAX_ATTEMPTS_REACHED": "Bu doğrulama için tüm denemeler eşleşme olmadan kullanıldı.",
+        "ALREADY_LINKED_TO_YOU": null,
+        "LINK_LIMIT_REACHED": null,
         "SOURCE_UNAVAILABLE": "Oyun veri kaynağımız şu anda kullanılamıyor. Lütfen daha sonra tekrar dene.",
         "SOURCE_ERROR": "Oyun sunucuları bir hata döndürdü. Lütfen daha sonra tekrar dene.",
         "STAFF_OVERRIDE": "Bir ekip üyesi bağlı profili değiştirdiği için doğrulama kapatıldı.",
         "LINKED_OTHERWISE": "Hesabın başka bir yolla bağlandığı için doğrulama kapatıldı.",
         "VERIFICATION_ALREADY_ACTIVE": "Zaten devam eden bir doğrulaman var.",
         "DAILY_LIMIT_REACHED": "Günlük doğrulama sınırına ulaştın. Lütfen yarın tekrar dene.",
-        "VERIFICATION_NOT_ACTIVE": "Bu doğrulama artık etkin değil.",
-        "VERIFICATION_EXPIRED": "Bu doğrulamanın süresi doldu.",
-        "GENERIC": "Bir şeyler ters gitti. Lütfen tekrar dene."
+        "GENERIC": "Bir şeyler ters gitti. Lütfen tekrar dene.",
+        "ALREADY_FRIENDS": null
+      },
+      "friend_request": {
+        "intro": null,
+        "resolving_desc": null,
+        "title": null,
+        "desc": null,
+        "desc_named": null,
+        "bot_code_label": null,
+        "copy": null,
+        "copied": null,
+        "copy_failed": null,
+        "waiting": null,
+        "instruction_1": null,
+        "instruction_2": null,
+        "instruction_3": null,
+        "refused_hint": null
       }
     }
   },
@@ -1313,6 +1428,8 @@
     "saving": "Kaydediliyor…",
     "saved": "Kaydedildi",
     "saveError": "Kaydedilemedi",
+    "loadError": null,
+    "loadRetry": null,
     "visibleTabs": "Görünür sekmeler",
     "visibleTabsHint": "Yalnızca profilin görünürken geçerlidir.",
     "visibleTabItems": {
@@ -1329,6 +1446,21 @@
     },
     "linked_profile": "Bağlı Profil",
     "linked_profile_description": "Oyun profilin Discord hesabına bağlı. Bağlantıyı buradan kaldırabilirsin.",
+    "accounts": {
+      "title": null,
+      "description": null,
+      "unknownName": null,
+      "primaryBadge": null,
+      "makePrimary": null,
+      "primarySuccess": null,
+      "primaryFailed": null,
+      "linkedOn": null,
+      "limitReached": null,
+      "unlinkConfirm": null,
+      "addChip": null,
+      "actions": null,
+      "wipeScheduled": null
+    },
     "profileDetails": {
       "title": "Başkalarının gördükleri",
       "description": "Profilinin hangi kısımlarının diğer oyunculara görüneceğini seç.",
@@ -1354,11 +1486,6 @@
         "title": "Discord Hesabı",
         "description": "Outlast Trials Stats'e bu Discord hesabıyla giriş yapıyorsun.",
         "signedIn": "Discord ile giriş yapıldı"
-      },
-      "profile": {
-        "viewTitle": "Profil sayfası",
-        "viewHint": "Profilini diğer oyuncuların gördüğü şekilde gör.",
-        "unlinkHint": "Discord hesabınla bu oyun profili arasındaki bağlantıyı kaldır."
       }
     },
     "no_linked_profile": "Bağlı oyun profili yok. Görünürlük ayarlarını yapmak için kullanıcı menüsünden bir profil bağla.",
@@ -1434,8 +1561,8 @@
     },
     "deleteProfile": {
       "sectionTitle": "Tehlikeli Bölge",
-      "sectionHint": "Silme işlemleri 7 gün sonra gerçekleşir ve bundan sonra geri alınamaz.",
       "title": "Profil Verilerini Sil",
+      "profileTitle": null,
       "hint": "outlasttrialsstats.com'da saklanan tüm oyun verilerini temizle. Oyununun kendisi etkilenmez; Discord girişin ve profil bağlantın olduğu gibi kalır.",
       "whatHeader": "Şunlar silinecek:",
       "whatItems": [
@@ -1449,11 +1576,13 @@
       ],
       "button": "Tüm profil verilerini sil",
       "confirmTitle": "Tüm profil verileri silinsin mi?",
+      "profileConfirmTitle": null,
       "confirmText": "Tüm istatistiklerin, kozmetiklerin, rozetlerin, İstila verilerin, imtihanların ve mağaza paketlerin kalıcı olarak kaldırılacak. Veri işlemeyi tekrar açıp profilini kendin görünür yapana kadar profilin gizlenir ve veri toplamaya kapatılır. Discord hesabın ve profil bağlantın olduğu gibi kalır.",
       "gracePeriod": "Verilerin 7 gün sonra silinir. O zamana kadar silme işlemini ayarlarından iptal edebilirsin.",
       "understand": "Profil verilerimin 7 gün sonra kalıcı olarak silineceğini anlıyorum.",
       "scheduled": "Profil verilerin {date} tarihinde silinecek.",
       "scheduledTitle": "Profil verileri {date} tarihinde silinecek",
+      "profileScheduledTitle": null,
       "scheduledHint": "O zamana kadar silme işlemini iptal edebilirsin.",
       "cancelButton": "Silme işlemini iptal et",
       "cancelled": "Profil verilerinin silinmesi iptal edildi.",
@@ -1491,6 +1620,7 @@
         "sections": {
           "account": "Hesap",
           "linkedProfile": "Bağlı profil",
+          "linkedProfiles": null,
           "profileSettings": "Profil ayarları",
           "processingBlock": "Veri işleme engeli",
           "leaderboardModeration": "Sıralama moderasyonu",
@@ -1504,18 +1634,20 @@
           "joinedEvents": "Katılınan etkinlikler",
           "verifications": "Doğrulamalar",
           "pendingClaims": "Bekleyen sahiplenme talepleri",
+          "claimRequests": null,
           "auditEntries": "Etkinlik günlüğü"
         }
       },
       "exportError": "Veri dışa aktarımın oluşturulamadı. Lütfen bir dakika sonra tekrar dene.",
       "exportRateLimited": "Verilerini kısa sürede birkaç kez istedin. Lütfen birkaç dakika sonra tekrar dene.",
       "deleteTitle": "Hesabı Sil",
-      "deleteHint": "TOTStats hesabını sil ve Discord girişinin bağlantısını kes.",
+      "deleteHint": "Outlast Trials Stats hesabını sil ve Discord girişinin bağlantısını kes.",
       "deleteWhatItems": [
         "Discord kimliğin, adın, avatarın ve e-posta adresin",
         "Sakladığımız Discord erişim belirteçleri (onayladığın anda silinir, ayrıca Discord tarafında da iptal edilir)",
         "Profil bağlantın, bekleyen sahiplenme talepleri ve doğrulama geçmişin"
       ],
+      "deleteKeptHint": null,
       "profileChoiceTitle": "Bağlı oyun profiline ne olsun?",
       "profileKeep": "Oyun profilim sitede kalsın",
       "profileKeepHint": "Profilin, mevcut görünürlük ayarlarınla, hesabı olmayan herhangi bir oyuncunun profili gibi sitede kalır. Hakkımda metnin, ülken, favori imtihanın ve sosyal bağlantıların kaldırılır. Ayarları daha sonra değiştirmek için profili tekrar bağlaman gerekir.",
@@ -1535,6 +1667,10 @@
       "error": "Hesabın silinemedi",
       "loadError": "Hesabın yüklenemedi. Lütfen tekrar dene.",
       "staffBlocked": "Ekip hesapları buradan silinemez. Önce bir yöneticiden ekip rolünü kaldırmasını iste."
+    },
+    "accountSection": {
+      "title": null,
+      "description": null
     }
   },
   "profileDeletionRequest": {
@@ -1584,24 +1720,12 @@
       "confirm": "Bu profilin sahibi benim ve silme işleminin kalıcı olduğunu anlıyorum.",
       "confirmRequired": "Talebi göndermeden önce lütfen onayla.",
       "submit": "Silme talebini gönder",
-      "privacyNote": "Bilgilerini yalnızca bu talebi işlemek için kullanırız ve talep kapatıldıktan 30 gün sonra sileriz. Ekran görüntülerini yalnızca ekip görür ve talep işlendikten sonra silinir.",
+      "privacyNote": null,
       "privacyLink": "Gizlilik politikası"
     },
     "screenshots": {
-      "label": "Ekran görüntüleri",
-      "count": "{count} / {max}",
-      "drop": "Görsel seç, sürükleyip bırak ya da yapıştır",
       "hint": "Adının ve arkadaş kodunun göründüğü oyun içi oyuncu kartının en az bir ekran görüntüsünü ekle.",
-      "thumbAlt": "Ekran görüntüsü {n}",
-      "remove": "Ekran görüntüsü {n} kaldır",
-      "processing": "Hazırlanıyor…",
-      "errors": {
-        "type": "Yalnızca PNG, JPEG veya WebP görselleri desteklenir.",
-        "tooLarge": "Bu görsel sıkıştırıldıktan sonra bile çok büyük. Kırp ya da daha küçük bir ekran görüntüsü kullan.",
-        "unreadable": "Bu görsel okunamadı. Lütfen başka bir dosya dene.",
-        "limit": "En fazla {max} ekran görüntüsü ekleyebilirsin.",
-        "required": "Profilin sana ait olduğunu gösteren en az bir ekran görüntüsü ekle."
-      }
+      "required": "Profilin sana ait olduğunu gösteren en az bir ekran görüntüsü ekle."
     },
     "errors": {
       "PROFILE_NOT_FOUND": "Bu profil mevcut değil. Bağlantıyı veya kimliği kontrol edip tekrar dene.",
@@ -1615,8 +1739,12 @@
     "success": {
       "title": "Talep alındı",
       "desc": "Profilin sana ait olduğunu kontrol edeceğiz ve seninle iletişime geçebiliriz. Onaylandıktan sonra istatistikler silinir ve profil gizlenir.",
-      "reference": "Referans",
-      "home": "Ana sayfaya dön",
+      "statusLabel": null,
+      "statusHint": null,
+      "copy": null,
+      "copied": null,
+      "copyFailed": null,
+      "openStatus": null,
       "another": "Başka bir talep gönder"
     }
   },
@@ -1757,6 +1885,7 @@
     "save": "Kaydet",
     "loading": "Yükleniyor...",
     "retry": "Tekrar dene",
+    "errorEyebrow": null,
     "scrollToTop": "Başa dön"
   },
   "trials": {
@@ -1924,9 +2053,7 @@
       "remaining": "Dışarı çıkarılması gereken Kaçış İstihbaratı",
       "etaLabel": "Tahmini",
       "progress": "{percent} tamamlandı",
-      "compact": "{target} için {remaining} · {eta}",
-      "reached": "{target} tamamlandı",
-      "next": "Sonraki · {phase}"
+      "compact": "{target} için {remaining} · {eta}"
     },
     "allReached": "Tüm aşamalar tamamlandı",
     "phase": "Aşama {n}",
@@ -2010,8 +2137,7 @@
       "extract_escape_plan": {
         "name": "Tesisten Kaç",
         "description": "Amelia'ya yardım et. İmtihanlarda Kaçış İstihbaratı bul ve envanterinde taşıyarak çık. Kaçışın yapılabilmesi için topluluk aşamalarına ulaş.",
-        "leaders": "Şimdiye kadar en çok Kaçış İstihbaratı çıkaran oyuncular.",
-        "reached": "KAÇ! HEMEN!"
+        "leaders": "Şimdiye kadar en çok Kaçış İstihbaratı çıkaran oyuncular."
       },
       "blood_donation": {
         "name": null,
@@ -2063,6 +2189,266 @@
     },
     "footer": {
       "signoff": "Suç ortaklığı ölümdür. — A"
+    }
+  },
+  "notifications": {
+    "title": null,
+    "open": null,
+    "empty": null,
+    "markAllRead": null,
+    "types": {
+      "BADGE_GRANTED": {
+        "title": null,
+        "body": null
+      },
+      "BADGE_REVOKED": {
+        "title": null,
+        "body": null
+      },
+      "TOPLIST_EXCLUDED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_APPROVED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_REJECTED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_REVOKED": {
+        "title": null,
+        "body": null
+      },
+      "CLAIM_REQUEST_APPROVED": {
+        "title": null,
+        "body": null
+      },
+      "CLAIM_REQUEST_REJECTED": {
+        "title": null,
+        "body": null
+      }
+    }
+  },
+  "screenshots": {
+    "label": "Ekran görüntüleri",
+    "count": "{count} / {max}",
+    "drop": "Görsel seç, sürükleyip bırak ya da yapıştır",
+    "thumbAlt": "Ekran görüntüsü {n}",
+    "remove": "Ekran görüntüsü {n} kaldır",
+    "processing": "Hazırlanıyor…",
+    "errors": {
+      "type": "Yalnızca PNG, JPEG veya WebP görselleri desteklenir.",
+      "tooLarge": "Bu görsel sıkıştırıldıktan sonra bile çok büyük. Kırp ya da daha küçük bir ekran görüntüsü kullan.",
+      "unreadable": "Bu görsel okunamadı. Lütfen başka bir dosya dene.",
+      "limit": "En fazla {max} ekran görüntüsü ekleyebilirsin."
+    }
+  },
+  "runSubmission": {
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "entry": {
+      "eyebrow": null,
+      "title": null,
+      "desc": null,
+      "button": null
+    },
+    "notLinked": {
+      "title": null,
+      "desc": null,
+      "button": null
+    },
+    "form": {
+      "steps": {
+        "trial": {
+          "title": null,
+          "desc": null
+        },
+        "result": {
+          "title": null,
+          "desc": null
+        },
+        "team": {
+          "title": null,
+          "desc": null
+        },
+        "proof": {
+          "title": null,
+          "desc": null
+        }
+      },
+      "or": null,
+      "programLabel": null,
+      "programs": {
+        "core": null,
+        "chain": null,
+        "creator": null,
+        "event": null,
+        "weekly": null
+      },
+      "eventLabel": null,
+      "familyLabel": null,
+      "mapLabel": null,
+      "difficultyLabel": null,
+      "timeLabel": null,
+      "timeHint": null,
+      "timeInvalid": null,
+      "dateLabel": null,
+      "dateInvalid": null,
+      "teamSizeLabel": null,
+      "teammatesLabel": null,
+      "teammatesHint": null,
+      "teammatesPlaceholder": null,
+      "removeTeammate": null,
+      "videoLabel": null,
+      "videoHint": null,
+      "videoInvalid": null,
+      "screenshotsHint": null,
+      "proofRequired": null,
+      "commentLabel": null,
+      "required": null,
+      "submit": null,
+      "next": null,
+      "back": null,
+      "privacyNote": null
+    },
+    "success": {
+      "title": null,
+      "desc": null,
+      "another": null,
+      "requests": null
+    },
+    "errors": {
+      "NO_LINKED_PROFILE": null,
+      "INVALID_TRIAL": null,
+      "INVALID_TIME": null,
+      "INVALID_DATE": null,
+      "INVALID_TEAMMATES": null,
+      "PROOF_REQUIRED": null,
+      "INVALID_VIDEO_URL": null,
+      "INVALID_SCREENSHOT": null,
+      "REQUEST_ALREADY_PENDING": null,
+      "TOO_MANY_PENDING": null,
+      "rateLimited": null,
+      "disabled": null,
+      "generic": null
+    },
+    "mine": {
+      "team": null,
+      "staffNote": null,
+      "states": {
+        "PENDING": null,
+        "APPROVED": null,
+        "REJECTED": null,
+        "REVOKED": null
+      }
+    }
+  },
+  "claimRequest": {
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "form": {
+      "intro": null,
+      "profileLabel": null,
+      "profilePlaceholder": null,
+      "changeProfile": null,
+      "profileRequired": null,
+      "proofLabel": null,
+      "proofHint": null,
+      "proofRequired": null,
+      "messageLabel": null,
+      "messageHint": null,
+      "privacyNote": null,
+      "submit": null
+    },
+    "blocked": {
+      "title": null,
+      "single": null,
+      "limit": null
+    },
+    "success": {
+      "title": null,
+      "desc": null,
+      "requests": null,
+      "another": null
+    },
+    "errors": {
+      "PROFILE_NOT_FOUND": null,
+      "PROFILE_ALREADY_DELETED": null,
+      "ALREADY_LINKED_TO_YOU": null,
+      "LINK_LIMIT_REACHED": null,
+      "REQUEST_ALREADY_PENDING": null,
+      "TOO_MANY_PENDING": null,
+      "INVALID_SCREENSHOT": null,
+      "rateLimited": null,
+      "generic": null
+    }
+  },
+  "requests": {
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "actions": {
+      "submitRun": null,
+      "claimProfile": null,
+      "deleteProfile": null,
+      "submitRunDesc": null,
+      "claimProfileDesc": null,
+      "deleteProfileDesc": null
+    },
+    "sections": {
+      "new": null,
+      "mine": null
+    },
+    "empty": null,
+    "signInHint": null,
+    "signIn": null,
+    "loadError": null,
+    "types": {
+      "run": null,
+      "claim": null,
+      "deletion": null
+    },
+    "claim": {
+      "title": null,
+      "titleUnknown": null
+    },
+    "claimStates": {
+      "PENDING": null,
+      "APPROVED": null,
+      "REJECTED": null
+    },
+    "deletion": {
+      "title": null,
+      "titleUnknown": null,
+      "sentOn": null,
+      "forget": null
+    },
+    "states": {
+      "PENDING": null,
+      "COMPLETED": null,
+      "REJECTED": null
+    },
+    "status": {
+      "title": null,
+      "received": null,
+      "handled": null,
+      "reason": null,
+      "descriptions": {
+        "PENDING": null,
+        "COMPLETED": null,
+        "REJECTED": null
+      },
+      "notFoundTitle": null,
+      "notFoundDesc": null,
+      "loadError": null,
+      "back": null
     }
   }
 }

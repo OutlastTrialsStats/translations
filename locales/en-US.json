@@ -126,7 +126,7 @@
       "affiliation": {
         "q": "Are you affiliated with Red Barrels?",
         "a": [
-          "No. TOTStats is an unofficial, independent fan project. It is not affiliated with, endorsed or sponsored by Red Barrels Inc. “The Outlast Trials” and “Outlast” are trademarks of Red Barrels Inc."
+          "No. Outlast Trials Stats is an unofficial, independent fan project. It is not affiliated with, endorsed or sponsored by Red Barrels Inc. “The Outlast Trials” and “Outlast” are trademarks of Red Barrels Inc."
         ],
         "keywords": "official partner developer"
       },
@@ -373,10 +373,10 @@
       "badges": {
         "q": "How do I earn badges?",
         "a": [
-          "Most badges are awarded automatically when your profile is updated, for example for playing in the Closed Beta or Early Access, releasing 100, 250 or 500 Reagents, holding the fastest time on a trial, reaching A+ on every Psychosurgery map or owning every item.",
-          "Speed Runner, Perfect Subject and All Items Collected are checked every hour and can be lost again, for example when someone beats your time or new items come out. A few special badges are handed out by our team. All badges are listed on the {badges} page."
+          "Most badges are awarded automatically when your profile is updated, for example for playing in the Closed Beta or Early Access, releasing 100, 250 or 500 Reagents, holding the fastest time on a trial, ranking #1 in a leaderboard category, reaching A+ on every Psychosurgery map or owning every item.",
+          "Speed Runner, Record Holder, Perfect Subject and All Items Collected are checked every hour and can be lost again, for example when someone beats your time or record or new items come out. A few special badges are handed out by our team. All badges are listed on the {badges} page."
         ],
-        "keywords": "badge achievement earn speed runner perfect subject"
+        "keywords": "badge achievement earn speed runner record holder perfect subject"
       },
       "contributor-badge": {
         "q": "How do I get the Contributor badge?",
@@ -539,6 +539,7 @@
     "cosmeticGroupCharacter": "Character",
     "cosmeticGroupProfile": "Profile",
     "cosmeticGroupCell": "Cell",
+    "cosmeticGroupSkins": "Skins & Emotes",
     "cosmeticExcludedGroup": "Categories",
     "cosmeticFilterNone": "No category",
     "subtitle": "See how you rank among all reagents",
@@ -617,12 +618,59 @@
       },
       "rarity": "Rarity",
       "thumbnailAlt": "Thumbnail of {name}",
-      "loadError": "Error loading cosmetic details"
+      "loadError": "Error loading cosmetic details",
+      "descriptionTitle": "Description",
+      "obtainTitle": "How to obtain",
+      "variantsTitle": "Color variants",
+      "partsTitle": "Outfit parts",
+      "partOfTitle": "Part of",
+      "currentVariant": "Current",
+      "event": "Event",
+      "unreleasedHint": "This item is not released yet. It was found in the game files and cannot be obtained.",
+      "sources": {
+        "BATTLE_PASS": "Catalog {name}",
+        "BATTLE_PASS_UNNAMED": "Catalog",
+        "SHOP": "Shop",
+        "TASK": "Task: {name}",
+        "TASK_UNNAMED": "Task",
+        "REWARD_BOX": "Reward box",
+        "LEVEL": "Reach level {level}",
+        "RELEASE": "Reach release {count}",
+        "TRIAL_REWARD": "Trial reward",
+        "COMMUNITY_EVENT": "Community event {name}",
+        "INVASION": "Invasion grade {name}",
+        "PROGRESSION": "Progression reward",
+        "BADGE": "Badge reward: {name}",
+        "position": "Page {page}, slot {slot}",
+        "cost": "{cost} {currency}",
+        "premiumUnlock": "Premium unlock: {cost}",
+        "timeLimited": "Time limited",
+        "released": "Released {date}",
+        "milestone": "Milestone {amount}",
+        "rewardTier": "Tier {amount}",
+        "currencies": {
+          "BATTLE_PASS_TOKEN": "Stamps",
+          "EVENT_TOKEN": "Event tokens",
+          "PREMIUM_TOKEN": "Premium tokens"
+        },
+        "pools": {
+          "RewardBox": "Standard pool",
+          "RewardBox_RareEpic": "Rare pool",
+          "RewardBox_Legendary": "Legendary pool"
+        }
+      }
+    },
+    "rarities": {
+      "BASIC": "Basic",
+      "ADVANCED": "Enhanced",
+      "EVENT": "Event",
+      "CLASSIFIED": "Classified",
+      "DELUXE": "Deluxe"
     }
   },
   "siteFooter": {
     "brandDesc": "Your companion for The Outlast Trials statistics, leaderboards, events and player profiles.",
-    "notPartnered": "TOTStats is an unofficial fan project and is not affiliated with, endorsed or sponsored by Red Barrels Inc.",
+    "notPartnered": "Outlast Trials Stats is an unofficial fan project and is not affiliated with, endorsed or sponsored by Red Barrels Inc.",
     "trademarks": "“The Outlast Trials” and “Outlast” are trademarks of Red Barrels Inc. All other trademarks and copyrights belong to their respective owners.",
     "ariaDiscord": "Join Discord",
     "ariaInstagram": "Follow on Instagram",
@@ -675,10 +723,71 @@
     "showMore": "Show more",
     "limitReached": "Only the first {count} owners can be shown."
   },
+  "profileHighlights": {
+    "groups": {
+      "ADMIN": "Admin",
+      "MODERATOR": "Moderator",
+      "RED_BARRELS_EMPLOYEE": "Red Barrels Employee",
+      "WHISTLEBLOWER": "Murkoff Whistleblower"
+    }
+  },
   "badges": {
     "subtitle": "Collect and showcase your achievements",
     "retiredTitle": "No Longer Awarded",
-    "retired": "This badge is no longer being awarded because the game no longer provides this information."
+    "retired": "This badge is no longer being awarded because the game no longer provides this information.",
+    "rankedFirstIn": "Ranked #1 in",
+    "earnedAt": "Received: {date}",
+    "unknownDescription": "Unknown badge",
+    "definitions": {
+      "RED_BARRELS_EMPLOYEE": {
+        "description": "Accounts of the Red Barrels Team"
+      },
+      "TOTSTATS_STAFF": {
+        "description": "Members of the Outlast Trials Stats team"
+      },
+      "LOG_FLAG": {
+        "description": "Accounts with the profile flag \"LOG_FLAG\""
+      },
+      "CONTRIBUTOR": {
+        "description": "Players who help by submitting profile IDs for tracking"
+      },
+      "MAP_CONTRIBUTOR": {
+        "description": "Players who contributed content to the Outlast Trials Stats maps"
+      },
+      "WHISTLEBLOWER": {
+        "description": "Content creators in the Murkoff Whistleblowers, Red Barrels' official partner program"
+      },
+      "CLOSED_BETA_ACCOUNT": {
+        "description": "The account was created during the closed beta phase"
+      },
+      "EARLY_ACCESS_ACCOUNT": {
+        "description": "The account was created during the early access phase"
+      },
+      "SPECIAL_ACCESS_ACCOUNT": {
+        "description": "These accounts had access to the game during its pre-release development phase when it was not yet publicly playable"
+      },
+      "REAGENT_RELEASES_100": {
+        "description": "Veterans who achieved more than 100 reagent releases"
+      },
+      "REAGENT_RELEASES_250": {
+        "description": "Experienced players reaching beyond 250 reagent releases"
+      },
+      "REAGENT_RELEASES_500": {
+        "description": "Masters of reagent releasing with over 500 accomplishments"
+      },
+      "ALL_ITEMS_COLLECTED": {
+        "description": "Players who have collected every item in the game"
+      },
+      "SPEED_RUNNER": {
+        "description": "Players who hold the fastest completion time on at least one trial"
+      },
+      "RECORD_HOLDER": {
+        "description": "Players who rank #1 in at least one category of the general leaderboard"
+      },
+      "PERFECT_SUBJECT": {
+        "description": "Murkoff's model reagent — achieved A+ Therapy Quality on every trial map on Psychosurgery difficulty"
+      }
+    }
   },
   "addAccount": {
     "title": "Murkoff Reagent Tracking",
@@ -689,12 +798,7 @@
     "friendCodeTip": "Add your Friend Code to start tracking your account",
     "successMessage": "Request sent successfully. Please wait up to 48 hours for the account to be tracked.",
     "failedMessage": "An error occurred while sending the request. Please try again later.",
-    "steamId": "Steam ID",
-    "enterSteamId": "Enter your SteamID64...",
-    "errorValidationSteamId": "Please enter a valid SteamID64 (17-digit number)",
-    "steamIdTip": "Enter your SteamID64. You can find it at {link} under \"steamID64\".",
     "tabFriendCode": "Friend Code",
-    "tabSteamId": "Steam ID",
     "invasionTitle": "Invasion / Escalation",
     "invasionRecommended": "Recommended",
     "invasionStep1": "Play at least one Invasion or Escalation match in The Outlast Trials",
@@ -709,7 +813,6 @@
     "status": "Offline for maintenance",
     "title": "Under Maintenance",
     "reassurance": "Thank you for your patience while we improve the tool.",
-    "autoCheck": "Checking status automatically…",
     "discordPrompt": "Need more info? Join our Discord server.",
     "fallbackMessage": "We are currently performing maintenance. Please check back soon."
   },
@@ -865,11 +968,17 @@
     },
     "visibility": {
       "hidden": "Hidden by profile owner",
+      "profileHiddenEyebrow": "Classified",
       "profileHiddenTitle": "Profile Hidden",
       "profileHidden": "This profile has been hidden by its owner.",
       "profileHiddenNoticeTitle": "Profile is hidden",
       "profileHiddenNotice": "This profile is hidden from the public. Only you and staff members can see it.",
       "visibleToYou": "Visible to you"
+    },
+    "dataDeletion": {
+      "title": "Profile scheduled for deletion",
+      "message": "All data of this profile will be deleted on {date}.",
+      "cancel": "Cancel in settings"
     },
     "tabErrors": {
       "statsTitle": "Could not load stats",
@@ -1163,6 +1272,10 @@
         "title": "Help Translate",
         "description": "Help us translate Outlast Trials Stats into your language on GitHub"
       },
+      "kofi": {
+        "title": "Support us",
+        "description": "Help cover server costs and keep Outlast Trials Stats running"
+      },
       "contribute": {
         "description": "Companion app with Discord Rich Presence that also helps us find new players"
       },
@@ -1198,6 +1311,7 @@
     "no_connections": "No gaming platforms linked to Discord. Connect Steam, PlayStation, or Xbox in your Discord settings. Alternatively, create a support ticket on our Discord server to link your account manually.",
     "no_profile_found": "No profile found",
     "already_claimed": "Already claimed",
+    "linked_to_you": "Linked to your account",
     "profile_pending": "Searching...",
     "claim_pending": "Pre-select",
     "claim_pending_success": "We're searching for your profile. It will be linked automatically once found.",
@@ -1213,27 +1327,38 @@
     "already_linked_title": "Already Linked",
     "already_linked_description": "Your Discord account is already linked to a game profile.",
     "go_to_profile": "Go to My Profile",
+    "add_profile": "Add game profile",
+    "add_another_profile": "Link another game profile",
     "continue": "Continue",
     "continue_to_maps": "Continue to Maps",
     "link_support_hint": "Having trouble linking your account? Contact our support on the",
+    "link_claim_hint": "Can't link your profile automatically?",
+    "link_claim_action": "Request a manual check with proof",
+    "no_connections_claim": "No gaming platforms linked to Discord. Connect Steam, PlayStation, or Xbox in your Discord settings, or request a manual check with screenshots as proof.",
+    "claim_not_found_hint": "Your profile isn't listed or can't be found?",
     "page_title": "Link Account",
     "page_subtitle": "Connect your game profile to your Discord account",
     "step_1_title": "Link platform to Discord",
     "step_1_desc": "In Discord Settings → {connections}, link your Steam, PlayStation, Xbox, or Epic account.",
+    "steps": {
+      "discord_desc": "Sign in so we can see the platforms linked to your Discord.",
+      "profile_desc": "Pick your game profile or verify it with your friend code.",
+      "done": "Done",
+      "done_desc": "Your stats, badges and settings are ready."
+    },
     "verification": {
       "method_title": "How do you want to link your profile?",
       "method_discord_title": "Discord connections",
       "method_discord_desc": "Pick your profile from the Steam, PlayStation or Xbox account linked to your Discord account.",
-      "method_friend_code_title": "Friend code",
       "method_friend_code_badge": "All platforms",
-      "method_friend_code_presence_desc": "Prove that the profile is yours by changing two settings in game. Also works for Epic Games and Nintendo Switch.",
+      "method_friend_request_title": "Friend request",
+      "method_friend_request_desc": "Prove that the profile is yours by sending a friend request to our bot in game. Also works for Epic Games and Nintendo Switch.",
       "change_method": "Choose another method",
       "claim_fallback_title": "Claiming does not work?",
       "claim_fallback_desc": "Verify your profile with your friend code instead. It works for every platform, even if a connection is listed here.",
       "claim_fallback_action": "Use friend code",
       "step_label": "Verify profile",
       "intro_title": "Verify with your friend code",
-      "intro_presence": "We look up your profile and ask you to change your region and cross-play setting in game. Once we see the change, your profile is linked to your Discord account.",
       "friend_code_label": "Friend code",
       "friend_code_hint": "You can find your friend code in game in the friends menu.",
       "friend_code_invalid": "Please enter a valid friend code (XXXX-XXXX)",
@@ -1241,31 +1366,8 @@
       "challenges_left": "{remaining} of {max} challenges left today",
       "no_challenges_left": "You have used all verification challenges for today. Please try again tomorrow.",
       "resolving_title": "Looking up your profile",
-      "resolving_presence_desc": "We are checking your profile and online status. Make sure you are online in game. This usually takes a few seconds.",
       "waiting_for_source": "Our game data source is starting up. This can take a few minutes, just keep this page open.",
-      "presence_title": "Change your game settings",
-      "presence_desc": "Change these two settings in game, then confirm here.",
-      "presence_desc_named": "Change these two settings on {name} in game, then confirm here.",
-      "requirement_region": "Region",
-      "requirement_crossplay": "Cross-play",
-      "requirement_now": "Now: {value}",
-      "crossplay_on": "On",
-      "crossplay_off": "Off",
-      "status_pending": "Not checked",
-      "status_set": "Set",
-      "status_not_set": "Not set",
-      "time_left": "Time left",
-      "attempts": "Attempts",
-      "attempts_left": "{left} of {max} left",
       "instructions_title": "How it works",
-      "presence_instruction_1": "Start The Outlast Trials and go to the lobby.",
-      "presence_instruction_2": "Open Settings, then Network, and select only the region {region}.",
-      "presence_instruction_3": "Turn cross-play {state}.",
-      "presence_instruction_4": "Stay in the lobby and click Confirm. We then check your online status.",
-      "presence_warning": "Never change these settings because someone else asked you to. Only do this for a verification you started yourself on this page. Our staff will never ask you to do it.",
-      "not_in_lobby": "We could not see you online in the lobby. Start the game, go to the lobby and confirm again. This attempt was not counted.",
-      "checking_presence": "Checking your online status...",
-      "confirm": "Confirm",
       "cancel": "Cancel",
       "verified_linking": "Verified! Linking your profile...",
       "try_again": "Try again",
@@ -1287,19 +1389,32 @@
         "INVALID_FRIEND_CODE_FORMAT": "Please enter a valid friend code in the format XXXX-XXXX.",
         "PROFILE_NOT_VERIFIABLE": "This profile cannot be verified. Contact our support if you think this is a mistake.",
         "USER_ALREADY_LINKED": "Your account is already linked to a game profile.",
-        "NO_PROGRESSION_DATA": "We could not read the equipped cosmetics of this profile. Start the game once and try again.",
-        "NO_ALTERNATIVE_COSMETICS": "This profile does not own enough player icons or borders for a challenge. Contact our support to link it manually.",
-        "PLAYER_OFFLINE": "You need to be online in The Outlast Trials to start the verification. Start the game and try again.",
-        "MAX_ATTEMPTS_REACHED": "All attempts for this challenge were used without a match.",
+        "ALREADY_LINKED_TO_YOU": "This profile is already linked to your account.",
+        "LINK_LIMIT_REACHED": "You have reached the limit of linked profiles.",
         "SOURCE_UNAVAILABLE": "Our game data source is currently unavailable. Please try again later.",
         "SOURCE_ERROR": "The game servers returned an error. Please try again later.",
         "STAFF_OVERRIDE": "The verification was closed because a staff member changed the linked profile.",
         "LINKED_OTHERWISE": "The verification was closed because your account was linked in another way.",
         "VERIFICATION_ALREADY_ACTIVE": "You already have a verification in progress.",
         "DAILY_LIMIT_REACHED": "You have reached the daily limit of verifications. Please try again tomorrow.",
-        "VERIFICATION_NOT_ACTIVE": "This verification is no longer active.",
-        "VERIFICATION_EXPIRED": "This verification has expired.",
-        "GENERIC": "Something went wrong. Please try again."
+        "GENERIC": "Something went wrong. Please try again.",
+        "ALREADY_FRIENDS": "This profile is already friends with our bot, so it cannot send a friend request. Please use another verification method."
+      },
+      "friend_request": {
+        "intro": "We look up your profile and then show you the friend code of our bot. Send it a friend request in game within 5 minutes. As soon as the request arrives, your profile is linked to your Discord account.",
+        "resolving_desc": "We are checking your profile. This usually takes a few seconds.",
+        "title": "Send a friend request to our bot",
+        "desc": "Send a friend request from your profile to this friend code in game.",
+        "desc_named": "Send a friend request from {name} to this friend code in game.",
+        "bot_code_label": "Bot friend code",
+        "copy": "Copy the bot friend code",
+        "copied": "Friend code copied",
+        "copy_failed": "The friend code could not be copied",
+        "waiting": "Waiting for your friend request...",
+        "instruction_1": "Start The Outlast Trials and open the friends menu.",
+        "instruction_2": "Choose to add a friend by friend code and enter the code above.",
+        "instruction_3": "Send the request and keep this page open. We link your profile as soon as the request arrives.",
+        "refused_hint": "Our bot declines your request afterwards, that is expected. If nothing happens after a minute, send the request again."
       }
     }
   },
@@ -1313,6 +1428,8 @@
     "saving": "Saving…",
     "saved": "Saved",
     "saveError": "Save failed",
+    "loadError": "Could not load the settings of this profile.",
+    "loadRetry": "Try again",
     "visibleTabs": "Visible tabs",
     "visibleTabsHint": "Only applies while your profile is visible.",
     "visibleTabItems": {
@@ -1329,6 +1446,21 @@
     },
     "linked_profile": "Linked Profile",
     "linked_profile_description": "Your game profile is linked to your Discord account. You can unlink it here.",
+    "accounts": {
+      "title": "Game Profiles",
+      "description": "These game profiles are linked to your Discord account. Your main profile is used for the Discord bot, map credits and the profile link in the menu.",
+      "unknownName": "Unknown profile",
+      "primaryBadge": "Main profile",
+      "makePrimary": "Set as main",
+      "primarySuccess": "Main profile updated.",
+      "primaryFailed": "Failed to change the main profile",
+      "linkedOn": "Linked on {date}",
+      "limitReached": "You have reached the limit of {max} linked profiles.",
+      "unlinkConfirm": "Are you sure you want to unlink {name} from your Discord account? You can link it again later.",
+      "addChip": "Add",
+      "actions": "Profile actions",
+      "wipeScheduled": "Data deletion scheduled"
+    },
     "profileDetails": {
       "title": "What others see",
       "description": "Choose which parts of your profile are visible to other players.",
@@ -1354,11 +1486,6 @@
         "title": "Discord Account",
         "description": "You sign in to Outlast Trials Stats with this Discord account.",
         "signedIn": "Signed in with Discord"
-      },
-      "profile": {
-        "viewTitle": "Profile page",
-        "viewHint": "See your profile the way other players see it.",
-        "unlinkHint": "Remove the link between your Discord account and this game profile."
       }
     },
     "no_linked_profile": "No game profile linked. Link a profile via the user menu to configure visibility settings.",
@@ -1434,8 +1561,8 @@
     },
     "deleteProfile": {
       "sectionTitle": "Danger Zone",
-      "sectionHint": "Deletions take effect after 7 days and cannot be undone after that.",
       "title": "Delete Profile Data",
+      "profileTitle": "Delete data of {name}",
       "hint": "Wipe all game data stored on outlasttrialsstats.com. Your game itself is not affected, and your Discord login and profile link stay intact.",
       "whatHeader": "The following will be deleted:",
       "whatItems": [
@@ -1449,11 +1576,13 @@
       ],
       "button": "Delete all profile data",
       "confirmTitle": "Delete all profile data?",
+      "profileConfirmTitle": "Delete all data of {name}?",
       "confirmText": "All your statistics, cosmetics, badges, invasion data, trials and shop packs will be removed for good. Your profile is hidden and blocked from any further collection until you re-enable processing and make it visible again yourself. Your Discord account and profile link stay intact.",
       "gracePeriod": "Your data is deleted after 7 days. Until then you can cancel the deletion in your settings.",
       "understand": "I understand that my profile data will be deleted for good after 7 days.",
       "scheduled": "Your profile data will be deleted on {date}.",
       "scheduledTitle": "Profile data will be deleted on {date}",
+      "profileScheduledTitle": "Data of {name} will be deleted on {date}",
       "scheduledHint": "You can cancel the deletion until then.",
       "cancelButton": "Cancel deletion",
       "cancelled": "The deletion of your profile data has been cancelled.",
@@ -1491,6 +1620,7 @@
         "sections": {
           "account": "Account",
           "linkedProfile": "Linked profile",
+          "linkedProfiles": "Linked profiles",
           "profileSettings": "Profile settings",
           "processingBlock": "Processing block",
           "leaderboardModeration": "Leaderboard moderation",
@@ -1504,18 +1634,20 @@
           "joinedEvents": "Joined events",
           "verifications": "Verifications",
           "pendingClaims": "Pending claims",
+          "claimRequests": "Claim requests",
           "auditEntries": "Activity log"
         }
       },
       "exportError": "Could not create your data export. Please try again in a minute.",
       "exportRateLimited": "You requested your data several times in a short period. Please try again in a few minutes.",
       "deleteTitle": "Delete Account",
-      "deleteHint": "Delete your TOTStats account and disconnect your Discord login.",
+      "deleteHint": "Delete your Outlast Trials Stats account and disconnect your Discord login.",
       "deleteWhatItems": [
         "Your Discord ID, name, avatar and email address",
         "The Discord access tokens we stored (right away when you confirm; we also revoke them at Discord)",
         "Your profile link, pending claims and verification history"
       ],
+      "deleteKeptHint": "Claim requests you sent stay stored as proof of the link, without your account.",
       "profileChoiceTitle": "What should happen to your linked game profile?",
       "profileKeep": "Keep my game profile on the site",
       "profileKeepHint": "Your profile stays on the site like the profile of any player without an account, with your current visibility settings. Your about me, country, favorite trial and social links are removed. To change the settings later, you have to link the profile again.",
@@ -1535,6 +1667,10 @@
       "error": "Failed to delete your account",
       "loadError": "Could not load your account. Please try again.",
       "staffBlocked": "Staff accounts cannot be deleted here. Ask an admin to remove your staff role first."
+    },
+    "accountSection": {
+      "title": "Account & Data",
+      "description": "Download a copy of your data or delete your website account."
     }
   },
   "profileDeletionRequest": {
@@ -1584,24 +1720,12 @@
       "confirm": "I own this profile and understand that the deletion is permanent.",
       "confirmRequired": "Please confirm before sending the request.",
       "submit": "Send deletion request",
-      "privacyNote": "We only use your details to handle this request and delete them 30 days after it is closed. Only staff see your screenshots, and they are deleted once the request is handled.",
+      "privacyNote": "We only use your details to handle this request. Only staff see them, and your contact, message and screenshots are deleted once the request is handled. We keep the status and dates so your status link keeps working.",
       "privacyLink": "Privacy policy"
     },
     "screenshots": {
-      "label": "Screenshots",
-      "count": "{count} / {max}",
-      "drop": "Choose images, drop or paste them",
       "hint": "Add at least one screenshot of your in-game player card with your name and friend code visible.",
-      "thumbAlt": "Screenshot {n}",
-      "remove": "Remove screenshot {n}",
-      "processing": "Preparing…",
-      "errors": {
-        "type": "Only PNG, JPEG or WebP images are supported.",
-        "tooLarge": "This image is too large, even after compressing it. Crop it or use a smaller screenshot.",
-        "unreadable": "This image couldn't be read. Please try another file.",
-        "limit": "You can attach up to {max} screenshots.",
-        "required": "Add at least one screenshot that shows the profile is yours."
-      }
+      "required": "Add at least one screenshot that shows the profile is yours."
     },
     "errors": {
       "PROFILE_NOT_FOUND": "This profile doesn't exist. Check the link or ID and try again.",
@@ -1615,8 +1739,12 @@
     "success": {
       "title": "Request received",
       "desc": "We'll check that the profile is yours and may contact you. Once confirmed, the stats are wiped and the profile is hidden.",
-      "reference": "Reference",
-      "home": "Back to home",
+      "statusLabel": "Your status link",
+      "statusHint": "Save this link. It's the only way to check the status of your request. This browser also remembers it under My Requests.",
+      "copy": "Copy link",
+      "copied": "Link copied",
+      "copyFailed": "The link couldn't be copied. Select it and copy it by hand.",
+      "openStatus": "Show status",
       "another": "Send another request"
     }
   },
@@ -1757,6 +1885,7 @@
     "save": "Save",
     "loading": "Loading...",
     "retry": "Retry",
+    "errorEyebrow": "Signal lost",
     "scrollToTop": "Scroll to top"
   },
   "trials": {
@@ -1765,7 +1894,7 @@
       "programcore": "Core",
       "programchain": "Escalation",
       "programinvasion": "Invasion",
-      "programcreator": "Creator",
+      "programcreator": "Trial-Maker",
       "programweekly": "Weekly",
       "programevent": "Event"
     },
@@ -1924,9 +2053,7 @@
       "remaining": "Escape Intel still to extract",
       "etaLabel": "Expected",
       "progress": "{percent} done",
-      "compact": "{remaining} to {target} · {eta}",
-      "reached": "{target} reached",
-      "next": "Next · {phase}"
+      "compact": "{remaining} to {target} · {eta}"
     },
     "allReached": "All phases reached",
     "phase": "Phase {n}",
@@ -2010,8 +2137,7 @@
       "extract_escape_plan": {
         "name": "Escape the Facility",
         "description": "Help Amelia. Find as much Escape Intel as possible in the Trials and leave with it in your inventory. Reach community milestones to make the escape possible.",
-        "leaders": "The players who have extracted the most Escape Intel so far.",
-        "reached": "ESCAPE! NOW!"
+        "leaders": "The players who have extracted the most Escape Intel so far."
       },
       "blood_donation": {
         "name": "Blood Drive",
@@ -2063,6 +2189,266 @@
     },
     "footer": {
       "signoff": "Complicity is death. — A"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "open": "Open notifications",
+    "empty": "No notifications yet",
+    "markAllRead": "Mark all as read",
+    "types": {
+      "BADGE_GRANTED": {
+        "title": "Badge earned",
+        "body": "Your profile received the {badge} badge."
+      },
+      "BADGE_REVOKED": {
+        "title": "Badge removed",
+        "body": "The {badge} badge was removed from your profile."
+      },
+      "TOPLIST_EXCLUDED": {
+        "title": "Hidden from the leaderboards",
+        "body": "Your profile is no longer shown in the leaderboards. Reason: {reason}"
+      },
+      "RUN_SUBMISSION_APPROVED": {
+        "title": "Run approved",
+        "body": "Your submitted run on {map} ({difficulty}) now counts on the speedrun leaderboard."
+      },
+      "RUN_SUBMISSION_REJECTED": {
+        "title": "Run submission rejected",
+        "body": "Your submitted run on {map} ({difficulty}) was not accepted. Open your submissions to see why."
+      },
+      "RUN_SUBMISSION_REVOKED": {
+        "title": "Run removed",
+        "body": "Your run on {map} ({difficulty}) no longer counts on the speedrun leaderboard."
+      },
+      "CLAIM_REQUEST_APPROVED": {
+        "title": "Profile linked",
+        "body": "Your claim request was approved. The profile is now linked to your account."
+      },
+      "CLAIM_REQUEST_REJECTED": {
+        "title": "Claim request rejected",
+        "body": "Your claim request was not accepted. Open My Requests to see why."
+      }
+    }
+  },
+  "screenshots": {
+    "label": "Screenshots",
+    "count": "{count} / {max}",
+    "drop": "Choose images, drop or paste them",
+    "thumbAlt": "Screenshot {n}",
+    "remove": "Remove screenshot {n}",
+    "processing": "Preparing…",
+    "errors": {
+      "type": "Only PNG, JPEG or WebP images are supported.",
+      "tooLarge": "This image is too large, even after compressing it. Crop it or use a smaller screenshot.",
+      "unreadable": "This image couldn't be read. Please try another file.",
+      "limit": "You can attach up to {max} screenshots."
+    }
+  },
+  "runSubmission": {
+    "hero": {
+      "title": "Submit a Run",
+      "subline": "Faster than our records? Send your proof and staff adds your time."
+    },
+    "entry": {
+      "eyebrow": "Speedrun leaderboard",
+      "title": "Missing a best time?",
+      "desc": "Submit a run with a video or screenshots for the speedrun leaderboard.",
+      "button": "Submit a run"
+    },
+    "notLinked": {
+      "title": "Link your profile first",
+      "desc": "You can only submit runs for your own game profile. Link it to your Discord account, then come back here.",
+      "button": "Link my profile"
+    },
+    "form": {
+      "steps": {
+        "trial": {
+          "title": "Trial",
+          "desc": "Which trial did you run?"
+        },
+        "result": {
+          "title": "Result",
+          "desc": "Your time as shown on the end screen."
+        },
+        "team": {
+          "title": "Team",
+          "desc": "Who played with you?"
+        },
+        "proof": {
+          "title": "Proof",
+          "desc": "Staff checks every run by hand before it counts."
+        }
+      },
+      "or": "or",
+      "programLabel": "Program",
+      "programs": {
+        "core": "Core",
+        "chain": "Escalation",
+        "creator": "Trial-Maker",
+        "event": "Event",
+        "weekly": "Weekly"
+      },
+      "eventLabel": "Event",
+      "familyLabel": "Map",
+      "mapLabel": "Trial",
+      "difficultyLabel": "Difficulty",
+      "timeLabel": "Time",
+      "timeHint": "Minutes and seconds, e.g. 12:34.5",
+      "timeInvalid": "Enter the time as mm:ss or mm:ss.ms.",
+      "dateLabel": "Played on",
+      "dateInvalid": "The date can't be in the future.",
+      "teamSizeLabel": "Team size",
+      "teammatesLabel": "Teammates (optional)",
+      "teammatesHint": "Add the profiles you played with. Once approved, the time counts for them too.",
+      "teammatesPlaceholder": "Search for a teammate",
+      "removeTeammate": "Remove {name}",
+      "videoLabel": "Video link",
+      "videoHint": "YouTube, Twitch or any other link where staff can watch the whole run.",
+      "videoInvalid": "Enter a link that starts with https://",
+      "screenshotsHint": "Screenshots of the end screen showing the trial, the difficulty and the time.",
+      "proofRequired": "Add a video link or at least one screenshot.",
+      "commentLabel": "Comment (optional)",
+      "required": "Required",
+      "submit": "Submit run",
+      "next": "Continue",
+      "back": "Back",
+      "privacyNote": "Only staff see your proof. We keep it for good so the leaderboard stays verifiable."
+    },
+    "success": {
+      "title": "Run submitted",
+      "desc": "Staff will review it soon. You get a notification once it is handled.",
+      "another": "Submit another run",
+      "requests": "Go to my requests"
+    },
+    "errors": {
+      "NO_LINKED_PROFILE": "Link your game profile before submitting a run.",
+      "INVALID_TRIAL": "Pick a valid program, trial and difficulty.",
+      "INVALID_TIME": "The time is not valid.",
+      "INVALID_DATE": "The date can't be in the future.",
+      "INVALID_TEAMMATES": "One of the teammates can't be added. Check the team size and the selected profiles.",
+      "PROOF_REQUIRED": "Add a video link or at least one screenshot.",
+      "INVALID_VIDEO_URL": "The video link is not valid.",
+      "INVALID_SCREENSHOT": "One of the screenshots couldn't be processed. Remove it or try a different image.",
+      "REQUEST_ALREADY_PENDING": "A submission for this trial is already waiting for review.",
+      "TOO_MANY_PENDING": "You already have 5 submissions waiting for review. Wait until staff has handled them.",
+      "rateLimited": "Too many submissions. Please wait a moment and try again.",
+      "disabled": "Run submissions are not available right now.",
+      "generic": "The run couldn't be submitted. Please try again later."
+    },
+    "mine": {
+      "team": "with {names}",
+      "staffNote": "Staff: {note}",
+      "states": {
+        "PENDING": "In review",
+        "APPROVED": "Approved",
+        "REJECTED": "Rejected",
+        "REVOKED": "Removed"
+      }
+    }
+  },
+  "claimRequest": {
+    "hero": {
+      "title": "Claim a Profile",
+      "subline": "Can't link your profile automatically? Send us proof and we'll link it by hand."
+    },
+    "form": {
+      "intro": "Pick your game profile and add screenshots that show it's yours. An admin checks them and links the profile to your account.",
+      "profileLabel": "Game profile",
+      "profilePlaceholder": "Search for your profile",
+      "changeProfile": "Change",
+      "profileRequired": "Pick the profile you want to link.",
+      "proofLabel": "Proof",
+      "proofHint": "Screenshots of your in-game profile showing your name and friend code. A screenshot of your platform profile helps too.",
+      "proofRequired": "Add at least one screenshot.",
+      "messageLabel": "Message (optional)",
+      "messageHint": "Anything that helps, e.g. why linking doesn't work automatically.",
+      "privacyNote": "Only admins see your proof. We keep the request and the screenshots as proof of the link; they are deleted if the profile data is deleted.",
+      "submit": "Send claim request"
+    },
+    "blocked": {
+      "title": "You can't claim another profile",
+      "single": "Your account already has a linked game profile. Only one profile per account is supported right now.",
+      "limit": "Your account already has {max} linked profiles."
+    },
+    "success": {
+      "title": "Claim request sent",
+      "desc": "An admin will review it soon. You get a notification once it is handled.",
+      "requests": "Go to my requests",
+      "another": "Claim another profile"
+    },
+    "errors": {
+      "PROFILE_NOT_FOUND": "This profile doesn't exist.",
+      "PROFILE_ALREADY_DELETED": "The data of this profile has been deleted, so it can't be claimed.",
+      "ALREADY_LINKED_TO_YOU": "This profile is already linked to your account.",
+      "LINK_LIMIT_REACHED": "Your account already has {max} linked profiles.",
+      "REQUEST_ALREADY_PENDING": "You already sent a claim request for this profile. Wait until it is handled.",
+      "TOO_MANY_PENDING": "You already have 3 claim requests waiting for review. Wait until they are handled.",
+      "INVALID_SCREENSHOT": "One of the screenshots couldn't be processed. Remove it or try a different image.",
+      "rateLimited": "Too many requests. Please wait a moment and try again.",
+      "generic": "The claim request couldn't be sent. Please try again later."
+    }
+  },
+  "requests": {
+    "hero": {
+      "title": "My Requests",
+      "subline": "Everything you've sent us and where it stands."
+    },
+    "actions": {
+      "submitRun": "Submit a run",
+      "claimProfile": "Claim a profile",
+      "deleteProfile": "Delete a profile",
+      "submitRunDesc": "Faster than our records? Send your time with proof.",
+      "claimProfileDesc": "Can't link a profile in the game? We link it by hand.",
+      "deleteProfileDesc": "Have all data of a profile removed and tracking stopped."
+    },
+    "sections": {
+      "new": "New request",
+      "mine": "Your requests"
+    },
+    "empty": "You haven't sent any requests yet.",
+    "signInHint": "Sign in to see your run submissions and claim requests here.",
+    "signIn": "Sign in",
+    "loadError": "Your requests couldn't be loaded. Please try again later.",
+    "types": {
+      "run": "Run",
+      "claim": "Claim",
+      "deletion": "Deletion"
+    },
+    "claim": {
+      "title": "Claim {name}",
+      "titleUnknown": "Profile claim"
+    },
+    "claimStates": {
+      "PENDING": "In review",
+      "APPROVED": "Linked",
+      "REJECTED": "Rejected"
+    },
+    "deletion": {
+      "title": "Delete {name}",
+      "titleUnknown": "Profile deletion",
+      "sentOn": "Sent on {date}",
+      "forget": "Remove from this list"
+    },
+    "states": {
+      "PENDING": "In review",
+      "COMPLETED": "Deleted",
+      "REJECTED": "Rejected"
+    },
+    "status": {
+      "title": "Deletion Request",
+      "received": "Received",
+      "handled": "Handled",
+      "reason": "Reason from staff",
+      "descriptions": {
+        "PENDING": "Staff is checking that the profile is yours. This can take a few days.",
+        "COMPLETED": "All data of the profile has been deleted, and the profile is hidden and no longer tracked.",
+        "REJECTED": "The request was closed without deleting anything. If you think this is wrong, send a new request with better proof."
+      },
+      "notFoundTitle": "Request not found",
+      "notFoundDesc": "Check that you opened the full link from the confirmation.",
+      "loadError": "The status couldn't be loaded. Please try again later.",
+      "back": "All my requests"
     }
   }
 }

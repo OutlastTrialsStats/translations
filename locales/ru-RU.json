@@ -126,7 +126,7 @@
       "affiliation": {
         "q": null,
         "a": [
-          "No. TOTStats is an unofficial, independent fan project. It is not affiliated with, endorsed or sponsored by Red Barrels Inc. “The Outlast Trials” and “Outlast” are trademarks of Red Barrels Inc."
+          "No. Outlast Trials Stats is an unofficial, independent fan project. It is not affiliated with, endorsed or sponsored by Red Barrels Inc. “The Outlast Trials” and “Outlast” are trademarks of Red Barrels Inc."
         ],
         "keywords": null
       },
@@ -539,6 +539,7 @@
     "cosmeticGroupCharacter": "Персонаж",
     "cosmeticGroupProfile": "Профиль",
     "cosmeticGroupCell": "Камера",
+    "cosmeticGroupSkins": null,
     "cosmeticExcludedGroup": "Категории",
     "cosmeticFilterNone": "Нет категории",
     "subtitle": "Посмотрите, как вы выглядите среди всех реагентов",
@@ -617,12 +618,59 @@
       },
       "rarity": "Rarity",
       "thumbnailAlt": null,
-      "loadError": null
+      "loadError": null,
+      "descriptionTitle": null,
+      "obtainTitle": null,
+      "variantsTitle": null,
+      "partsTitle": null,
+      "partOfTitle": null,
+      "currentVariant": null,
+      "event": null,
+      "unreleasedHint": null,
+      "sources": {
+        "BATTLE_PASS": null,
+        "BATTLE_PASS_UNNAMED": null,
+        "SHOP": null,
+        "TASK": null,
+        "TASK_UNNAMED": null,
+        "REWARD_BOX": null,
+        "LEVEL": null,
+        "RELEASE": null,
+        "TRIAL_REWARD": null,
+        "COMMUNITY_EVENT": null,
+        "INVASION": null,
+        "PROGRESSION": null,
+        "BADGE": null,
+        "position": null,
+        "cost": null,
+        "premiumUnlock": null,
+        "timeLimited": null,
+        "released": null,
+        "milestone": null,
+        "rewardTier": null,
+        "currencies": {
+          "BATTLE_PASS_TOKEN": null,
+          "EVENT_TOKEN": null,
+          "PREMIUM_TOKEN": null
+        },
+        "pools": {
+          "RewardBox": null,
+          "RewardBox_RareEpic": null,
+          "RewardBox_Legendary": null
+        }
+      }
+    },
+    "rarities": {
+      "BASIC": null,
+      "ADVANCED": null,
+      "EVENT": null,
+      "CLASSIFIED": null,
+      "DELUXE": null
     }
   },
   "siteFooter": {
     "brandDesc": "Ваш помощник по статистике, рейтингам, событиям и профилям игроков The Outlast Trials.",
-    "notPartnered": "TOTStats — неофициальный фанатский проект, не связанный с Red Barrels Inc. и не одобренный и не спонсируемый ею.",
+    "notPartnered": "Outlast Trials Stats — неофициальный фанатский проект, не связанный с Red Barrels Inc. и не одобренный и не спонсируемый ею.",
     "trademarks": "«The Outlast Trials» и «Outlast» — товарные знаки Red Barrels Inc. Все остальные товарные знаки и авторские права принадлежат их владельцам.",
     "ariaDiscord": "Присоединиться к Discord",
     "ariaInstagram": "Подписаться в Instagram",
@@ -675,10 +723,71 @@
     "showMore": "Показать еще",
     "limitReached": "Только первые {count} владельцы могут быть показаны."
   },
+  "profileHighlights": {
+    "groups": {
+      "ADMIN": null,
+      "MODERATOR": null,
+      "RED_BARRELS_EMPLOYEE": null,
+      "WHISTLEBLOWER": null
+    }
+  },
   "badges": {
     "subtitle": "Собирайте и демонстрируйте свои достижения",
     "retiredTitle": "Больше не Выдаётся",
-    "retired": "Этот значок больше не выдаётся, так как игра больше не предоставляет эту информацию."
+    "retired": "Этот значок больше не выдаётся, так как игра больше не предоставляет эту информацию.",
+    "rankedFirstIn": null,
+    "earnedAt": null,
+    "unknownDescription": null,
+    "definitions": {
+      "RED_BARRELS_EMPLOYEE": {
+        "description": null
+      },
+      "TOTSTATS_STAFF": {
+        "description": null
+      },
+      "LOG_FLAG": {
+        "description": null
+      },
+      "CONTRIBUTOR": {
+        "description": null
+      },
+      "MAP_CONTRIBUTOR": {
+        "description": null
+      },
+      "WHISTLEBLOWER": {
+        "description": null
+      },
+      "CLOSED_BETA_ACCOUNT": {
+        "description": null
+      },
+      "EARLY_ACCESS_ACCOUNT": {
+        "description": null
+      },
+      "SPECIAL_ACCESS_ACCOUNT": {
+        "description": null
+      },
+      "REAGENT_RELEASES_100": {
+        "description": null
+      },
+      "REAGENT_RELEASES_250": {
+        "description": null
+      },
+      "REAGENT_RELEASES_500": {
+        "description": null
+      },
+      "ALL_ITEMS_COLLECTED": {
+        "description": null
+      },
+      "SPEED_RUNNER": {
+        "description": null
+      },
+      "RECORD_HOLDER": {
+        "description": null
+      },
+      "PERFECT_SUBJECT": {
+        "description": null
+      }
+    }
   },
   "addAccount": {
     "title": "Отслеживание реагентов Мюркофф",
@@ -689,12 +798,7 @@
     "friendCodeTip": "Добавьте код друга, чтобы начать отслеживание вашего аккаунта",
     "successMessage": "Запрос отправлен успешно. Подождите до 48 часов для отслеживания аккаунта.",
     "failedMessage": "Произошла ошибка при отправке запроса. Попробуйте снова позже.",
-    "steamId": "Идентификатор Steam",
-    "enterSteamId": "Введите ваш SteamID64...",
-    "errorValidationSteamId": "Пожалуйста, введите действительный SteamID64 (17-значное число)",
-    "steamIdTip": "Введите ваш SteamID64. Вы можете найти его на {link} в разделе \"steamID64\".",
     "tabFriendCode": "Код друга",
-    "tabSteamId": "Идентификатор Steam",
     "invasionTitle": "Вторжение / Эскалация",
     "invasionRecommended": "Рекомендуется",
     "invasionStep1": "Сыграйте хотя бы один матч Вторжения или Эскалации в The Outlast Trials",
@@ -709,7 +813,6 @@
     "status": "Не доступно для обслуживания",
     "title": "Проходят технические работы",
     "reassurance": "Спасибо за ваше терпение, пока мы улучшаем инструмент.",
-    "autoCheck": "Автоматическая проверка статуса…",
     "discordPrompt": "Нужна дополнительная информация? Присоединяйтесь к нашему серверу Discord.",
     "fallbackMessage": "В настоящее время мы проводим техническое обслуживание. Пожалуйста, вернитесь позже."
   },
@@ -865,11 +968,17 @@
     },
     "visibility": {
       "hidden": "Скрыто владельцем профиля",
+      "profileHiddenEyebrow": null,
       "profileHiddenTitle": "Профиль скрыт",
       "profileHidden": "Этот профиль был скрыт его владельцем.",
       "profileHiddenNoticeTitle": "Профиль скрыт",
       "profileHiddenNotice": "Этот профиль скрыт от публичности. Только вы и сотрудники могут его видеть.",
       "visibleToYou": "Видимость для вас"
+    },
+    "dataDeletion": {
+      "title": null,
+      "message": null,
+      "cancel": null
     },
     "tabErrors": {
       "statsTitle": "Не удалось загрузить статистику",
@@ -1163,6 +1272,10 @@
         "title": "Помогите с Переводом",
         "description": "Помогите нам перевести OutlastTrialsStats на ваш язык на GitHub"
       },
+      "kofi": {
+        "title": null,
+        "description": null
+      },
       "contribute": {
         "description": "Приложение, отображающее активность Discord, которое также помогает нам находить новых игроков"
       },
@@ -1198,6 +1311,7 @@
     "no_connections": "Нет игровых платформ, привязанных к Discord. Подключите Steam, PlayStation или Xbox в настройках Discord. Также вы можете создать тикет поддержки на нашем Discord-сервере для ручной привязки аккаунта.",
     "no_profile_found": "Профиль не найден",
     "already_claimed": "Уже привязан",
+    "linked_to_you": null,
     "profile_pending": "Идёт поиск...",
     "claim_pending": "Предварительный Выбор",
     "claim_pending_success": "Мы ищем ваш профиль. Он будет автоматически привязан, как только будет найден.",
@@ -1213,27 +1327,38 @@
     "already_linked_title": "Уже Привязан",
     "already_linked_description": "Ваш аккаунт Discord уже привязан к игровому профилю.",
     "go_to_profile": "Перейти к Профилю",
+    "add_profile": null,
+    "add_another_profile": null,
     "continue": "Continue",
     "continue_to_maps": null,
     "link_support_hint": "Возникли проблемы с привязкой аккаунта? Свяжитесь с поддержкой на нашем",
+    "link_claim_hint": null,
+    "link_claim_action": null,
+    "no_connections_claim": null,
+    "claim_not_found_hint": null,
     "page_title": "Привязать Аккаунт",
     "page_subtitle": "Свяжите свой игровой профиль с аккаунтом Discord",
     "step_1_title": "Привяжите Платформу к Discord",
     "step_1_desc": "В настройках Discord → {connections} привяжите свой аккаунт Steam, PlayStation, Xbox или Epic.",
+    "steps": {
+      "discord_desc": null,
+      "profile_desc": null,
+      "done": null,
+      "done_desc": null
+    },
     "verification": {
       "method_title": null,
       "method_discord_title": null,
       "method_discord_desc": null,
-      "method_friend_code_title": null,
       "method_friend_code_badge": null,
-      "method_friend_code_presence_desc": null,
+      "method_friend_request_title": null,
+      "method_friend_request_desc": null,
       "change_method": null,
       "claim_fallback_title": null,
       "claim_fallback_desc": null,
       "claim_fallback_action": null,
       "step_label": null,
       "intro_title": null,
-      "intro_presence": null,
       "friend_code_label": null,
       "friend_code_hint": null,
       "friend_code_invalid": null,
@@ -1241,31 +1366,8 @@
       "challenges_left": null,
       "no_challenges_left": null,
       "resolving_title": null,
-      "resolving_presence_desc": null,
       "waiting_for_source": null,
-      "presence_title": null,
-      "presence_desc": null,
-      "presence_desc_named": null,
-      "requirement_region": "Region",
-      "requirement_crossplay": "Cross-play",
-      "requirement_now": null,
-      "crossplay_on": "On",
-      "crossplay_off": "Off",
-      "status_pending": null,
-      "status_set": "Set",
-      "status_not_set": null,
-      "time_left": null,
-      "attempts": "Attempts",
-      "attempts_left": null,
       "instructions_title": null,
-      "presence_instruction_1": null,
-      "presence_instruction_2": null,
-      "presence_instruction_3": null,
-      "presence_instruction_4": null,
-      "presence_warning": null,
-      "not_in_lobby": null,
-      "checking_presence": null,
-      "confirm": "Confirm",
       "cancel": "Cancel",
       "verified_linking": null,
       "try_again": null,
@@ -1287,19 +1389,32 @@
         "INVALID_FRIEND_CODE_FORMAT": null,
         "PROFILE_NOT_VERIFIABLE": null,
         "USER_ALREADY_LINKED": null,
-        "NO_PROGRESSION_DATA": null,
-        "NO_ALTERNATIVE_COSMETICS": null,
-        "PLAYER_OFFLINE": null,
-        "MAX_ATTEMPTS_REACHED": null,
+        "ALREADY_LINKED_TO_YOU": null,
+        "LINK_LIMIT_REACHED": null,
         "SOURCE_UNAVAILABLE": null,
         "SOURCE_ERROR": null,
         "STAFF_OVERRIDE": null,
         "LINKED_OTHERWISE": null,
         "VERIFICATION_ALREADY_ACTIVE": null,
         "DAILY_LIMIT_REACHED": null,
-        "VERIFICATION_NOT_ACTIVE": null,
-        "VERIFICATION_EXPIRED": null,
-        "GENERIC": null
+        "GENERIC": null,
+        "ALREADY_FRIENDS": null
+      },
+      "friend_request": {
+        "intro": null,
+        "resolving_desc": null,
+        "title": null,
+        "desc": null,
+        "desc_named": null,
+        "bot_code_label": null,
+        "copy": null,
+        "copied": null,
+        "copy_failed": null,
+        "waiting": null,
+        "instruction_1": null,
+        "instruction_2": null,
+        "instruction_3": null,
+        "refused_hint": null
       }
     }
   },
@@ -1313,6 +1428,8 @@
     "saving": "Сохранение…",
     "saved": "Сохранено",
     "saveError": "Ошибка сохранения",
+    "loadError": null,
+    "loadRetry": null,
     "visibleTabs": "Видимые вкладки",
     "visibleTabsHint": "Применяется только при видимости вашего профиля.",
     "visibleTabItems": {
@@ -1329,6 +1446,21 @@
     },
     "linked_profile": "Привязанный профиль",
     "linked_profile_description": "Ваш игровой профиль привязан к аккаунту Discord. Вы можете отвязать его здесь.",
+    "accounts": {
+      "title": null,
+      "description": null,
+      "unknownName": null,
+      "primaryBadge": null,
+      "makePrimary": null,
+      "primarySuccess": null,
+      "primaryFailed": null,
+      "linkedOn": null,
+      "limitReached": null,
+      "unlinkConfirm": null,
+      "addChip": null,
+      "actions": null,
+      "wipeScheduled": null
+    },
     "profileDetails": {
       "title": null,
       "description": null,
@@ -1354,11 +1486,6 @@
         "title": null,
         "description": null,
         "signedIn": null
-      },
-      "profile": {
-        "viewTitle": null,
-        "viewHint": null,
-        "unlinkHint": null
       }
     },
     "no_linked_profile": "Игровой профиль не привязан. Привяжите профиль через меню пользователя для настройки видимости.",
@@ -1434,8 +1561,8 @@
     },
     "deleteProfile": {
       "sectionTitle": "Опасная зона",
-      "sectionHint": null,
       "title": "Удалить данные профиля",
+      "profileTitle": null,
       "hint": null,
       "whatHeader": "Будет удалено следующее:",
       "whatItems": [
@@ -1449,11 +1576,13 @@
       ],
       "button": "Удалить все данные профиля",
       "confirmTitle": "Удалить все данные профиля?",
+      "profileConfirmTitle": null,
       "confirmText": null,
       "gracePeriod": null,
       "understand": null,
       "scheduled": null,
       "scheduledTitle": null,
+      "profileScheduledTitle": null,
       "scheduledHint": null,
       "cancelButton": null,
       "cancelled": null,
@@ -1491,6 +1620,7 @@
         "sections": {
           "account": "Account",
           "linkedProfile": null,
+          "linkedProfiles": null,
           "profileSettings": null,
           "processingBlock": null,
           "leaderboardModeration": null,
@@ -1504,18 +1634,20 @@
           "joinedEvents": null,
           "verifications": "Verifications",
           "pendingClaims": null,
+          "claimRequests": null,
           "auditEntries": null
         }
       },
       "exportError": null,
       "exportRateLimited": null,
       "deleteTitle": null,
-      "deleteHint": null,
+      "deleteHint": "Delete your Outlast Trials Stats account and disconnect your Discord login.",
       "deleteWhatItems": [
         "Your Discord ID, name, avatar and email address",
         "The Discord access tokens we stored (right away when you confirm; we also revoke them at Discord)",
         "Your profile link, pending claims and verification history"
       ],
+      "deleteKeptHint": null,
       "profileChoiceTitle": null,
       "profileKeep": null,
       "profileKeepHint": null,
@@ -1535,6 +1667,10 @@
       "error": null,
       "loadError": null,
       "staffBlocked": null
+    },
+    "accountSection": {
+      "title": null,
+      "description": null
     }
   },
   "profileDeletionRequest": {
@@ -1588,20 +1724,8 @@
       "privacyLink": null
     },
     "screenshots": {
-      "label": "Screenshots",
-      "count": null,
-      "drop": null,
       "hint": "Add at least one screenshot of your in-game player card with your name and friend code visible.",
-      "thumbAlt": null,
-      "remove": null,
-      "processing": "Preparing…",
-      "errors": {
-        "type": null,
-        "tooLarge": null,
-        "unreadable": null,
-        "limit": null,
-        "required": "Add at least one screenshot that shows the profile is yours."
-      }
+      "required": "Add at least one screenshot that shows the profile is yours."
     },
     "errors": {
       "PROFILE_NOT_FOUND": null,
@@ -1615,8 +1739,12 @@
     "success": {
       "title": null,
       "desc": null,
-      "reference": "Reference",
-      "home": null,
+      "statusLabel": null,
+      "statusHint": null,
+      "copy": null,
+      "copied": null,
+      "copyFailed": null,
+      "openStatus": null,
       "another": null
     }
   },
@@ -1757,6 +1885,7 @@
     "save": "Сохранить",
     "loading": "Загрузка...",
     "retry": "Повторить",
+    "errorEyebrow": null,
     "scrollToTop": "Наверх"
   },
   "trials": {
@@ -1924,9 +2053,7 @@
       "remaining": null,
       "etaLabel": null,
       "progress": null,
-      "compact": null,
-      "reached": null,
-      "next": null
+      "compact": null
     },
     "allReached": null,
     "phase": null,
@@ -2010,8 +2137,7 @@
       "extract_escape_plan": {
         "name": null,
         "description": null,
-        "leaders": null,
-        "reached": null
+        "leaders": null
       },
       "blood_donation": {
         "name": null,
@@ -2063,6 +2189,266 @@
     },
     "footer": {
       "signoff": null
+    }
+  },
+  "notifications": {
+    "title": null,
+    "open": null,
+    "empty": null,
+    "markAllRead": null,
+    "types": {
+      "BADGE_GRANTED": {
+        "title": null,
+        "body": null
+      },
+      "BADGE_REVOKED": {
+        "title": null,
+        "body": null
+      },
+      "TOPLIST_EXCLUDED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_APPROVED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_REJECTED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_REVOKED": {
+        "title": null,
+        "body": null
+      },
+      "CLAIM_REQUEST_APPROVED": {
+        "title": null,
+        "body": null
+      },
+      "CLAIM_REQUEST_REJECTED": {
+        "title": null,
+        "body": null
+      }
+    }
+  },
+  "screenshots": {
+    "label": "Screenshots",
+    "count": "{count} / {max}",
+    "drop": "Choose images, drop or paste them",
+    "thumbAlt": "Screenshot {n}",
+    "remove": "Remove screenshot {n}",
+    "processing": "Preparing…",
+    "errors": {
+      "type": "Only PNG, JPEG or WebP images are supported.",
+      "tooLarge": "This image is too large, even after compressing it. Crop it or use a smaller screenshot.",
+      "unreadable": "This image couldn't be read. Please try another file.",
+      "limit": "You can attach up to {max} screenshots."
+    }
+  },
+  "runSubmission": {
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "entry": {
+      "eyebrow": null,
+      "title": null,
+      "desc": null,
+      "button": null
+    },
+    "notLinked": {
+      "title": null,
+      "desc": null,
+      "button": null
+    },
+    "form": {
+      "steps": {
+        "trial": {
+          "title": null,
+          "desc": null
+        },
+        "result": {
+          "title": null,
+          "desc": null
+        },
+        "team": {
+          "title": null,
+          "desc": null
+        },
+        "proof": {
+          "title": null,
+          "desc": null
+        }
+      },
+      "or": null,
+      "programLabel": null,
+      "programs": {
+        "core": null,
+        "chain": null,
+        "creator": null,
+        "event": null,
+        "weekly": null
+      },
+      "eventLabel": null,
+      "familyLabel": null,
+      "mapLabel": null,
+      "difficultyLabel": null,
+      "timeLabel": null,
+      "timeHint": null,
+      "timeInvalid": null,
+      "dateLabel": null,
+      "dateInvalid": null,
+      "teamSizeLabel": null,
+      "teammatesLabel": null,
+      "teammatesHint": null,
+      "teammatesPlaceholder": null,
+      "removeTeammate": null,
+      "videoLabel": null,
+      "videoHint": null,
+      "videoInvalid": null,
+      "screenshotsHint": null,
+      "proofRequired": null,
+      "commentLabel": null,
+      "required": null,
+      "submit": null,
+      "next": null,
+      "back": null,
+      "privacyNote": null
+    },
+    "success": {
+      "title": null,
+      "desc": null,
+      "another": null,
+      "requests": null
+    },
+    "errors": {
+      "NO_LINKED_PROFILE": null,
+      "INVALID_TRIAL": null,
+      "INVALID_TIME": null,
+      "INVALID_DATE": null,
+      "INVALID_TEAMMATES": null,
+      "PROOF_REQUIRED": null,
+      "INVALID_VIDEO_URL": null,
+      "INVALID_SCREENSHOT": null,
+      "REQUEST_ALREADY_PENDING": null,
+      "TOO_MANY_PENDING": null,
+      "rateLimited": null,
+      "disabled": null,
+      "generic": null
+    },
+    "mine": {
+      "team": null,
+      "staffNote": null,
+      "states": {
+        "PENDING": null,
+        "APPROVED": null,
+        "REJECTED": null,
+        "REVOKED": null
+      }
+    }
+  },
+  "claimRequest": {
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "form": {
+      "intro": null,
+      "profileLabel": null,
+      "profilePlaceholder": null,
+      "changeProfile": null,
+      "profileRequired": null,
+      "proofLabel": null,
+      "proofHint": null,
+      "proofRequired": null,
+      "messageLabel": null,
+      "messageHint": null,
+      "privacyNote": null,
+      "submit": null
+    },
+    "blocked": {
+      "title": null,
+      "single": null,
+      "limit": null
+    },
+    "success": {
+      "title": null,
+      "desc": null,
+      "requests": null,
+      "another": null
+    },
+    "errors": {
+      "PROFILE_NOT_FOUND": null,
+      "PROFILE_ALREADY_DELETED": null,
+      "ALREADY_LINKED_TO_YOU": null,
+      "LINK_LIMIT_REACHED": null,
+      "REQUEST_ALREADY_PENDING": null,
+      "TOO_MANY_PENDING": null,
+      "INVALID_SCREENSHOT": null,
+      "rateLimited": null,
+      "generic": null
+    }
+  },
+  "requests": {
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "actions": {
+      "submitRun": null,
+      "claimProfile": null,
+      "deleteProfile": null,
+      "submitRunDesc": null,
+      "claimProfileDesc": null,
+      "deleteProfileDesc": null
+    },
+    "sections": {
+      "new": null,
+      "mine": null
+    },
+    "empty": null,
+    "signInHint": null,
+    "signIn": null,
+    "loadError": null,
+    "types": {
+      "run": null,
+      "claim": null,
+      "deletion": null
+    },
+    "claim": {
+      "title": null,
+      "titleUnknown": null
+    },
+    "claimStates": {
+      "PENDING": null,
+      "APPROVED": null,
+      "REJECTED": null
+    },
+    "deletion": {
+      "title": null,
+      "titleUnknown": null,
+      "sentOn": null,
+      "forget": null
+    },
+    "states": {
+      "PENDING": null,
+      "COMPLETED": null,
+      "REJECTED": null
+    },
+    "status": {
+      "title": null,
+      "received": null,
+      "handled": null,
+      "reason": null,
+      "descriptions": {
+        "PENDING": null,
+        "COMPLETED": null,
+        "REJECTED": null
+      },
+      "notFoundTitle": null,
+      "notFoundDesc": null,
+      "loadError": null,
+      "back": null
     }
   }
 }
