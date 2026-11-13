@@ -126,7 +126,7 @@
       "affiliation": {
         "q": "网站与Red Barrels有隶属关系吗？",
         "a": [
-          "不。TOTStats 是一个非官方、独立的粉丝项目。它与 Red Barrels Inc. 无关联，也未获得其认可或赞助。“The Outlast Trials”和“Outlast”是 Red Barrels Inc. 的商标。"
+          "不。Outlast Trials Stats 是一个非官方、独立的粉丝项目。它与 Red Barrels Inc. 无关联，也未获得其认可或赞助。“The Outlast Trials”和“Outlast”是 Red Barrels Inc. 的商标。"
         ],
         "keywords": "官方 合作 伙伴 开发者 开发 official partner developer guanfang kaifa hezuo huoban"
       },
@@ -539,6 +539,7 @@
     "cosmeticGroupCharacter": "角色",
     "cosmeticGroupProfile": "资料",
     "cosmeticGroupCell": "牢房",
+    "cosmeticGroupSkins": null,
     "cosmeticExcludedGroup": "类目",
     "cosmeticFilterNone": "无类目",
     "subtitle": "查看你在所有试剂中的排名方式",
@@ -617,12 +618,59 @@
       },
       "rarity": "稀有度",
       "thumbnailAlt": "{name} 的缩略图",
-      "loadError": "加载外观详情时出错"
+      "loadError": "加载外观详情时出错",
+      "descriptionTitle": null,
+      "obtainTitle": null,
+      "variantsTitle": null,
+      "partsTitle": null,
+      "partOfTitle": null,
+      "currentVariant": null,
+      "event": null,
+      "unreleasedHint": null,
+      "sources": {
+        "BATTLE_PASS": null,
+        "BATTLE_PASS_UNNAMED": null,
+        "SHOP": null,
+        "TASK": null,
+        "TASK_UNNAMED": null,
+        "REWARD_BOX": null,
+        "LEVEL": null,
+        "RELEASE": null,
+        "TRIAL_REWARD": null,
+        "COMMUNITY_EVENT": null,
+        "INVASION": null,
+        "PROGRESSION": null,
+        "BADGE": null,
+        "position": null,
+        "cost": null,
+        "premiumUnlock": null,
+        "timeLimited": null,
+        "released": null,
+        "milestone": null,
+        "rewardTier": null,
+        "currencies": {
+          "BATTLE_PASS_TOKEN": null,
+          "EVENT_TOKEN": null,
+          "PREMIUM_TOKEN": null
+        },
+        "pools": {
+          "RewardBox": null,
+          "RewardBox_RareEpic": null,
+          "RewardBox_Legendary": null
+        }
+      }
+    },
+    "rarities": {
+      "BASIC": null,
+      "ADVANCED": null,
+      "EVENT": null,
+      "CLASSIFIED": null,
+      "DELUXE": null
     }
   },
   "siteFooter": {
     "brandDesc": "您的 The Outlast Trials 统计、排行榜、活动和玩家档案伙伴。",
-    "notPartnered": "TOTStats 是非官方粉丝项目，与 Red Barrels Inc. 无关，也未获其认可或赞助。",
+    "notPartnered": "Outlast Trials Stats 是非官方粉丝项目，与 Red Barrels Inc. 无关，也未获其认可或赞助。",
     "trademarks": "“The Outlast Trials”和“Outlast”是 Red Barrels Inc. 的商标。其他所有商标和版权均归其各自所有者所有。",
     "ariaDiscord": "加入 Discord",
     "ariaInstagram": "在 Instagram 上关注",
@@ -675,10 +723,71 @@
     "showMore": "显示更多",
     "limitReached": "仅可显示前{count}名拥有者。"
   },
+  "profileHighlights": {
+    "groups": {
+      "ADMIN": null,
+      "MODERATOR": null,
+      "RED_BARRELS_EMPLOYEE": null,
+      "WHISTLEBLOWER": null
+    }
+  },
   "badges": {
     "subtitle": "收集和展示您的成就",
     "retiredTitle": "不再颁发",
-    "retired": "由于游戏不再提供此信息，此徽章已不再颁发。"
+    "retired": "由于游戏不再提供此信息，此徽章已不再颁发。",
+    "rankedFirstIn": null,
+    "earnedAt": null,
+    "unknownDescription": null,
+    "definitions": {
+      "RED_BARRELS_EMPLOYEE": {
+        "description": null
+      },
+      "TOTSTATS_STAFF": {
+        "description": null
+      },
+      "LOG_FLAG": {
+        "description": null
+      },
+      "CONTRIBUTOR": {
+        "description": null
+      },
+      "MAP_CONTRIBUTOR": {
+        "description": null
+      },
+      "WHISTLEBLOWER": {
+        "description": null
+      },
+      "CLOSED_BETA_ACCOUNT": {
+        "description": null
+      },
+      "EARLY_ACCESS_ACCOUNT": {
+        "description": null
+      },
+      "SPECIAL_ACCESS_ACCOUNT": {
+        "description": null
+      },
+      "REAGENT_RELEASES_100": {
+        "description": null
+      },
+      "REAGENT_RELEASES_250": {
+        "description": null
+      },
+      "REAGENT_RELEASES_500": {
+        "description": null
+      },
+      "ALL_ITEMS_COLLECTED": {
+        "description": null
+      },
+      "SPEED_RUNNER": {
+        "description": null
+      },
+      "RECORD_HOLDER": {
+        "description": null
+      },
+      "PERFECT_SUBJECT": {
+        "description": null
+      }
+    }
   },
   "addAccount": {
     "title": "Murkoff试剂追踪",
@@ -689,12 +798,7 @@
     "friendCodeTip": "添加您的好友代码开始追踪您的账户",
     "successMessage": "请求发送成功。请等待最多48小时来追踪账户。",
     "failedMessage": "发送请求时发生错误。请稍后重试。",
-    "steamId": "Steam ID",
-    "enterSteamId": "输入您的SteamID64...",
-    "errorValidationSteamId": "请输入有效的SteamID64（17位数字）",
-    "steamIdTip": "输入您的SteamID64。您可以在{link}的\"steamID64\"下找到它。",
     "tabFriendCode": "好友代码",
-    "tabSteamId": "Steam ID",
     "invasionTitle": "入侵 / 升级试炼",
     "invasionRecommended": "推荐",
     "invasionStep1": "请在《逃生：试炼》中至少玩一场入侵或升级试炼模式",
@@ -709,7 +813,6 @@
     "status": "平台正在离线维护中",
     "title": "维护中",
     "reassurance": "我们正在改进该工具，感谢您的耐心等待。",
-    "autoCheck": "正在自动检查状态…",
     "discordPrompt": "需要了解更多？加入我们的 Discord 服务器。",
     "fallbackMessage": "我们目前正在进行维护。请稍后再试。"
   },
@@ -865,11 +968,17 @@
     },
     "visibility": {
       "hidden": "已被资料所有者隐藏",
+      "profileHiddenEyebrow": null,
       "profileHiddenTitle": "个人资料已隐藏",
       "profileHidden": "此个人资料已被其所有者隐藏。",
       "profileHiddenNoticeTitle": "个人资料已隐藏",
       "profileHiddenNotice": "此个人资料已对大众隐藏。只有您和工作人员可以看到它。",
       "visibleToYou": "对您可见"
+    },
+    "dataDeletion": {
+      "title": null,
+      "message": null,
+      "cancel": null
     },
     "tabErrors": {
       "statsTitle": "无法加载统计数据",
@@ -1163,6 +1272,10 @@
         "title": "帮助翻译",
         "description": "在 GitHub 上帮助我们将 OutlastTrialsStats 翻译成您的语言"
       },
+      "kofi": {
+        "title": null,
+        "description": null
+      },
       "contribute": {
         "description": "通过向项目贡献数据帮助我们成长"
       },
@@ -1198,6 +1311,7 @@
     "no_connections": "没有与Discord关联的游戏平台。请在Discord设置中连接Steam、PlayStation或Xbox。您也可以在我们的Discord服务器上创建支持工单来手动关联您的账户。",
     "no_profile_found": "未找到资料",
     "already_claimed": "已被认领",
+    "linked_to_you": null,
     "profile_pending": "搜索中……",
     "claim_pending": "预先选择",
     "claim_pending_success": "我们正在搜索您的资料。一旦找到将自动关联。",
@@ -1213,27 +1327,38 @@
     "already_linked_title": "已关联",
     "already_linked_description": "您的Discord账户已关联到游戏资料。",
     "go_to_profile": "前往我的档案",
+    "add_profile": null,
+    "add_another_profile": null,
     "continue": "继续",
     "continue_to_maps": "继续前往地图",
     "link_support_hint": "在关联您的帐户时遇到困难？请联系我们的支持",
+    "link_claim_hint": null,
+    "link_claim_action": null,
+    "no_connections_claim": null,
+    "claim_not_found_hint": null,
     "page_title": "关联账户",
     "page_subtitle": "将您的游戏资料与Discord账户连接",
     "step_1_title": "将平台关联到Discord",
     "step_1_desc": "在 Discord 设置 → {connections} 中，关联您的 Steam、PlayStation、Xbox 或 Epic 账户。",
+    "steps": {
+      "discord_desc": null,
+      "profile_desc": null,
+      "done": null,
+      "done_desc": null
+    },
     "verification": {
       "method_title": "你想如何关联你的个人资料？",
       "method_discord_title": "Discord 连接",
       "method_discord_desc": "从已关联到你的 Discord 账号的 Steam、PlayStation 或 Xbox 账号中选择你的个人资料。",
-      "method_friend_code_title": "好友代码",
       "method_friend_code_badge": "所有平台",
-      "method_friend_code_presence_desc": "在游戏中更改两项设置，以证明该个人资料归你所有。也适用于 Epic Games 和 Nintendo平台。",
+      "method_friend_request_title": null,
+      "method_friend_request_desc": null,
       "change_method": "选择其他方法",
       "claim_fallback_title": "领取不起作用？",
       "claim_fallback_desc": "请改用好友代码验证你的个人资料。它适用于所有平台，即使这里列出了某个关联账号。",
       "claim_fallback_action": "使用好友码",
       "step_label": "验证个人资料",
       "intro_title": "使用好友代码验证",
-      "intro_presence": "我们会查看你的个人资料，并要求你在游戏中更改地区和跨平台游玩设置。我们看到更改后，你的个人资料就会关联到你的 Discord 账号。",
       "friend_code_label": "好友码",
       "friend_code_hint": "你可以在游戏内的好友菜单中找到你的好友代码。",
       "friend_code_invalid": "请输入有效的好友代码（XXXX-XXXX）",
@@ -1241,31 +1366,8 @@
       "challenges_left": "今日还剩 {remaining}/{max} 次数",
       "no_challenges_left": "您今天已用完所有验证次数，请明天再试。",
       "resolving_title": "正在查找你的个人资料",
-      "resolving_presence_desc": "我们正在检查你的个人资料和在线状态。请确保你在游戏中处于在线状态。这通常需要几秒钟。",
       "waiting_for_source": "游戏数据源正在启动。这可能需要几分钟，请保持此页面打开。",
-      "presence_title": "更改游戏设置",
-      "presence_desc": "在游戏中更改这两个设置，然后在此确认。",
-      "presence_desc_named": "在游戏中更改 {name} 上的这两项设置，然后在此确认。",
-      "requirement_region": "区域",
-      "requirement_crossplay": "跨平台联机",
-      "requirement_now": "现在：{value}",
-      "crossplay_on": "开",
-      "crossplay_off": "关",
-      "status_pending": "未检查",
-      "status_set": "设置",
-      "status_not_set": "未设置",
-      "time_left": "剩余时间",
-      "attempts": "尝试次数",
-      "attempts_left": "剩余 {left}/{max}",
       "instructions_title": "工作原理",
-      "presence_instruction_1": "启动《The Outlast Trials》并前往大厅。",
-      "presence_instruction_2": "打开“设置”，然后进入“网络”，仅选择区域 {region}。",
-      "presence_instruction_3": "将跨平台联机设为{state}。",
-      "presence_instruction_4": "留在等待大厅并点击确认。随后我们会检查你的在线状态。",
-      "presence_warning": "切勿因他人要求而更改这些设置。仅当你自己在本页面发起验证时才可操作。我们的工作人员绝不会要求你这样做。",
-      "not_in_lobby": "我们在游戏大厅中无法看到你在线。请启动游戏，进入大厅并再次确认。本次尝试未计入。",
-      "checking_presence": "正在检查您的在线状态...",
-      "confirm": "确认",
       "cancel": "取消",
       "verified_linking": "验证成功！正在关联你的个人资料...",
       "try_again": "重试",
@@ -1287,19 +1389,32 @@
         "INVALID_FRIEND_CODE_FORMAT": "请输入格式为 XXXX-XXXX 的有效好友代码。",
         "PROFILE_NOT_VERIFIABLE": "无法验证此个人资料。如果您认为这是误判，请联系我们的支持团队。",
         "USER_ALREADY_LINKED": "你的账号已关联游戏档案。",
-        "NO_PROGRESSION_DATA": "无法读取此配置文件的已装备外观。请先启动一次游戏，然后重试。",
-        "NO_ALTERNATIVE_COSMETICS": "该个人资料没有足够的头像或边框来参加挑战。请联系我们的客服手动关联。",
-        "PLAYER_OFFLINE": "你需要在线连接到《The Outlast Trials》才能开始验证。请启动游戏后重试。",
-        "MAX_ATTEMPTS_REACHED": "本次挑战的所有尝试均已用完，未匹配成功。",
+        "ALREADY_LINKED_TO_YOU": null,
+        "LINK_LIMIT_REACHED": null,
         "SOURCE_UNAVAILABLE": "我们的游戏数据源当前不可用。请稍后重试。",
         "SOURCE_ERROR": "游戏服务器返回了一个错误。请稍后重试。",
         "STAFF_OVERRIDE": "验证已关闭，因为工作人员更改了关联的个人资料。",
         "LINKED_OTHERWISE": "由于你的账户已通过其他方式关联，验证已关闭。",
         "VERIFICATION_ALREADY_ACTIVE": "您已有验证正在进行中。",
         "DAILY_LIMIT_REACHED": "您已达到每日验证次数上限，请明天再试。",
-        "VERIFICATION_NOT_ACTIVE": "此验证已不再有效。",
-        "VERIFICATION_EXPIRED": "此验证已过期。",
-        "GENERIC": "出了点问题，请重试。"
+        "GENERIC": "出了点问题，请重试。",
+        "ALREADY_FRIENDS": null
+      },
+      "friend_request": {
+        "intro": null,
+        "resolving_desc": null,
+        "title": null,
+        "desc": null,
+        "desc_named": null,
+        "bot_code_label": null,
+        "copy": null,
+        "copied": null,
+        "copy_failed": null,
+        "waiting": null,
+        "instruction_1": null,
+        "instruction_2": null,
+        "instruction_3": null,
+        "refused_hint": null
       }
     }
   },
@@ -1313,6 +1428,8 @@
     "saving": "保存中…",
     "saved": "已保存",
     "saveError": "保存失败",
+    "loadError": null,
+    "loadRetry": null,
     "visibleTabs": "可见标签页",
     "visibleTabsHint": "仅在您的个人资料可见时可用。",
     "visibleTabItems": {
@@ -1329,6 +1446,21 @@
     },
     "linked_profile": "关联的个人资料",
     "linked_profile_description": "您的游戏资料已关联到Discord账户。您可以在此取消关联。",
+    "accounts": {
+      "title": null,
+      "description": null,
+      "unknownName": null,
+      "primaryBadge": null,
+      "makePrimary": null,
+      "primarySuccess": null,
+      "primaryFailed": null,
+      "linkedOn": null,
+      "limitReached": null,
+      "unlinkConfirm": null,
+      "addChip": null,
+      "actions": null,
+      "wipeScheduled": null
+    },
     "profileDetails": {
       "title": "他人看到的内容",
       "description": "选择个人资料中其他玩家可见的部分。",
@@ -1354,11 +1486,6 @@
         "title": "Discord 账号",
         "description": "你将使用此 Discord 账号登录 Outlast Trials Stats。",
         "signedIn": "已通过 Discord 登录"
-      },
-      "profile": {
-        "viewTitle": "个人资料页面",
-        "viewHint": "以其他玩家的视角查看你的个人资料。",
-        "unlinkHint": "解除此游戏档案与你的 Discord 账号之间的关联。"
       }
     },
     "no_linked_profile": "未关联游戏资料。通过用户菜单关联资料以配置可见性设置。",
@@ -1434,8 +1561,8 @@
     },
     "deleteProfile": {
       "sectionTitle": "危险操作区",
-      "sectionHint": "删除将在 7 天后生效，此后无法撤销。",
       "title": "删除个人资料数据",
+      "profileTitle": null,
       "hint": "清除存储在 outlasttrialsstats.com 上的所有游戏数据。你的游戏本身不会受到影响，你的 Discord 登录信息和个人资料链接将保持不变。",
       "whatHeader": "以下内容将被删除：",
       "whatItems": [
@@ -1449,11 +1576,13 @@
       ],
       "button": "删除所有个人资料数据",
       "confirmTitle": "删除所有个人资料数据？",
+      "profileConfirmTitle": null,
       "confirmText": "你的所有统计数据、外观、徽章、入侵数据、试炼和商店礼包都将被永久移除。你的个人资料将被隐藏，并在你自行重新启用处理并再次将其设为可见之前，被阻止进行任何进一步收集。你的 Discord 账号和个人资料链接保持不变。",
       "gracePeriod": "您的数据将在 7 天后删除。在此之前，您可以在设置中取消删除。",
       "understand": "我了解我的个人资料数据将在 7 天后被永久删除。",
       "scheduled": "您的个人资料数据将于 {date} 删除。",
       "scheduledTitle": "个人资料数据将于 {date} 删除",
+      "profileScheduledTitle": null,
       "scheduledHint": "在此之前，你都可以取消删除。",
       "cancelButton": "取消删除",
       "cancelled": "已取消删除您的个人资料数据。",
@@ -1491,6 +1620,7 @@
         "sections": {
           "account": "账户",
           "linkedProfile": "已关联的个人资料",
+          "linkedProfiles": null,
           "profileSettings": "个人资料设置",
           "processingBlock": "正在处理区块",
           "leaderboardModeration": "排行榜审核",
@@ -1504,18 +1634,20 @@
           "joinedEvents": "已加入的活动",
           "verifications": "验证记录",
           "pendingClaims": "待处理领取",
+          "claimRequests": null,
           "auditEntries": "活动日志"
         }
       },
       "exportError": "无法创建你的数据导出。请稍后一分钟再试。",
       "exportRateLimited": "您在短时间内多次请求了数据。请过几分钟再试。",
       "deleteTitle": "删除账户",
-      "deleteHint": "删除你的 TOTStats 账户并断开 Discord 登录连接。",
+      "deleteHint": "删除你的 Outlast Trials Stats 账户并断开 Discord 登录连接。",
       "deleteWhatItems": [
         "你的 Discord ID、名称、头像和电子邮箱地址",
         "我们存储的 Discord 访问令牌（你确认后立即存储；我们也会在 Discord 端撤销它们）",
         "你的个人资料链接、待处理的声明和验证历史记录"
       ],
+      "deleteKeptHint": null,
       "profileChoiceTitle": "关联的游戏资料应该如何处理？",
       "profileKeep": "在网站上保留我的游戏资料",
       "profileKeepHint": "你的个人资料会像任何没有账号的玩家一样保留在网站上，并沿用你当前的可见性设置。你的“关于我”、国家、最喜欢的试炼和社交链接会被移除。之后若要更改设置，你需要重新关联该个人资料。",
@@ -1535,6 +1667,10 @@
       "error": "无法删除你的账户",
       "loadError": "无法加载你的账户。请重试。",
       "staffBlocked": "员工账号无法在此删除。请先让管理员移除你的员工角色。"
+    },
+    "accountSection": {
+      "title": null,
+      "description": null
     }
   },
   "profileDeletionRequest": {
@@ -1584,24 +1720,12 @@
       "confirm": "我拥有此个人资料，并理解删除是永久性的。",
       "confirmRequired": "发送请求前请先确认。",
       "submit": "发送删除请求",
-      "privacyNote": "我们仅使用你的信息来处理此请求，并在请求关闭 30 天后删除这些信息。只有工作人员会看到你的截图，截图会在请求处理完毕后删除。",
+      "privacyNote": null,
       "privacyLink": "隐私政策"
     },
     "screenshots": {
-      "label": "截图",
-      "count": "{count} / {max}",
-      "drop": "选择图片，拖放或粘贴",
       "hint": "请至少添加一张游戏内玩家卡片截图，需能看清名称和好友代码。",
-      "thumbAlt": "截图 {n}",
-      "remove": "删除截图 {n}",
-      "processing": "正在准备…",
-      "errors": {
-        "type": "仅支持 PNG、JPEG 或 WebP 图像。",
-        "tooLarge": "图片过大，即使压缩后也仍然过大。请裁剪图片或使用更小的截图。",
-        "unreadable": "无法读取此图片。请尝试其他文件。",
-        "limit": "最多可附加 {max} 张截图。",
-        "required": "请至少添加一张能证明该档案属于你的截图。"
-      }
+      "required": "请至少添加一张能证明该档案属于你的截图。"
     },
     "errors": {
       "PROFILE_NOT_FOUND": "该个人资料不存在。请检查链接或 ID 后重试。",
@@ -1615,8 +1739,12 @@
     "success": {
       "title": "已收到请求",
       "desc": "我们会核实该个人资料是否属于你，并可能联系你。确认后，统计信息将被清除，个人资料将被隐藏。",
-      "reference": "参考",
-      "home": "返回首页",
+      "statusLabel": null,
+      "statusHint": null,
+      "copy": null,
+      "copied": null,
+      "copyFailed": null,
+      "openStatus": null,
       "another": "再发送一个请求"
     }
   },
@@ -1757,6 +1885,7 @@
     "save": "保存",
     "loading": "加载中...",
     "retry": "重试",
+    "errorEyebrow": null,
     "scrollToTop": "回到顶部"
   },
   "trials": {
@@ -1924,9 +2053,7 @@
       "remaining": null,
       "etaLabel": null,
       "progress": null,
-      "compact": null,
-      "reached": null,
-      "next": null
+      "compact": null
     },
     "allReached": "已达成全部阶段",
     "phase": "阶段 {n}",
@@ -2010,8 +2137,7 @@
       "extract_escape_plan": {
         "name": "逃离设施",
         "description": "帮助阿米莉亚。在试炼中尽可能多地寻找逃脱情报，并将其带出、留在物品栏中。达成社区里程碑，让逃脱成为可能。",
-        "leaders": "目前带出逃脱情报最多的玩家。",
-        "reached": null
+        "leaders": "目前带出逃脱情报最多的玩家。"
       },
       "blood_donation": {
         "name": "献血义举",
@@ -2063,6 +2189,266 @@
     },
     "footer": {
       "signoff": "同谋即死亡。—— A"
+    }
+  },
+  "notifications": {
+    "title": null,
+    "open": null,
+    "empty": null,
+    "markAllRead": null,
+    "types": {
+      "BADGE_GRANTED": {
+        "title": null,
+        "body": null
+      },
+      "BADGE_REVOKED": {
+        "title": null,
+        "body": null
+      },
+      "TOPLIST_EXCLUDED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_APPROVED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_REJECTED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_REVOKED": {
+        "title": null,
+        "body": null
+      },
+      "CLAIM_REQUEST_APPROVED": {
+        "title": null,
+        "body": null
+      },
+      "CLAIM_REQUEST_REJECTED": {
+        "title": null,
+        "body": null
+      }
+    }
+  },
+  "screenshots": {
+    "label": "截图",
+    "count": "{count} / {max}",
+    "drop": "选择图片，拖放或粘贴",
+    "thumbAlt": "截图 {n}",
+    "remove": "删除截图 {n}",
+    "processing": "正在准备…",
+    "errors": {
+      "type": "仅支持 PNG、JPEG 或 WebP 图像。",
+      "tooLarge": "图片过大，即使压缩后也仍然过大。请裁剪图片或使用更小的截图。",
+      "unreadable": "无法读取此图片。请尝试其他文件。",
+      "limit": "最多可附加 {max} 张截图。"
+    }
+  },
+  "runSubmission": {
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "entry": {
+      "eyebrow": null,
+      "title": null,
+      "desc": null,
+      "button": null
+    },
+    "notLinked": {
+      "title": null,
+      "desc": null,
+      "button": null
+    },
+    "form": {
+      "steps": {
+        "trial": {
+          "title": null,
+          "desc": null
+        },
+        "result": {
+          "title": null,
+          "desc": null
+        },
+        "team": {
+          "title": null,
+          "desc": null
+        },
+        "proof": {
+          "title": null,
+          "desc": null
+        }
+      },
+      "or": null,
+      "programLabel": null,
+      "programs": {
+        "core": null,
+        "chain": null,
+        "creator": null,
+        "event": null,
+        "weekly": null
+      },
+      "eventLabel": null,
+      "familyLabel": null,
+      "mapLabel": null,
+      "difficultyLabel": null,
+      "timeLabel": null,
+      "timeHint": null,
+      "timeInvalid": null,
+      "dateLabel": null,
+      "dateInvalid": null,
+      "teamSizeLabel": null,
+      "teammatesLabel": null,
+      "teammatesHint": null,
+      "teammatesPlaceholder": null,
+      "removeTeammate": null,
+      "videoLabel": null,
+      "videoHint": null,
+      "videoInvalid": null,
+      "screenshotsHint": null,
+      "proofRequired": null,
+      "commentLabel": null,
+      "required": null,
+      "submit": null,
+      "next": null,
+      "back": null,
+      "privacyNote": null
+    },
+    "success": {
+      "title": null,
+      "desc": null,
+      "another": null,
+      "requests": null
+    },
+    "errors": {
+      "NO_LINKED_PROFILE": null,
+      "INVALID_TRIAL": null,
+      "INVALID_TIME": null,
+      "INVALID_DATE": null,
+      "INVALID_TEAMMATES": null,
+      "PROOF_REQUIRED": null,
+      "INVALID_VIDEO_URL": null,
+      "INVALID_SCREENSHOT": null,
+      "REQUEST_ALREADY_PENDING": null,
+      "TOO_MANY_PENDING": null,
+      "rateLimited": null,
+      "disabled": null,
+      "generic": null
+    },
+    "mine": {
+      "team": null,
+      "staffNote": null,
+      "states": {
+        "PENDING": null,
+        "APPROVED": null,
+        "REJECTED": null,
+        "REVOKED": null
+      }
+    }
+  },
+  "claimRequest": {
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "form": {
+      "intro": null,
+      "profileLabel": null,
+      "profilePlaceholder": null,
+      "changeProfile": null,
+      "profileRequired": null,
+      "proofLabel": null,
+      "proofHint": null,
+      "proofRequired": null,
+      "messageLabel": null,
+      "messageHint": null,
+      "privacyNote": null,
+      "submit": null
+    },
+    "blocked": {
+      "title": null,
+      "single": null,
+      "limit": null
+    },
+    "success": {
+      "title": null,
+      "desc": null,
+      "requests": null,
+      "another": null
+    },
+    "errors": {
+      "PROFILE_NOT_FOUND": null,
+      "PROFILE_ALREADY_DELETED": null,
+      "ALREADY_LINKED_TO_YOU": null,
+      "LINK_LIMIT_REACHED": null,
+      "REQUEST_ALREADY_PENDING": null,
+      "TOO_MANY_PENDING": null,
+      "INVALID_SCREENSHOT": null,
+      "rateLimited": null,
+      "generic": null
+    }
+  },
+  "requests": {
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "actions": {
+      "submitRun": null,
+      "claimProfile": null,
+      "deleteProfile": null,
+      "submitRunDesc": null,
+      "claimProfileDesc": null,
+      "deleteProfileDesc": null
+    },
+    "sections": {
+      "new": null,
+      "mine": null
+    },
+    "empty": null,
+    "signInHint": null,
+    "signIn": null,
+    "loadError": null,
+    "types": {
+      "run": null,
+      "claim": null,
+      "deletion": null
+    },
+    "claim": {
+      "title": null,
+      "titleUnknown": null
+    },
+    "claimStates": {
+      "PENDING": null,
+      "APPROVED": null,
+      "REJECTED": null
+    },
+    "deletion": {
+      "title": null,
+      "titleUnknown": null,
+      "sentOn": null,
+      "forget": null
+    },
+    "states": {
+      "PENDING": null,
+      "COMPLETED": null,
+      "REJECTED": null
+    },
+    "status": {
+      "title": null,
+      "received": null,
+      "handled": null,
+      "reason": null,
+      "descriptions": {
+        "PENDING": null,
+        "COMPLETED": null,
+        "REJECTED": null
+      },
+      "notFoundTitle": null,
+      "notFoundDesc": null,
+      "loadError": null,
+      "back": null
     }
   }
 }

@@ -126,7 +126,7 @@
       "affiliation": {
         "q": "Siete affiliati a Red Barrels?",
         "a": [
-          "No. TOTStats è un progetto non ufficiale e indipendente creato dai fan. Non è in alcun modo affiliato, riconosciuto o sponsorizzato da Red Barrels Inc. “The Outlast Trials” e “Outlast” sono marchi registrati di Red Barrels Inc."
+          "No. Outlast Trials Stats è un progetto non ufficiale e indipendente creato dai fan. Non è in alcun modo affiliato, riconosciuto o sponsorizzato da Red Barrels Inc. “The Outlast Trials” e “Outlast” sono marchi registrati di Red Barrels Inc."
         ],
         "keywords": "ufficiale partner sviluppatore"
       },
@@ -539,6 +539,7 @@
     "cosmeticGroupCharacter": "Personaggio",
     "cosmeticGroupProfile": "Profilo",
     "cosmeticGroupCell": "Cella",
+    "cosmeticGroupSkins": null,
     "cosmeticExcludedGroup": "Categorie",
     "cosmeticFilterNone": "Nessuna Categoria",
     "subtitle": "Scopri la tua posizione tra tutti i reagenti",
@@ -617,12 +618,59 @@
       },
       "rarity": "Rarità",
       "thumbnailAlt": "Anteprima di {name}",
-      "loadError": "Errore caricamento dettagli accessorio"
+      "loadError": "Errore caricamento dettagli accessorio",
+      "descriptionTitle": null,
+      "obtainTitle": null,
+      "variantsTitle": null,
+      "partsTitle": null,
+      "partOfTitle": null,
+      "currentVariant": null,
+      "event": null,
+      "unreleasedHint": null,
+      "sources": {
+        "BATTLE_PASS": null,
+        "BATTLE_PASS_UNNAMED": null,
+        "SHOP": null,
+        "TASK": null,
+        "TASK_UNNAMED": null,
+        "REWARD_BOX": null,
+        "LEVEL": null,
+        "RELEASE": null,
+        "TRIAL_REWARD": null,
+        "COMMUNITY_EVENT": null,
+        "INVASION": null,
+        "PROGRESSION": null,
+        "BADGE": null,
+        "position": null,
+        "cost": null,
+        "premiumUnlock": null,
+        "timeLimited": null,
+        "released": null,
+        "milestone": null,
+        "rewardTier": null,
+        "currencies": {
+          "BATTLE_PASS_TOKEN": null,
+          "EVENT_TOKEN": null,
+          "PREMIUM_TOKEN": null
+        },
+        "pools": {
+          "RewardBox": null,
+          "RewardBox_RareEpic": null,
+          "RewardBox_Legendary": null
+        }
+      }
+    },
+    "rarities": {
+      "BASIC": null,
+      "ADVANCED": null,
+      "EVENT": null,
+      "CLASSIFIED": null,
+      "DELUXE": null
     }
   },
   "siteFooter": {
     "brandDesc": "Il tuo compagno per statistiche, classifiche, eventi e profili giocatori di The Outlast Trials.",
-    "notPartnered": "TOTStats è un progetto di fan non ufficiale e non è affiliato, approvato o sponsorizzato da Red Barrels Inc.",
+    "notPartnered": "Outlast Trials Stats è un progetto di fan non ufficiale e non è affiliato, approvato o sponsorizzato da Red Barrels Inc.",
     "trademarks": "«The Outlast Trials» e «Outlast» sono marchi di Red Barrels Inc. Tutti gli altri marchi e diritti d’autore appartengono ai rispettivi proprietari.",
     "ariaDiscord": "Unisciti al Discord",
     "ariaInstagram": "Seguici su Instagram",
@@ -675,10 +723,71 @@
     "showMore": "Mostra di più",
     "limitReached": "È possibile mostrare solo i primi {count} proprietari."
   },
+  "profileHighlights": {
+    "groups": {
+      "ADMIN": null,
+      "MODERATOR": null,
+      "RED_BARRELS_EMPLOYEE": null,
+      "WHISTLEBLOWER": null
+    }
+  },
   "badges": {
     "subtitle": "Colleziona e mostra i tuoi traguardi",
     "retiredTitle": "Non Più Assegnato",
-    "retired": "Questo encomio non viene più assegnato perché il gioco non fornisce più questa informazione."
+    "retired": "Questo encomio non viene più assegnato perché il gioco non fornisce più questa informazione.",
+    "rankedFirstIn": null,
+    "earnedAt": null,
+    "unknownDescription": null,
+    "definitions": {
+      "RED_BARRELS_EMPLOYEE": {
+        "description": null
+      },
+      "TOTSTATS_STAFF": {
+        "description": null
+      },
+      "LOG_FLAG": {
+        "description": null
+      },
+      "CONTRIBUTOR": {
+        "description": null
+      },
+      "MAP_CONTRIBUTOR": {
+        "description": null
+      },
+      "WHISTLEBLOWER": {
+        "description": null
+      },
+      "CLOSED_BETA_ACCOUNT": {
+        "description": null
+      },
+      "EARLY_ACCESS_ACCOUNT": {
+        "description": null
+      },
+      "SPECIAL_ACCESS_ACCOUNT": {
+        "description": null
+      },
+      "REAGENT_RELEASES_100": {
+        "description": null
+      },
+      "REAGENT_RELEASES_250": {
+        "description": null
+      },
+      "REAGENT_RELEASES_500": {
+        "description": null
+      },
+      "ALL_ITEMS_COLLECTED": {
+        "description": null
+      },
+      "SPEED_RUNNER": {
+        "description": null
+      },
+      "RECORD_HOLDER": {
+        "description": null
+      },
+      "PERFECT_SUBJECT": {
+        "description": null
+      }
+    }
   },
   "addAccount": {
     "title": "Traccia-Reagenti Murkoff",
@@ -689,12 +798,7 @@
     "friendCodeTip": "Aggiungi il tuo Codice Amico per tracciare il tuo account",
     "successMessage": "Richiesta inviata. Per favore attendi almeno 48 ore affinché il tuo account venga tracciato.",
     "failedMessage": "C'è stato un errore nell'invio della richiesta. Per favore riprova più tardi.",
-    "steamId": "ID Steam",
-    "enterSteamId": "Inserisci il tuo SteamID64...",
-    "errorValidationSteamId": "Per favore inserisci uno SteamID64 valido (numero a 17 cifre)",
-    "steamIdTip": "Inserisci il tuo SteamID64. Puoi trovarlo su {link} sotto \"steamID64\".",
     "tabFriendCode": "Codice Amico",
-    "tabSteamId": "ID Steam",
     "invasionTitle": "Invasione / Intensificazione",
     "invasionRecommended": "Consigliato",
     "invasionStep1": "Gioca almeno una partita a Invasione o Intensificazione in The Outlast Trials",
@@ -709,7 +813,6 @@
     "status": "Offline per manutenzione",
     "title": "In Manutenzione",
     "reassurance": "Ti ringraziamo per la pazienza mentre aggiorniamo il sito.",
-    "autoCheck": "Verifica automatica dello stato…",
     "discordPrompt": "Vuoi più info? Entra nel nostro server Discord.",
     "fallbackMessage": "Stiamo eseguendo una manutenzione al momento. Per favore riprova tra un po'."
   },
@@ -865,11 +968,17 @@
     },
     "visibility": {
       "hidden": "Profilo nascosto dal proprietario",
+      "profileHiddenEyebrow": null,
       "profileHiddenTitle": "Profilo Nascosto",
       "profileHidden": "Questo profilo è stato nascosto dal proprietario.",
       "profileHiddenNoticeTitle": "Il profilo è nascosto",
       "profileHiddenNotice": "Questo profilo è nascosto al pubblico. Solo tu e lo staff potete visualizzarlo.",
       "visibleToYou": "Visibile a te"
+    },
+    "dataDeletion": {
+      "title": null,
+      "message": null,
+      "cancel": null
     },
     "tabErrors": {
       "statsTitle": "Impossibile caricare le statistiche",
@@ -1163,6 +1272,10 @@
         "title": "Aiuta a tradurre",
         "description": "Aiutaci a tradurre OutlastTrialsStats nella tua lingua su GitHub"
       },
+      "kofi": {
+        "title": null,
+        "description": null
+      },
       "contribute": {
         "description": "App Companion con Discord Rich Presence che ci aiuta a trovare nuovi giocatori"
       },
@@ -1198,6 +1311,7 @@
     "no_connections": "Non hai piattaforme collegate al tuo Discord. Connetti Steam, PlayStation o Xbox dalle tue impostazioni su Discord. Oppure crea un ticket di supporto sul nostro server Discord per collegare il tuo account manualmente.",
     "no_profile_found": "Nessun profilo trovato",
     "already_claimed": "Già reclamato",
+    "linked_to_you": null,
     "profile_pending": "Ricerca in corso...",
     "claim_pending": "Pre-seleziona",
     "claim_pending_success": "Stiamo cercando il tuo profilo. Verrà collegato automaticamente una volta trovato.",
@@ -1213,27 +1327,38 @@
     "already_linked_title": "Già Collegato",
     "already_linked_description": "Il tuo account Discord è già collegato a un profilo di gioco.",
     "go_to_profile": "Vai al mio profilo",
+    "add_profile": null,
+    "add_another_profile": null,
     "continue": "Continua",
     "continue_to_maps": "Continua alle Mappe",
     "link_support_hint": "Hai problemi a collegare il tuo account? Contatta il nostro supporto sul",
+    "link_claim_hint": null,
+    "link_claim_action": null,
+    "no_connections_claim": null,
+    "claim_not_found_hint": null,
     "page_title": "Collega Account",
     "page_subtitle": "Collega il tuo profilo di gioco al tuo account Discord",
     "step_1_title": "Collega piattaforma a Discord",
     "step_1_desc": "Nelle Impostazioni Discord → {connections}, collega il tuo account Steam, PlayStation, Xbox o Epic.",
+    "steps": {
+      "discord_desc": null,
+      "profile_desc": null,
+      "done": null,
+      "done_desc": null
+    },
     "verification": {
       "method_title": "Come vuoi collegare il tuo profilo?",
       "method_discord_title": "Connessioni Discord",
       "method_discord_desc": "Scegli il tuo profilo dall'account Steam, PlayStation o Xbox collegato al tuo account Discord.",
-      "method_friend_code_title": "Codice amico",
       "method_friend_code_badge": "Tutte le piattaforme",
-      "method_friend_code_presence_desc": "Dimostra che il profilo è tuo cambiando qualche impostazione in gioco. Funziona anche per Epic Games e Nintendo.",
+      "method_friend_request_title": null,
+      "method_friend_request_desc": null,
       "change_method": "Scegli un altro metodo",
       "claim_fallback_title": "La rivendicazione non funziona?",
       "claim_fallback_desc": "Verifica il tuo profilo col tuo codice amico. Funziona per ogni piattaforma, anche se una connessione è elencata qui.",
       "claim_fallback_action": "Usa codice amico",
       "step_label": "Verifica profilo",
       "intro_title": "Verifica col tuo codice amico",
-      "intro_presence": "Noi cerchiamo il tuo profilo e ti chiediamo di cambiare la tua regione e impostazione per il multipiattaforma in gioco. Una volta che vediamo la modifica, il tuo profilo viene collegato al tuo account Discord.",
       "friend_code_label": "Codice amico",
       "friend_code_hint": "Puoi trovare il tuo codice amico in gioco nel menu social.",
       "friend_code_invalid": "Per favore inserisci un codice amico valido (XXXX-XXXX)",
@@ -1241,31 +1366,8 @@
       "challenges_left": "{remaining} di {max} tentativi giornalieri rimasti",
       "no_challenges_left": "Hai usato tutti i tentativi di verifica disponibili per oggi. Per favore riprova domani.",
       "resolving_title": "Cercando il tuo profilo",
-      "resolving_presence_desc": "Stiamo verificando lo stato online del tuo profilo. Assicurati di essere online nel gioco. Di solito ci vogliono pochi secondi.",
       "waiting_for_source": "La nostra fonte dati si sta avviando. L'operazione può richiedere alcuni minuti, si prega di tenere questa pagina aperta.",
-      "presence_title": "Modifica le tue impostazioni di gioco",
-      "presence_desc": "Modifica queste due impostazioni nel gioco, poi conferma qui.",
-      "presence_desc_named": "Modifica queste due impostazioni su {name} nel gioco, poi conferma qui.",
-      "requirement_region": "Regione",
-      "requirement_crossplay": "Multipiattaforma",
-      "requirement_now": "Ora: {value}",
-      "crossplay_on": "Sì",
-      "crossplay_off": "No",
-      "status_pending": "Non verificato",
-      "status_set": "Imposta",
-      "status_not_set": "Non impostato",
-      "time_left": "Tempo residuo",
-      "attempts": "Tentativi",
-      "attempts_left": "{left} di {max} rimasti",
       "instructions_title": "Come funziona",
-      "presence_instruction_1": "Avvia The Outlast Trials e vai nel dormitorio.",
-      "presence_instruction_2": "Apri Impostazioni, vai su Rete e seleziona solo la regione {region}.",
-      "presence_instruction_3": "Cambia Multipiattaforma a {state}.",
-      "presence_instruction_4": "Rimani in lobby e clicca Conferma. Controlliamo quindi il tuo stato online.",
-      "presence_warning": "Non cambiare mai queste impostazioni perché te lo chiede qualcun'altro. Fallo solo per una verifica che tu stesso hai avviato su questa pagina. Il nostro staff non ti chiederà mai di farlo.",
-      "not_in_lobby": "Non ti abbiamo visto online nella lobby. Avvia il gioco, vai al dormitorio e riconferma. Questo tentativo non è stato conteggiato.",
-      "checking_presence": "Controllando il tuo stato online...",
-      "confirm": "Conferma",
       "cancel": "Annulla",
       "verified_linking": "Verificato! Collegando il tuo profilo...",
       "try_again": "Riprova",
@@ -1287,19 +1389,32 @@
         "INVALID_FRIEND_CODE_FORMAT": "Per favore inserisci un codice amico valido nel formato XXXX-XXXX.",
         "PROFILE_NOT_VERIFIABLE": "Questo profilo non può essere verificato. Contatta il supporto se pensi che sia un errore.",
         "USER_ALREADY_LINKED": "Il tuo account è già collegato ad un profilo di gioco.",
-        "NO_PROGRESSION_DATA": "Non abbiamo potuto recuperare gli accessori di questo profilo. Riavvia il gioco e riprova.",
-        "NO_ALTERNATIVE_COSMETICS": "Questo profilo non possiede abbastanza icone o cornici per avviare una richiesta. Contatta il supporto per collegarlo manualmente.",
-        "PLAYER_OFFLINE": "Devi essere online su The Outlast Trials per lanciare la verifica. Avvia il gioco e riprova.",
-        "MAX_ATTEMPTS_REACHED": "Tutti i tentativi per questa verifica sono stati usati senza successo.",
+        "ALREADY_LINKED_TO_YOU": null,
+        "LINK_LIMIT_REACHED": null,
         "SOURCE_UNAVAILABLE": "La nostra fonte dati di gioco non è attualmente disponibile. Riprova più tardi.",
         "SOURCE_ERROR": "I server di gioco hanno ritornato un errore. Riprova più tardi.",
         "STAFF_OVERRIDE": "La verifica è stata interrotta perché un membro dello staff ha cambiato il profilo collegato.",
         "LINKED_OTHERWISE": "La verifica è stata interrotta perché il tuo account è stato collegato in un altro modo.",
         "VERIFICATION_ALREADY_ACTIVE": "Hai già una verifica in corso.",
         "DAILY_LIMIT_REACHED": "Hai raggiunto il limite giornaliero di richieste per la verifica. Riprova domani.",
-        "VERIFICATION_NOT_ACTIVE": "Questa verifica non è più attiva.",
-        "VERIFICATION_EXPIRED": "Questa verifica è scaduta.",
-        "GENERIC": "Si è verificato un errore. Riprova."
+        "GENERIC": "Si è verificato un errore. Riprova.",
+        "ALREADY_FRIENDS": null
+      },
+      "friend_request": {
+        "intro": null,
+        "resolving_desc": null,
+        "title": null,
+        "desc": null,
+        "desc_named": null,
+        "bot_code_label": null,
+        "copy": null,
+        "copied": null,
+        "copy_failed": null,
+        "waiting": null,
+        "instruction_1": null,
+        "instruction_2": null,
+        "instruction_3": null,
+        "refused_hint": null
       }
     }
   },
@@ -1313,6 +1428,8 @@
     "saving": "Salvataggio…",
     "saved": "Salvato",
     "saveError": "Salvataggio fallito",
+    "loadError": null,
+    "loadRetry": null,
     "visibleTabs": "Schede visibili",
     "visibleTabsHint": "Si applica solo quando il tuo profilo è visibile.",
     "visibleTabItems": {
@@ -1329,6 +1446,21 @@
     },
     "linked_profile": "Profilo Collegato",
     "linked_profile_description": "Il tuo profilo di gioco è collegato al tuo account Discord. Puoi scollegarlo qui.",
+    "accounts": {
+      "title": null,
+      "description": null,
+      "unknownName": null,
+      "primaryBadge": null,
+      "makePrimary": null,
+      "primarySuccess": null,
+      "primaryFailed": null,
+      "linkedOn": null,
+      "limitReached": null,
+      "unlinkConfirm": null,
+      "addChip": null,
+      "actions": null,
+      "wipeScheduled": null
+    },
     "profileDetails": {
       "title": "Cosa vedono gli altri",
       "description": "Scegli quali parti del tuo profilo sono visibili ad altri giocatori.",
@@ -1354,11 +1486,6 @@
         "title": "Account Discord",
         "description": "Accedi ad Outlast Trials Stats col tuo account Discord.",
         "signedIn": "Accesso effettuato con Discord"
-      },
-      "profile": {
-        "viewTitle": "Pagina del profilo",
-        "viewHint": "Visualizza il tuo profilo come viene visto da altri giocatori.",
-        "unlinkHint": "Rimuovi il collegamento tra il tuo account Discord e questo profilo di gioco."
       }
     },
     "no_linked_profile": "Nessun profilo di gioco collegato. Collegane uno dal menu utente per configurarne le varie visibilità.",
@@ -1434,8 +1561,8 @@
     },
     "deleteProfile": {
       "sectionTitle": "Zona Pericolosa",
-      "sectionHint": "Le eliminazioni avvengono dopo 7 giorni e non possono essere annullate dopo ciò.",
       "title": "Elimina Dati Profilo",
+      "profileTitle": null,
       "hint": "Cancella tutti i dati salvati su outlasttrialsstats.com. Non avrà alcun effetto sul gioco, il tuo accesso a Discord e profilo collegato rimarranno intatti.",
       "whatHeader": "Verranno eliminati i seguenti:",
       "whatItems": [
@@ -1449,11 +1576,13 @@
       ],
       "button": "Elimina tutti i dati del profilo",
       "confirmTitle": "Eliminare tutti i dati del profilo?",
+      "profileConfirmTitle": null,
       "confirmText": "Tutte le tue statistiche, gli accessori, encomi, dati Invasione, test e pacchetti del negozi verranno rimossi del tutto. Il tuo profilo sarà nascosto e bloccato da future collezioni fino al momento in cui non deciderai tu stesso di riattivarlo e di renderlo nuovamente visibile. Il tuo account Discord e profilo collegato resteranno intatti.",
       "gracePeriod": "I tuoi dati verranno eliminati dopo 7 giorni. Fino a quel momento puoi annullare l'eliminazione dalle impostazioni.",
       "understand": "Comprendo che i miei dati del profilo verranno eliminati per sempre tra 7 giorni.",
       "scheduled": "I dati del tuo profilo verranno eliminati il {date}.",
       "scheduledTitle": "I dati profilo verranno eliminati il {date}",
+      "profileScheduledTitle": null,
       "scheduledHint": "Puoi annullare l'eliminazione fino ad allora.",
       "cancelButton": "Annulla eliminazione",
       "cancelled": "L'eliminazione dei dati del tuo profilo è stata annullata.",
@@ -1491,6 +1620,7 @@
         "sections": {
           "account": "Account",
           "linkedProfile": "Profilo collegato",
+          "linkedProfiles": null,
           "profileSettings": "Profile settings",
           "processingBlock": "Blocco processato",
           "leaderboardModeration": "Moderazione classifica",
@@ -1504,18 +1634,20 @@
           "joinedEvents": "Eventi partecipati",
           "verifications": "Verifiche",
           "pendingClaims": "Reclami in attesa",
+          "claimRequests": null,
           "auditEntries": "Log attività"
         }
       },
       "exportError": "Non siamo riusciti ad esportare i tuoi dati. Riprova tra qualche minuto.",
       "exportRateLimited": "Hai richiesto molte volte i tuoi dati troppo in fretta. Riprova tra qualche minuto.",
       "deleteTitle": "Elimina Account",
-      "deleteHint": "Elimina il tuo account TOTStats e scollegalo da Discord.",
+      "deleteHint": "Elimina il tuo account Outlast Trials Stats e scollegalo da Discord.",
       "deleteWhatItems": [
         "Il tuo ID Discord, nome, avatar e indirizzo email",
         "I token di accesso a Discord che abbiamo salvato (non appena darai conferma; faremo la revoca direttamente a Discord)",
         "Il tuo link profilo, richieste in attesa e cronologia verifiche"
       ],
+      "deleteKeptHint": null,
       "profileChoiceTitle": "Cosa dovrebbe accadere al tuo profilo di gioco collegato?",
       "profileKeep": "Mantieni il mio profilo di gioco sul sito",
       "profileKeepHint": "Il tuo profilo rimane sul sito come quello di qualsiasi altro giocatore senza un account, con le impostazioni di visibilità attuali. la tua bio, nazione, test preferito e link ai social verranno rimossi. Per cambiarli in un secondo momento, dovrai ricollegare il tuo profilo.",
@@ -1535,6 +1667,10 @@
       "error": "Eliminazione account fallita",
       "loadError": "Non siamo riusciti a caricare il tuo account. Riprova.",
       "staffBlocked": "Gli account dello staff non possono essere cancellati da qui. Prima chiedi ad un admin di rimuovere il tuo ruolo da staff."
+    },
+    "accountSection": {
+      "title": null,
+      "description": null
     }
   },
   "profileDeletionRequest": {
@@ -1584,24 +1720,12 @@
       "confirm": "Sono il proprietario del profilo e comprendo che la sua eliminazione sia permanente.",
       "confirmRequired": "Si prega di confermare prima di inviare la richiesta.",
       "submit": "Invia richiesta di eliminazione",
-      "privacyNote": "Utilizziamo i tuoi dati solo per gestire questa domanda e cancellarli 30 giorni dopo la sua chiusura. Solo lo staff vedrà i tuoi screenshots, che saranno eliminati a fine richiesta.",
+      "privacyNote": null,
       "privacyLink": "Informativa sulla privacy"
     },
     "screenshots": {
-      "label": "Screenshots",
-      "count": "{count} / {max}",
-      "drop": "Scegli immagini, rilasciale o incollale",
       "hint": "Aggiungi almeno uno screenshot del tuo profilo all'interno del gioco con nome e codice amico visibili.",
-      "thumbAlt": "Screenshot {n}",
-      "remove": "Rimuovi screenshot {n}",
-      "processing": "Preparazione…",
-      "errors": {
-        "type": "Sono supportati solo i formati PNG, JPEG o WebP.",
-        "tooLarge": "L'immagine è troppo grande, anche dopo la compressione. Ritagliala o usa uno screenshot più piccolo.",
-        "unreadable": "L'immagine non può essere letta. Prova con un altro file.",
-        "limit": "Puoi allegare fino a {max} screenshots.",
-        "required": "Aggiungi almeno uno screenshot che dimostri che il profilo è tuo."
-      }
+      "required": "Aggiungi almeno uno screenshot che dimostri che il profilo è tuo."
     },
     "errors": {
       "PROFILE_NOT_FOUND": "Questo profilo non esiste. Controlla il link o l'ID e riprova.",
@@ -1615,8 +1739,12 @@
     "success": {
       "title": "Richiesta ricevuta",
       "desc": "Controlleremo che il profilo sia tuo e potremmo ricontattarti. Una volta confermato, le statistiche verranno cancellate e il profilo nascosto.",
-      "reference": "Riferimento",
-      "home": "Torna alla home",
+      "statusLabel": null,
+      "statusHint": null,
+      "copy": null,
+      "copied": null,
+      "copyFailed": null,
+      "openStatus": null,
       "another": "Invia un'altra richiesta"
     }
   },
@@ -1757,6 +1885,7 @@
     "save": "Salva",
     "loading": "Caricamento...",
     "retry": "Riprova",
+    "errorEyebrow": null,
     "scrollToTop": "Torna in cima"
   },
   "trials": {
@@ -1924,9 +2053,7 @@
       "remaining": "Informazioni sulla Fuga ancora da raccogliere",
       "etaLabel": "Previsti",
       "progress": "{percent} completo",
-      "compact": "{remaining} a {target} · {eta}",
-      "reached": "{target} raggiunta",
-      "next": "Prossima · {phase}"
+      "compact": "{remaining} a {target} · {eta}"
     },
     "allReached": "Tutte le fasi Completate",
     "phase": "Fase {n}",
@@ -2010,8 +2137,7 @@
       "extract_escape_plan": {
         "name": "Scappa dalla Struttura",
         "description": "Aiuta Amelia. Trova informazioni per la fuga nei Test e lasciale nel tuo inventario. Raggiungi i traguardi comunitari per rendere possibile la fuga.",
-        "leaders": "I giocatori che hanno raccolto il maggior numero di Informazioni per la Fuga finora.",
-        "reached": "SCAPPA! ORA!"
+        "leaders": "I giocatori che hanno raccolto il maggior numero di Informazioni per la Fuga finora."
       },
       "blood_donation": {
         "name": "Donazione di Sangue",
@@ -2063,6 +2189,266 @@
     },
     "footer": {
       "signoff": "Complici si muore. — A"
+    }
+  },
+  "notifications": {
+    "title": null,
+    "open": null,
+    "empty": null,
+    "markAllRead": null,
+    "types": {
+      "BADGE_GRANTED": {
+        "title": null,
+        "body": null
+      },
+      "BADGE_REVOKED": {
+        "title": null,
+        "body": null
+      },
+      "TOPLIST_EXCLUDED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_APPROVED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_REJECTED": {
+        "title": null,
+        "body": null
+      },
+      "RUN_SUBMISSION_REVOKED": {
+        "title": null,
+        "body": null
+      },
+      "CLAIM_REQUEST_APPROVED": {
+        "title": null,
+        "body": null
+      },
+      "CLAIM_REQUEST_REJECTED": {
+        "title": null,
+        "body": null
+      }
+    }
+  },
+  "screenshots": {
+    "label": "Screenshots",
+    "count": "{count} / {max}",
+    "drop": "Scegli immagini, rilasciale o incollale",
+    "thumbAlt": "Screenshot {n}",
+    "remove": "Rimuovi screenshot {n}",
+    "processing": "Preparazione…",
+    "errors": {
+      "type": "Sono supportati solo i formati PNG, JPEG o WebP.",
+      "tooLarge": "L'immagine è troppo grande, anche dopo la compressione. Ritagliala o usa uno screenshot più piccolo.",
+      "unreadable": "L'immagine non può essere letta. Prova con un altro file.",
+      "limit": "Puoi allegare fino a {max} screenshots."
+    }
+  },
+  "runSubmission": {
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "entry": {
+      "eyebrow": null,
+      "title": null,
+      "desc": null,
+      "button": null
+    },
+    "notLinked": {
+      "title": null,
+      "desc": null,
+      "button": null
+    },
+    "form": {
+      "steps": {
+        "trial": {
+          "title": null,
+          "desc": null
+        },
+        "result": {
+          "title": null,
+          "desc": null
+        },
+        "team": {
+          "title": null,
+          "desc": null
+        },
+        "proof": {
+          "title": null,
+          "desc": null
+        }
+      },
+      "or": null,
+      "programLabel": null,
+      "programs": {
+        "core": null,
+        "chain": null,
+        "creator": null,
+        "event": null,
+        "weekly": null
+      },
+      "eventLabel": null,
+      "familyLabel": null,
+      "mapLabel": null,
+      "difficultyLabel": null,
+      "timeLabel": null,
+      "timeHint": null,
+      "timeInvalid": null,
+      "dateLabel": null,
+      "dateInvalid": null,
+      "teamSizeLabel": null,
+      "teammatesLabel": null,
+      "teammatesHint": null,
+      "teammatesPlaceholder": null,
+      "removeTeammate": null,
+      "videoLabel": null,
+      "videoHint": null,
+      "videoInvalid": null,
+      "screenshotsHint": null,
+      "proofRequired": null,
+      "commentLabel": null,
+      "required": null,
+      "submit": null,
+      "next": null,
+      "back": null,
+      "privacyNote": null
+    },
+    "success": {
+      "title": null,
+      "desc": null,
+      "another": null,
+      "requests": null
+    },
+    "errors": {
+      "NO_LINKED_PROFILE": null,
+      "INVALID_TRIAL": null,
+      "INVALID_TIME": null,
+      "INVALID_DATE": null,
+      "INVALID_TEAMMATES": null,
+      "PROOF_REQUIRED": null,
+      "INVALID_VIDEO_URL": null,
+      "INVALID_SCREENSHOT": null,
+      "REQUEST_ALREADY_PENDING": null,
+      "TOO_MANY_PENDING": null,
+      "rateLimited": null,
+      "disabled": null,
+      "generic": null
+    },
+    "mine": {
+      "team": null,
+      "staffNote": null,
+      "states": {
+        "PENDING": null,
+        "APPROVED": null,
+        "REJECTED": null,
+        "REVOKED": null
+      }
+    }
+  },
+  "claimRequest": {
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "form": {
+      "intro": null,
+      "profileLabel": null,
+      "profilePlaceholder": null,
+      "changeProfile": null,
+      "profileRequired": null,
+      "proofLabel": null,
+      "proofHint": null,
+      "proofRequired": null,
+      "messageLabel": null,
+      "messageHint": null,
+      "privacyNote": null,
+      "submit": null
+    },
+    "blocked": {
+      "title": null,
+      "single": null,
+      "limit": null
+    },
+    "success": {
+      "title": null,
+      "desc": null,
+      "requests": null,
+      "another": null
+    },
+    "errors": {
+      "PROFILE_NOT_FOUND": null,
+      "PROFILE_ALREADY_DELETED": null,
+      "ALREADY_LINKED_TO_YOU": null,
+      "LINK_LIMIT_REACHED": null,
+      "REQUEST_ALREADY_PENDING": null,
+      "TOO_MANY_PENDING": null,
+      "INVALID_SCREENSHOT": null,
+      "rateLimited": null,
+      "generic": null
+    }
+  },
+  "requests": {
+    "hero": {
+      "title": null,
+      "subline": null
+    },
+    "actions": {
+      "submitRun": null,
+      "claimProfile": null,
+      "deleteProfile": null,
+      "submitRunDesc": null,
+      "claimProfileDesc": null,
+      "deleteProfileDesc": null
+    },
+    "sections": {
+      "new": null,
+      "mine": null
+    },
+    "empty": null,
+    "signInHint": null,
+    "signIn": null,
+    "loadError": null,
+    "types": {
+      "run": null,
+      "claim": null,
+      "deletion": null
+    },
+    "claim": {
+      "title": null,
+      "titleUnknown": null
+    },
+    "claimStates": {
+      "PENDING": null,
+      "APPROVED": null,
+      "REJECTED": null
+    },
+    "deletion": {
+      "title": null,
+      "titleUnknown": null,
+      "sentOn": null,
+      "forget": null
+    },
+    "states": {
+      "PENDING": null,
+      "COMPLETED": null,
+      "REJECTED": null
+    },
+    "status": {
+      "title": null,
+      "received": null,
+      "handled": null,
+      "reason": null,
+      "descriptions": {
+        "PENDING": null,
+        "COMPLETED": null,
+        "REJECTED": null
+      },
+      "notFoundTitle": null,
+      "notFoundDesc": null,
+      "loadError": null,
+      "back": null
     }
   }
 }
