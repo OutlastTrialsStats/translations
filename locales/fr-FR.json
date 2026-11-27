@@ -947,7 +947,56 @@
       "lobbyRatings": null,
       "invasionSeason": null,
       "leaderboard": "Leaderboard",
-      "viewInvasion": null
+      "viewInvasion": null,
+      "layout": {
+        "edit": null,
+        "reset": null,
+        "saveFailed": null,
+        "choose": null,
+        "moveUp": null,
+        "moveDown": null,
+        "remove": null,
+        "empty": null,
+        "search": null,
+        "apply": null,
+        "pickerHint": null,
+        "nothingToPick": null,
+        "pickKpis": null,
+        "completions": null,
+        "pick": {
+          "badges": null,
+          "cosmetics": null,
+          "trials": null
+        },
+        "parts": {
+          "OUTFIT": null,
+          "LOADOUT": null,
+          "IMPOSTER_LOADOUT": null,
+          "EMOTES": null
+        },
+        "widgets": {
+          "invasion": null,
+          "badges": null,
+          "cosmetics": null,
+          "bestTimes": null,
+          "topRankings": null,
+          "progressChart": null,
+          "equippedReagent": null,
+          "collection": null,
+          "reagentModel": null
+        },
+        "width": null,
+        "spanValue": null,
+        "viewCollection": null,
+        "viewHistory": null,
+        "viewReagent": null,
+        "palette": null,
+        "paletteEmpty": null,
+        "add": null,
+        "collectionCount": null,
+        "cell": null,
+        "moved": null
+      }
     },
     "nav": {
       "reagent": "Reagent",
@@ -1001,7 +1050,8 @@
       "lobbyGames": "Jeux de lobby",
       "currency": "Monnaie",
       "lastTrials": "Dernières épreuves",
-      "inventory": "Inventaire"
+      "inventory": "Inventaire",
+      "history": null
     },
     "moreTabs": {
       "completedTrials": "Épreuves terminées",
@@ -1242,6 +1292,49 @@
       "empty": "Aucune tâche disponible",
       "loadErrorTitle": "Échec du chargement",
       "loadErrorMessage": "Nous n'avons pas pu récupérer les données des tâches de ce joueur. Veuillez réessayer plus tard."
+    },
+    "history": {
+      "chartTitle": null,
+      "timelineTitle": null,
+      "metricLabel": null,
+      "rangeLabel": null,
+      "chartEmpty": null,
+      "metrics": {
+        "trials": null,
+        "reagents": null,
+        "deaths": null,
+        "playtime": null,
+        "level": null
+      },
+      "ranges": {
+        "7d": null,
+        "30d": null,
+        "90d": null,
+        "all": null
+      },
+      "stats": {
+        "LEVEL": null,
+        "PRESTIGE": null,
+        "REAGENTS_RELEASED": null,
+        "COMPLETED_TRIALS": null,
+        "FAILED_TRIALS": null,
+        "DEATHS": null,
+        "TRIAL_PLAYTIME": null
+      },
+      "lines": {
+        "prestige": null,
+        "level": null,
+        "trials": null,
+        "reagents": null,
+        "deaths": null,
+        "playtime": null
+      },
+      "showMore": null,
+      "emptyMessage": null,
+      "recordingOff": null,
+      "openSettings": null,
+      "loadErrorTitle": null,
+      "loadErrorMessage": null
     }
   },
   "profileSearch": {
@@ -1529,7 +1622,9 @@
       "badges": "Badges",
       "badgesHint": null,
       "lastLogin": null,
-      "lastLoginHint": null
+      "lastLoginHint": null,
+      "progressHistory": null,
+      "progressHistoryHint": null
     },
     "lastLoginToggle": {
       "exact": "Exact",
@@ -1559,6 +1654,10 @@
     },
     "processProfile": {
       "description": "Tant que votre profil est caché, vous pouvez arrêter le scraper de mettre à jour ses données. Les statistiques seront bloquées jusqu'à ce que vous réactiviez le traitement."
+    },
+    "progressHistory": {
+      "title": null,
+      "description": null
     },
     "appearance": {
       "description": null
@@ -1690,6 +1789,7 @@
           "tasks": "Tasks",
           "badges": "Badges",
           "ownedCosmeticItemIds": null,
+          "progressHistory": null,
           "recentTrials": null,
           "joinedEvents": null,
           "verifications": "Verifications",
@@ -2181,7 +2281,12 @@
       "title": null,
       "subtitle": null,
       "aria": null,
-      "reached": null
+      "reached": null,
+      "estimate": null,
+      "expected": null,
+      "fullscreen": null,
+      "exitFullscreen": null,
+      "resetZoom": null
     },
     "status": {
       "live": null,

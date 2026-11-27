@@ -947,7 +947,56 @@
       "lobbyRatings": "Lobby game ratings",
       "invasionSeason": "Invasion · Season {season}",
       "leaderboard": "Leaderboard",
-      "viewInvasion": "View invasion"
+      "viewInvasion": "View invasion",
+      "layout": {
+        "edit": "Customize layout",
+        "reset": "Reset to default",
+        "saveFailed": "The layout could not be saved. Please try again.",
+        "choose": "Choose what to show",
+        "moveUp": "Move up",
+        "moveDown": "Move down",
+        "remove": "Remove",
+        "empty": "Nothing to show yet.",
+        "search": "Search",
+        "apply": "Apply",
+        "pickerHint": "Pick up to {max}. The order here is the order on your profile.",
+        "nothingToPick": "There is nothing to pick yet.",
+        "pickKpis": "Choose key figures",
+        "completions": "{n} completions",
+        "pick": {
+          "badges": "Choose badges",
+          "cosmetics": "Choose cosmetics",
+          "trials": "Choose trials (none picked shows your most played ones)"
+        },
+        "parts": {
+          "OUTFIT": "Skin",
+          "LOADOUT": "Reagent loadout",
+          "IMPOSTER_LOADOUT": "Imposter loadout",
+          "EMOTES": "Emotes"
+        },
+        "widgets": {
+          "invasion": "Invasion season",
+          "badges": "Badge showcase",
+          "cosmetics": "Cosmetic showcase",
+          "bestTimes": "Best times",
+          "topRankings": "Top rankings",
+          "progressChart": "Progress",
+          "equippedReagent": "Equipped Reagent",
+          "collection": "Collection",
+          "reagentModel": "3D Reagent"
+        },
+        "width": "Card width",
+        "spanValue": "{span} of {total} columns",
+        "viewCollection": "View collection",
+        "viewHistory": "View history",
+        "viewReagent": "View Reagent",
+        "palette": "Elements",
+        "paletteEmpty": "Every element is on your profile. Drag a card here or use its trash can to take it off.",
+        "add": "Add {title}",
+        "collectionCount": "{owned} of {total} cosmetics",
+        "cell": "{title}, card {position} of {total}",
+        "moved": "{title} moved to position {position} of {total}"
+      }
     },
     "nav": {
       "reagent": "Reagent",
@@ -1001,7 +1050,8 @@
       "lobbyGames": "Lobby-Games",
       "currency": "Currency",
       "lastTrials": "Last Trials",
-      "inventory": "Inventory"
+      "inventory": "Inventory",
+      "history": "History"
     },
     "moreTabs": {
       "completedTrials": "Completed Trials",
@@ -1242,6 +1292,49 @@
       "empty": "No tasks available",
       "loadErrorTitle": "Failed to Load",
       "loadErrorMessage": "We were unable to retrieve the tasks data of this player. Please try again later."
+    },
+    "history": {
+      "chartTitle": "Progress",
+      "timelineTitle": "Timeline",
+      "metricLabel": "Value",
+      "rangeLabel": "Time range",
+      "chartEmpty": "Nothing recorded for this value yet.",
+      "metrics": {
+        "trials": "Trials",
+        "reagents": "Reagents",
+        "deaths": "Deaths",
+        "playtime": "Playtime",
+        "level": "Level"
+      },
+      "ranges": {
+        "7d": "7 days",
+        "30d": "30 days",
+        "90d": "90 days",
+        "all": "All"
+      },
+      "stats": {
+        "LEVEL": "Level",
+        "PRESTIGE": "Prestige",
+        "REAGENTS_RELEASED": "Reagents released",
+        "COMPLETED_TRIALS": "Completed trials",
+        "FAILED_TRIALS": "Failed trials",
+        "DEATHS": "Deaths",
+        "TRIAL_PLAYTIME": "Playtime in trials"
+      },
+      "lines": {
+        "prestige": "Prestige {from} → {to}",
+        "level": "Level {from} → {to}",
+        "trials": "{played} trial played ({completed} completed, {failed} failed) | {played} trials played ({completed} completed, {failed} failed)",
+        "reagents": "+{count} reagent released | +{count} reagents released",
+        "deaths": "+{count} death | +{count} deaths",
+        "playtime": "+{hours} h in trials"
+      },
+      "showMore": "Show more",
+      "emptyMessage": "Progress is recorded for linked profiles from now on. The first entries appear after the next profile update.",
+      "recordingOff": "Recording is switched off. Others don't see this tab, and new progress isn't recorded.",
+      "openSettings": "Settings",
+      "loadErrorTitle": "History unavailable",
+      "loadErrorMessage": "The progress history could not be loaded. Please try again later."
     }
   },
   "profileSearch": {
@@ -1529,7 +1622,9 @@
       "badges": "Badges",
       "badgesHint": "Your collected badges below your name.",
       "lastLogin": "Last login",
-      "lastLoginHint": "The exact date, a rough period or nothing."
+      "lastLoginHint": "The exact date, a rough period or nothing.",
+      "progressHistory": "Progress history",
+      "progressHistoryHint": "The History tab with your progress chart and timeline."
     },
     "lastLoginToggle": {
       "exact": "Exact",
@@ -1559,6 +1654,10 @@
     },
     "processProfile": {
       "description": "While your profile is hidden, you can stop the scraper from updating its data. Stats will be frozen until you re-enable processing."
+    },
+    "progressHistory": {
+      "title": "Progress history",
+      "description": "Records how level, prestige, trials, reagent releases, deaths and playtime of this linked profile change over time. Switching it off stops recording and keeps what was recorded; unlinking the profile deletes it."
     },
     "appearance": {
       "description": "Customize how your profile looks to others."
@@ -1690,6 +1789,7 @@
           "tasks": "Tasks",
           "badges": "Badges",
           "ownedCosmeticItemIds": "Owned cosmetic items",
+          "progressHistory": "Progress history",
           "recentTrials": "Recent trials",
           "joinedEvents": "Joined events",
           "verifications": "Verifications",
@@ -2181,7 +2281,12 @@
       "title": "Progress",
       "subtitle": "How the community total grew, with each phase marked.",
       "aria": "Community total rising from {from} to {to}",
-      "reached": "{phase} reached"
+      "reached": "{phase} reached",
+      "estimate": "Estimate",
+      "expected": "{phase} expected",
+      "fullscreen": "Full screen",
+      "exitFullscreen": "Exit full screen",
+      "resetZoom": "Show everything"
     },
     "status": {
       "live": "Live now",
